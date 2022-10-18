@@ -1,0 +1,93 @@
+<script>
+  export let title;
+  export let authors;
+  export let links;
+  export let side = 0;
+  import Button from "./Button.svelte";
+  import PdfComponent from "./PDFComponent.svelte";
+</script>
+
+<div class="publication" class:reversed={side === 1}>
+  <div class="image">
+    <PdfComponent url={links.pdf} />
+  </div>
+  <div class="text">
+    <div class="paper-title">
+      {title}
+    </div>
+    <div class="description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quis harum
+      temporibus provident veritatis iste, quo ducimus reprehenderit asperiores
+      amet eius soluta ipsam laboriosam enim cupiditate, mollitia aut tempora
+      totam.
+    </div>
+    <div class="paper-title buttons">
+      {#each authors as author}
+        <div class="name">{author},</div>
+      {/each}
+    </div>
+    <div class="buttons">
+      {#if Object.keys(links).length > 0}
+        {#each Object.keys(links) as link}
+          <Button
+            icon_place="left"
+            icon={link}
+            text={link}
+            href={links.link}
+            reduced={true}
+          />
+        {/each}
+      {/if}
+    </div>
+  </div>
+</div>
+
+<style>
+  .image {
+    --base: 10rem;
+    cursor: pointer;
+    width: var(--base);
+    height: calc(var(--base) * 1.414213);
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    outline: 0px var(--clr-mixred) solid;
+    transition: all 0.3s ease-out;
+  }
+
+  .text {
+    max-width: 60ch;
+  }
+  .image:hover {
+    outline: 4px var(--clr-mixred) solid;
+  }
+
+  .publication {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+
+  .reversed {
+    flex-direction: row-reverse;
+  }
+
+  .paper-title {
+    font-family: "Noto Sans TC", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .description {
+    margin: 0.2rem;
+  }
+
+  .name {
+    margin: 0 0.5rem 0.2rem 0;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+</style>

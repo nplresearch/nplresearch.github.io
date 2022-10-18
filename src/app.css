@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-background-deep: #0b0c0e;
+  --clr-background: #12141c;
+  --clr-foreground-deep: #e0e3eb;
+  --clr-foreground: #f1f1f4;
+  --clr-highlight1: #c7c8d1;
+  --clr-highlight2: #abaeba;
+  --clr-lowlight1: #1e2235;
+  /* Everything has been built from the color above */
+  --clr-lowlight2: #2b3044;
+  --clr-red: #ff2850;
+  --clr-orange: #ff9600;
+  --clr-yellow: #ffb30f;
+  --clr-green: #3ec949;
+  --clr-cyan: #4db7dd;
+  --clr-blue: #0076f0;
+  --clr-purple: #5751d0;
+
+  /* used main color on one side and primary on another in coolors. this was the middle color */
+  --clr-mixred: #8f2543;
+  --clr-mixgreen: #2e763f;
+  --clr-mixorange: #8f5c1b;
+  --clr-mixyellow: #8f6b22;
+  --clr-mixcyan: #366d89;
+  --clr-mixblue: #0f4c93;
+  --clr-mixpurple: #3b3a83;
+
+  --weird-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
+    3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04),
+    0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04),
+    7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04),
+    9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04),
+    11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04),
+    13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04),
+    0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04),
+    17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04),
+    19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+
+  /* Helvetica for titles NotoSans for text */
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: var(--clr-background-deep);
+  color: var(--clr-hightlight1);
+  /* background: url(/public/static/backgroundTest.png); */
+  background-position: center;
+  background-size: cover;
+}
+
+.one-liner {
+  font-family: "Helvetica", "Arial", sans-serif;
+  /* font-family: "Noto Sans TC", sans-serif; */
+  color: var(--clr-foreground-deep);
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 0.4rem;
+  text-shadow: 0px 0px 0.8rem rgba(255, 255, 255, 1);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.glass {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
+  color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(15px);
+  background-blend-mode: overlay;
+}
+
+.title {
+  font-family: "Noto Sans TC", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-shadow: var(--weird-shadow);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: var(--clr-foreground-deep);
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.displaytitle {
+  position: relative;
+  margin-top: 2rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  text-shadow: var(--weird-shadow);
+  margin-bottom: 0.5rem;
+}
+
