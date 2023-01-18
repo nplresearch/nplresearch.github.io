@@ -5,12 +5,28 @@
 </script>
 
 <div class="stack">
+  <div class="label">[PUBLICATIONS]</div>
   {#each { length: 7 } as _, i}
     <div class="paper" style="--random:{randomFloat(-1, 1)}; --order:{i}" />
   {/each}
 </div>
 
 <style>
+  .label {
+    font-family: "Helvetica", "Arial", sans-serif;
+    position: absolute;
+    top: 30%;
+    color: var(--text1);
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    z-index: 5;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 0.5rem;
+    cursor: pointer;
+  }
   .stack {
     display: grid;
     place-items: center;
@@ -33,8 +49,8 @@
 
     /* Functional props*/
     position: absolute;
-    --rotation: calc(calc(60deg / -4) + calc(calc(60deg / 25)) * var(--order));
-    transform: rotate(calc(var(--random) * 10deg))
+    --rotation: calc(calc(30deg / -4) + calc(calc(30deg / 25)) * var(--order));
+    transform: rotate(calc(var(--random) * 8deg))
       translate(calc(var(--random) * 10px), calc(var(--random) * 10px));
     transform-origin: center 120%;
     transition: all 0.5s cubic-bezier(0.05, 0.43, 0.25, 0.95);

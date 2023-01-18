@@ -5,6 +5,7 @@
 </script>
 
 <div class="stack">
+  <div class="label">[PEOPLE]</div>
   <div
     class="person"
     style="--random:{randomFloat(-1, 1)};"
@@ -83,6 +84,21 @@
 </div>
 
 <style>
+  .label {
+    font-family: "Helvetica", "Arial", sans-serif;
+    position: absolute;
+    top: 30%;
+    color: var(--text1);
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+    z-index: 5;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 0.5rem;
+    cursor:pointer;
+  }
   .person svg {
     height: 85%;
     fill: var(--text1);

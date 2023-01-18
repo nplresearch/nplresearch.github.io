@@ -21,7 +21,10 @@
   expedita sunt rem, eius autem natus dicta praesentium architecto?
 </div>
 <div class="paper-people">
-  <div class="child"><Publications /></div>
+  <div class="child">
+    <div class="banner">PUBLICATIONS</div>
+    <Publications />
+  </div>
   <div class="child"><People /></div>
 </div>
 

@@ -5,6 +5,7 @@
   import Project from "./lib/Project.svelte";
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
+  let scroll;
 
   const routes = {
     // Exact path
@@ -17,9 +18,13 @@
     // This is optional, but if present it must be the last
     "*": NotFound,
   };
+
+  $: console.log(scroll);
 </script>
 
-<div class="background">
+<svelte:window bind:scrollY={scroll} />
+
+<div class="background" style="transform:translate(0,{scroll / 2}px)">
   <div class="centerpiece">
     <div class="column">
       <Chord RATE={0.999} INV_RATE={0.8} />
@@ -28,13 +33,13 @@
       <Chord RATE={0.999} INV_RATE={0.95} />
     </div>
   </div>
-
-  <div class="center">
-    <Router {routes} />
-  </div>
 </div>
 
-<div class="news" />
+<div class="center">
+  <Router {routes} />
+</div>
+
+<!-- <div class="news" /> -->
 
 <style>
   .background {
@@ -65,6 +70,10 @@
     width: 35vw;
   }
   .center {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 60vw;
     margin: 0 auto;
     display: grid;

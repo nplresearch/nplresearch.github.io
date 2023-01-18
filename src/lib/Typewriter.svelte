@@ -96,7 +96,7 @@
       fx.setText(phrases[counter]).then(() => {
         setTimeout(next, 1600);
       });
-      dude = counter = (counter + 1) % phrases.length;
+      counter = (counter + 1) % phrases.length;
     };
 
     next();
