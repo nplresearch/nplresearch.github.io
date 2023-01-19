@@ -96,14 +96,16 @@
     margin-bottom: 0.5rem;
     z-index: 5;
     background-color: rgb(0, 0, 0, 0.8);
+    background-color: var(--clr-mixred);
     padding: 0.5rem;
-    cursor:pointer;
+    cursor: pointer;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
   }
   .person svg {
     height: 85%;
     fill: var(--text1);
     stroke-width: 2px;
-    stroke: #000;
+    stroke: rgba(0, 0, 0, 0.3);
   }
   .stack {
     display: grid;

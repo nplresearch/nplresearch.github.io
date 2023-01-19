@@ -86,6 +86,7 @@
       "Natural Phenomena Lab",
       "Neo-Pythagorean Laboratory",
       "Bonchi Approved",
+      "Napolitan Lovers",
     ];
 
     //const el = document.querySelector(".text");

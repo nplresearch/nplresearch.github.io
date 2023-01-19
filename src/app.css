@@ -46,6 +46,8 @@
     19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
 
   --text1: #cdcfcf;
+  --text2: rgba(255, 255, 255, 0.8);
+  --text3: rgba(255, 255, 255, 0.3);
   --clr-mixred: #841f37;
   /* Helvetica for titles NotoSans for text */
   font-family: "Helvetica", "Arial", sans-serif;

@@ -19,13 +19,11 @@
     // This is optional, but if present it must be the last
     "*": NotFound,
   };
-
-  $: console.log(scroll);
 </script>
 
 <svelte:window bind:scrollY={scroll} />
 
-<div class="background" style="transform:translate(0,{scroll / 1.5}px)">
+<div class="background" style="transform:translate(0,{scroll / 1.8}px)">
   <div class="centerpiece">
     <div class="column">
       <Chord RATE={0.999} INV_RATE={0.8} />
@@ -38,9 +36,8 @@
 
 <div class="center">
   <Router {routes} />
+  <div class="buffer" />
 </div>
-
-<div class="news" />
 
 <style>
   .background {
@@ -81,7 +78,10 @@
     place-items: center;
     z-index: 1;
   }
-  .news {
-    height: 100vh;
+  .buffer {
+    height: 3rem;
+    width: 70%;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
   }
 </style>

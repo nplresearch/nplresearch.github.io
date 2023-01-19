@@ -27,8 +27,10 @@
     margin-bottom: 0.5rem;
     z-index: 5;
     background-color: rgb(0, 0, 0, 0.8);
+    background-color: var(--clr-mixred);
     padding: 0.5rem;
     cursor: pointer;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
   }
   .stack {
     display: grid;
@@ -43,7 +45,7 @@
     top: 0;
     display: grid;
     place-items: center;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     width: 6rem;
     aspect-ratio: 1/1.4;
@@ -55,7 +57,7 @@
     --rotation: calc(calc(30deg / -4) + calc(calc(30deg / 25)) * var(--order));
     transform: rotate(calc(var(--random) * 8deg))
       translate(calc(var(--random) * 10px), calc(var(--random) * 10px));
-    transform-origin: center 120%;
+    transform-origin: center;
     transition: all 0.5s cubic-bezier(0.05, 0.43, 0.25, 0.95);
   }
 
