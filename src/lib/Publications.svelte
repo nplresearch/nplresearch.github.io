@@ -1,15 +1,18 @@
 <script>
+  import { link } from "svelte-spa-router";
   function randomFloat(start, end) {
     return Math.random() * (end - start) + start;
   }
 </script>
 
-<div class="stack">
-  <div class="label">[PUBLICATIONS]</div>
-  {#each { length: 7 } as _, i}
-    <div class="paper" style="--random:{randomFloat(-1, 1)}; --order:{i}" />
-  {/each}
-</div>
+<a href={"/publications"} use:link>
+  <div class="stack">
+    <div class="label">[PUBLICATIONS]</div>
+    {#each { length: 7 } as _, i}
+      <div class="paper" style="--random:{randomFloat(-1, 1)}; --order:{i}" />
+    {/each}
+  </div>
+</a>
 
 <style>
   .label {
@@ -61,5 +64,10 @@
     transform-origin: center 120%;
     box-shadow: -15px 2px 15px rgba(0, 0, 0, 0.07),
       0px 0px 8px rgba(0, 0, 0, 0.07);
+  }
+  a {
+    color: inherit;
+    font: inherit;
+    text-decoration: inherit;
   }
 </style>

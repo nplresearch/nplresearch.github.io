@@ -55,6 +55,8 @@
   }
 
   .text {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     max-width: 60ch;
   }
   .image:hover {
@@ -73,12 +75,14 @@
   }
 
   .paper-title {
+    margin-left: 1rem;
     font-family: "Noto Sans TC", sans-serif;
     color: rgba(255, 255, 255, 0.9);
   }
 
   .description {
     margin: 0.2rem;
+    margin-left: 1rem;
   }
 
   .name {

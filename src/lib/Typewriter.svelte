@@ -5,7 +5,7 @@
     return Math.floor(Math.random() * (max - min)) + min;
   }
   let el;
-  export let color = "#841f37";
+  export let dud_color = "#841f37";
   export let text_color = "hsl(0, 0%, 55%)";
 
   import { onMount } from "svelte";
@@ -50,7 +50,7 @@
               char = this.randomChar();
               this.queue[i].char = char;
             }
-            output += `<span id="dude" style="color:${color}" class="dud">${char}</span>`;
+            output += `<span id="dude" style="color:${dud_color}" class="dud">${char}</span>`;
           } else {
             output += from;
           }

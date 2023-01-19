@@ -46,6 +46,7 @@
 
   .reduced {
     margin: 0.1rem;
+
     transform: scale(0.8);
   }
 

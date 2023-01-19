@@ -1,10 +1,10 @@
 <script>
   import Router from "svelte-spa-router";
   import Landing from "./lib/Landing.svelte";
-  import Home from "./lib/Home.svelte";
-  import Project from "./lib/Project.svelte";
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
+  import Timeline from "./lib/Timeline.svelte";
+  import Papers from "./lib/Papers.svelte";
   let scroll;
 
   const routes = {
@@ -12,7 +12,8 @@
     "/": Landing,
 
     // Using named parameters, with last being optional
-    "/project/:name": Project,
+    //"/project/:name": Project,
+    "/publications": Papers,
 
     // Catch-all
     // This is optional, but if present it must be the last
@@ -24,7 +25,7 @@
 
 <svelte:window bind:scrollY={scroll} />
 
-<div class="background" style="transform:translate(0,{scroll / 2}px)">
+<div class="background" style="transform:translate(0,{scroll / 1.5}px)">
   <div class="centerpiece">
     <div class="column">
       <Chord RATE={0.999} INV_RATE={0.8} />
@@ -39,7 +40,7 @@
   <Router {routes} />
 </div>
 
-<!-- <div class="news" /> -->
+<div class="news" />
 
 <style>
   .background {
