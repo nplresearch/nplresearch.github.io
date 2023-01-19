@@ -5,7 +5,7 @@
   export let title;
 </script>
 
-<div class="card">
+<div class="card" class:article={!marker}>
   <div
     class="article-title"
     style="--c: {marker ? 'var(--clr-mixred)' : 'var(--text1)'}"
@@ -18,12 +18,23 @@
 </div>
 
 <style>
+  .article {
+    cursor: pointer;
+  }
   .card {
     margin: 1rem;
+    border-radius: 0.5rem;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
-    border-radius: 0.2rem;
     padding: 0.5rem;
     max-width: 70ch;
+  }
+
+  .article:hover {
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
+    color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    background-blend-mode: overlay;
   }
 
   .article-title {

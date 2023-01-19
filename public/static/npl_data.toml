@@ -1,0 +1,27 @@
+
+### PAPERS
+[[papers]]
+title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
+authors = ["John Doe", "Peter Parker", "Mary Jane"]
+[[papers.links]]
+pdf = "https://arxiv.org/pdf/2007.14900.pdf"
+code = "www.google.com"
+bib = "www.google.com"
+
+[[papers]]
+title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
+authors = ["John Doe", "Peter Parker", "Mary Jane"]
+[[papers.links]]
+pdf = "https://arxiv.org/pdf/2007.14900.pdf"
+code = "www.google.com"
+bib = "www.google.com"
+
+[[papers]]
+title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
+authors = ["John Doe", "Peter Parker", "Mary Jane"]
+[[papers.links]]
+pdf = "https://arxiv.org/pdf/2007.14900.pdf"
+code = "www.google.com"
+bib = "www.google.com"
+
+

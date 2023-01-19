@@ -2,7 +2,7 @@
   import Article from "./Article.svelte";
   import moment from "moment";
 
-  let articles = [
+  export let articles = [
     {
       title: "Something happened over there and has some effects over here.",
       description:

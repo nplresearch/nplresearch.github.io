@@ -3,20 +3,14 @@
   import Landing from "./lib/Landing.svelte";
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
-  import Timeline from "./lib/Timeline.svelte";
   import Papers from "./lib/Papers.svelte";
+  import { fade } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
   let scroll;
 
   const routes = {
-    // Exact path
     "/": Landing,
-
-    // Using named parameters, with last being optional
-    //"/project/:name": Project,
     "/publications": Papers,
-
-    // Catch-all
-    // This is optional, but if present it must be the last
     "*": NotFound,
   };
 </script>
@@ -35,6 +29,7 @@
 </div>
 
 <div class="center">
+  >
   <Router {routes} />
   <div class="buffer" />
 </div>
