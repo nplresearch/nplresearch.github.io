@@ -75,8 +75,10 @@
     const phrases = [
       "Complex Systems Research",
       "Neural Patterns Lab",
+      "Nihilistic Philosophers League",
       "Non-Profit Lumberjacks",
       `Nature's Playground`,
+      "Nober Prize Laureates",
       "Non-Parametric Learning",
       "Non-Petri Lab",
       "New Paradigms Lab",
@@ -87,6 +89,10 @@
       "Neo-Pythagorean Laboratory",
       "Bonchi Approved",
       "Napolitan Lovers",
+      "Numbingly Precise Laboratory",
+      "Nefarious Plotters Legion",
+      "Necessary Procedures Lab",
+      "Noble Prizes Lair",
     ];
 
     //const el = document.querySelector(".text");
