@@ -25,22 +25,24 @@
 {#await loadPeople()}
   ...waiting
 {:then researchers}
-  {#each researchers as { name, title, bio, avatar }, i}
-    <div
-      class="researcher"
-      in:fly={{
-        x: -100,
-        duration: 1000,
-        easing: quintOut,
-        delay: i * 150,
-      }}
-    >
-      <div class="subtitle">{title}</div>
-      <Person url={avatar}>
-        <div class="title">{name}</div>
-      </Person>
-      <div class="description">{bio}</div>
-    </div>
+  {#each researchers as { name, title, bio, avatar, url}, i}
+    <a href={url} target="_blank">
+      <div
+        class="researcher"
+        in:fly={{
+          x: -100,
+          duration: 1000,
+          easing: quintOut,
+          delay: i * 150,
+        }}
+      >
+        <div class="subtitle">{title}</div>
+        <Person url={avatar}>
+          <div class="title">{name}</div>
+        </Person>
+        <div class="description">{bio}</div>
+      </div>
+    </a>
   {/each}
 {:catch error}
   <p style="color: red">{error.message}</p>
