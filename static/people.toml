@@ -3,54 +3,63 @@ name= "Giovanni Petri"
 title= "Principal Researcher"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="static/faces/giovanni_petri.jpeg"
+url="https://lordgrilo.github.io"
 
 [[researchers]]
 name= "Maxime Lucas"
 title= "Post-Doc Researcher"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="static/faces/maxime_lucas.jpg"
+url="https://maximelucas.github.io"
 
 [[researchers]]
 name= "Simone Poetto"
 title= "PhD Student"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="static/faces/simone_poetto.jpg"
+url=""
 
 [[researchers]]
 name= "Marco Nurisso"
 title= "PhD Student"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="static/faces/marco_nurisso.jpg"
+url=""
 
 [[researchers]]
 name= "António Leitão"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="static/faces/antonio_leitao.png"
+avatar="static/faces/antonio_leitao.jpeg"
+url="https://antonio-leitao.github.io"
 
 [[researchers]]
 name= "Napat Kiatjaroonlert"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+url=""
 
 [[researchers]]
 name= "Matteo Neri"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+url=""
 
 [[researchers]]
 name= "Marta Morandini"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+url=""
 
 [[researchers]]
 name= "Sara Cavuoti Cabanillas"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+url=""
 
 
 
