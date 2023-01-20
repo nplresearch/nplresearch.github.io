@@ -1,5 +1,8 @@
 # Maintenance Guide
 
+> **Warning**
+> Website is still under construction and updating data now might lead (most probably) to it being erased.
+
 This is a small guide on how to make small changes on the website without having to clone the repo and re-building the site. Th list of things that are editable without messing with javascript html and etc:
 
 1. [Recent Activity](#recent-activity)

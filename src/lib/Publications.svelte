@@ -1,72 +1,89 @@
 <script>
+  import Publication from "./Publication.svelte";
+  import { fly } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
   import { link } from "svelte-spa-router";
-  function randomFloat(start, end) {
-    return Math.random() * (end - start) + start;
+  import LucideIcon from "./LucideIcon.svelte";
+  import { parse } from "toml";
+
+  async function loadPapers() {
+    const response = await fetch("static/publications.toml");
+    const tomlString = await response.text();
+    const data = parse(tomlString);
+    return data;
   }
 </script>
 
-<a href={"/publications"} use:link>
-  <div class="stack">
-    <div class="label">[PUBLICATIONS]</div>
-    {#each { length: 7 } as _, i}
-      <div class="paper" style="--random:{randomFloat(-1, 1)}; --order:{i}" />
+<div class="top-row">
+  <div class="page-title">PUBLICATIONS</div>
+  <a href={"/"} use:link>
+    <div class="button">
+      <!-- <Button icon="arrow left" icon_place="left" text="Home" /> -->
+      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
+    </div>
+  </a>
+</div>
+
+{#await loadPapers()}
+  ...waiting
+{:then publications}
+  <div class="publications">
+    {#each publications["papers"] as publication, i}
+      <div
+        in:fly={{
+          x: -100,
+          duration: 1500,
+          easing: quintOut,
+          delay: i * 200,
+        }}
+      >
+        <Publication side={i % 2} {...publication} />
+      </div>
     {/each}
   </div>
-</a>
+{:catch error}
+  <p style="color: red">{error.message}</p>
+{/await}
 
 <style>
-  .label {
-    font-family: "Helvetica", "Arial", sans-serif;
-    position: absolute;
-    top: 30%;
-    color: var(--text1);
-    font-size: 0.8rem;
+  .page-title {
+    font-family: Helvetica;
+    font-size: 1.4rem;
     font-weight: 100;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.4rem;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    margin-bottom: 0.5rem;
-    z-index: 5;
-    background-color: rgb(0, 0, 0, 0.8);
-    background-color: var(--clr-mixred);
-    padding: 0.5rem;
-    cursor: pointer;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    margin-top: 0rem;
+    color: var(--text1);
+    margin-bottom: 2rem;
   }
-  .stack {
-    display: grid;
-    place-items: center;
-    margin: 2rem;
+
+  .top-row {
     position: relative;
-    min-width: 7rem;
-    aspect-ratio: 1/1.4;
+    display: flex;
+    align-items: center; /* center the children vertically */
+    justify-content: center;
+    width: 100%;
   }
-  .paper {
-    position: absolute;
-    top: 0;
+
+  /* child element that is always on the left */
+  .button {
     display: grid;
     place-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    width: 6rem;
-    aspect-ratio: 1/1.4;
-    cursor: pointer;
-    background-color: var(--text1);
-
-    /* Functional props*/
     position: absolute;
-    --rotation: calc(calc(30deg / -4) + calc(calc(30deg / 25)) * var(--order));
-    transform: rotate(calc(var(--random) * 8deg))
-      translate(calc(var(--random) * 10px), calc(var(--random) * 10px));
-    transform-origin: center;
-    transition: all 0.5s cubic-bezier(0.05, 0.43, 0.25, 0.95);
+    top: 0%;
+    left: 13%;
+    width: auto; /* width determined by the content */
+    text-align: left;
+    cursor: pointer;
+    color: var(--clr-foreground-deep);
+  }
+  .button:hover {
+    color: var(--clr-mixred);
   }
 
-  .stack:hover > .paper {
-    transform: rotate(calc(calc(60deg / -2) + 10deg * var(--order)));
-    transform-origin: center 120%;
-    box-shadow: -15px 2px 15px rgba(0, 0, 0, 0.07),
-      0px 0px 8px rgba(0, 0, 0, 0.07);
-  }
   a {
     color: inherit;
     font: inherit;

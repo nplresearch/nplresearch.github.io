@@ -20,7 +20,7 @@
     .getDocument(url)
     .promise.then((doc) => doc.getPage(1))
     .then((page) => {
-      const scale = 1.5;
+      const scale = 1;
       const viewport = page.getViewport({ scale });
       // Prepare canvas using PDF page dimensions
       var context = canvasRef.getContext("2d");

@@ -1,134 +1,128 @@
 <script>
-  function randomFloat(start, end) {
-    return Math.random() * (end - start) + start;
+  import { link } from "svelte-spa-router";
+  import LucideIcon from "./LucideIcon.svelte";
+  import Person from "./Person.svelte";
+  import { fly } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
+  import { parse } from "toml";
+  async function loadPeople() {
+    const response = await fetch("static/people.toml");
+    const tomlString = await response.text();
+    const data = parse(tomlString);
+    return data["researchers"];
   }
 </script>
 
-<div class="stack">
-  <div class="label">[PEOPLE]</div>
-  <div
-    class="person"
-    style="--random:{randomFloat(-1, 1)};"
-    style:--direction="-60%"
-    style:scale="0.8"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 134.321">
-      <path
-        d="M44 25.831v49.22c-.372 3.027-2.523 4.637-4.9 6a2.1 2.1 0 0 0-1.183 1.922c-.28 4.183-.629 8.362-.967 12.542q-1.25 15.497-2.518 30.985c-.215 2.621-.448 5.24-.668 7.819H10.446l-2.63-31.921c-.539-6.532-1.061-13.066-1.653-19.593a2.341 2.341 0 0 0-.894-1.595C2.663 79.6.323 77.844 0 74.472v-48.93a3.128 3.128 0 0 1 3.121-2.249c3.518.068 7.038.045 10.557.058h2.193c-.043-.595-.063-.971-.1-1.346-.449-4.75-.956-9.5-1.311-14.253a8.014 8.014 0 0 1 .528-3.652C16.42.79 20.521-.723 24.661.332a6.808 6.808 0 0 1 5.15 7.37c-.164 2.6-.481 5.182-.727 7.773-.244 2.571-.485 5.142-.743 7.877h1.737c3.278 0 6.557.037 9.835-.014 1.929-.03 3.373.597 4.087 2.493Z"
-      />
-    </svg>
-  </div>
-
-  <div
-    class="person"
-    style:--direction="60%"
-    style="--random:{randomFloat(-1, 1)}"
-    style:scale="0.8"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 134.321">
-      <path
-        style="filter:url(#drop-shadow)"
-        d="M44 25.831v49.22c-.372 3.027-2.523 4.637-4.9 6a2.1 2.1 0 0 0-1.183 1.922c-.28 4.183-.629 8.362-.967 12.542q-1.25 15.497-2.518 30.985c-.215 2.621-.448 5.24-.668 7.819H10.446l-2.63-31.921c-.539-6.532-1.061-13.066-1.653-19.593a2.341 2.341 0 0 0-.894-1.595C2.663 79.6.323 77.844 0 74.472v-48.93a3.128 3.128 0 0 1 3.121-2.249c3.518.068 7.038.045 10.557.058h2.193c-.043-.595-.063-.971-.1-1.346-.449-4.75-.956-9.5-1.311-14.253a8.014 8.014 0 0 1 .528-3.652C16.42.79 20.521-.723 24.661.332a6.808 6.808 0 0 1 5.15 7.37c-.164 2.6-.481 5.182-.727 7.773-.244 2.571-.485 5.142-.743 7.877h1.737c3.278 0 6.557.037 9.835-.014 1.929-.03 3.373.597 4.087 2.493Z"
-      />
-    </svg>
-  </div>
-  <div
-    class="person"
-    style:--direction="30%"
-    style="--random:{randomFloat(-1, 1)}"
-    style:scale="0.9"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 134.321">
-      <defs>
-        <filter id="drop-shadow">
-          <feDropShadow dx="2" dy="2" stdDeviation="2" />
-        </filter>
-      </defs>
-      <path
-        style="filter:url(#drop-shadow)"
-        d="M44 25.831v49.22c-.372 3.027-2.523 4.637-4.9 6a2.1 2.1 0 0 0-1.183 1.922c-.28 4.183-.629 8.362-.967 12.542q-1.25 15.497-2.518 30.985c-.215 2.621-.448 5.24-.668 7.819H10.446l-2.63-31.921c-.539-6.532-1.061-13.066-1.653-19.593a2.341 2.341 0 0 0-.894-1.595C2.663 79.6.323 77.844 0 74.472v-48.93a3.128 3.128 0 0 1 3.121-2.249c3.518.068 7.038.045 10.557.058h2.193c-.043-.595-.063-.971-.1-1.346-.449-4.75-.956-9.5-1.311-14.253a8.014 8.014 0 0 1 .528-3.652C16.42.79 20.521-.723 24.661.332a6.808 6.808 0 0 1 5.15 7.37c-.164 2.6-.481 5.182-.727 7.773-.244 2.571-.485 5.142-.743 7.877h1.737c3.278 0 6.557.037 9.835-.014 1.929-.03 3.373.597 4.087 2.493Z"
-      />
-    </svg>
-  </div>
-  <div
-    class="person"
-    style:--direction="-30%"
-    style="--random:{randomFloat(-1, 1)}"
-    style:scale="0.9"
-  >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 134.321">
-      <defs>
-        <filter id="drop-shadow">
-          <feDropShadow dx="2" dy="2" stdDeviation="2" />
-        </filter>
-      </defs>
-      <path
-        style="filter:url(#drop-shadow)"
-        d="M44 25.831v49.22c-.372 3.027-2.523 4.637-4.9 6a2.1 2.1 0 0 0-1.183 1.922c-.28 4.183-.629 8.362-.967 12.542q-1.25 15.497-2.518 30.985c-.215 2.621-.448 5.24-.668 7.819H10.446l-2.63-31.921c-.539-6.532-1.061-13.066-1.653-19.593a2.341 2.341 0 0 0-.894-1.595C2.663 79.6.323 77.844 0 74.472v-48.93a3.128 3.128 0 0 1 3.121-2.249c3.518.068 7.038.045 10.557.058h2.193c-.043-.595-.063-.971-.1-1.346-.449-4.75-.956-9.5-1.311-14.253a8.014 8.014 0 0 1 .528-3.652C16.42.79 20.521-.723 24.661.332a6.808 6.808 0 0 1 5.15 7.37c-.164 2.6-.481 5.182-.727 7.773-.244 2.571-.485 5.142-.743 7.877h1.737c3.278 0 6.557.037 9.835-.014 1.929-.03 3.373.597 4.087 2.493Z"
-      />
-    </svg>
-  </div>
-  <div class="person" style="--random:{randomFloat(-1, 1)}">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 134.321">
-      <defs>
-        <filter id="drop-shadow">
-          <feDropShadow dx="2" dy="2" stdDeviation="2" />
-        </filter>
-      </defs>
-      <path
-        style="filter:url(#drop-shadow)"
-        d="M44 25.831v49.22c-.372 3.027-2.523 4.637-4.9 6a2.1 2.1 0 0 0-1.183 1.922c-.28 4.183-.629 8.362-.967 12.542q-1.25 15.497-2.518 30.985c-.215 2.621-.448 5.24-.668 7.819H10.446l-2.63-31.921c-.539-6.532-1.061-13.066-1.653-19.593a2.341 2.341 0 0 0-.894-1.595C2.663 79.6.323 77.844 0 74.472v-48.93a3.128 3.128 0 0 1 3.121-2.249c3.518.068 7.038.045 10.557.058h2.193c-.043-.595-.063-.971-.1-1.346-.449-4.75-.956-9.5-1.311-14.253a8.014 8.014 0 0 1 .528-3.652C16.42.79 20.521-.723 24.661.332a6.808 6.808 0 0 1 5.15 7.37c-.164 2.6-.481 5.182-.727 7.773-.244 2.571-.485 5.142-.743 7.877h1.737c3.278 0 6.557.037 9.835-.014 1.929-.03 3.373.597 4.087 2.493Z"
-      />
-    </svg>
-  </div>
+<div class="top-row">
+  <div class="page-title">PEOPLE</div>
+  <a href={"/"} use:link>
+    <div class="button">
+      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
+    </div>
+  </a>
 </div>
 
+{#await loadPeople()}
+  ...waiting
+{:then researchers}
+  {#each researchers as { name, title, bio, avatar }, i}
+    <div
+      class="researcher"
+      in:fly={{
+        x: -100,
+        duration: 1000,
+        easing: quintOut,
+        delay: i * 150,
+      }}
+    >
+      <div class="subtitle">{title}</div>
+      <Person url={avatar}>
+        <div class="title">{name}</div>
+      </Person>
+      <div class="description">{bio}</div>
+    </div>
+  {/each}
+{:catch error}
+  <p style="color: red">{error.message}</p>
+{/await}
+
 <style>
-  .label {
-    font-family: "Helvetica", "Arial", sans-serif;
-    position: absolute;
-    top: 30%;
-    color: var(--text1);
-    font-size: 0.8rem;
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    margin-bottom: 0.5rem;
-    z-index: 5;
-    background-color: rgb(0, 0, 0, 0.8);
-    background-color: var(--clr-mixred);
-    padding: 0.5rem;
-    cursor: pointer;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
-  }
-  .person svg {
-    height: 85%;
-    fill: var(--text1);
-    stroke-width: 2px;
-    stroke: rgba(0, 0, 0, 0.3);
-  }
-  .stack {
-    display: grid;
-    place-items: center;
-    margin: 2rem;
+  .researcher {
     position: relative;
-    min-width: 7rem;
-    aspect-ratio: 1/1.4;
-  }
-  .person {
-    position: absolute;
-    top: 0;
-    display: grid;
-    place-items: center;
-    width: 6rem;
-    aspect-ratio: 1/1.4;
+    max-width: 50ch;
+    margin-bottom: 1rem;
     cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.05, 0.43, 0.25, 0.95);
+    padding: 1rem;
+    border-radius: 0.5rem;
   }
 
-  .stack:hover > .person {
-    transform: translateX(var(--direction));
-    box-shadow: -15px 2px 15px rgba(0, 0, 0, 0.2),
-      0px 0px 8px rgba(0, 0, 0, 0.2);
+  .researcher:hover > .subtitle {
+    color: var(--text1);
+  }
+
+  .researcher:hover > .description {
+    color: var(--text1);
+  }
+
+  .researcher:hover {
+    background-color: rgb(255, 255, 255, 0.05);
+    box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
+    color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    background-blend-mode: overlay;
+  }
+  .subtitle {
+    margin-bottom: 0;
+    color: var(--text3);
+    transition: all 0.5s ease-out;
+  }
+
+  .description {
+    margin-top: 0;
+    color: var(--text3);
+    transition: all 0.5s ease-out;
+  }
+  .page-title {
+    font-family: Helvetica;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    color: var(--text1);
+    margin-bottom: 2rem;
+  }
+
+  .top-row {
+    position: relative;
+    display: flex;
+    align-items: center; /* center the children vertically */
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* child element that is always on the left */
+  .button {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    width: auto; /* width determined by the content */
+    text-align: left;
+    cursor: pointer;
+    color: var(--clr-foreground-deep);
+  }
+  .button:hover {
+    color: var(--clr-mixred);
+  }
+
+  a {
+    color: inherit;
+    font: inherit;
+    text-decoration: inherit;
   }
 </style>

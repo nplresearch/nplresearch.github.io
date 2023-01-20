@@ -1,16 +1,17 @@
 <script>
   import Router from "svelte-spa-router";
-  import Landing from "./lib/Landing.svelte";
+  import Home from "./lib/Home.svelte";
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
-  import Papers from "./lib/Papers.svelte";
-  import moment from "moment";
+  import Publications from "./lib/Publications.svelte";
+  import People from "./lib/People.svelte";
 
   let scroll;
 
   const routes = {
-    "/": Landing,
-    "/publications": Papers,
+    "/": Home,
+    "/publications": Publications,
+    "/people": People,
     "*": NotFound,
   };
 </script>
