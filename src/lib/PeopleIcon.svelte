@@ -7,7 +7,7 @@
 
 <a href={"/people"} use:link>
   <div class="stack">
-    <div class="label">[PEOPLE]</div>
+    <div class="label">PEOPLE</div>
     <div
       class="person"
       style="--random:{randomFloat(-1, 1)};"
@@ -99,7 +99,7 @@
     margin-bottom: 0.5rem;
     z-index: 5;
     background-color: rgb(0, 0, 0, 0.8);
-    background-color: var(--clr-mixred);
+    background-color: var(--clr-mixred-dark);
     padding: 0.5rem;
     cursor: pointer;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 1);

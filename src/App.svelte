@@ -36,9 +36,9 @@
     <div>
       NPL © {new Date().getFullYear()}
     </div>
-    <!-- <div>
+    <div>
       Website by <a href="https://antonio-leitao.github.io/">António Leitão</a>
-    </div> -->
+    </div>
   </div>
 </div>
 

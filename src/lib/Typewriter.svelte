@@ -78,7 +78,7 @@
       "Nihilistic Philosophers League",
       "Non-Profit Lumberjacks",
       `Nature's Playground`,
-      "Nober Prize Laureates",
+      "Nobel Prize Laureates",
       "Non-Parametric Learning",
       "Non-Petri Lab",
       "New Paradigms Lab",
@@ -92,7 +92,6 @@
       "Numbingly Precise Laboratory",
       "Nefarious Plotters Legion",
       "Necessary Procedures Lab",
-      "Noble Prizes Lair",
     ];
 
     //const el = document.querySelector(".text");

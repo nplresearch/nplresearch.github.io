@@ -7,7 +7,7 @@
 
 <a href={"/publications"} use:link>
   <div class="stack">
-    <div class="label">[PUBLICATIONS]</div>
+    <div class="label">PUBLICATIONS</div>
     {#each { length: 7 } as _, i}
       <div class="paper" style="--random:{randomFloat(-1, 1)}; --order:{i}" />
     {/each}
@@ -27,7 +27,7 @@
     margin-bottom: 0.5rem;
     z-index: 5;
     background-color: rgb(0, 0, 0, 0.8);
-    background-color: var(--clr-mixred);
+    background-color: var(--clr-mixred-dark);
     padding: 0.5rem;
     cursor: pointer;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
@@ -47,7 +47,7 @@
     place-items: center;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    width: 6rem;
+    width: 5rem;
     aspect-ratio: 1/1.4;
     cursor: pointer;
     background-color: var(--text1);
