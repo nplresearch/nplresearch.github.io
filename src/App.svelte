@@ -4,6 +4,7 @@
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
   import Papers from "./lib/Papers.svelte";
+  import moment from "moment";
 
   let scroll;
 
@@ -30,7 +31,14 @@
 <div class="center">
   >
   <Router {routes} />
-  <div class="buffer" />
+  <div class="buffer">
+    <div>
+      NPL © {new Date().getFullYear()}
+    </div>
+    <!-- <div>
+      Website by <a href="https://antonio-leitao.github.io/">António Leitão</a>
+    </div> -->
+  </div>
 </div>
 
 <style>
@@ -73,9 +81,18 @@
     z-index: 1;
   }
   .buffer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     height: 3rem;
     width: 70%;
     margin-top: 3rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  a {
+    color: inherit;
   }
 </style>

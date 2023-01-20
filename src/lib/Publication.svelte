@@ -2,6 +2,7 @@
   export let title;
   export let authors;
   export let links;
+  export let abstract;
   export let side = 0;
   import Button from "./Button.svelte";
   import PdfComponent from "./PDFComponent.svelte";
@@ -16,10 +17,7 @@
       {title}
     </div>
     <div class="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quis harum
-      temporibus provident veritatis iste, quo ducimus reprehenderit asperiores
-      amet eius soluta ipsam laboriosam enim cupiditate, mollitia aut tempora
-      totam.
+      {abstract}
     </div>
     <div class="paper-title buttons">
       {#each authors as author}
@@ -27,13 +25,13 @@
       {/each}
     </div>
     <div class="buttons">
-      {#if Object.keys(links).length > 0}
-        {#each Object.keys(links) as link}
+      {#if links.length > 0}
+        {#each Object.entries(links[0]) as [name, url]}
           <Button
             icon_place="left"
-            icon={link}
-            text={link}
-            href={links.link}
+            icon={name}
+            text={name}
+            href={url}
             reduced={true}
           />
         {/each}

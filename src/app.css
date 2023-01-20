@@ -125,3 +125,17 @@
   text-shadow: var(--weird-shadow);
   margin-bottom: 0.5rem;
 }
+
+/* Change the color of the scrollbar in webkit browsers */
+::-webkit-scrollbar,
+scrollbar {
+  width: 0.4rem;
+  background-color: rgba(8, 22, 29, 0.5);
+}
+
+/* Change the color of the scrollbar thumb in webkit browsers */
+::-webkit-scrollbar-thumb,
+scrollbar thumb {
+  border-radius: 2rem;
+  background-color: rgba(8, 22, 29, 1);
+}

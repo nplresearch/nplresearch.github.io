@@ -4,28 +4,14 @@
   import { quintOut } from "svelte/easing";
   import { link } from "svelte-spa-router";
   import LucideIcon from "./LucideIcon.svelte";
-  export let publications = [
-    {
-      title:
-        "Evidence from sperm whale clans of symbolic marking in non-human cultures",
-      authors: ["John Doe", "Peter Parker", "Mary Jane"],
-      links: {
-        pdf: "https://arxiv.org/pdf/2007.14900.pdf",
-        code: "www.google.com",
-        bib: "www.google.com",
-      },
-    },
-    {
-      title:
-        "Evidence from sperm whale clans of symbolic marking in non-human cultures",
-      authors: ["John Doe", "Peter Parker", "Mary Jane"],
-      links: {
-        pdf: "https://arxiv.org/pdf/2007.14900.pdf",
-        code: "www.google.com",
-        bib: "www.google.com",
-      },
-    },
-  ];
+  import { parse } from "toml";
+
+  async function loadPapers() {
+    const response = await fetch("static/publications.toml");
+    const tomlString = await response.text();
+    const data = parse(tomlString);
+    return data;
+  }
 </script>
 
 <div class="top-row">
@@ -38,20 +24,26 @@
   </a>
 </div>
 
-<div class="publications">
-  {#each publications as publication, i}
-    <div
-      in:fly={{
-        x: -100,
-        duration: 1500,
-        easing: quintOut,
-        delay: i * 200,
-      }}
-    >
-      <Publication side={i % 2} {...publication} />
-    </div>
-  {/each}
-</div>
+{#await loadPapers()}
+  ...waiting
+{:then publications}
+  <div class="publications">
+    {#each publications["papers"] as publication, i}
+      <div
+        in:fly={{
+          x: -100,
+          duration: 1500,
+          easing: quintOut,
+          delay: i * 200,
+        }}
+      >
+        <Publication side={i % 2} {...publication} />
+      </div>
+    {/each}
+  </div>
+{:catch error}
+  <p style="color: red">{error.message}</p>
+{/await}
 
 <style>
   .page-title {

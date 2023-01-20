@@ -1,57 +1,7 @@
 <script>
   import Article from "./Article.svelte";
   import moment from "moment";
-
-  export let articles = [
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "12-01-2023",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "5-01-2023",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "24-11-2022",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "01-11-2022",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "15-10-2022",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "10-10-2022",
-    },
-    {
-      title: "Something happened over there and has some effects over here.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "09-10-2022",
-    },
-    {
-      title: "This is the last entry of the log",
-      description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, delectus voluptate nesciunt aspernatur corrupti sunt quis molestias architecto. A consequatur voluptas architecto autem ratione quibusdam. Dolor deleniti eaque dolorum ea?",
-      date: "02-08-2022",
-    },
-  ];
+  export let articles;
 </script>
 
 <div class="topper">

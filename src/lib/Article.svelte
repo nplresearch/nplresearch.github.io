@@ -3,9 +3,14 @@
   export let marker = false;
   export let date;
   export let title;
+  import moment from "moment";
 </script>
 
 <div class="card" class:article={!marker}>
+  {#if !marker}
+    <div class="dater">{moment(date, "DD-MM-YYYY").format("MMM Do")}</div>
+  {/if}
+
   <div
     class="article-title"
     style="--c: {marker ? 'var(--clr-mixred)' : 'var(--text1)'}"
@@ -63,6 +68,11 @@
   }
   .description {
     margin-top: 0;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .dater {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.3);
   }
 </style>

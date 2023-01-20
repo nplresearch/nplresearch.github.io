@@ -2,7 +2,6 @@
   export let title =
     "Evidence from sperm whale clans of symbolic marking in non-human cultures";
   export var url = "https://arxiv.org/pdf/2007.14900.pdf";
-
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
 
@@ -11,8 +10,11 @@
   const pdfjsLib = window["pdfjs-dist/build/pdf"];
 
   // The workerSrc property shall be specified.
+  // pdfjsLib.GlobalWorkerOptions.workerSrc =
+  //   "//mozilla.github.io/pdf.js/build/pdf.worker.js";
+
   pdfjsLib.GlobalWorkerOptions.workerSrc =
-    "//mozilla.github.io/pdf.js/build/pdf.worker.js";
+    "//cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.worker.js";
 
   pdfjsLib
     .getDocument(url)
@@ -32,11 +34,17 @@
       };
 
       page.render(renderContext);
+    })
+    .catch((error) => {
+      console.log(error.message);
     });
 </script>
 
 <svelte:head>
-  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.min.js"
+  ></script>
 </svelte:head>
 
 <div class="wrapper">
@@ -44,7 +52,7 @@
   <div class="pdf">
     <canvas
       in:fade={{
-        duration: 2000,
+        duration: 1000,
         easing: quintOut,
       }}
       bind:this={canvasRef}
@@ -62,7 +70,6 @@
   .overlay {
     width: 100%;
     height: 100%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     padding: 0;
     inset: 4rem;
