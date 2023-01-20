@@ -1,8 +1,8 @@
-
 ### PAPERS
 [[papers]]
 title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
 authors = ["John Doe", "Peter Parker", "Mary Jane"]
+abstract= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quis harum temporibus provident veritatis iste, quo ducimus reprehenderit asperiores amet eius soluta ipsam laboriosam enim cupiditate, mollitia aut tempora totam."
 [[papers.links]]
 pdf = "https://arxiv.org/pdf/2007.14900.pdf"
 code = "www.google.com"
@@ -11,17 +11,18 @@ bib = "www.google.com"
 [[papers]]
 title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
 authors = ["John Doe", "Peter Parker", "Mary Jane"]
+abstract= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quis harum temporibus provident veritatis iste, quo ducimus reprehenderit asperiores amet eius soluta ipsam laboriosam enim cupiditate, mollitia aut tempora totam."
 [[papers.links]]
 pdf = "https://arxiv.org/pdf/2007.14900.pdf"
 code = "www.google.com"
 bib = "www.google.com"
+
 
 [[papers]]
 title = "Evidence from sperm whale clans of symbolic marking in non-human cultures"
 authors = ["John Doe", "Peter Parker", "Mary Jane"]
+abstract= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quis harum temporibus provident veritatis iste, quo ducimus reprehenderit asperiores amet eius soluta ipsam laboriosam enim cupiditate, mollitia aut tempora totam."
 [[papers.links]]
 pdf = "https://arxiv.org/pdf/2007.14900.pdf"
 code = "www.google.com"
 bib = "www.google.com"
-
-
