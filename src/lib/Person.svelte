@@ -51,8 +51,11 @@
     box-shadow: 1px 1px 1px #ddd;
     border-radius: 0.1rem;
     position: absolute;
-    background-size: 150px;
     width: 150px;
     height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
 </style>
