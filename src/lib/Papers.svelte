@@ -1,6 +1,7 @@
 <script>
   import Publication from "./Publication.svelte";
-  import Button from "./Button.svelte";
+  import { fly } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
   import { link } from "svelte-spa-router";
   import LucideIcon from "./LucideIcon.svelte";
   export let publications = [
@@ -39,7 +40,16 @@
 
 <div class="publications">
   {#each publications as publication, i}
-    <Publication side={i % 2} {...publication} />
+    <div
+      in:fly={{
+        x: -100,
+        duration: 1500,
+        easing: quintOut,
+        delay: i * 200,
+      }}
+    >
+      <Publication side={i % 2} {...publication} />
+    </div>
   {/each}
 </div>
 

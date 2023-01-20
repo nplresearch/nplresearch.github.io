@@ -123,7 +123,7 @@
     position: relative;
     z-index: 1;
     height: 100%;
-    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 1px solid var(--text3);
   }
 
   .page-title {

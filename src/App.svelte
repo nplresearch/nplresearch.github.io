@@ -4,8 +4,7 @@
   import NotFound from "./lib/NotFound.svelte";
   import Chord from "./lib/Chord.svelte";
   import Papers from "./lib/Papers.svelte";
-  import { fade } from "svelte/transition";
-  import { quintOut } from "svelte/easing";
+
   let scroll;
 
   const routes = {
@@ -17,7 +16,7 @@
 
 <svelte:window bind:scrollY={scroll} />
 
-<div class="background" style="transform:translate(0,{scroll / 1.8}px)">
+<div class="background" style="transform:translate(0,{scroll / 1.5}px)">
   <div class="centerpiece">
     <div class="column">
       <Chord RATE={0.999} INV_RATE={0.8} />
