@@ -30,7 +30,6 @@
 </div>
 
 <div class="center">
-  >
   <Router {routes} />
   <div class="buffer">
     <div>

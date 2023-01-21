@@ -5,28 +5,30 @@
   import Timeline from "./Timeline.svelte";
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import moment from "moment";
-  import { parse } from "toml";
+  import { get } from "svelte/store";
+  import { loadedActivity } from "../scripts/store.js";
 
-  async function loadActivity() {
-    const response = await fetch("static/activity.toml");
-    const tomlString = await response.text();
-    const data = parse(tomlString);
-    //sort by date
-    data["articles"].sort(function (a, b) {
-      const dateA = moment(a.date, "DD-MM-YYYY");
-      const dateB = moment(b.date, "DD-MM-YYYY");
-      if (dateA.isBefore(dateB)) {
-        return 1;
-      } else if (dateA.isAfter(dateB)) {
-        return -1;
-      } else {
-        return 0;
-      }
-    });
+  // async function loadActivity() {
+  //   const response = await fetch("static/activity.toml");
+  //   const tomlString = await response.text();
+  //   const data = parse(tomlString);
+  //   //sort by date
+  //   data["articles"].sort(function (a, b) {
+  //     const dateA = moment(a.date, "DD-MM-YYYY");
+  //     const dateB = moment(b.date, "DD-MM-YYYY");
+  //     if (dateA.isBefore(dateB)) {
+  //       return 1;
+  //     } else if (dateA.isAfter(dateB)) {
+  //       return -1;
+  //     } else {
+  //       return 0;
+  //     }
+  //   });
 
-    return data["articles"];
-  }
+  //   return data["articles"];
+  // }
+
+  const articles = get(loadedActivity);
 </script>
 
 <div
@@ -60,18 +62,11 @@
   </div>
 </div>
 
-{#await loadActivity()}
-  ...waiting
-{:then articles}
-  <!-- Content -->
-  {#if articles.length > 0}
-    <div class="news">
-      <Timeline {articles} />
-    </div>
-  {/if}
-{:catch error}
-  <p style="color: red">{error.message}</p>
-{/await}
+{#if articles.length > 0}
+  <div class="news">
+    <Timeline {articles} />
+  </div>
+{/if}
 
 <style>
   .slap {

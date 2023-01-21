@@ -6,6 +6,8 @@
   import LucideIcon from "./LucideIcon.svelte";
   import { parse } from "toml";
 
+  //instead of load papers get list from store. list from promsises and read 
+
   async function loadPapers() {
     const response = await fetch("static/publications.toml");
     const tomlString = await response.text();
