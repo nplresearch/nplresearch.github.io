@@ -4,16 +4,7 @@
   import { quintOut } from "svelte/easing";
   import { link } from "svelte-spa-router";
   import LucideIcon from "./LucideIcon.svelte";
-  import { parse } from "toml";
-
-  //instead of load papers get list from store. list from promsises and read 
-
-  async function loadPapers() {
-    const response = await fetch("static/publications.toml");
-    const tomlString = await response.text();
-    const data = parse(tomlString);
-    return data;
-  }
+  import { papers } from "../scripts/store.js";
 </script>
 
 <div class="top-row">
@@ -26,26 +17,20 @@
   </a>
 </div>
 
-{#await loadPapers()}
-  ...waiting
-{:then publications}
-  <div class="publications">
-    {#each publications["papers"] as publication, i}
-      <div
-        in:fly={{
-          x: -100,
-          duration: 1500,
-          easing: quintOut,
-          delay: i * 200,
-        }}
-      >
-        <Publication side={i % 2} {...publication} />
-      </div>
-    {/each}
-  </div>
-{:catch error}
-  <p style="color: red">{error.message}</p>
-{/await}
+<div class="publications">
+  {#each $papers as publication, i}
+    <div
+      in:fly={{
+        x: -100,
+        duration: 1500,
+        easing: quintOut,
+        delay: i * 200,
+      }}
+    >
+      <Publication side={i % 2} {...publication} />
+    </div>
+  {/each}
+</div>
 
 <style>
   .page-title {

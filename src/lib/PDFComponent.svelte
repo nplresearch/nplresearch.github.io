@@ -1,4 +1,5 @@
 <script>
+  //read doc from store, or something
   export let title =
     "Evidence from sperm whale clans of symbolic marking in non-human cultures";
   export var url = "https://arxiv.org/pdf/2007.14900.pdf";
@@ -9,12 +10,9 @@
   // Loaded via <script> tag, create shortcut to access PDF.js exports.
   const pdfjsLib = window["pdfjs-dist/build/pdf"];
 
-  // The workerSrc property shall be specified.
-  // pdfjsLib.GlobalWorkerOptions.workerSrc =
-  //   "//mozilla.github.io/pdf.js/build/pdf.worker.js";
-
   pdfjsLib.GlobalWorkerOptions.workerSrc =
     "//cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.worker.js";
+
 
   pdfjsLib
     .getDocument(url)
@@ -35,9 +33,9 @@
 
       page.render(renderContext);
     })
-    .catch((error) => {
-      console.log(error.message);
-    });
+  .catch((error) => {
+    console.log(error.message);
+  });
 </script>
 
 <svelte:head>

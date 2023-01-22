@@ -5,30 +5,7 @@
   import Timeline from "./Timeline.svelte";
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import { get } from "svelte/store";
-  import { loadedActivity } from "../scripts/store.js";
-
-  // async function loadActivity() {
-  //   const response = await fetch("static/activity.toml");
-  //   const tomlString = await response.text();
-  //   const data = parse(tomlString);
-  //   //sort by date
-  //   data["articles"].sort(function (a, b) {
-  //     const dateA = moment(a.date, "DD-MM-YYYY");
-  //     const dateB = moment(b.date, "DD-MM-YYYY");
-  //     if (dateA.isBefore(dateB)) {
-  //       return 1;
-  //     } else if (dateA.isAfter(dateB)) {
-  //       return -1;
-  //     } else {
-  //       return 0;
-  //     }
-  //   });
-
-  //   return data["articles"];
-  // }
-
-  const articles = get(loadedActivity);
+  import { articles } from "../scripts/store.js";
 </script>
 
 <div
@@ -62,9 +39,9 @@
   </div>
 </div>
 
-{#if articles.length > 0}
+{#if $articles.length > 0}
   <div class="news">
-    <Timeline {articles} />
+    <Timeline articles={$articles} />
   </div>
 {/if}
 

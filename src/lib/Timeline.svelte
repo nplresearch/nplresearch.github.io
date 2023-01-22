@@ -4,6 +4,7 @@
   export let articles;
 </script>
 
+
 <div class="topper">
   <div class="page-title">RECENT ACTIVITY</div>
 </div>

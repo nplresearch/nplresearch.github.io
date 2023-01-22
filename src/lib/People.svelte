@@ -4,13 +4,7 @@
   import Person from "./Person.svelte";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-  import { parse } from "toml";
-  async function loadPeople() {
-    const response = await fetch("static/people.toml");
-    const tomlString = await response.text();
-    const data = parse(tomlString);
-    return data["researchers"];
-  }
+  import { people } from "../scripts/store.js";
 </script>
 
 <div class="top-row">
@@ -22,31 +16,25 @@
   </a>
 </div>
 
-{#await loadPeople()}
-  ...waiting
-{:then researchers}
-  {#each researchers as { name, title, bio, avatar, url}, i}
-    <a href={url} target="_blank">
-      <div
-        class="researcher"
-        in:fly={{
-          x: -100,
-          duration: 1000,
-          easing: quintOut,
-          delay: i * 150,
-        }}
-      >
-        <div class="subtitle">{title}</div>
-        <Person url={avatar}>
-          <div class="title">{name}</div>
-        </Person>
-        <div class="description">{bio}</div>
-      </div>
-    </a>
-  {/each}
-{:catch error}
-  <p style="color: red">{error.message}</p>
-{/await}
+{#each $people as { name, title, bio, avatar, url }, i}
+  <a href={url} target="_blank">
+    <div
+      class="researcher"
+      in:fly={{
+        x: -100,
+        duration: 1000,
+        easing: quintOut,
+        delay: i * 150,
+      }}
+    >
+      <div class="subtitle">{title}</div>
+      <Person url={avatar}>
+        <div class="title">{name}</div>
+      </Person>
+      <div class="description">{bio}</div>
+    </div>
+  </a>
+{/each}
 
 <style>
   .researcher {
