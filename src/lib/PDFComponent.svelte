@@ -13,7 +13,6 @@
   pdfjsLib.GlobalWorkerOptions.workerSrc =
     "//cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.worker.js";
 
-
   pdfjsLib
     .getDocument(url)
     .promise.then((doc) => doc.getPage(1))
@@ -33,13 +32,12 @@
 
       page.render(renderContext);
     })
-  .catch((error) => {
-    console.log(error.message);
-  });
+    .catch((error) => {
+      console.log(error.message);
+    });
 </script>
 
 <svelte:head>
-  <!-- <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script> -->
   <script
     src="https://cdn.jsdelivr.net/npm/pdfjs-dist@latest/build/pdf.min.js"
   ></script>
