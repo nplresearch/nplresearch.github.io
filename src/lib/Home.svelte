@@ -6,6 +6,7 @@
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { articles } from "../scripts/store.js";
+
 </script>
 
 <div

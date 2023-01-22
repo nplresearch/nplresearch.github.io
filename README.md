@@ -9,11 +9,11 @@ This is a small guide on how to make small changes on the website without having
 2. [Publications](#publications)
 3. [People](#people)
 
-# 1 Change branch
+# 1. Change branch
 
 Do not update changes in this branch as it wont reflect in the site. The first step is to change to the `gh-pages` branch.
 
-# 2 Update toml files
+# 2. Update toml files
 
 The only editable files are the 3 `toml` files in `static/` each control a portion of the website. Commit changes in the end and the website should update.
 
@@ -51,7 +51,22 @@ The section `[[papers.links]]` and everything under is not mandatory but at leas
 
 ## People
 
-[under construction]
+Add a new NPC by appending to the **end** of the file `people.toml` the following lines:
+
+```toml
+[[researchers]]
+name= "Person McName"
+title= "NPC Title"
+bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+avatar="static/faces/npc_face.jpg"
+url="link_to_npc.com"
+```
+
+Make sure to add a picture of the NPC or else a random Danny Devito will take its place.
+
+# 3. Commit Changes
+
+Make sure to commit the changes to the `gh-pages` branch and the website will update soon enough.
 
 # Potential Features
 
