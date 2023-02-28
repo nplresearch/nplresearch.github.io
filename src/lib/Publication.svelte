@@ -6,18 +6,27 @@
   export let side = 0;
   import Button from "./Button.svelte";
   import PdfComponent from "./PDFComponent.svelte";
+
+  function cropString(str, N) {
+  if (str.length > N) {
+    return str.slice(0, N) + "...";
+  } else {
+    return str;
+  }
+}
+
 </script>
 
 <div class="publication" class:reversed={side === 1}>
   <div class="image">
-    <PdfComponent url={links.pdf} />
+    <PdfComponent url={links[0].pdf} title={title} />
   </div>
   <div class="text">
     <div class="paper-title">
       {title}
     </div>
     <div class="description">
-      {abstract}
+      {cropString(abstract,420)}
     </div>
     <div class="paper-title buttons">
       {#each authors as author}

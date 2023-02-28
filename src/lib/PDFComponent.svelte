@@ -1,8 +1,7 @@
 <script>
   //read doc from store, or something
-  export let title =
-    "Evidence from sperm whale clans of symbolic marking in non-human cultures";
-  export var url = "https://arxiv.org/pdf/2007.14900.pdf";
+  export let title;
+  export let url;
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
 
