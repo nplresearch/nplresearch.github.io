@@ -23,7 +23,7 @@ url=""
 name= "Marco Nurisso"
 title= "PhD Student"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="static/faces/marco_nurisso.jpg"
+avatar="static/faces/marco_nurisso.jpeg"
 url=""
 
 [[researchers]]
@@ -37,7 +37,7 @@ url="https://antonio-leitao.github.io"
 name= "Napat Kiatjaroonlert"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+avatar="static/faces/napat_kiatjaroonlert.jpeg"
 url=""
 
 [[researchers]]
@@ -51,7 +51,7 @@ url=""
 name= "Marta Morandini"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+avatar="static/faces/marta_morandini.jpeg"
 url=""
 
 [[researchers]]
@@ -59,6 +59,20 @@ name= "Sara Cavuoti Cabanillas"
 title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+url=""
+
+[[researchers]]
+name= "Thomas Robiglio"
+title= "NPC"
+bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+avatar="static/faces/thomas_robiglio.jpeg"
+url=""
+
+[[researchers]]
+name= "Noemi Aime"
+title= "NPC"
+bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+avatar="static/faces/noemi_aime.jpeg"
 url=""
 
 
