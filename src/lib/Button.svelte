@@ -7,7 +7,7 @@
   import LucideIcon from "./LucideIcon.svelte";
 </script>
 
-<button class:reduced>
+<button class:reduced on:click={() => window.open(href, '_blank')}>
   {#if icon_place === "left"}
     <div class="icon left">
       <LucideIcon name={icon} size="20" strokeWidth="1" />

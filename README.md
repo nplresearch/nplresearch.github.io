@@ -69,6 +69,6 @@ Make sure to add a picture of the NPC or else a random Danny Devito will take it
 Make sure to commit the changes to the `gh-pages` branch and the website will update soon enough.
 
 # Potential Features
-
+- [ ] Add bibtex support for publications, substitute the toml.
 - [ ] Divide publications by topics, either by projects or publications types is a very easy extension to do. Its no done out-of-the box due to the low number of publications.
 - [ ] Moving timeline to its own page intsad of main page?

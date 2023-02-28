@@ -30,7 +30,7 @@
     </div>
     <div class="paper-title buttons">
       {#each authors as author}
-        <div class="name">{author},</div>
+        <div class="name">{author}</div>
       {/each}
     </div>
     <div class="buttons">
@@ -54,7 +54,7 @@
     --base: 10rem;
     cursor: pointer;
     width: var(--base);
-    height: calc(var(--base) * 1.414213);
+    height: calc(var(--base) * 1.214213);
     flex-shrink: 0;
     border-radius: 0.5rem;
     outline: 0px var(--clr-mixred) solid;
@@ -100,5 +100,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
   }
 </style>
