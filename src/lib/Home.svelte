@@ -28,7 +28,8 @@
   </div>
   <div class="description">
     The NPLab investigates the role of topology and geometry in the collective
-    dynamics of complex systems, ranging from neuroscience to society.
+    dynamics of complex systems, ranging from neuroscience to society. We do
+    this with statistical mechanics, algebraic geometry, snark, and cyberpunk.
   </div>
   <div class="paper-people">
     <div class="child">

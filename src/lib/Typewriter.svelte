@@ -96,13 +96,10 @@
       "Napolitan Lovers",
       "Numbingly Precise Laboratory",
       "Nefarious Plotters Legion",
-      "Nuclear Phantom Lullabies",
       "Necessary Procedures Lab",
       "Nosebleed Prevention Lotion",
-      "Ninja Parrot Linguistics",
       "Nerd Power Laboratory",
-      "Nuclear Potato Launcher",
-      "Neon Pink Llama"
+      "Nuclear Potato Launcher"
     ];
 
     //const el = document.querySelector(".text");
