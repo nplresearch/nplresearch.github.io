@@ -6,7 +6,6 @@
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { articles } from "../scripts/store.js";
-
 </script>
 
 <div
@@ -28,9 +27,8 @@
     <Typewriter text_color="#CDCFCF" />
   </div>
   <div class="description">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quia qui
-    minus odio, fuga labore facilis illo soluta distinctio quisquam magnam
-    expedita sunt rem, eius autem natus dicta praesentium architecto?
+    The NPLab investigates the role of topology and geometry in the collective
+    dynamics of complex systems, ranging from neuroscience to society.
   </div>
   <div class="paper-people">
     <div class="child">
