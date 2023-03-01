@@ -39,7 +39,7 @@
 <style>
   .researcher {
     position: relative;
-    max-width: 50ch;
+    width: 50ch;
     margin-bottom: 1rem;
     cursor: pointer;
     padding: 1rem;
