@@ -1,7 +1,7 @@
 [[researchers]]
 name= "Giovanni Petri"
 title= "Principal Researcher"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio= "Principal Researcher at CENTAI Institute working on topological approaches to complex networks and their underlying geometry, with special attention to the topology of brain structure and dynamics."
 avatar="static/faces/giovanni_petri.jpeg"
 url="https://lordgrilo.github.io"
 
@@ -22,14 +22,14 @@ url="https://simonepoetto.github.io"
 [[researchers]]
 name= "Marco Nurisso"
 title= "PhD Student"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio="Ph.D. student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
 avatar="static/faces/marco_nurisso.jpeg"
 url=""
 
 [[researchers]]
 name= "António Leitão"
 title= "NPC"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
 avatar="static/faces/antonio_leitao.jpeg"
 url="https://antonio-leitao.github.io"
 
