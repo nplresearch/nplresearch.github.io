@@ -8,16 +8,16 @@ url="https://lordgrilo.github.io"
 [[researchers]]
 name= "Maxime Lucas"
 title= "Post-Doc Researcher"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
 avatar="static/faces/maxime_lucas.jpg"
 url="https://maximelucas.github.io"
 
 [[researchers]]
 name= "Simone Poetto"
 title= "PhD Student"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio="Simone is a physicist with a research focus on artificial intelligence and neuroscience. When not in the lab, he loves mountains and hiking."
 avatar="static/faces/simone_poetto.jpg"
-url=""
+url="https://simonepoetto.github.io"
 
 [[researchers]]
 name= "Marco Nurisso"
@@ -54,19 +54,27 @@ bio="This person does this and that it was them that started this and that is no
 avatar="static/faces/marta_morandini.jpeg"
 url=""
 
-[[researchers]]
-name= "Sara Cavuoti Cabanillas"
-title= "NPC"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
-url=""
+#
+#[[researchers]]
+#name= "Sara Cavuoti Cabanillas"
+#title= "NPC"
+#bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+#avatar="https://www.swashvillage.org/storage/img/images_1/danny-devito-biography.jpg"
+#url=""
 
 [[researchers]]
 name= "Thomas Robiglio"
 title= "NPC"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
 avatar="static/faces/thomas_robiglio.jpeg"
-url=""
+url="https://thomasrobiglio.github.io"
+
+#[[researchers]]
+#name= "Alessandra Brondetta"
+#title= "NPC"
+#bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
+#avatar="static/faces/noemi_aime.jpeg"
+#url=""
 
 [[researchers]]
 name= "Noemi Aime"
@@ -74,6 +82,7 @@ title= "NPC"
 bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
 avatar="static/faces/noemi_aime.jpeg"
 url=""
+
 
 
 
