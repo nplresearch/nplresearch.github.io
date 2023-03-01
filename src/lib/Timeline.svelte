@@ -12,10 +12,7 @@
   <div class="sidebar">
     <div class="subtitle">CONTACT US</div>
     <div class="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-      dignissimos, quasi quo in adipisci suscipit ipsam consequuntur iusto
-      architecto minus pariatur possimus quod tempora, corrupti laudantium,
-      consequatur impedit tenetur aliquam.
+      <a href="https://github.com/nplresearch">Github</a> • <a href="https://lordgrilo.github.io/">Giovanni Petri</a>
     </div>
   </div>
 
@@ -89,5 +86,8 @@
     margin-top: 0rem;
     color: var(--text1);
     margin-bottom: 2rem;
+  }
+  a {
+    color: inherit;
   }
 </style>
