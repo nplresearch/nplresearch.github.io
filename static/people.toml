@@ -9,14 +9,14 @@ url="https://lordgrilo.github.io"
 name= "Maxime Lucas"
 title= "Post-Doc Researcher"
 bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
-avatar="static/faces/maxime_lucas.jpg"
+avatar="static/faces/maxime_lucas.jpeg"
 url="https://maximelucas.github.io"
 
 [[researchers]]
 name= "Simone Poetto"
 title= "PhD Student"
 bio="Simone is a physicist with a research focus on artificial intelligence and neuroscience. When not in the lab, he loves mountains and hiking."
-avatar="static/faces/simone_poetto.jpg"
+avatar="static/faces/simone_poetto.jpeg"
 url="https://simonepoetto.github.io"
 
 [[researchers]]
