@@ -77,11 +77,19 @@ avatar="static/faces/alessandra_brondetta.jpeg"
 url=""
 
 [[researchers]]
+name= "Cosimo Agostinelli"
+title="MSc Student"
+bio=""
+avatar="static/faces/cosimo_agostinelli.jpeg"
+url=""
+
+[[researchers]]
 name= "Noemi Aime"
 title="BSc Student"
 bio=""
 avatar="static/faces/noemi_aime.jpeg"
 url=""
+
 
 
 
