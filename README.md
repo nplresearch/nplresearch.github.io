@@ -26,6 +26,7 @@ Add a new entry by appending to the top of the file `activity.toml` the followin
 title = "Title of the new thing that just happened"
 description = "What really just happened"
 date= "18-01-2023"
+link="link_to_thing"
 ```
 
 > **Note**

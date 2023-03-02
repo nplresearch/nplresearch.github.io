@@ -23,7 +23,7 @@
       marker={true}
       description=""
     />
-    {#each articles as { title, description, date }, i}
+    {#each articles as { title, description, date, link }, i}
       {#if i > 0}
         {#if moment(date, "DD-MM-YYYY").format("MMMM") !== moment(articles[i - 1].date, "DD-MM-YYYY").format("MMMM")}
           <Article
@@ -34,7 +34,14 @@
           />
         {/if}
       {/if}
+      {#if link}
+      <a href={link} target="_blank">
+        <Article {title} {description} {date} />
+      </a>
+      {:else}
       <Article {title} {description} {date} />
+      {/if}
+     
     {/each}
   </div>
 </div>
@@ -89,5 +96,6 @@
   }
   a {
     color: inherit;
+    text-decoration: none;
   }
 </style>
