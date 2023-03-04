@@ -41,7 +41,8 @@ pdf = "https://openreview.net/pdf?id=I44kJPuvqPD"
 
 [[papers]]
 title = "Topological limits to the parallel processing capability of network architectures (Feb, 10.1038/s41567-021-01170-x, 2021)"
-authors = ['Petri, G.', 'Musslick, S.', 'Dey, B.', 'Ozcimder, K.', 'Turner, D.', 'Ahmed, N.K.', 'Willke, T.L.', 'Cohen, J.D.']
+authors = ["Petri, G.", "Musslick, S.", "Dey, B.", "Ozcimder, K.", "Turner, D.", "Ahmed, N.K.", "Willke, T.L.", "Cohen, J.D."]
+abstract = ""
 year = "2021"
 date = "01-01-2021"
 journal = "NATURE PHYSICS"
