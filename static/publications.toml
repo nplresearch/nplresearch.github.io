@@ -6,7 +6,7 @@ abstract= "Higher-order interactions, through which three or more entities inter
 [[papers.links]]
 pdf = "https://arxiv.org/pdf/2203.03060.pdf"
 code = "https://github.com/maximelucas/HOI_shape_sync_differently"
-#bib = "www.google.com"
+
 
 [[papers]]
 title = "Simplicially driven simple contagion"
@@ -40,7 +40,7 @@ pdf = "https://openreview.net/pdf?id=I44kJPuvqPD"
 
 
 [[papers]]
-title = "Topological limits to the parallel processing capability of network architectures (Feb, 10.1038/s41567-021-01170-x, 2021)"
+title = "Topological limits to the parallel processing capability of network architectures"
 authors = ["Petri, G.", "Musslick, S.", "Dey, B.", "Ozcimder, K.", "Turner, D.", "Ahmed, N.K.", "Willke, T.L.", "Cohen, J.D."]
 abstract = ""
 year = "2021"
@@ -50,3 +50,71 @@ journal = "NATURE PHYSICS"
 pdf = "https://www.nature.com/articles/s41567-021-01170-x.pdf"
 code = "https://github.com/lordgrilo/Multitasking_capacity"
 bib = "https://www.nature.com/articles/s41567-021-01170-x"
+
+
+
+[[papers]]
+title = "Homological scaffolds of brain functional networks"
+authors = ['Petri, G.', 'Expert, P.', 'Turkheimer, F.', 'Carhart-Harris, R.', 'Nutt, D.', 'Hellyer, P.J.', 'Vaccarino, F.']
+abstract = ""
+year = "2014"
+date = "01-01-2014"
+journal = "Journal of The Royal Society Interface"
+[[papers.links]]
+pdf = "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2014.0873"
+bib = "https://royalsocietypublishing.org/doi/10.1098/rsif.2014.0873"
+
+
+[[papers]]
+title = "On the predictability of infectious disease outbreaks"
+authors = ['Scarpino, S.V.', 'Petri, G.']
+abstract = ""
+year = "2019"
+date = "01-01-2019"
+journal = "Nature communications"
+[[papers.links]]
+bib = "https://www.nature.com/articles/s41467-019-08616-0"
+pdf = "https://www.nature.com/articles/s41467-019-08616-0.pdf"
+code = "https://github.com/Emergent-Epidemics/infectious_disease_predictability"
+
+
+[[papers]]
+title = "Simplicial models of social contagion"
+authors = ['Iacopini, I.', 'Petri, G.', 'Barrat, A.', 'Latora, V.']
+abstract = ""
+year = "2019"
+date = "01-01-2019"
+journal = "Nature communications"
+[[papers.links]]
+bib = "https://www.nature.com/articles/s41467-019-10431-6"
+pdf = "https://www.nature.com/articles/s41467-019-10431-6.pdf"
+code = "https://github.com/iaciac/simplagion"
+
+
+[[papers]]
+title = "Multistability, intermittency and hybrid transitions in social contagion models on hypergraphs"
+authors = ['de Arruda, G.F.', 'Petri, G.', 'Rodriguez, P.M.', 'Moreno, Y.']
+abstract = ""
+year = "2023"
+date = "01-01-2023"
+journal = "Nature Communications"
+[[papers.links]]
+bib = "https://arxiv.org/abs/2112.04273"
+pdf = "https://arxiv.org/pdf/2112.04273"
+
+
+[[papers]]
+title = "Effective Higher-order Link Prediction and Reconstruction from Simplicial Complex Embeddings"
+authors = ['Piaggesi, S.', 'Panisson, A.', 'Petri, G.']
+abstract = ""
+year = "2022"
+date = "01-01-2022"
+[[papers.links]]
+bib = "https://openreview.net/forum?id=UiBiLRXR0G"
+pdf = "https://openreview.net/attachment?id=UiBiLRXR0G&name=PDF_file"
+code = "https://github.com/simonepiaggesi/simplex2pred"
+
+
+
+
+
