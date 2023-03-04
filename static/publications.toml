@@ -37,3 +37,15 @@ authors = ["Petri, G.","Leitao, A."]
 abstract= "We propose a topological description of neural network expressive power. We adopt the topology of the space of decision boundaries realized by a neural architecture as a measure of its intrinsic expressive power. By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. "
 [[papers.links]]
 pdf = "https://openreview.net/pdf?id=I44kJPuvqPD"
+
+
+[[papers]]
+title = "Topological limits to the parallel processing capability of network architectures (Feb, 10.1038/s41567-021-01170-x, 2021)"
+authors = ['Petri, G.', 'Musslick, S.', 'Dey, B.', 'Ozcimder, K.', 'Turner, D.', 'Ahmed, N.K.', 'Willke, T.L.', 'Cohen, J.D.']
+year = "2021"
+date = "01-01-2021"
+journal = "NATURE PHYSICS"
+[[papers.links]]
+pdf = "https://www.nature.com/articles/s41567-021-01170-x.pdf"
+code = "https://github.com/lordgrilo/Multitasking_capacity"
+bib = "https://www.nature.com/articles/s41567-021-01170-x"
