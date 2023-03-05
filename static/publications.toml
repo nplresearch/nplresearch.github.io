@@ -9,6 +9,31 @@ code = "https://github.com/maximelucas/HOI_shape_sync_differently"
 
 
 [[papers]]
+title = "Higher-order organization of multivariate time series"
+authors = ['Santoro, A.', 'Battiston, F.', 'Petri, G.', 'Amico, E.']
+abstract = "Time series analysis has proven to be a powerful method to characterize several phenomena in biology, neuroscience and economics, and to understand some of their underlying dynamical features. Several methods have been proposed for the analysis of multivariate time series, yet most of them neglect the effect of non-pairwise interactions on the emerging dynamics. Here, we propose a framework to characterize the temporal evolution of higher-order dependencies within multivariate time series. Using network analysis and topology, we show that our framework robustly differentiates various spatiotemporal regimes of coupled chaotic maps. This includes chaotic dynamical phases and various types of synchronization. Hence, using the higher-order co-fluctuation patterns in simulated dynamical processes as a guide, we highlight and quantify signatures of higher-order patterns in data from brain functional activity, financial markets and epidemics. Overall, our approach sheds light on the higher-order organization of multivariate time series, allowing a better characterization of dynamical group dependencies inherent to real-world data."
+year = "2023"
+date = "02-01-2023"
+journal = "Nature Physics"
+[[papers.links]]
+pdf = "https://www.nature.com/articles/s41567-022-01852-0.pdf"
+bib = "https://www.nature.com/articles/s41567-022-01852-0"
+code = "https://github.com/andresantoro/RHOSTS"
+
+
+[[papers]]
+title = "The physics of higher-order interactions in complex systems"
+authors = ["Battiston, F.", "Amico, E.", "Barrat, A.", "Bianconi, G.", "Ferraz de Arruda, G.", "Franceschiello, B.", 
+"Iacopini, I.", "Kéfi, I", "Latora, V.", "Moreno, Y.", "Murray, M.M.", "Peixoto, T.P." , "Vaccarino, F.", "Petri, G."]
+year = "2021"
+date = "04-10-2021"
+abstract = "Complex networks have become the main paradigm for modelling the dynamics of interacting systems. However, networks are intrinsically limited to describing pairwise interactions, whereas real-world systems are often characterized by higher-order interactions involving groups of three or more units. Higher-order structures, such as hypergraphs and simplicial complexes, are therefore a better tool to map the real organization of many social, biological and man-made systems. Here, we highlight recent evidence of collective behaviours induced by higher-order interactions, and we outline three key challenges for the physics of higher-order systems."
+journal = "Nature Physics"
+[[papers.links]]
+pdf = "https://www.nature.com/articles/s41567-021-01371-4.pdf"
+bib = "https://www.nature.com/articles/s41567-021-01371-4"
+
+[[papers]]
 title = "Simplicially driven simple contagion"
 authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
 abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
@@ -115,6 +140,13 @@ pdf = "https://openreview.net/attachment?id=UiBiLRXR0G&name=PDF_file"
 code = "https://github.com/simonepiaggesi/simplex2pred"
 
 
-
-
-
+[[papers]]
+title = "Hypergraph reconstruction from network data"
+authors = ['Young, J.', 'Petri, G.', 'Peixoto, T.P.']
+abstract = ""
+year = "2021"
+date = "01-01-2021"
+journal = "Communications Physics"
+[[papers.links]]
+bib = "https://www.nature.com/articles/s42005-021-00637-w"
+pdf = "https://www.nature.com/articles/s42005-021-00637-w.pdf"
