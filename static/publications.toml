@@ -1,11 +1,36 @@
-###real ones
 [[papers]]
 title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
-authors = ["Zhang, Y.", "Lucas, M.", "Battiston, F."]
+authors = ["Zhang, Y.*", "Lucas, M.*", "Battiston, F."]
 abstract= "Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
+year = "2023"
+date = "23-03-2023"
+journal = "Nature Communications"
 [[papers.links]]
 pdf = "https://arxiv.org/pdf/2203.03060.pdf"
 code = "https://github.com/maximelucas/HOI_shape_sync_differently"
+
+
+[[papers]]
+title = "Simplicially driven simple contagion"
+authors = ["Lucas, M.*","Iacopini, I.*"," Robiglio, T.","Barrat, A.","Petri, G."]
+abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
+year = "2023"
+date = "23-03-2023"
+journal = "Physical Review Research"
+[[papers.links]]
+pdf = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+code = "https://github.com/iaciac/interacting-simplagions"
+
+[[papers]]
+title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
+authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
+year = "2023"
+date = "27-02-2023"
+journal = "Cell Reports Methods"
+[[papers.links]]
+pdf = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+code = "https://gitlab.com/habermann_lab/phasik"
 
 
 [[papers]]
@@ -33,12 +58,6 @@ journal = "Nature Physics"
 pdf = "https://www.nature.com/articles/s41567-021-01371-4.pdf"
 bib = "https://www.nature.com/articles/s41567-021-01371-4"
 
-[[papers]]
-title = "Simplicially driven simple contagion"
-authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
-abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
-[[papers.links]]
-pdf = "https://arxiv.org/pdf/2206.07645.pdf"
 
 [[papers]]
 title = "Networks beyond pairwise interactions: structure and dynamics"
