@@ -1,7 +1,6 @@
 <script>
   import { link } from "svelte-spa-router";
-  import LucideIcon from "./LucideIcon.svelte";
-  import Person from "./Person.svelte";
+  import LucideIcon from "../comp/LucideIcon.svelte";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { people } from "../scripts/store.js";
@@ -15,53 +14,57 @@
     </div>
   </a>
 </div>
-
-{#each $people as { name, title, bio, avatar, url }, i}
-  <a href={url} target="_blank">
-    <div
-      class="researcher"
-      in:fly={{
-        x: -100,
-        duration: 1000,
-        easing: quintOut,
-        delay: i * 150,
-      }}
-    >
-      <div class="subtitle">{title}</div>
-      <Person url={avatar}>
-        <div class="title">{name}</div>
-      </Person>
-      <div class="description">{bio}</div>
+<div class="track">
+    {#each $people as { name, title, bio, avatar, url }, i}
+        <a href={url} target="_blank">
+            <div
+                class="card"
+                in:fly={{
+                    x: -100,
+                    duration: 1000,
+                    easing: quintOut,
+                    delay: i * 150,
+                }}
+            >
+                <div class="subtitle">{title}</div>
+                <div class="title" style="text-align:center">{name}</div>
+                <div class="description">{bio}</div>
+            </div>
+        </a>
+    {/each}
+</div>
+<div class="temp-line">
+    <div class="card temp">
+        <div class="subtitle">2nd Best</div>
+        <div class="title" style="text-align:center">Alice Patania</div>
+        <div class="description">A computational topologist and my research focus is to develop and apply new topological approaches to study complex systems. </div>
     </div>
-  </a>
-{/each}
+</div>
 
 <style>
-  .researcher {
-    position: relative;
-    width: 50ch;
-    margin-bottom: 1rem;
-    cursor: pointer;
-    padding: 1rem;
-    border-radius: 0.5rem;
-  }
-
-  .researcher:hover > .subtitle {
-    color: var(--text1);
-  }
-
-  .researcher:hover > .description {
-    color: var(--text1);
-  }
-
-  .researcher:hover {
-    background-color: rgb(255, 255, 255, 0.05);
-    box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
-    color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(15px);
-    background-blend-mode: overlay;
-  }
+    .track{
+        width:90%;
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-content:center;
+    }
+.card{
+        height:250px;
+        margin:1rem;
+    }
+    .temp{
+        width:300px;
+        margin-top:100rem;
+        right:0;
+    }
+    .temp-line{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width:100%
+    }
   .subtitle {
+    text-align: center;
     margin-bottom: 0;
     color: var(--text3);
     transition: all 0.5s ease-out;
@@ -71,6 +74,8 @@
     margin-top: 0;
     color: var(--text3);
     transition: all 0.5s ease-out;
+    max-height:10ch;
+    overflow:hidden;
   }
   .page-title {
     font-family: Helvetica;

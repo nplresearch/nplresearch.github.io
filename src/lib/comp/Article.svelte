@@ -6,7 +6,7 @@
   import moment from "moment";
 </script>
 
-<div class="card" class:article={!marker}>
+<div class:card={!marker} class:small_card={marker} class:article={!marker}>
   {#if !marker}
     <div class="dater">{moment(date, "DD-MM-YYYY").format("MMM Do")}</div>
   {/if}
@@ -29,17 +29,14 @@
   .card {
     margin: 1rem;
     border-radius: 0.5rem;
-    /* border: 1px solid rgba(255, 255, 255, 0.2); */
     padding: 0.5rem;
     max-width: 70ch;
   }
-
-  .article:hover {
-    background-color: rgb(255, 255, 255, 0.05);
-    box-shadow: 0 10px 15px rgb(0 0 0 / 40%);
-    color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(15px);
-    background-blend-mode: overlay;
+  .small_card {
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    max-width: 70ch;
   }
 
   .article-title {
@@ -49,7 +46,6 @@
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    text-shadow: var(--weird-shadow);
     margin-bottom: 0.5rem;
     z-index: 2;
   }
@@ -57,22 +53,19 @@
     content: "";
     background-color: var(--c);
     border-radius: 50%;
-    /* border: 1rem solid, black; */
     position: absolute;
     top: 30%;
-    left: -1.85rem;
+    left: -1.9rem;
     width: 0.6rem;
     height: 0.6rem;
-    box-shadow: 0 0 2px 0.5rem rgba(0, 0, 0, 1);
     z-index: 3;
   }
   .description {
     margin-top: 0;
-    color: rgba(255, 255, 255, 0.3);
   }
   .dater {
     font-family: "Noto Sans TC", sans-serif;
     font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--text3);
   }
 </style>

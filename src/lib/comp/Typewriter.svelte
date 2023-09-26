@@ -99,7 +99,8 @@
       "Necessary Procedures Lab",
       "Nosebleed Prevention Lotion",
       "Nerd Power Laboratory",
-      "Nuclear Potato Launcher"
+      "Nuclear Potato Launcher",
+      "Nose Picking Llamas"
     ];
 
     //const el = document.querySelector(".text");

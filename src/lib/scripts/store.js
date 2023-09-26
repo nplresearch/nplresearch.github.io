@@ -18,25 +18,31 @@ async function loadActivity() {
       return 0;
     }
   });
-  console.log("articles loaded");
   return readable(data["articles"]);
 }
 
 async function loadPapers() {
-  const response = await fetch("static/publications.toml");
+  const response = await fetch("static/publications/publications.toml");
   const tomlString = await response.text();
   const data = parse(tomlString);
-  console.log("publications loaded");
-  return readable(data["papers"]);
+  return { featured: readable(data["featured"]), papers: readable(data["papers"]) };
 }
 
 async function loadPeople() {
-  const response = await fetch("static/people.toml");
+  const response = await fetch("static/people/people.toml");
   const tomlString = await response.text();
   const data = parse(tomlString);
   return readable(data["researchers"]);
 }
 
+async function loadProjects() {
+  const response = await fetch("static/projects/projects.toml");
+  const tomlString = await response.text();
+  const data = parse(tomlString);
+  return readable(data["projects"]);
+}
+
 export const articles = await loadActivity();
-export const papers = await loadPapers();
+export const { featured, papers } = await loadPapers();
 export const people = await loadPeople();
+export const projects = await loadProjects();

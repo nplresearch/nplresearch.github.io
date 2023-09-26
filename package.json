@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@rgossiaux/svelte-headlessui": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
     "gh-pages": "^4.0.0",
     "lil-gui": "^0.17.0",
@@ -19,7 +20,7 @@
   "dependencies": {
     "lucide-svelte": "^0.91.0",
     "moment": "^2.29.4",
-    "pdfjs-dist": "^3.2.146",
+    "pdfjs-dist": "^3.4.120",
     "svelte-spa-router": "^3.3.0",
     "toml": "^3.0.0"
   }

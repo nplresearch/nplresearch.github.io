@@ -1,10 +1,8 @@
 <script>
-  import Publication from "./Publication.svelte";
-  import { fly } from "svelte/transition";
-  import { quintOut } from "svelte/easing";
   import { link } from "svelte-spa-router";
-  import LucideIcon from "./LucideIcon.svelte";
-  import { papers } from "../scripts/store.js";
+  import LucideIcon from "../comp/LucideIcon.svelte";
+  import Papers from "../comp/Papers.svelte";
+    import FeaturedPapers from "../comp/FeaturedPapers.svelte";
 </script>
 
 <div class="top-row">
@@ -16,21 +14,8 @@
     </div>
   </a>
 </div>
-
-<div class="publications">
-  {#each $papers as publication, i}
-    <div
-      in:fly={{
-        x: -100,
-        duration: 1500,
-        easing: quintOut,
-        delay: i * 200,
-      }}
-    >
-      <Publication side={i % 2} {...publication} />
-    </div>
-  {/each}
-</div>
+<FeaturedPapers/>
+<Papers/>
 
 <style>
   .page-title {

@@ -1,8 +1,6 @@
 <script>
-  import PeopleIcon from "./PeopleIcon.svelte";
-  import PublicationsIcon from "./PublicationsIcon.svelte";
-  import Typewriter from "./Typewriter.svelte";
-  import Timeline from "./Timeline.svelte";
+  import Typewriter from "../comp/Typewriter.svelte";
+  import Timeline from "../comp/Timeline.svelte";
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { articles } from "../scripts/store.js";
@@ -11,7 +9,7 @@
 <div
   class="slap"
   in:fade={{
-    duration: 5000,
+    duration: 4000,
     easing: quintOut,
   }}
 >
@@ -24,18 +22,12 @@
     </svg>
   </div>
   <div class="typewriter">
-    <Typewriter text_color="#CDCFCF" />
+    <Typewriter text_color="#12141c" />
   </div>
   <div class="description">
     The NPLab investigates the role of topology and geometry in the collective
     dynamics of complex systems, ranging from neuroscience to society. We do
-    this with statistical mechanics, algebraic geometry, snark, and cyberpunk.
-  </div>
-  <div class="paper-people">
-    <div class="child">
-      <PublicationsIcon />
-    </div>
-    <div class="child"><PeopleIcon /></div>
+    this with statistical mechanics, algebraic topology, snark, and cyberpunk.
   </div>
 </div>
 
@@ -47,31 +39,26 @@
 
 <style>
   .slap {
+    margin-top:7vh;
+    margin-bottom:20vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
   }
   .logo {
-    width: 25vw;
+    width: 300px;
     margin: 2rem;
   }
   .logo svg {
     fill: var(--text1);
   }
-  .paper-people {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-  }
-  .child {
-    flex: 1;
-    display: grid;
-    place-items: center;
-  }
   .description {
     width: 40vw;
     text-align: center;
+  }
+  @media screen and (min-width: 1024px){
+      .logo{
+          width: 400px;
+      }
   }
 </style>
