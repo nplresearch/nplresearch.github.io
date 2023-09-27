@@ -34,7 +34,6 @@
     $: filtered_papers = filterPapers($papers,person,project);
     </script>
 
-
 <div class="topics">
     {#each $projects as project,i}
         <div on:mousedown={()=>selectProject(i)}
@@ -44,7 +43,6 @@
         </div>
     {/each}
 </div>
-
 
 
 <div class="papers">
@@ -92,7 +90,7 @@
         padding:0.4rem;
         cursor: pointer;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
+}
     .row:hover{
         background-color:rgba(0,0,0,0.1)
     }

@@ -4,6 +4,7 @@
   import { fade } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { articles } from "../scripts/store.js";
+  document.body.scrollIntoView();
 </script>
 
 <div

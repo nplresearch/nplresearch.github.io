@@ -24,9 +24,9 @@ function formatAuthors(authors) {
         <div class="card"
             in:fly={{
                 x: -100,
-                duration: 1500,
+                duration: 500,
                 easing: quintOut,
-                delay: i * 200,
+                delay: i * 50,
             }}
         >
             <div class="content">
@@ -62,7 +62,6 @@ function formatAuthors(authors) {
         text-align:center;
         z-index:20;
         font-family: "Noto Sans TC", sans-serif;
-        /* color: var(--text1); */
         font-size: 1rem;
         font-weight: 500;
         letter-spacing: 0.1rem;
@@ -113,7 +112,7 @@ transition: background 0.3s ease;
 }
 .card:hover::before {
   background-size: 160%; /* Adjust the value to zoom in (e.g., 120%) */
-opacity:1;
+    opacity:1;
 }
 .card:hover::after {
   background: rgba(132, 31, 55,0.85); 

@@ -47,8 +47,8 @@ function formatAuthors(authors) {
 {#if open}
     <div class="description row_abstract"
             in:fly={{
-                y: 10,
-                duration: 1000,
+                y: -10,
+                duration: 500,
                 easing: quintOut,
             }}
 
@@ -68,20 +68,20 @@ function formatAuthors(authors) {
 
 
 <style>
-    .row_author {
-flex: 20%;
-  font-family: "Helvetica", "Arial", sans-serif;
-  color: var(--text3);
-  font-weight: 100;
-  font-size: 1rem;
+.row_author {
+    flex: 20%;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: var(--text3);
+    font-weight: 100;
+    font-size: 1rem;
   }
 
-  .row_title {
+ .row_title {
     flex: 70%;
-  font-family: "Helvetica", "Arial", sans-serif;
-  color: var(--text1);
-  font-size: 1rem;
-  font-weight: 500;
+    font-family: "Noto Sans TC", sans-serif;
+    color: var(--text3);
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   .row_year {
@@ -91,6 +91,9 @@ flex: 20%;
     font-size: 1rem;
     flex: 10%;
   }
+.row_abstract{
+    margin-top:0.2rem;
+}
 
 
 </style>

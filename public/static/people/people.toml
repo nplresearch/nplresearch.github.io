@@ -1,93 +1,106 @@
 [[researchers]]
 name= "Giovanni Petri"
+tag= "giovanni_petri"
 title= "Principal Researcher"
 bio= "Principal Researcher at CENTAI Institute working on topological approaches to complex networks and their underlying geometry, with special attention to the topology of brain structure and dynamics."
-avatar="static/faces/giovanni_petri.jpeg"
+avatar="static/people/giovanni_petri.jpeg"
 url="https://lordgrilo.github.io"
 
 [[researchers]]
 name= "Maxime Lucas"
+tag= "maxime_lucas"
 title= "Post-Doc Researcher"
 bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
-avatar="static/faces/maxime_lucas.jpeg"
+avatar="static/people/maxime_lucas.jpeg"
 url="https://maximelucas.github.io"
 
 [[researchers]]
 name= "Simone Poetto"
+tag= "simone_poetto"
 title= "PhD Student"
 bio="Simone is a physicist with a research focus on artificial intelligence and neuroscience. When not in the lab, he loves mountains and hiking."
-avatar="static/faces/simone_poetto.jpeg"
+avatar="static/people/simone_poetto.jpeg"
 url="https://simonepoetto.github.io"
 
 [[researchers]]
 name= "Marco Nurisso"
+link= "marco_nurisso"
 title= "PhD Student"
 bio="Ph.D. student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
-avatar="static/faces/marco_nurisso.jpeg"
+avatar="static/people/marco_nurisso.jpeg"
 url=""
 
 [[researchers]]
 name= "António Leitão"
+tag= "antonio_leitao"
 title= "Junior Researcher"
 bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
-avatar="static/faces/antonio_leitao.jpeg"
+avatar="static/people/antonio_leitao.jpeg"
 url="https://antonio-leitao.github.io"
 
 [[researchers]]
 name= "Napat Kiatjaroonlert"
+tag= "napat_kiatjaroonlert"
 title= "MSc Student"
 bio=""
-avatar="static/faces/napat_kiatjaroonlert.jpeg"
+avatar="static/people/napat_kiatjaroonlert.jpeg"
 url=""
 
 [[researchers]]
 name= "Matteo Neri"
+tag= "matteo_neri"
 title= "MSc Student"
 bio=""
-avatar="static/faces/matteo_neri.jpeg"
+avatar="static/people/matteo_neri.jpeg"
 url=""
 
 [[researchers]]
 name= "Marta Morandini"
+tag= "marta_morandini"
 title= "MSc Student"
 bio="Mathematician in progress interested in mixing disciplines. Newborn in neuroscience, currently working on applied topology and complex systems."
-avatar="static/faces/marta_morandini.jpeg"
+avatar="static/people/marta_morandini.jpeg"
 url=""
 
 
 [[researchers]]
 name= "Sara Cavuoti Cabanillas"
+tag= "sara_cavuoti_cabanillas"
 title= "MSc Student"
 bio=""
-avatar="static/faces/sara_cabanillas.jpeg"
+avatar="static/people/sara_cabanillas.jpeg"
 url=""
 
 [[researchers]]
 name= "Thomas Robiglio"
+tag= "thomas_robiglio"
 title= "MSc Student"
 bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
-avatar="static/faces/thomas_robiglio.jpeg"
+avatar="static/people/thomas_robiglio.jpeg"
 url="https://thomasrobiglio.github.io"
 
 [[researchers]]
 name= "Alessandra Brondetta"
+tag= "alessandra_brondetta"
 title= "MSc Student"
 bio=""
-avatar="static/faces/alessandra_brondetta.jpeg"
+avatar="static/people/alessandra_brondetta.jpeg"
 url=""
 
 [[researchers]]
 name= "Cosimo Agostinelli"
+tag= "cosimo_agostinelli"
 title="MSc Student"
 bio=""
-avatar="static/faces/cosimo_agostinelli.jpeg"
+avatar="static/people/cosimo_agostinelli.jpeg"
 url=""
 
 [[researchers]]
 name= "Noemi Aime"
+tag= "noemi_aime"
 title="BSc Student"
 bio=""
-avatar="static/faces/noemi_aime.jpeg"
+avatar="static/people/noemi_aime.jpeg"
 url=""
 
 

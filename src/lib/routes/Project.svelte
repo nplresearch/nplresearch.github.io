@@ -2,20 +2,26 @@
     import { link } from "svelte-spa-router";
     import LucideIcon from "../comp/LucideIcon.svelte";
     import Papers from "../comp/Papers.svelte";
-    import FeaturedPapers from "../comp/FeaturedPapers.svelte";
-    document.body.scrollIntoView();
+    import {projects} from "../scripts/store.js";
+  document.body.scrollIntoView();
+export let params = {}
+function getTitleByTag(tag) {
+    const project = $projects.find(project => project.tag === tag);
+    return project ? project.title : null;
+}
+// Usage
+const project_title = getTitleByTag(params.tag);
 </script>
 
 <div class="top-row">
-  <div class="page-title">PUBLICATIONS</div>
-  <a href={"/"} use:link>
+  <div class="page-title">{project_title}</div>
+  <a href={"/projects"} use:link>
     <div class="button">
       <!-- <Button icon="arrow left" icon_place="left" text="Home" /> -->
       <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
     </div>
   </a>
 </div>
-<FeaturedPapers/>
 <Papers/>
 
 <style>
@@ -62,4 +68,5 @@
     font: inherit;
     text-decoration: inherit;
   }
+
 </style>

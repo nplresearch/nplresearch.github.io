@@ -6,13 +6,16 @@
   import Projects from "./lib/routes/Projects.svelte";
   import Publications from "./lib/routes/Publications.svelte";
   import NotFound from "./lib/routes/NotFound.svelte";
-
+    import Person from "./lib/routes/Person.svelte";
+    import Project from "./lib/routes/Project.svelte";
   let open = false;
   const routes = {
     "/": Home,
     "/publications": Publications,
     "/people": People,
+    "/people/:tag": Person,
     "/projects": Projects,
+    "/projects/:tag": Project,
     "*": NotFound,
   };
 </script>
@@ -56,9 +59,6 @@
   <div class="buffer">
     <div>
       NPL © {new Date().getFullYear()}
-    </div>
-    <div>
-      Website by <a href="https://antonio-leitao.github.io/">António Leitão</a>
     </div>
   </div>
 </div>

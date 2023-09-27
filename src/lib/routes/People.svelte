@@ -1,9 +1,10 @@
 <script>
-  import { link } from "svelte-spa-router";
+  import { link, push } from "svelte-spa-router";
   import LucideIcon from "../comp/LucideIcon.svelte";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import { people } from "../scripts/store.js";
+  document.body.scrollIntoView();
 </script>
 
 <div class="top-row">
@@ -15,22 +16,19 @@
   </a>
 </div>
 <div class="track">
-    {#each $people as { name, title, bio, avatar, url }, i}
-        <a href={url} target="_blank">
-            <div
-                class="card"
-                in:fly={{
-                    x: -100,
-                    duration: 1000,
-                    easing: quintOut,
-                    delay: i * 150,
-                }}
-            >
+    {#each $people as { name, tag, title, bio, avatar, url }, i}
+        <div in:fly={{
+                x: -100,
+                duration: 500,
+                easing: quintOut,
+                delay: i * 50,
+            }} on:click={() => push(`/people/${tag}`)}>
+            <div class="window">
+                <div class="face" style="background-image: url({avatar ? avatar : 'static/people/npc_placeholder.jpeg'})"></div>
                 <div class="subtitle">{title}</div>
                 <div class="title" style="text-align:center">{name}</div>
-                <div class="description">{bio}</div>
             </div>
-        </a>
+        </div>
     {/each}
 </div>
 <div class="temp-line">
@@ -42,6 +40,28 @@
 </div>
 
 <style>
+    .window{
+        display:grid;
+        place-items: center;
+        margin-bottom:0.375rem;
+        cursor:pointer;
+    }
+    .window:hover>.face{
+        background-size:130%;
+    }
+    .face{
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        margin-bottom:0.375rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+}
+    .title{
+        font-size:1.4rem;
+    }
     .track{
         width:90%;
         display:grid;
@@ -97,6 +117,7 @@
     align-items: center; /* center the children vertically */
     justify-content: center;
     width: 100%;
+    margin-bottom:1rem;
   }
 
   /* child element that is always on the left */

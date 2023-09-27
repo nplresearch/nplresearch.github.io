@@ -6,6 +6,7 @@
     FileText,
     Code2,
     Github,
+    Home,
   } from "lucide-svelte";
   export let name;
 </script>
@@ -22,6 +23,8 @@
   <svelte:component this={Code2} {...$$props} />
 {:else if name === "code"}
   <svelte:component this={Github} {...$$props} />
+{:else if name === "home"}
+  <svelte:component this={Home} {...$$props} />
 {:else}
   <svelte:component this={Link} {...$$props} />
 {/if}

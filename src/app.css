@@ -30,8 +30,9 @@
 
   --clr-foreground-deep: #0b0c0e;
   --clr-foreground: #12141c;
-  --clr-background-deep: #f1f1f4;
-  --clr-background: #e0e3eb;
+  --clr-background-deep: #f8f8fa;
+  --clr-background: #f1f1f4;
+  --clr-base: #e0e3eb;
   --clr-lowlight1: #c7c8d1;
   --clr-lowlight2: #abaeba;
   --clr-highlight1: #1e2235;
@@ -49,8 +50,8 @@
   background-position: center;
   background-size: cover;
   background: var(--clr-background-deep);
-  background-image: radial-gradient(var(--clr-background) 1px, transparent 0);
-  background-size: 15px 15px;
+  background-image: radial-gradient(var(--clr-background) 1.1px, transparent 0);
+  background-size: 11px 11px;
   background-position: -19px -19px;
 }
 

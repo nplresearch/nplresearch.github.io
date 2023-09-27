@@ -34,22 +34,17 @@
     text-transform: uppercase;
     letter-spacing: 0.25rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    margin: 1rem;
-    margin-bottom: 0;
-    transition: all 0.3s ease-out;
+    margin:1rem 0 0 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
-
   button:hover {
     background-color: var(--clr-foreground-deep);
     color: var(--clr-background);
   }
-
   .reduced {
-    margin: 0.1rem;
-
+    margin:0.1rem 0 0 0;
     transform: scale(0.8);
   }
-
   .icon {
     display: grid;
     place-items: center;

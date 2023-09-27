@@ -3,6 +3,7 @@
 [[featured]]
 title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
 authors = ["Zhang, Y.*", "Lucas, M.*", "Battiston, F."]
+people = ["maxime_lucas"]
 abstract= "Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
 year = "2023"
 date = "23-03-2023"
@@ -13,6 +14,7 @@ link = "https://arxiv.org/pdf/2203.03060.pdf"
 [[featured]]
 title = "Simplicially driven simple contagion"
 authors = ["Lucas, M.*","Iacopini, I.*"," Robiglio, T.","Barrat, A.","Petri, G."]
+people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
 abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
 year = "2023"
 date = "23-03-2023"
@@ -23,6 +25,7 @@ link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201
 [[featured]]
 title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
 authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+people = ["maxime_lucas"]
 abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
 year = "2023"
 date = "27-02-2023"
@@ -33,8 +36,42 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 ###################
 
 [[papers]]
+title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
+authors = ["Zhang, Y.*", "Lucas, M.*", "Battiston, F."]
+people = ["maxime_lucas"]
+abstract= "Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
+year = "2023"
+date = "23-03-2023"
+journal = "Nature Communications"
+projects = ["tda","higher_order"]
+link = "https://arxiv.org/pdf/2203.03060.pdf"
+
+[[papers]]
+title = "Simplicially driven simple contagion"
+authors = ["Lucas, M.*","Iacopini, I.*"," Robiglio, T.","Barrat, A.","Petri, G."]
+people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
+abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
+year = "2023"
+date = "23-03-2023"
+journal = "Physical Review Research"
+projects = ["higher_order"]
+link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+
+[[papers]]
+title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
+authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+people = ["maxime_lucas"]
+abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
+year = "2023"
+date = "27-02-2023"
+journal = "Cell Reports Methods"
+projects = ["higher_order,topological_neuroscience"]
+link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+
+[[papers]]
 title = "Higher-order organization of multivariate time series"
 authors = ['Santoro, A.', 'Battiston, F.', 'Petri, G.', 'Amico, E.']
+people = ["giovanni_petri"]
 abstract = "Time series analysis has proven to be a powerful method to characterize several phenomena in biology, neuroscience and economics, and to understand some of their underlying dynamical features. Several methods have been proposed for the analysis of multivariate time series, yet most of them neglect the effect of non-pairwise interactions on the emerging dynamics. Here, we propose a framework to characterize the temporal evolution of higher-order dependencies within multivariate time series. Using network analysis and topology, we show that our framework robustly differentiates various spatiotemporal regimes of coupled chaotic maps. This includes chaotic dynamical phases and various types of synchronization. Hence, using the higher-order co-fluctuation patterns in simulated dynamical processes as a guide, we highlight and quantify signatures of higher-order patterns in data from brain functional activity, financial markets and epidemics. Overall, our approach sheds light on the higher-order organization of multivariate time series, allowing a better characterization of dynamical group dependencies inherent to real-world data."
 year = "2023"
 date = "02-01-2023"
@@ -47,6 +84,7 @@ link = "https://www.nature.com/articles/s41567-022-01852-0"
 title = "The physics of higher-order interactions in complex systems"
 authors = ["Battiston, F.", "Amico, E.", "Barrat, A.", "Bianconi, G.", "Ferraz de Arruda, G.", "Franceschiello, B.", 
 "Iacopini, I.", "Kéfi, I", "Latora, V.", "Moreno, Y.", "Murray, M.M.", "Peixoto, T.P." , "Vaccarino, F.", "Petri, G."]
+people = ["giovanni_petri"]
 year = "2021"
 date = "04-10-2021"
 abstract = "Complex networks have become the main paradigm for modelling the dynamics of interacting systems. However, networks are intrinsically limited to describing pairwise interactions, whereas real-world systems are often characterized by higher-order interactions involving groups of three or more units. Higher-order structures, such as hypergraphs and simplicial complexes, are therefore a better tool to map the real organization of many social, biological and man-made systems. Here, we highlight recent evidence of collective behaviours induced by higher-order interactions, and we outline three key challenges for the physics of higher-order systems."
@@ -58,6 +96,7 @@ link = "https://www.nature.com/articles/s41567-021-01371-4"
 [[papers]]
 title = "Networks beyond pairwise interactions: structure and dynamics"
 authors = ["Battiston, F.","Cencetti, G.","Iacopini, I.","Latora, V.","Lucas, M.","Patania, A." ,"Young, J.-G.","Petri, G."]
+people = ["maxime_lucas","giovanni_petri"]
 abstract= "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as diffusion, synchronization, spreading, social dynamics and games, when extended beyond pairwise interactions. We conclude with a summary of empirical applications, and an outlook on current modeling and conceptual frontiers."
 projects = ["higher_order"]
 link = "https://arxiv.org/pdf/2006.01764.pdf"
@@ -66,6 +105,7 @@ link = "https://arxiv.org/pdf/2006.01764.pdf"
 [[papers]]
 title = "Improving Neural Predictivity in the Visual Cortex with Gated Recurrent Connections"
 authors = ["Azeglio, S.", "Poetto, S.", "Savant, L.", "Nurisso, M."]
+people = ["simone_poetto","marco_nurisso"]
 abstract= "Computational models of vision have traditionally been developed in a bottom-up fashion, by hierarchically composing a series of straightforward operations - i.e. convolution and pooling - with the aim of emulating simple and complex cells in the visual cortex, resulting in the introduction of deep convolutional neural networks (CNNs). Nevertheless, data obtained with recent neuronal recording techniques support that the nature of the computations carried out in the ventral visual stream is not completely captured by current deep CNN models. To fill the gap between the ventral visual stream and deep models, several benchmarks have been designed and organized into the Brain-Score platform, granting a way to perform multi-layer (V1, V2, V4, IT) and behavioral comparisons between the two counterparts. In our work, we aim to shift the focus on architectures that take into account lateral recurrent connections, a ubiquitous feature of the ventral visual stream, to devise adaptive receptive fields. Through recurrent connections, the input s long-range spatial dependencies can be captured in a local multi-step fashion and, as introduced with Gated Recurrent CNNs (GRCNN), the unbounded expansion of the neuron s receptive fields can be modulated through the use of gates. In order to increase the robustness of our approach and the biological fidelity of the activations, we employ specific data augmentation techniques in line with several of the scoring benchmarks. Enforcing some form of invariance, through heuristics, was found to be beneficial for better neural predictivity."
 projects=["cognititve_neuroscience"]
 link = "https://arxiv.org/pdf/2203.11910.pdf"
@@ -74,6 +114,7 @@ link = "https://arxiv.org/pdf/2203.11910.pdf"
 [[papers]]
 title = "On The Topological Expressive Power of Neural Networks"
 authors = ["Petri, G.","Leitao, A."]
+people = ["giovanni_petri","antonio_leitao"]
 abstract= "We propose a topological description of neural network expressive power. We adopt the topology of the space of decision boundaries realized by a neural architecture as a measure of its intrinsic expressive power. By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. "
 link = "https://openreview.net/pdf?id=I44kJPuvqPD"
 projects = ["tda"] 
@@ -82,6 +123,7 @@ projects = ["tda"]
 [[papers]]
 title = "Topological limits to the parallel processing capability of network architectures"
 authors = ["Petri, G.", "Musslick, S.", "Dey, B.", "Ozcimder, K.", "Turner, D.", "Ahmed, N.K.", "Willke, T.L.", "Cohen, J.D."]
+people = ["giovanni_petri"]
 abstract = ""
 year = "2021"
 date = "01-01-2021"
@@ -93,6 +135,7 @@ link = "https://www.nature.com/articles/s41567-021-01170-x"
 [[papers]]
 title = "Homological scaffolds of brain functional networks"
 authors = ['Petri, G.', 'Expert, P.', 'Turkheimer, F.', 'Carhart-Harris, R.', 'Nutt, D.', 'Hellyer, P.J.', 'Vaccarino, F.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2014"
 date = "01-01-2014"
@@ -104,6 +147,7 @@ link = "https://royalsocietypublishing.org/doi/10.1098/rsif.2014.0873"
 [[papers]]
 title = "On the predictability of infectious disease outbreaks"
 authors = ['Scarpino, S.V.', 'Petri, G.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2019"
 date = "01-01-2019"
@@ -115,6 +159,7 @@ link = "https://www.nature.com/articles/s41467-019-08616-0"
 [[papers]]
 title = "Simplicial models of social contagion"
 authors = ['Iacopini, I.', 'Petri, G.', 'Barrat, A.', 'Latora, V.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2019"
 date = "01-01-2019"
@@ -126,6 +171,7 @@ link = "https://www.nature.com/articles/s41467-019-10431-6"
 [[papers]]
 title = "Multistability, intermittency and hybrid transitions in social contagion models on hypergraphs"
 authors = ['de Arruda, G.F.', 'Petri, G.', 'Rodriguez, P.M.', 'Moreno, Y.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2023"
 date = "01-01-2023"
@@ -137,6 +183,7 @@ link = "https://arxiv.org/abs/2112.04273"
 [[papers]]
 title = "Effective Higher-order Link Prediction and Reconstruction from Simplicial Complex Embeddings"
 authors = ['Piaggesi, S.', 'Panisson, A.', 'Petri, G.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2022"
 date = "01-01-2022"
@@ -147,6 +194,7 @@ link = "https://openreview.net/forum?id=UiBiLRXR0G"
 [[papers]]
 title = "Hypergraph reconstruction from network data"
 authors = ['Young, J.', 'Petri, G.', 'Peixoto, T.P.']
+people = ["giovanni_petri"]
 abstract = ""
 year = "2021"
 date = "01-01-2021"
