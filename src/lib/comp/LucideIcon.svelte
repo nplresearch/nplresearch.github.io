@@ -7,6 +7,8 @@
     Code2,
     Github,
     Home,
+    Menu,
+    X,
   } from "lucide-svelte";
   export let name;
 </script>
@@ -25,6 +27,10 @@
   <svelte:component this={Github} {...$$props} />
 {:else if name === "home"}
   <svelte:component this={Home} {...$$props} />
+{:else if name === "menu"}
+  <svelte:component this={Menu} {...$$props} />
+{:else if name === "close"}
+  <svelte:component this={X} {...$$props} />
 {:else}
   <svelte:component this={Link} {...$$props} />
 {/if}

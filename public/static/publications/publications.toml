@@ -117,6 +117,7 @@ authors = ["Petri, G.","Leitao, A."]
 people = ["giovanni_petri","antonio_leitao"]
 abstract= "We propose a topological description of neural network expressive power. We adopt the topology of the space of decision boundaries realized by a neural architecture as a measure of its intrinsic expressive power. By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. "
 link = "https://openreview.net/pdf?id=I44kJPuvqPD"
+year = "2020"
 projects = ["tda"] 
 
 

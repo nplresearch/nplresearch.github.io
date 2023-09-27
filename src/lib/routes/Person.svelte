@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from "svelte";
     import { link } from "svelte-spa-router";
     import LucideIcon from "../comp/LucideIcon.svelte";
     import Papers from "../comp/Papers.svelte";
@@ -9,14 +10,35 @@
         const person = $people.find(person => person.tag === tag);
         return person;
     }
-// Usage
   document.body.scrollIntoView();
 export let params = {}
 const person = getTitleByTag(params.tag);
+  let dud_color = "#841f37";
+  let chars = "!<>-$_@\\/=+[]&{}—=+*^?#______";
+  let num_digits = 8;
+  let number = Array(num_digits).fill('0').join('');
+  let num_tries = 20;
+
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function generateNumber() {
+    for (let digit = 0; digit < num_digits; digit++) {
+      for (let i = 0; i < num_tries - 2*digit; i++) {
+        number = number.substr(0, digit) + chars[Math.floor(Math.random() * chars.length)] + number.substr(digit + 1);
+        await sleep(10);
+      }
+      number = number.substr(0, digit) + Math.floor(Math.random() * 10).toString() + number.substr(digit + 1);
+    }
+  }
+onMount(() => {
+    generateNumber(); // Run generateNumber on component mount
+  });
 </script>
 
 <div class="top-row">
-  <div class="page-title">{person.name}</div>
+  <div class="page-title">NPC #{number}</div>
   <a href={"/people"} use:link>
     <div class="button">
       <!-- <Button icon="arrow left" icon_place="left" text="Home" /> -->
@@ -54,15 +76,15 @@ const person = getTitleByTag(params.tag);
     margin-bottom: 2rem;
   }
 
-    .face{
-        width:200px;
-        height:200px;
-        border-radius:50%;
-        margin-bottom:0.375rem;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center; 
+.face{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-bottom:0.75rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
   .top-row {
     position: relative;
@@ -104,6 +126,7 @@ const person = getTitleByTag(params.tag);
 
   .description{
       margin-top:0.375rem;
+      margin-bottom:0.5rem;
   }
   .subtitle{
       margin:0;

@@ -8,7 +8,9 @@
   import NotFound from "./lib/routes/NotFound.svelte";
     import Person from "./lib/routes/Person.svelte";
     import Project from "./lib/routes/Project.svelte";
-  let open = false;
+    import LucideIcon from "./lib/comp/LucideIcon.svelte";
+  import { fly } from "svelte/transition";
+  import { quintOut } from "svelte/easing";
   const routes = {
     "/": Home,
     "/publications": Publications,
@@ -18,25 +20,30 @@
     "/projects/:tag": Project,
     "*": NotFound,
   };
+  let open = false;
 </script>
 
-
 <!-- <svelte:window bind:scrollY={scroll} /> -->
-<div class="hamburger">
+<div class="hamburger" class:disable_mouse={!open}>
     <div class="backdrop" class:open_backdrop={open}></div>
-    <ul class="ham-list">
-        <a href="/projects" class="ham-item" use:link>Projects</a>
-        <a href="/people" class="ham-item" use:link>People</a>
-        <a href="/publications" class="ham-item" use:link>Publications</a>
-    </ul>
-    <div class="ham-btn">
-        <svg width="23" height="23" viewBox="0 0 23 23" on:mousedown={()=>open=!open}>
-            <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round" d="M 3 16.5 L 17 2.5"></path>
-            <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round" d="M 2 9.423 L 20 9.423" opacity="0"></path>
-            <path fill="transparent" stroke-width="2" stroke="hsl(0, 0%, 18%)" stroke-linecap="round" d="M 3 2.5 L 17 16.346"></path>
-        </svg>
+    {#if open}
+    <div class="ham-list">
+        <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:10, opacity:0}} href="/projects" class="ham-item" use:link>Projects</a>
+        <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut,delay:30,opacity:0}} href="/people" class="ham-item" use:link>People</a>
+        <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:60, opacity:0}} href="/publications" class="ham-item" use:link>Publications</a>
     </div>
-
+    {/if}
+    <div class="ham-btn" on:mousedown={()=>open=!open}>
+        {#if open}
+        <div >
+            <LucideIcon name={"close"}/>
+        </div>
+        {:else}
+            <div>
+                <LucideIcon name={"menu"}/>
+            </div>
+        {/if}
+    </div>
 </div>
 <div class="navbar">
     <div class="drawer">
@@ -96,7 +103,7 @@
     font-size: 0.7rem;
     color: var(--clr-foreground);
   }
-  a {
+  a{
     color:inherit;
     text-decoration:none;
   }
@@ -107,8 +114,10 @@
     bottom: 0;
     left: 0; 
     z-index: 50; 
-    width: 100%; 
-    pointer-events: none;
+    width: 100%;
+  }
+  .disable_mouse{
+      pointer-events: none;
   }
   .backdrop{
     position: absolute; 
@@ -124,7 +133,10 @@
     transition-duration: 300ms; 
   }
   .ham-list{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute; 
     padding-left: 2.5rem;
     padding-right: 2.5rem; 
@@ -132,6 +144,21 @@
     padding-bottom: 4rem; 
     gap: 0.75rem; 
     width: 100%;
+  }
+  .ham-item{
+      position:relative;
+      cursor: pointer;
+      margin-top: 2rem;
+      font-family: "Helvetica", "Arial", sans-serif;
+      color: var(--text1);
+      font-size: 1.5rem;
+      font-weight: 100;
+      letter-spacing: 0.25rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+  }
+  .ham-item:hover{
+      color:var(--clr-mixred);
   }
   .navbar{
     position: sticky;
@@ -145,7 +172,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms; 
     background-color:#ffffff;
-  border-bottom: 1px solid var(--clr-lowlight1);
+    border-bottom: 1px solid var(--clr-lowlight1);
   }
   .drawer{
     padding-left: 0.625rem;
