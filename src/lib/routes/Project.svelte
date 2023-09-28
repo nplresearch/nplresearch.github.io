@@ -22,7 +22,7 @@ const project_title = getTitleByTag(params.tag);
     </div>
   </a>
 </div>
-<Papers/>
+<Papers filter={false} selected_project={params.tag}/>
 
 <style>
   .page-title {

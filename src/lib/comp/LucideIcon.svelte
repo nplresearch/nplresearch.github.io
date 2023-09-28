@@ -9,6 +9,8 @@
     Home,
     Menu,
     X,
+    ChevronsUpDown,
+    Check,
   } from "lucide-svelte";
   export let name;
 </script>
@@ -31,6 +33,10 @@
   <svelte:component this={Menu} {...$$props} />
 {:else if name === "close"}
   <svelte:component this={X} {...$$props} />
+{:else if name === "dropdown"}
+  <svelte:component this={ChevronsUpDown} {...$$props} />
+{:else if name === "tick"}
+  <svelte:component this={Check} {...$$props} />
 {:else}
   <svelte:component this={Link} {...$$props} />
 {/if}

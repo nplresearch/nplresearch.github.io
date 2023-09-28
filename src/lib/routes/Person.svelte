@@ -13,11 +13,10 @@
   document.body.scrollIntoView();
 export let params = {}
 const person = getTitleByTag(params.tag);
-  let dud_color = "#841f37";
   let chars = "!<>-$_@\\/=+[]&{}—=+*^?#______";
   let num_digits = 8;
   let number = Array(num_digits).fill('0').join('');
-  let num_tries = 20;
+  let num_tries =15;
 
   function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -59,7 +58,7 @@ onMount(() => {
             reduced={true}
           />
 </div>
-<Papers person={person.tag}/>
+<Papers selected_person={person.tag}/>
 
 <style>
   .page-title {

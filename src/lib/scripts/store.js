@@ -25,6 +25,18 @@ async function loadPapers() {
   const response = await fetch("static/publications/publications.toml");
   const tomlString = await response.text();
   const data = parse(tomlString);
+  data["papers"].sort(function (a, b) {
+    const yearA = moment(a.date || a.year, ["DD-MM-YYYY", "YYYY"]).year();
+    const yearB = moment(b.date || b.year, ["DD-MM-YYYY", "YYYY"]).year();
+
+    if (yearA < yearB) {
+      return 1;
+    } else if (yearA > yearB) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
   return { featured: readable(data["featured"]), papers: readable(data["papers"]) };
 }
 

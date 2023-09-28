@@ -1,19 +1,21 @@
 <script>
-    export let project = "all"; 
-    export let person = "all";
+    export let selected_project = "All"; 
+    export let selected_person = "All";
+    export let filter = true;
     let selected=null;
     let selected_topic=null;
     import Paper from "./Paper.svelte";
     import {papers} from "../scripts/store.js";
     import {projects} from "../scripts/store.js";
+    import LucideIcon from "./LucideIcon.svelte";
     let open=false;
 
     function filterPapers(papers, person, project) {
       const filteredPapers = [];
 
       for (const paper of papers) {
-        const personMatch = person === 'all' || paper.people.includes(person);
-        const projectMatch = project === 'all' || paper.projects.includes(project);
+        const personMatch = person === 'All' || paper.people.includes(person);
+        const projectMatch = project === 'All' || paper.projects.includes(project);
 
         if (personMatch && projectMatch) {
           filteredPapers.push(paper);
@@ -24,49 +26,66 @@
     function selectProject(i){
         if (selected_topic===i){
             selected_topic=null
-            project = "all"
+            selected_project = "All"
         }else{
             selected_topic = i;
-            project = $projects[i].tag
+            selected_project = $projects[i].tag
         }
         open = false
         selected=null;
     };
-    function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
 
-    $: filtered_papers = filterPapers($papers,person,project);
+    $: filtered_papers = filterPapers($papers,selected_person,selected_project);
     </script>
 
-<!-- <div class="topics"> -->
-<!--     {#each $projects as project,i} -->
-<!--         <div on:mousedown={()=>selectProject(i)} -->
-<!--             class:selected={selected_topic===i}  -->
-<!--             class="topic"> -->
-<!--             {project.title} -->
-<!--         </div> -->
-<!--     {/each} -->
-<!-- </div> -->
-
-
-<div class="topics-dd" on:click={()=>open=true}>
-    <div class="label">
-        <!-- //dont do this just all all as an option -->
-        {project.title ? project.title : capitalize(project)}
-    </div>
-    {#if open}
-    <div class="dropdown">
-        {#each $projects as project,i}
-            <div on:mousedown={()=>selectProject(i)}
-                class:selected={selected_topic===i} 
-                class="topic">
-                {project.title}
+{#if filter}
+<div class="filter">
+<div class="subtitle">Filter by project</div>
+    <div class="topics-dd" on:click={()=>open=!open}>
+        <div class="label">
+            <div>
+                {selected_project==="All"?"All":$projects[selected_topic].title}
             </div>
-        {/each}
+            <div style="display:grid;place-items:center;">
+                <LucideIcon name={'dropdown'}/>
+            </div>
+        </div>
+        {#if open}
+            <div class="dropdown">
+                <div on:mousedown={()=>{
+                    selected_topic=null;
+                    selected_project="All";
+                }}
+                    class:selected={selected_project==="All"} 
+                    class="topic">
+                    <div style="flex:15%;display:grid;place-items:center;">
+                        {#if selected_project==="All"}
+                            <LucideIcon name={'tick'}/>
+                        {/if}
+                    </div>
+                    <div style="flex:85%">
+                        {"All"}
+                    </div>
+                </div>
+                {#each $projects as project,i}
+                    <div on:mousedown={()=>selectProject(i)}
+                        class:selected={selected_topic===i} 
+                        class="topic">
+                        <div style="flex:15%;display:grid;place-items:center;">
+                            {#if selected_topic===i}
+                                <LucideIcon name={'tick'}/>
+                            {/if}
+                        </div>
+                        <div style="flex:85%">
+                            {project.title}
+                        </div>
+                    </div>
+                {/each}
+            </div>
+        {/if}
     </div>
-    {/if}
 </div>
+{/if}
 
 <div class="papers">
 {#each filtered_papers as publication, i}
@@ -85,25 +104,19 @@
 </div>
 
 <style>
-    .topics{
-        display: flex;
-        flex-direction: row;
-        margin-top:1rem;
-        border-radius: 0.375rem;
-        background-color: #ffffff;
-        cursor: pointer;
-        padding:0.375rem;
-        box-shadow: var(--base-shadow);
-        border: 1px solid var(--clr-lowlight1);
+    .filter{
+        width:89%;
+        margin-bottom:0.5rem;
     }
-    .topics .topic:not(:last-child) {
-        padding-right:0.375rem;
-        margin-right:0.375rem;
-        border-right: 1px solid var(--clr-lowlight1);
+    .subtitle{
+    margin:0.2rem;
+    font-size:0.7rem;
+    color:var(--clr-lowlight2);
     }
     .topics-dd{
         position:relative;
         background-color: #ffffff;
+        width: 30ch;
         cursor: pointer;
         padding:0.375rem;
         box-shadow: var(--base-shadow);
@@ -111,37 +124,52 @@
         border-radius: 0.375rem;
     }
     .topic{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:flex-start;
         cursor:pointer;
         font-family: "Noto Sans TC", sans-serif;
         font-size: 1rem;
-        font-weight: 500;
-        color: var(--clr-lowlight2);
+        font-weight: 100;
+        color: var(--text3);
+        padding:0.2rem 0 0.2rem 0;
+        /* transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); */
+    }
+    .topic:hover{
+        background-color:rgba(132, 31, 55,0.3);
+        color:var(--clr-mixred);
     }
     .dropdown{
         position:absolute;
         top:10;
         left:0;
+        width: 30ch;
         display: flex;
+        padding:0.375rem 0 0.374rem 0;
         flex-direction: column;
         margin-top:1rem;
         border-radius: 0.375rem;
         background-color: #ffffff;
         cursor: pointer;
-        padding:0.375rem;
         box-shadow: var(--base-shadow);
         border: 1px solid var(--clr-lowlight1);
     }
     .label{
         cursor:pointer;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction:row;
         font-family: "Noto Sans TC", sans-serif;
         font-size: 1rem;
-        font-weight: 500;
-        color: var(--clr-lowlight2);
+        font-weight: 100;
+        color: var(--text3);
     }
     .selected{
         /* background-color:var(--clr-mixred); */
         font-weight:800;
-        color: var(--text3);
+        /* color: var(--text3); */
     }
     .papers{
         width:90%;
