@@ -207,7 +207,6 @@
     border-radius: 9999px; 
     font-size: 0.875rem;
     line-height: 1.25rem; 
-    color: #6B7280; 
     text-transform: capitalize; 
       font-family: "Helvetica", "Arial", sans-serif;
       color: var(--clr-foreground-deep);
@@ -220,9 +219,10 @@
     transition-duration: 300ms; 
     cursor:pointer;
   }
-  .nav-item:hover{
-     color: #000000; 
+.nav-item:hover{
+      color:var(--clr-mixred);
   }
+
   .nav-home{
     z-index: 10; 
     font-size: 0.875rem;
