@@ -28,6 +28,7 @@
     <div class="backdrop" class:open_backdrop={open}></div>
     {#if open}
     <div class="ham-list">
+        <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:10, opacity:0}} href="/" class="ham-item" use:link>Home</a>
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:10, opacity:0}} href="/projects" class="ham-item" use:link>Projects</a>
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut,delay:30,opacity:0}} href="/people" class="ham-item" use:link>People</a>
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:60, opacity:0}} href="/publications" class="ham-item" use:link>Publications</a>
@@ -49,7 +50,9 @@
     <div class="drawer">
     <div class="inner-drawer">
         <div class="items">
-            <a href="/" class="nav-home" use:link>[NPL]</a>
+            <a href="/" class="nav-home" use:link>
+                    Home
+            </a>
             <div class="hidden-items">
             <a href="/projects" class="nav-item" use:link>Projects</a>
             <a href="/people" class="nav-item" use:link>People</a>

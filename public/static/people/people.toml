@@ -103,6 +103,13 @@ bio=""
 avatar="static/people/noemi_aime.jpeg"
 url=""
 
+[[alumni]]
+name= "Alice Patania"
+tag= "alice_patania"
+title="Assistant Professor"
+bio=""
+avatar="static/people/alice_patania.jpeg"
+url="https://alpatania.github.io/"
 
 
 

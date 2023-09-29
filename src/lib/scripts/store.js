@@ -44,7 +44,7 @@ async function loadPeople() {
   const response = await fetch("static/people/people.toml");
   const tomlString = await response.text();
   const data = parse(tomlString);
-  return readable(data["researchers"]);
+  return { people: readable(data["researchers"]), alumni: readable(data["alumni"]) };
 }
 
 async function loadProjects() {
@@ -55,6 +55,6 @@ async function loadProjects() {
 }
 
 export const articles = await loadActivity();
-export const { featured, papers } = await loadPapers();
-export const people = await loadPeople();
+export const {featured, papers} = await loadPapers();
+export const {people, alumni} = await loadPeople();
 export const projects = await loadProjects();
