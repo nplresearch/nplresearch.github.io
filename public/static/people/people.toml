@@ -30,13 +30,7 @@ bio="Ph.D. student in Pure and Applied Mathematics interested in applied topolog
 avatar="static/people/marco_nurisso.jpeg"
 url=""
 
-[[researchers]]
-name= "António Leitão"
-tag= "antonio_leitao"
-title= "Junior Researcher"
-bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
-avatar="static/people/antonio_leitao.jpeg"
-url="https://antonio-leitao.github.io"
+
 
 [[researchers]]
 name= "Napat Kiatjaroonlert"
@@ -64,22 +58,6 @@ url=""
 
 
 [[researchers]]
-name= "Sara Cavuoti Cabanillas"
-tag= "sara_cavuoti_cabanillas"
-title= "MSc Student"
-bio=""
-avatar="static/people/sara_cabanillas.jpeg"
-url=""
-
-[[researchers]]
-name= "Thomas Robiglio"
-tag= "thomas_robiglio"
-title= "MSc Student"
-bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
-avatar="static/people/thomas_robiglio.jpeg"
-url="https://thomasrobiglio.github.io"
-
-[[researchers]]
 name= "Alessandra Brondetta"
 tag= "alessandra_brondetta"
 title= "MSc Student"
@@ -103,6 +81,16 @@ bio=""
 avatar="static/people/noemi_aime.jpeg"
 url=""
 
+
+[[alumni]]
+name= "António Leitão"
+tag= "antonio_leitao"
+title= "Junior Researcher"
+bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
+avatar="static/people/antonio_leitao.jpeg"
+url="https://antonio-leitao.github.io"
+
+
 [[alumni]]
 name= "Alice Patania"
 tag= "alice_patania"
@@ -112,5 +100,18 @@ avatar="static/people/alice_patania.jpeg"
 url="https://alpatania.github.io/"
 
 
+[[alumni]]
+name= "Sara Cavuoti Cabanillas"
+tag= "sara_cavuoti_cabanillas"
+title= "MSc Student"
+bio=""
+avatar="static/people/sara_cabanillas.jpeg"
+url=""
 
-
+[[alumni]]
+name= "Thomas Robiglio"
+tag= "thomas_robiglio"
+title= "MSc Student"
+bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
+avatar="static/people/thomas_robiglio.jpeg"
+url="https://thomasrobiglio.github.io"
