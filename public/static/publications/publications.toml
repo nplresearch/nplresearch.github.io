@@ -2,7 +2,7 @@
 
 [[featured]]
 title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
-authors = ["Zhang, Y.*", "Lucas, M.*", "Battiston, F."]
+authors = ['Zhang, Y.', 'Lucas, M.', 'Battiston, F.']
 people = ["maxime_lucas"]
 abstract= "Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
 year = "2023"
@@ -13,7 +13,7 @@ link = "https://arxiv.org/pdf/2203.03060.pdf"
 
 [[featured]]
 title = "Simplicially driven simple contagion"
-authors = ["Lucas, M.*","Iacopini, I.*"," Robiglio, T.","Barrat, A.","Petri, G."]
+authors = ['Lucas, M.', 'Iacopini, I.', 'Robiglio, T.', 'Barrat, A.', 'Petri, G.']
 people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
 abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
 year = "2023"
@@ -38,7 +38,8 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 [[papers]]
 projects = ["higher_order"]
 title = "Deeper but smaller: Higher-order interactions increase linear stability but shrink basins"
-author = "Zhang, Y., Skardal, P.S., Battiston, F., Petri, G., Lucas, M."
+author = ["Zhang, Y.", "Skardal, P.S.", "Battiston, F.", "Petri, G.", "Lucas, M."]
+people = ["maxime_lucas", "giovanni_petri"]
 journal = "arXiv:2309.16581"
 year = "2023"
 link = "https://arxiv.org/abs/2309.16581"
@@ -47,9 +48,10 @@ abstract = "A key challenge of nonlinear dynamics and network science is to unde
 
 [[papers]]
 title = "Social learning across symbolic cultural barriers in non-human cultures"
-author = "Leitão, A., Lucas, M., Poetto, S., Hersh, T. A., Gero, S., Gruber, D., Bronstein, M., Petri, G."
+author = ["Leitão, A.", "Lucas, M.", "Poetto, S.", "Hersh, T. A.", "Gero, S.", "Gruber, D.", "Bronstein, M.", "Petri, G."]
 journal = "arXiv:2307.05304"
 year = "2023"
+people = ["giovanni_petri", "maxime_lucas", "antonio_leitao", "simone_poetto"]
 link = "https://arxiv.org/abs/2307.05304"
 abstract = "Social learning is key in the development of both human and non-human animal societies. Here, we provide quantitative evidence that supports the existence of social learning in sperm whales across socio-cultural barriers, based on acoustic data from locations in the Pacific and Atlantic Oceans. Sperm whale populations have traditionally been partitioned into clans based on their vocal repertoire (what they say) of rhythmically patterned clicks (codas), and in particular their identity codas, which serve as symbolic markers for each clan. However, identity codas account for between 35% and 60% of all codas vocalized depending on the different clans. We introduce a computational modeling approach that recovers clan structure and shows new evidence of social learning across clans from the internal temporal structure of non-identity codas, the remaining fraction of codas. The proposed method is based on vocal style, which encodes how sperm whales assemble individual clicks into codas. Specifically, we modeled clicking pattern data using generative models based on variable length Markov chains, producing what we term "subcoda trees". Based on our results, we propose here a new concept of vocal identity, which consists of both vocal repertoire and style. We show that (i) style-delimited clans are similar to repertoire-delimited clans, and that (ii) sympatry increases vocal style similarity between clans for non-identity codas, but has no significant effect on identity codas. This implies that different clans who geographically overlap have similar styles for most codas, which in turn implies social learning across cultural boundaries. More broadly, the proposed method provides a new framework for comparing communication systems of other animal species, with potential implications for our understanding of cultural transmission in animal societies."
 
@@ -57,8 +59,9 @@ abstract = "Social learning is key in the development of both human and non-huma
 [[papers]]
 projects = ["higher_order"]
 title = "A unified framework for Simplicial Kuramoto models"
-author = "Nurisso, M., Arnaudon, A., Lucas, M., Peach, R. L., Expert, P., Vaccarino, F., Petri, G."
+author = ["Nurisso, M.", "Arnaudon, A.", "Lucas, M.", "Peach, R. L.", "Expert, P.", "Vaccarino, F.", "Petri, G."]
 year = "2023"
+people = ['maxime_lucas', 'giovanni_petri', 'marco_nurisso']
 journal = "arXiv:2305.17977"
 link = "https://arxiv.org/abs/2305.17977"
 abstract = "Simplicial Kuramoto models have emerged as a diverse and intriguing class of models describing oscillators on simplices rather than nodes. In this paper, we present a unified framework to describe different variants of these models, categorized into three main groups: "simple" models, "Hodge-coupled" models, and "order-coupled" (Dirac) models. Our framework is based on topology, discrete differential geometry as well as gradient flows and frustrations, and permits a systematic analysis of their properties. We establish an equivalence between the simple simplicial Kuramoto model and the standard Kuramoto model on pairwise networks under the condition of manifoldness of the simplicial complex. Then, starting from simple models, we describe the notion of simplicial synchronization and derive bounds on the coupling strength necessary or sufficient for achieving it. For some variants, we generalize these results and provide new ones, such as the controllability of equilibrium solutions. Finally, we explore a potential application in the reconstruction of brain functional connectivity from structural connectomes and find that simple edge-based Kuramoto models perform competitively or even outperform complex extensions of node-based models."
@@ -69,18 +72,20 @@ year = "2023"
 volume = "8"
 number = "91"
 pages = "5872"
-author = "Lucas, M., Townsend-Teague, A., Neri, M., Poetto, S., Morris, A., Habermann, B., Tichit, L."
+author = ["Lucas, M.", "Townsend-Teague, A.", "Neri, M.", "Poetto, S.", "Morris, A.", "Habermann, B.", "Tichit, L."]
 title = "Phasik: a Python package to identify system states in partially temporal networks"
 journal = "J. Open Source Softw."
 link = "https://doi.org/10.21105/joss.05872"
 projects = ["temporal"]
+people = ["maxime_lucas", "simone_poetto"]
 abstract = "Phasik is a Python library for analyzing the temporal structure of temporal and partially temporal networks. Temporal networks are used to model complex systems that consist of entities with time-varying interactions. This library provides methods for building temporal networks (including from data), visualizing them, and analyzing their structure. In particular, Phasik focuses on the identification of temporal phases, that is, periods of time during which the system is in a given state. The library supports partially temporal networks for which information about only a subset of the edges’ temporal evolution is available. Phasik is implemented in pure Python and integrates with the rest of the Python scientific stack."
 
 
 [[papers]]
 title = "XGI: A Python package for higher-order interaction networks"
-author = "Landry, N. W., Lucas, M., Iacopini, I., Petri, G., Schwarze, A., Patania, A., Torres, L."
+author = ["Landry, N. W.", "Lucas, M.", "Iacopini, I.", "Petri, G.", "Schwarze, A.", "Patania, A.", "Torres, L."]
 journal = "J. Open Source Softw."
+people = ["maxime_lucas"]
 number = "85"
 pages = "5162"
 volume = "8"
@@ -103,7 +108,7 @@ link = "https://arxiv.org/pdf/2203.03060.pdf"
 
 [[papers]]
 title = "Simplicially driven simple contagion"
-authors = ["Lucas, M.*","Iacopini, I.*"," Robiglio, T.","Barrat, A.","Petri, G."]
+authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
 people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
 abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
 year = "2023"
@@ -114,7 +119,7 @@ link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201
 
 [[papers]]
 title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
-authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+authors = ["Lucas, M.", "Morris, A.", "Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
 people = ["maxime_lucas"]
 abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
 year = "2023"
