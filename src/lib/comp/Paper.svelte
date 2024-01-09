@@ -1,11 +1,25 @@
 
 <script>
+  import {
+    ArrowRight,
+    ArrowLeft,
+    Link,
+    FileText,
+    Code2,
+    Github,
+    Home,
+    Menu,
+    X,
+    ChevronsUpDown,
+    Check,
+  } from "lucide-svelte";
   export let title;
   export let authors;
   export let link;
   export let projects;
   export let abstract;
   export let year;
+  export let github;
   export let open = false;
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
@@ -15,6 +29,7 @@
   } else {
     return str;
   }
+
 }
 
 function formatAuthors(authors) {
@@ -62,7 +77,24 @@ function formatAuthors(authors) {
     {#if year}
     {year}
     {:else}
-        2023
+        1999
+{/if}
+</div>
+
+
+<div class="row_link">
+{#if link}
+    <svelte:component this={Link} {...$$props} />
+    {:else}
+        tuma'
+{/if}
+</div>
+
+<div class="row_link">
+    {#if github}
+    <svelte:component this={Github} {...$$props} />
+    {:else}
+        <p> </p>
 {/if}
 </div>
 
@@ -91,6 +123,14 @@ function formatAuthors(authors) {
     font-size: 1rem;
     flex: 10%;
   }
+  .row_link {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: var(--text3);
+    font-weight: 100;
+    font-size: 1rem;
+    flex: 2%;
+  }
+  
 .row_abstract{
     margin-top:0.2rem;
 }
