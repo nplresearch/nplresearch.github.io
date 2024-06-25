@@ -100,6 +100,7 @@
       "Nosebleed Prevention Lotion",
       "Nerd Power Laboratory",
       "Nuclear Potato Launcher",
+      "Non Performing Loans",
       "Nose Picking Llamas"
     ];
 

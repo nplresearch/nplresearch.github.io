@@ -14,8 +14,8 @@
       const filteredPapers = [];
 
       for (const paper of papers) {
-        const personMatch = person === 'All' || paper.people.includes(person);
-        const projectMatch = project === 'All' || paper.projects.includes(project);
+        const personMatch = person === 'All' || (paper.people?.includes(person) ?? false);//handle the undefined case
+        const projectMatch = project === 'All' || (paper.projects?.includes(project)??false);
 
         if (personMatch && projectMatch) {
           filteredPapers.push(paper);

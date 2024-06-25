@@ -7,6 +7,7 @@
   import Publications from "./lib/routes/Publications.svelte";
   import NotFound from "./lib/routes/NotFound.svelte";
     import Person from "./lib/routes/Person.svelte";
+    import Alumni from "./lib/routes/Alumni.svelte";
     import Project from "./lib/routes/Project.svelte";
     import LucideIcon from "./lib/comp/LucideIcon.svelte";
   import { fly } from "svelte/transition";
@@ -16,6 +17,7 @@
     "/publications": Publications,
     "/people": People,
     "/people/:tag": Person,
+    "/alumni/:tag": Alumni,
     "/projects": Projects,
     "/projects/:tag": Project,
     "*": NotFound,

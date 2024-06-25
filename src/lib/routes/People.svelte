@@ -5,6 +5,8 @@
   import { quintOut } from "svelte/easing";
   import {people, alumni} from "../scripts/store.js";
   document.body.scrollIntoView();
+  console.log($people);
+  console.log($alumni);
 </script>
 
 <div class="top-row">
@@ -41,7 +43,7 @@
                 duration: 500,
                 easing: quintOut,
                 delay: i * 50,
-            }} on:click={() => push(`/people/${tag}`)}>
+            }} on:click={() => push(`/alumni/${tag}`)}>
             <div class="window">
                 <div class="face" style="background-image: url({avatar ? avatar : 'static/people/npc_placeholder.jpeg'})"></div>
                 <div class="subtitle">{title}</div>

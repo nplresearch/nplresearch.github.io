@@ -3,11 +3,11 @@
     import { link } from "svelte-spa-router";
     import LucideIcon from "../comp/LucideIcon.svelte";
     import Papers from "../comp/Papers.svelte";
-    import {people} from "../scripts/store.js";
+    import {alumni} from "../scripts/store.js";
     import Button from "../comp/Button.svelte";
     document.body.scrollIntoView();
     function getTitleByTag(tag) {
-        const person = $people.find(person => person.tag === tag);
+        const person = $alumni.find(person => person.tag === tag);
         return person;
     }
   document.body.scrollIntoView();
@@ -50,15 +50,15 @@ onMount(() => {
     <div class="subtitle">{person.title}</div>
     <div class="title" >{person.name}</div>
     <div class="description">{person.bio}</div>
-    <!-- {#if person.url !== undefined} -->
-    <!--     <Button -->
-    <!--             icon_place="left" -->
-    <!--             icon={"home"} -->
-    <!--             text={"homepage"} -->
-    <!--             href={person.url} -->
-    <!--             reduced={true} -->
-    <!--           /> -->
-    <!-- {/if} -->
+    {#if person.url !== undefined}
+        <Button
+                icon_place="left"
+                icon={"home"}
+                text={"homepage"}
+                href={person.url}
+                reduced={true}
+              />
+    {/if}
 </div>
 <Papers selected_person={person.tag}/>
 
