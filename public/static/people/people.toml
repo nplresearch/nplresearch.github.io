@@ -15,6 +15,14 @@ avatar=""
 url="https://maximelucas.github.io"
 
 [[researchers]]
+name= "Marilyn Gatica"
+tag= "marilyn_gatica"
+title= "Post-Doc Researcher @ Northeastern University, London"
+bio=""
+avatar=""
+url=""
+
+[[researchers]]
 name= "Simone Poetto"
 tag= "simone_poetto"
 title= "PhD Student"
@@ -33,7 +41,7 @@ url=""
 [[researchers]]
 name= "Davide Orsenigo"
 tag= "davide_orsenigo"
-title= "PhD Student"
+title= "PhD Student @ Università degli Studi di Torino"
 bio="PhD student in Neuroscience, studying the brain through the lens of higher-order interactions and information theory."
 avatar=""
 url=""
@@ -49,9 +57,49 @@ url=""
 [[researchers]]
 name= "Elisabetta Salvai"
 tag= "elisabetta_salvai"
-title= "Research assistant"
+title= "Research assistant @ University of Copenhagen"
 bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
 avatar="static/faces/Elisabetta_Salvai.jpg"
+url=""
+
+[[researchers]]
+name= "Henriques M. Borges"
+tag= "henriques_borges"
+title= "PhD Student @ Northeastern University, London"
+bio= ""
+avatar=""
+url=""
+
+[[researchers]]
+name= "Raj Deshpande"
+tag= "raj_deshpande"
+title= "PhD Student @ Northeastern University, London"
+bio= ""
+avatar=""
+url=""
+
+[[researchers]]
+name= "Jesseba Fernando"
+tag= "jesseba_fernando"
+title= "PhD Student"
+bio= ""
+avatar=""
+url=""
+
+[[alumni]]
+name= "Leonardo Federici"
+tag= "leonardo_federici"
+title= "MSc Student"
+bio= ""
+avatar=""
+url=""
+
+[[alumni]]
+name= "Brendan Matulis"
+tag= "brendan_matulis"
+title= "BSc Student"
+bio= ""
+avatar=""
 url=""
 
 [[alumni]]
