@@ -39,52 +39,11 @@ avatar=""
 url=""
 
 [[researchers]]
-name= "Napat Kiatjaroonlert"
-tag= "napat_kiatjaroonlert"
-title= "MSc Student"
-bio=""
-avatar="static/people/napat_kiatjaroonlert.jpeg"
-url=""
-
-[[researchers]]
-name= "Matteo Neri"
-tag= "matteo_neri"
-title= "MSc Student"
-bio=""
-avatar=""
-url=""
-
-[[researchers]]
-name= "Marta Morandini"
-tag= "marta_morandini"
-title= "MSc Student"
-bio="Mathematician in progress interested in mixing disciplines. Newborn in neuroscience, currently working on applied topology and complex systems."
-avatar="static/people/marta_morandini.jpeg"
-url=""
-
-
-[[researchers]]
 name= "Alessandra Brondetta"
 tag= "alessandra_brondetta"
 title= "MSc Student"
 bio=""
 avatar=""
-url=""
-
-[[researchers]]
-name= "Cosimo Agostinelli"
-tag= "cosimo_agostinelli"
-title="MSc Student"
-bio=""
-avatar=""
-url=""
-
-[[researchers]]
-name= "Noemi Aime"
-tag= "noemi_aime"
-title="BSc Student"
-bio=""
-avatar="static/people/noemi_aime.jpeg"
 url=""
 
 [[researchers]]
@@ -96,13 +55,52 @@ avatar="static/faces/Elisabetta_Salvai.jpg"
 url=""
 
 [[alumni]]
+name= "Napat Kiatjaroonlert"
+tag= "napat_kiatjaroonlert"
+title= "MSc Student"
+bio=""
+avatar="static/people/napat_kiatjaroonlert.jpeg"
+url=""
+
+[[alumni]]
+name= "Matteo Neri"
+tag= "matteo_neri"
+title= "MSc Student"
+bio=""
+avatar=""
+url=""
+
+[[alumni]]
+name= "Marta Morandini"
+tag= "marta_morandini"
+title= "MSc Student"
+bio="Mathematician in progress interested in mixing disciplines. Newborn in neuroscience, currently working on applied topology and complex systems."
+avatar="static/people/marta_morandini.jpeg"
+url=""
+
+[[alumni]]
+name= "Cosimo Agostinelli"
+tag= "cosimo_agostinelli"
+title="MSc Student"
+bio=""
+avatar=""
+url=""
+
+[[alumni]]
+name= "Noemi Aime"
+tag= "noemi_aime"
+title="BSc Student"
+bio=""
+avatar="static/people/noemi_aime.jpeg"
+url=""
+
+[[alumni]]
 name= "António Leitão"
 tag= "antonio_leitao"
 title= "Junior Researcher"
 bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
 avatar="static/people/antonio_leitao.jpeg"
 url="https://antonio-leitao.github.io"
-
 
 [[alumni]]
 name= "Alice Patania"
@@ -111,7 +109,6 @@ title="Assistant Professor"
 bio=""
 avatar="static/people/alice_patania.jpeg"
 url="https://alpatania.github.io/"
-
 
 [[alumni]]
 name= "Sara Cavuoti Cabanillas"
@@ -128,3 +125,11 @@ title= "MSc Student"
 bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
 avatar="static/people/thomas_robiglio.jpeg"
 url="https://thomasrobiglio.github.io"
+
+[[alumni]]
+name= "Asia Maurich Novelli"
+tag= "asia_maurich_novelli"
+title="MSc Student"
+bio=""
+avatar=""
+url=""
