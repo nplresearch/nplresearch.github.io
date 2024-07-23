@@ -24,9 +24,17 @@ url="https://simonepoetto.github.io"
 
 [[researchers]]
 name= "Marco Nurisso"
-link= "marco_nurisso"
+tag= "marco_nurisso"
 title= "PhD Student"
-bio="Ph.D. student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
+bio="PhD student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
+avatar=""
+url=""
+
+[[researchers]]
+name= "Davide Orsenigo"
+tag= "davide_orsenigo"
+title= "PhD Student"
+bio="PhD student in Neuroscience, studying the brain through the lens of higher-order interactions and information theory."
 avatar=""
 url=""
 
@@ -83,7 +91,7 @@ url=""
 name= "Elisabetta Salvai"
 tag= "elisabetta_salvai
 title= "Research assistant"
-bio= "PhD student wannabe, reasearching fairness in network rankings and science conferences."
+bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
 avatar="static/faces/Elisabetta_Salvai.jpg"
 url=""
 
