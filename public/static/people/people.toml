@@ -79,6 +79,13 @@ bio=""
 avatar="static/people/noemi_aime.jpeg"
 url=""
 
+[[researchers]]
+name= "Elisabetta Salvai"
+tag= "elisabetta_salvai
+title= "Research assistant"
+bio= "PhD student wannabe, reasearching fairness in network rankings and science conferences."
+avatar="static/faces/Elisabetta_Salvai.jpg"
+url=""
 
 [[alumni]]
 name= "António Leitão"
