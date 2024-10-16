@@ -23,7 +23,7 @@ const project = getProjectByTag(params.tag);
   </a>
 </div>
 <div class="splash">
-    <img src="static/publications/placeholder.jpeg" alt="project figure">
+    <img src="{project.img ? project.img : 'static/publications/placeholder.jpeg'}" alt="project figure">
     <div class="description">{project.description}</div>
 </div>
 <Papers filter={false} selected_project={project.tag}/>

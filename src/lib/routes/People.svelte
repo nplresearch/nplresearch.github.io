@@ -5,6 +5,19 @@
   import { quintOut } from "svelte/easing";
   import {people, alumni} from "../scripts/store.js";
   document.body.scrollIntoView();
+
+  import { onMount } from 'svelte';
+  let showAlumni = false; // Boolean variable to manage collapse state
+  // Scroll to the top of the page on mount
+  onMount(() => {
+    document.body.scrollIntoView();
+  });
+
+  // Toggle function for the alumni section
+  function toggleAlumni() {
+    showAlumni = !showAlumni;
+  }
+
   console.log($people);
   console.log($alumni);
 </script>
@@ -33,9 +46,14 @@
         </div>
     {/each}
 </div>
-<div class="page-title">
-    Alumni
+
+<!-- Toggle button for alumni section -->
+<div class="toggle-button" on:click={toggleAlumni}>
+  {showAlumni ? 'HIDE ALUMNI' : 'SHOW ALUMNI'}
 </div>
+
+{#if showAlumni}
+
 <div class="track">
     {#each $alumni as { name, tag, title, bio, avatar, url }, i}
         <div in:fly={{
@@ -52,8 +70,25 @@
         </div>
     {/each}
 </div>
+{/if}
 
 <style>
+
+  .toggle-button {
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    color: var(--text1);
+    margin-bottom: 2rem;
+  }
+
     .window{
         display:grid;
         place-items: center;

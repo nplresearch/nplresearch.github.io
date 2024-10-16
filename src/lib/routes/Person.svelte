@@ -97,7 +97,7 @@ onMount(() => {
   .splash{
       display:flex;
       flex-direction: column;
-      width:400px;
+      width:600px;
       align-items: center;
       justify-content: center;
       margin:1rem 0 1rem 0;
