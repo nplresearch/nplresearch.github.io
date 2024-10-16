@@ -8,6 +8,22 @@ avatar="/static/people/giovanni_petri_alt.jpeg"
 url="https://lordgrilo.github.io"
 
 [[researchers]]
+name= "Maxime Lucas"
+tag= "maxime_lucas"
+title= "Post-Doc Researcher"
+bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
+avatar=""
+url="https://maximelucas.github.io"
+
+[[researchers]]
+name= "Marilyn Gatica"
+tag= "marilyn_gatica"
+title= "Post-Doc Researcher @ Northeastern University, London"
+bio=""
+avatar=""
+url=""
+
+[[researchers]]
 name= "Simone Poetto"
 tag= "simone_poetto"
 title= "PhD Student"
@@ -19,75 +35,73 @@ url="https://simonepoetto.github.io"
 name= "Marco Nurisso"
 tag= "marco_nurisso"
 title= "PhD Student"
-bio="Ph.D. student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
+bio="PhD student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
 avatar=""
-url="https://simonepoetto.github.io"
+url=""
 
 [[researchers]]
 name= "Davide Orsenigo"
 tag= "davide_orsenigo"
-title= "PhD Student"
-bio= "Ph.D. student in Psychology, interested in higher-order approaches to brain function."
-avatar=""
-url=""
-
-[[researchers]]
-name= "Raj Deshpande"
-tag= "raj_deshpande"
-title= "PhD Student"
-bio= "Ph.D. student in Network Science."
-avatar=""
-url=""
-
-[[researchers]]
-name= "Henrique Joao Machado Borges"
-tag= "henrique_borges"
-title= "PhD Student"
-bio= "Ph.D. student in Network Science."
-avatar=""
-url=""
-
-
-[[researchers]]
-name= "Marilyn Gatica"
-tag= "marilyn_gatica"
-title= "Postdoc"
-bio= "Postdoc working at the interface of neuroscience and information theory."
+title= "PhD Student @ Università degli Studi di Torino"
+bio="PhD student in Neuroscience, studying the brain through the lens of higher-order interactions and information theory."
 avatar=""
 url=""
 
 [[researchers]]
 name= "Alessandra Brondetta"
 tag= "alessandra_brondetta"
-title= "MSc Student"
+title= "PhD Student @ Osnabrück University"
 bio=""
 avatar=""
 url=""
 
 [[researchers]]
-name= "Asia Maurich Novelli"
-tag= "asia_maurich_novelli"
-title= "MSc Student"
-bio=""
+name= "Elisabetta Salvai"
+tag= "elisabetta_salvai"
+title= "Research assistant @ University of Copenhagen"
+bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
+avatar="static/faces/Elisabetta_Salvai.jpg"
+url=""
+
+[[researchers]]
+name= "Henrique M. Borges"
+tag= "henriques_borges"
+title= "PhD Student @ Northeastern University, London"
+bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
 avatar=""
 url=""
 
 [[researchers]]
-name= "Francesco Guadagnuolo"
-tag= "francesco_guadagnuolo"
-title= "BSc Student"
-bio=""
+name= "Raj Deshpande"
+tag= "raj_deshpande"
+title= "PhD Student @ Northeastern University, London"
+bio= ""
+avatar=""
+url=""
+
+[[researchers]]
+name= "Jesseba Fernando"
+tag= "jesseba_fernando"
+title= "PhD Student @ Network Science Institute"
+bio= "Jesseba researches neuronal dynamics of learning through the lens of network science and complex systems."
+avatar=""
+url="https://jesseba.github.io/"
+
+[[alumni]]
+name= "Leonardo Federici"
+tag= "leonardo_federici"
+title= "MSc Student"
+bio= ""
 avatar=""
 url=""
 
 [[alumni]]
-name= "Maxime Lucas"
-tag= "maxime_lucas"
-title= "Post-Doc Researcher"
-bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
+name= "Brendan Matulis"
+tag= "brendan_matulis"
+title= "BSc Student"
+bio= ""
 avatar=""
-url="https://maximelucas.github.io"
-
+url=""
 
 [[alumni]]
 name= "Napat Kiatjaroonlert"
@@ -100,7 +114,7 @@ url=""
 [[alumni]]
 name= "Matteo Neri"
 tag= "matteo_neri"
-title= "MSc Student"
+title= "PhD Student @ Aix-Marseille University"
 bio=""
 avatar=""
 url=""
@@ -108,24 +122,23 @@ url=""
 [[alumni]]
 name= "Marta Morandini"
 tag= "marta_morandini"
-title= "MSc Student"
+title= "PhD Student @ Aix-Marseille University"
 bio="Mathematician in progress interested in mixing disciplines. Newborn in neuroscience, currently working on applied topology and complex systems."
 avatar="static/people/marta_morandini.jpeg"
 url=""
 
-
 [[alumni]]
 name= "Cosimo Agostinelli"
 tag= "cosimo_agostinelli"
-title="MSc Student"
-bio=""
+title="PhD Student @ Aix-Marseille University"
+bio="Former phisicist interested in complex and higher-order networks, group dynamics and any physics-related approach to these topics."
 avatar=""
 url=""
 
 [[alumni]]
 name= "Noemi Aime"
 tag= "noemi_aime"
-title="BSc Student"
+title="MSc Student"
 bio=""
 avatar="static/people/noemi_aime.jpeg"
 url=""
@@ -133,16 +146,23 @@ url=""
 [[alumni]]
 name= "António Leitão"
 tag= "antonio_leitao"
-title= "Junior Researcher"
+title= "PhD Student @ Scuola Normale Superiore di Pisa"
 bio="Mathematician focused on appplied algebraic topology, topological data analysis and machine learning."
 avatar="static/people/antonio_leitao.jpeg"
 url="https://antonio-leitao.github.io"
 
+[[alumni]]
+name= "Alice Patania"
+tag= "alice_patania"
+title="Assistant Professor @ University of Vermont"
+bio=""
+avatar="static/people/alice_patania.jpeg"
+url="https://alpatania.github.io/"
 
 [[alumni]]
 name= "Sara Cavuoti Cabanillas"
 tag= "sara_cavuoti_cabanillas"
-title= "MSc Student"
+title= "PhD Student @ University of Parma"
 bio=""
 avatar="static/people/sara_cabanillas.jpeg"
 url=""
@@ -150,15 +170,15 @@ url=""
 [[alumni]]
 name= "Thomas Robiglio"
 tag= "thomas_robiglio"
-title= "MSc Student"
+title= "PhD Student @ Central European University"
 bio="He is an physicist interested in the study of complex systems with tools from Statistical Physics and Network Science."
 avatar="static/people/thomas_robiglio.jpeg"
 url="https://thomasrobiglio.github.io"
 
 [[alumni]]
-name= "Alice Patania"
-tag= "alice_patania"
-title="Assistant Professor"
+name= "Asia Maurich Novelli"
+tag= "asia_maurich_novelli"
+title="MSc Student"
 bio=""
-avatar="static/people/alice_patania.jpeg"
-url="https://alpatania.github.io/"
+avatar=""
+url=""
