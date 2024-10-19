@@ -19,7 +19,8 @@ function formatAuthors(authors) {
 }
 </script>
 
-<div class="featured">
+<!-- This needs to be fixed... -->
+<!-- <div class="featured">
     {#each $featured as publication, i}
         <div class="card"
             in:fly={{
@@ -35,7 +36,7 @@ function formatAuthors(authors) {
             </div>
         </div>
     {/each}
-</div>
+</div> -->
 <style>
     .content{
         z-index:20;

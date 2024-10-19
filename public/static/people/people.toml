@@ -4,29 +4,30 @@ tag= "giovanni_petri"
 title= "PI"
 bio= "Professor at Network Science Institute, Principal Researcher at CENTAI.  
 He works on topological approaches to complex networks and their underlying geometry, with special attention to the topology of brain structure and dynamics."
-avatar="/static/people/giovanni_petri_alt.jpeg"
+avatar="/static/people/giovanni_petri.jpeg"
 url="https://lordgrilo.github.io"
 
-[[researchers]]
-name= "Maxime Lucas"
-tag= "maxime_lucas"
-title= "Post-Doc Researcher"
-bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
-avatar=""
-url="https://maximelucas.github.io"
 
 [[researchers]]
 name= "Marilyn Gatica"
 tag= "marilyn_gatica"
-title= "Post-Doc Researcher @ Northeastern University, London"
+title= "Post-Doc Researcher @ Network Science Institute"
+bio=""
+avatar="/static/people/marilyn_gatica.jpg"
+url=""
+
+[[researchers]]
+name= "Andrea Santoro"
+tag= "andrea_santoro"
+title= "Post-Doc Researcher @ CENTAI Institute"
 bio=""
 avatar=""
-url=""
+url="https://andresantoro.github.io/"
 
 [[researchers]]
 name= "Simone Poetto"
 tag= "simone_poetto"
-title= "PhD Student"
+title= "PhD Student @ CENTAI Institute + Nikolaus Kopernicus University"
 bio="Simone is a physicist with a research focus on artificial intelligence and neuroscience. When not in the lab, he loves mountains and hiking."
 avatar=""
 url="https://simonepoetto.github.io"
@@ -34,16 +35,41 @@ url="https://simonepoetto.github.io"
 [[researchers]]
 name= "Marco Nurisso"
 tag= "marco_nurisso"
-title= "PhD Student"
+title= "PhD Student @ CENTAI Institute + Polytechnic University of Turin"
 bio="PhD student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
-avatar=""
+avatar="/static/people/marco_nurisso.jpeg"
 url=""
+
+[[researchers]]
+name= "Jesseba Fernando"
+tag= "jesseba_fernando"
+title= "PhD Student @ Network Science Institute"
+bio= "Jesseba researches neuronal dynamics of learning through the lens of network science and complex systems."
+avatar="/static/people/jesseba_fernando.jpg"
+url="https://jesseba.github.io/"
+
 
 [[researchers]]
 name= "Davide Orsenigo"
 tag= "davide_orsenigo"
 title= "PhD Student @ Università degli Studi di Torino"
 bio="PhD student in Neuroscience, studying the brain through the lens of higher-order interactions and information theory."
+avatar=""
+url=""
+
+[[researchers]]
+name= "Henrique M. Borges"
+tag= "henriques_borges"
+title= "PhD Student @ Network Science Institute"
+bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
+avatar=""
+url=""
+
+[[researchers]]
+name= "Raj Deshpande"
+tag= "raj_deshpande"
+title= "PhD Student @ Network Science Institute"
+bio= ""
 avatar=""
 url=""
 
@@ -60,39 +86,34 @@ name= "Elisabetta Salvai"
 tag= "elisabetta_salvai"
 title= "Research assistant @ University of Copenhagen"
 bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
-avatar="static/faces/Elisabetta_Salvai.jpg"
+avatar="static/people/Elisabetta_Salvai.jpg"
 url=""
 
 [[researchers]]
-name= "Henrique M. Borges"
-tag= "henriques_borges"
-title= "PhD Student @ Northeastern University, London"
-bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
-avatar=""
+name= "Giulia Lorenzini"
+tag= "giulia_lorenzini"
+title= "MSc Student @ Turin University + CENTAI Institute"
+bio=""
+avatar="/static/people/giulia_lorenzini.jpeg"
 url=""
 
-[[researchers]]
-name= "Raj Deshpande"
-tag= "raj_deshpande"
-title= "PhD Student @ Northeastern University, London"
-bio= ""
-avatar=""
-url=""
 
-[[researchers]]
-name= "Jesseba Fernando"
-tag= "jesseba_fernando"
-title= "PhD Student @ Network Science Institute"
-bio= "Jesseba researches neuronal dynamics of learning through the lens of network science and complex systems."
+
+[[alumni]]
+name= "Maxime Lucas"
+tag= "maxime_lucas"
+title= "Post-Doc Researcher"
+bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
 avatar=""
-url="https://jesseba.github.io/"
+url="https://maximelucas.github.io"
+
 
 [[alumni]]
 name= "Leonardo Federici"
 tag= "leonardo_federici"
 title= "MSc Student"
 bio= ""
-avatar=""
+avatar="/static/people/leonardo_federici.jpeg"
 url=""
 
 [[alumni]]

@@ -40,13 +40,23 @@
             }} on:click={() => push(`/people/${tag}`)}>
             <div class="window">
                 <div class="face" style="background-image: url({avatar ? avatar : 'static/people/npc_placeholder.jpeg'})"></div>
-                <div class="subtitle">{title}</div>
                 <div class="title" style="text-align:center">{name}</div>
+                <div class="subtitle">{title}</div>
+                
+                
             </div>
         </div>
     {/each}
 </div>
 
+<div class="top-row">
+  <div class="page-title"></div>
+  <a href={"/"} use:link>
+    <div class="button">
+      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
+    </div>
+  </a>
+</div>
 <!-- Toggle button for alumni section -->
 <div class="toggle-button" on:click={toggleAlumni}>
   {showAlumni ? 'HIDE ALUMNI' : 'SHOW ALUMNI'}
@@ -101,8 +111,8 @@
     0 2px 4px -2px rgba(132, 31, 55,0.8);
     }
     .face{
-        width:200px;
-        height:200px;
+        width: 210px;
+        height:210px;
         border-radius:50%;
         margin-bottom:0.375rem;
         background-size: contain;

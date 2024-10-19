@@ -10,6 +10,7 @@ year = "2023"
 date = "23-03-2023"
 journal = "Nature Communications"
 projects = ["tda","higher_order"]
+tag = "deeper-smaller"
 link = "https://arxiv.org/pdf/2203.03060.pdf"
 
 [[featured]]
@@ -22,6 +23,7 @@ year = "2023"
 date = "23-03-2023"
 journal = "Physical Review Research"
 projects = ["higher_order"]
+tag = "simplicially-driven"
 link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
 
 [[featured]]
@@ -34,6 +36,7 @@ year = "2023"
 date = "27-02-2023"
 journal = "Cell Reports Methods"
 projects = ["higher_order,topological_neuroscience"]
+tag = "inferring-cells"
 link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
