@@ -22,7 +22,7 @@
       marker={true}
       description=""
     />
-    {#each articles as { title, description, date, link }, i}
+    {#each articles as { title, description, date }, i}
       {#if i > 0}
         {#if moment(date, "DD-MM-YYYY").format("MMMM") !== moment(articles[i - 1].date, "DD-MM-YYYY").format("MMMM")}
           <Article
@@ -33,14 +33,8 @@
           />
         {/if}
       {/if}
-      {#if link}
-      <a href={link} target="_blank">
-        <Article {title} {description} {date} />
-      </a>
-      {:else}
+      
       <Article {title} {description} {date} />
-      {/if}
-     
     {/each}
   </div>
 </div>
@@ -54,18 +48,20 @@
     margin-bottom: 5px;
     z-index: 3;
   }
+  
   .parent {
     height: 100%;
-      display: flex;
-      flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
   }
 
-  @media screen and (min-width: 1024px){
-      .parent{
-        display: grid;
-        grid-template-columns: minmax(150px, 30%) 1fr;
-      }
+  @media screen and (min-width: 1024px) {
+    .parent {
+      display: grid;
+      grid-template-columns: minmax(150px, 30%) 1fr;
+    }
   }
+
   .sidebar {
     position: relative;
     z-index: 1;
@@ -98,6 +94,18 @@
     color: var(--text1);
     margin-bottom: 2rem;
   }
+
+  /* Adding higher specificity and using !important */
+  .timeline .description a {
+    color: black !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+  }
+
+  .timeline .description a:hover {
+    text-decoration: underline !important;
+  }
+
   a {
     color: inherit;
     text-decoration: none;

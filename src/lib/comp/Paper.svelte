@@ -6,6 +6,7 @@
   export let projects;
   export let abstract;
   export let year;
+  export let slides;
   export let github;
   export let open = false;
   import { fly } from "svelte/transition";
@@ -86,6 +87,14 @@
     {/if}
 </div>
 </a>
+
+<a href={slides} target="_blank">
+  <div class="row_link">
+      {#if slides}
+          <LucideIcon name={"presentation"} size=18/>
+      {/if}
+  </div>
+  </a>
 
 
 <style>

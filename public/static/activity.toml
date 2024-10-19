@@ -12,3 +12,21 @@ description = "The kick-off meeting is meant to be an occasion for the scientifi
 date= "01-03-2023"
 link="https://centai.eu/news/navigating-the-research-frontier-of-ai-and-complexity"
 
+
+[[articles]]
+title = "New Paper Published"
+description = "Our latest paper is published! Read it <a href='http://www.centai.eu' target='_blank'>here</a>."
+date = "12-10-2023"
+link = ""
+
+[[articles]]
+title = "Workshop Announcement"
+description = "We are organizing a workshop! For more details, visit the <a href='/publications/'>workshop page</a>."
+date = "05-10-2023"
+link = ""
+
+[[articles]]
+title = "Team Expansion"
+description = "We have new members on the team. Meet them <a href='/team'>here</a>."
+date = "15-09-2023"
+link = ""

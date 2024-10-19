@@ -17,8 +17,12 @@
   >
     {title}
   </div>
+  
   {#if description}
-    <div class="description">{description}</div>
+    <!-- Use {@html} to render the description as raw HTML, allowing links -->
+    <div class="description">
+      {@html description}
+    </div>
   {/if}
 </div>
 
@@ -60,9 +64,22 @@
     height: 0.6rem;
     z-index: 3;
   }
+
   .description {
     margin-top: 0;
   }
+
+  /* More specific style for links inside description */
+  div.description a {
+    color: black !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+  }
+
+  div.description a:hover {
+    text-decoration: underline !important;
+  }
+
   .dater {
     font-family: "Noto Sans TC", sans-serif;
     font-size: 0.7rem;
