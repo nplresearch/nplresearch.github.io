@@ -9,12 +9,14 @@
     import Person from "./lib/routes/Person.svelte";
     import Alumni from "./lib/routes/Alumni.svelte";
     import Project from "./lib/routes/Project.svelte";
+    import Publication from "./lib/routes/Publication.svelte";
     import LucideIcon from "./lib/comp/LucideIcon.svelte";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   const routes = {
     "/": Home,
     "/publications": Publications,
+    "/publications/:tag": Publication,
     "/people": People,
     "/people/:tag": Person,
     "/alumni/:tag": Alumni,

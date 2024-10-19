@@ -9,7 +9,7 @@ abstract= ""
 year = "2023"
 date = "23-03-2023"
 journal = "Nature Communications"
-projects = ["tda","higher_order"]
+projects = ["higher_order"]
 tag = "deeper-smaller"
 link = "https://arxiv.org/pdf/2203.03060.pdf"
 
@@ -124,7 +124,7 @@ people = ["giovanni_petri"]
 abstract = ""
 year = "2022"
 date = "01-01-2022"
-projects = ["tda","higher_order"]
+projects = ["higher_order"]
 link = "https://openreview.net/forum?id=UiBiLRXR0G"
 
 
@@ -136,7 +136,7 @@ abstract = ""
 year = "2021"
 date = "01-01-2021"
 journal = "Communications Physics"
-projects = ["tda","higher_order"]
+projects = ["higher_order"]
 link = "https://www.nature.com/articles/s42005-021-00637-w"
 
 
@@ -149,7 +149,7 @@ abstract= ""
 year = "2023"
 date = "23-03-2023"
 journal = "Nature Communications"
-projects = ["tda","higher_order"]
+projects = ["higher_order"]
 link = "https://arxiv.org/pdf/2203.03060.pdf"
 github = "https://github.com/maximelucas/HOI_shape_sync_differently"
 
@@ -240,13 +240,13 @@ link = "https://arxiv.org/pdf/2203.11910.pdf"
 
 
 [[papers]]
-title = "On The Topological Expressive Power of Neural Networks"
+title = "On The Topological Expressve Power of Neural Networks"
 authors = ["Petri, G.","Leitao, A."]
 people = ["giovanni_petri","antonio_leitao"]
 abstract= "We propose a topological description of neural network expressive power. We adopt the topology of the space of decision boundaries realized by a neural architecture as a measure of its intrinsic expressive power. By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. "
 link = "https://openreview.net/pdf?id=I44kJPuvqPD"
 year = "2020"
-projects = ["tda"] 
+projects = ["higher_order","topological_neuroscience"] 
 
 
 [[papers]]
@@ -257,7 +257,7 @@ abstract = ""
 year = "2021"
 date = "01-01-2021"
 journal = "Nature Physics"
-projects = ["tda","topological_neuroscience"] 
+projects = ["topological_neuroscience", "cognititve_neuroscience"] 
 link = "https://www.nature.com/articles/s41567-021-01170-x"
 
 
@@ -269,7 +269,7 @@ abstract = ""
 year = "2014"
 date = "01-01-2014"
 journal = "Journal of The Royal Society Interface"
-projects= ["topological_neuroscience","tda"] 
+projects= ["topological_neuroscience"] 
 link = "https://royalsocietypublishing.org/doi/10.1098/rsif.2014.0873"
 
 
@@ -305,5 +305,5 @@ abstract = ""
 year = "2021"
 date = "01-01-2021"
 journal = "Communications Physics"
-projects = ["tda","higher_order"]
+projects = ["higher_order"]
 link = "https://www.nature.com/articles/s42005-021-00637-w"

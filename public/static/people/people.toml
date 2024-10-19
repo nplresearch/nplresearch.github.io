@@ -14,14 +14,14 @@ tag= "marilyn_gatica"
 title= "Post-Doc Researcher @ Network Science Institute"
 bio=""
 avatar="/static/people/marilyn_gatica.jpg"
-url=""
+url="https://www.nulondon.ac.uk/faculty/marilyn-gatica/"
 
 [[researchers]]
 name= "Andrea Santoro"
 tag= "andrea_santoro"
 title= "Post-Doc Researcher @ CENTAI Institute"
 bio=""
-avatar=""
+avatar="/static/people/andrea_santoro.jpeg"
 url="https://andresantoro.github.io/"
 
 [[researchers]]
@@ -29,7 +29,7 @@ name= "Simone Poetto"
 tag= "simone_poetto"
 title= "PhD Student @ CENTAI Institute + Nikolaus Kopernicus University"
 bio="Simone is a physicist with a research focus on artificial intelligence and neuroscience. When not in the lab, he loves mountains and hiking."
-avatar=""
+avatar="/static/people/simone_poetto.jpg"
 url="https://simonepoetto.github.io"
 
 [[researchers]]
@@ -62,7 +62,7 @@ name= "Henrique M. Borges"
 tag= "henriques_borges"
 title= "PhD Student @ Network Science Institute"
 bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
-avatar=""
+avatar="/static/people/henrique_borges.jpg"
 url=""
 
 [[researchers]]
@@ -70,16 +70,9 @@ name= "Raj Deshpande"
 tag= "raj_deshpande"
 title= "PhD Student @ Network Science Institute"
 bio= ""
-avatar=""
+avatar="/static/people/raj_deshpande.jpg"
 url=""
 
-[[researchers]]
-name= "Alessandra Brondetta"
-tag= "alessandra_brondetta"
-title= "PhD Student @ Osnabrück University"
-bio=""
-avatar=""
-url=""
 
 [[researchers]]
 name= "Elisabetta Salvai"
@@ -115,6 +108,16 @@ title= "MSc Student"
 bio= ""
 avatar="/static/people/leonardo_federici.jpeg"
 url=""
+
+
+[[alumni]]
+name= "Alessandra Brondetta"
+tag= "alessandra_brondetta"
+title= "PhD Student @ Osnabrück University"
+bio=""
+avatar="/static/people/alessandra_brondetta.jpg"
+url=""
+
 
 [[alumni]]
 name= "Brendan Matulis"

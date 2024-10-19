@@ -19,8 +19,9 @@ function formatAuthors(authors) {
 }
 </script>
 
+
 <!-- This needs to be fixed... -->
-<!-- <div class="featured">
+<div class="featured">
     {#each $featured as publication, i}
         <div class="card"
             in:fly={{
@@ -28,15 +29,29 @@ function formatAuthors(authors) {
                 duration: 500,
                 easing: quintOut,
                 delay: i * 50,
-            }}
-        >
-            <div class="content">
+             }} on:click={() => push(`/publications/${publication.tag}`)}>
+
+            <div class="content"> 
                 <div class="featured_subtitle">{formatAuthors(publication.authors)}</div>
                 <div class="featured_title">{publication.title}</div>
+                <!-- <a href={link} target="_blank">
+                    
+                        {#if link}
+                            <LucideIcon name={"pdf"} size=18/>
+                        {/if}
+            
+                    </a>
+                    
+                    <a href={github} target="_blank">
+                        {#if github}
+                            <LucideIcon name={"code"} size=18/>
+                        {/if}
+                    </a> -->
+                
             </div>
         </div>
     {/each}
-</div> -->
+</div>
 <style>
     .content{
         z-index:20;

@@ -42,8 +42,7 @@
                 <div class="face" style="background-image: url({avatar ? avatar : 'static/people/npc_placeholder.jpeg'})"></div>
                 <div class="title" style="text-align:center">{name}</div>
                 <div class="subtitle">{title}</div>
-                
-                
+
             </div>
         </div>
     {/each}
@@ -51,12 +50,10 @@
 
 <div class="top-row">
   <div class="page-title"></div>
-  <a href={"/"} use:link>
-    <div class="button">
-      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
-    </div>
-  </a>
+  
 </div>
+
+
 <!-- Toggle button for alumni section -->
 <div class="toggle-button" on:click={toggleAlumni}>
   {showAlumni ? 'HIDE ALUMNI' : 'SHOW ALUMNI'}
@@ -81,7 +78,14 @@
     {/each}
 </div>
 {/if}
-
+<div class="top-row">
+  <div class="page-title"></div>
+  <a href={"/"} use:link>
+    <div class="button">
+      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
+    </div>
+  </a>
+</div>
 <style>
 
   .toggle-button {

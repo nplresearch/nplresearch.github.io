@@ -41,7 +41,7 @@
 <style>
   .slap {
     margin-top:7vh;
-    margin-bottom:20vh;
+    margin-bottom:15vh;
     display: flex;
     align-items: center;
     flex-direction: column;
