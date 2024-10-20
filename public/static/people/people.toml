@@ -98,6 +98,15 @@ avatar="/static/people/giulia_lorenzini_new.jpg"
 hoverAvatar="/static/people/giulia_lorenzini_new.jpg"
 url=""
 
+[[researchers]]
+name= "Francesco Guadagnuolo"
+tag= "francesco_guadagnuolo"
+title= "MSc Student @ EPFL"
+bio=""
+avatar="/static/people/francesco_maria_guadagnuolo.jpg"
+hoverAvatar="/static/people/francesco_maria_guadagnuolo_new.jpg"
+url=""
+
 [[alumni]]
 name= "Maxime Lucas"
 tag= "maxime_lucas"
