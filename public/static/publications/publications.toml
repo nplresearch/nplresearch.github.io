@@ -10,7 +10,7 @@ year = "2023"
 date = "23-03-2023"
 journal = "Nature Communications"
 projects = ["higher_order"]
-tag = "deeper-smaller"
+tag = "higher-order-collective"
 link = "https://arxiv.org/pdf/2203.03060.pdf"
 
 [[featured]]
@@ -35,20 +35,32 @@ abstract= ""
 year = "2023"
 date = "27-02-2023"
 journal = "Cell Reports Methods"
-projects = ["higher_order,topological_neuroscience"]
+projects = ["higher_order", "topological_neuroscience"]
 tag = "inferring-cells"
 link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
 
 [[papers]]
+title = "Extracting the Multiscale Causal Backbone of Brain Dynamics"
+authors = [ "Gabriele, D.", "Bonchi, F.", "De Francisci Morales, G.", "Petri, G."]
+journal = "CLeaR"
+year = "2024"
+link = "https://proceedings.mlr.press/v236/d-textsc-char13acunto24a"
+github = "https://github.com/OfficiallyDAC/cb"
+slides = ""
+people = ["giovanni_petri"]
+abstract = "The bulk of the research effort on brain connectivity revolves around statistical associations among brain regions, which do not directly relate to the causal mechanisms governing brain dynamics. Here we propose the multiscale causal backbone (MCB) of brain dynamics shared by a set of individuals across multiple temporal scales, and devise a principled methodology to extract it. Our approach leverages recent advances in multiscale causal structure learning and optimizes the trade-off between the model fitting and its complexity. Empirical assessment on synthetic data shows the superiority of our methodology over a baseline based on canonical functional connectivity networks. When applied to resting-state fMRI data, we find sparse MCBs for both the left and right brain hemispheres. Thanks to its multiscale nature, our approach shows that at low-frequency bands, causal dynamics are driven by brain regions associated with high-level cognitive functions; at higher frequencies instead, nodes related to sensory processing play a crucial role. Finally, our analysis of individuals’ multiscale causal structures confirms the existence of a causal fingerprint of brain connectivity, thus supporting from a causal perspective the existing extensive research in brain connectivity fingerprinting."
+projects = ["higher_order", "topological_neuroscience"]
+
+[[papers]]
 projects = ["higher_order"]
 title = "Deeper but smaller: Higher-order interactions increase linear stability but shrink basins"
 authors =  ["Zhang, Y.", "Skardal, P.S.", "Battiston, F.", "Petri, G.", "Lucas, M."]
 people = ["maxime_lucas", "giovanni_petri"]
-journal = "arXiv:2309.16581"
-year = "2023"
-link = "https://arxiv.org/abs/2309.16581"
+journal = "Sciences Advances"
+year = "2024"
+link = "https://www.science.org/doi/full/10.1126/sciadv.ado8049"
 abstract = "A key challenge of nonlinear dynamics and network science is to understand how higher-order interactions influence collective dynamics. Although many studies have approached this question through linear stability analysis, less is known about how higher-order interactions shape the global organization of different states. Here, we shed light on this issue by analyzing the rich patterns supported by identical Kuramoto oscillators on hypergraphs. We show that higher-order interactions can have opposite effects on linear stability and basin stability: they stabilize twisted states (including full synchrony) by improving their linear stability, but also make them hard to find by dramatically reducing their basin size. Our results highlight the importance of understanding higher-order interactions from both local and global perspectives."
 github = "https://github.com/maximelucas/basins_and_triangles"
 

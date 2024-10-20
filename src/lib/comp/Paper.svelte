@@ -7,6 +7,7 @@
   export let abstract;
   export let year;
   export let slides;
+  export let journal; // Add journal field
   export let github;
   export let open = false;
   import { fly } from "svelte/transition";
@@ -45,13 +46,21 @@
 <div class="row_author">
     {#if open}
         {extendedAuthors(authors)}
+
+
     {:else}
         {truncatedAuthors(authors)}
     {/if}
 </div>
 <div class="row_title">{title}
 
+    <!-- Show journal reference if available -->
+
 {#if open}
+{#if journal}
+      <div class="row_journal">{journal}</div>
+{/if}
+
     <div class="description row_abstract"
             in:fly={{
                 y: -10,
@@ -72,7 +81,7 @@
 
 
 
-<a href={link} target="_blank">
+<a href={link} target="_blank" title="Download PDF">
 <div class="row_link">
     {#if link}
         <LucideIcon name={"pdf"} size=18/>
@@ -80,7 +89,7 @@
 </div>
 </a>
 
-<a href={github} target="_blank">
+<a href={github} target="_blank" title="View Code">
 <div class="row_link">
     {#if github}
         <LucideIcon name={"code"} size=18/>
@@ -88,7 +97,7 @@
 </div>
 </a>
 
-<a href={slides} target="_blank">
+<a href={slides} target="_blank" title="Check Slides">
   <div class="row_link">
       {#if slides}
           <LucideIcon name={"presentation"} size=18/>
@@ -113,6 +122,14 @@
     color: var(--text3);
     font-size: 1rem;
     font-weight: 500;
+  }
+
+
+  .row_journal {
+    font-family: "Noto Sans TC", sans-serif;
+    color: var(--text2);  /* Slightly lighter color for journal reference */
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
   }
 
   .row_year {
