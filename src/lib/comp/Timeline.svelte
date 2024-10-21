@@ -5,7 +5,7 @@
 </script>
 
 <div class="topper">
-  <div class="page-title">RECENT ACTIVITY</div>
+  <div class="page-title">CURRENT AND PAST ACTIVITY</div>
 </div>
 <div class="parent">
   <div class="sidebar">
