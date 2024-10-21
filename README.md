@@ -69,6 +69,22 @@ Make sure to add a picture of the NPC or else a random Danny Devito will take it
 
 Make sure to commit the changes to the `gh-pages` branch and the website will update soon enough.
 
+# Building from source
+- Download the repository
+- Install all dependencies
+```shell
+npm install
+```
+- Serve website locally
+```shell
+npm run dev
+```
+- Make Changes
+- Publish changes
+```
+npm run deploy
+```
+
 # Potential Features
 - [ ] Add bibtex support for publications, substitute the toml [parser](https://github.com/yepengding/bibtex-js-parser)
 - [ ] Add links to timeline.
