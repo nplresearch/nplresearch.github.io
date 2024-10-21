@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@rgossiaux/svelte-headlessui": "^2.0.0",
-    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
     "gh-pages": "^6.2.0",
     "lil-gui": "^0.17.0",
     "svelte": "^3.49.0",
