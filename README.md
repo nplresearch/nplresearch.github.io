@@ -26,11 +26,12 @@ Add a new entry by appending to the top of the file `activity.toml` the followin
 title = "Title of the new thing that just happened"
 description = "What really just happened"
 date= "18-01-2023"
-link="link_to_thing"
+link=""
 ```
 
 > **Note**
 > Make sure that the `toml` is the the format `DD-MM-YYYY` or it will mess things up.
+> You can add HTML in the description (e.g. to add links, check the toml file for examples)
 
 The entries do not necessarily need to be in order in the file, there is a script that arranjes them before displaying.
 
@@ -40,15 +41,20 @@ Add a new paper by appending to the top of the file `publications.toml` the foll
 
 ```toml
 [[papers]]
-title = "Title of the paper"
-authors = ["John Doe", "Peter Parker", "Mary Jane"]
-abstract= "Abstract of the paper"
-[[papers.links]]
-pdf = "https://arxiv.org/pdf/2007.14900.pdf"
-code = "www.github.io"
+title = "Extracting the Multiscale Causal Backbone of Brain Dynamics"
+authors = [ "Gabriele, D.", "Bonchi, F.", "De Francisci Morales, G.", "Petri, G."]
+journal = "CLeaR"
+year = "2024"
+link = "https://proceedings.mlr.press/v236/d-textsc-char13acunto24a"
+github = "https://github.com/OfficiallyDAC/cb"
+slides = ""
+people = ["giovanni_petri"]
+abstract = "......"
+projects = ["higher_order", "topological_neuroscience"]
 ```
 
-The section `[[papers.links]]` and everything under is not mandatory but at least the pdf link should be there for aesthetic reasons. You can add more links than the ones presented and the site will generate a button for each of them. However only the keywords: `pdf`, `code` and `bib` have custom icons. Maybe this could be a pointo to increase in the future (add stuff like doi or sonmething).
+The sections are all mandatory. Pdfs and links can be empty, but they have to be there for formatting reasons.  
+Maybe this could be a point to increase in the future (add stuff like doi or sonmething).
 
 ## People
 
@@ -56,11 +62,13 @@ Add a new NPC by appending to the **end** of the file `people.toml` the followin
 
 ```toml
 [[researchers]]
-name= "Person McName"
-title= "NPC Title"
-bio="This person does this and that it was them that started this and that is now doing that. Reach by here or there."
-avatar="static/faces/npc_face.jpg"
-url="link_to_npc.com"
+name= "Marilyn Gatica"
+tag= "marilyn_gatica"
+title= "Post-Doc Researcher @ Network Science Institute"
+bio=""
+avatar="/static/people/marilyn_gatica.jpg"
+hoverAvatar="/static/people/marilyn_gatica.jpg"
+url="https://www.nulondon.ac.uk/faculty/marilyn-gatica/"
 ```
 
 Make sure to add a picture of the NPC or else a random Danny Devito will take its place.
@@ -68,6 +76,7 @@ Make sure to add a picture of the NPC or else a random Danny Devito will take it
 # 3. Commit Changes
 
 Make sure to commit the changes to the `gh-pages` branch and the website will update soon enough.
+**DO NOT DO THIS YET**
 
 # Building from source
 - Download the repository
@@ -86,7 +95,8 @@ npm run deploy
 ```
 
 # Potential Features
-- [ ] Add bibtex support for publications, substitute the toml [parser](https://github.com/yepengding/bibtex-js-parser)
-- [ ] Add links to timeline.
-- [ ] Divide publications by topics, either by projects or publications types is a very easy extension to do. Its no done out-of-the box due to the low number of publications.
+- [X] Add links to timeline.
+- [X] Divide publications by topics, either by projects or publications types is a very easy extension to do. Its no done out-of-the box due to the low number of publications.
 - [ ] Moving timeline to its own page intsad of main page?
+- [ ] Add bibtex support for publications, substitute the toml [parser](https://github.com/yepengding/bibtex-js-parser)
+- [ ] Add news list to individual pages in addition to papers

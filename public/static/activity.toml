@@ -1,6 +1,6 @@
-# RECENT NEWS
 ## template links <a href='' target='_blank'>xxxx</a>
 
+# UPCOMING NEWS
 
 [[articles]]
 title = "Statistical Mechanics of Cognition"
@@ -18,6 +18,14 @@ link="..."
 title = "KIAS-KU workshop on Theoretical Challenges in Network Science"
 description = "Gio will be talking at the KIAS-KU workshop on Theoretical Challenges in Network Science at the beginning of the November. Program is available <a href='http://events.kias.re.kr/h/TCNS2024/' target='_blank'> here </a>."
 date= "2-11-2024"
+link="..."
+
+#### PAST NEWS 
+
+[[articles]]
+title = "New NPL website launched!"
+description = "After a looooooong time, our new website is finally out! It is still in construction, but the main functionalities are there."
+date= "21-10-2024"
 link="..."
 
 
