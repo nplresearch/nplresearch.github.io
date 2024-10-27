@@ -2,7 +2,7 @@
 name= "Giovanni Petri"
 tag= "giovanni_petri"
 title= "PI"
-bio= "Professor at Network Science Institute, Principal Researcher at CENTAI.  
+bio= "Professor at Network Science Institute, Northeastern University London. Principal Researcher at CENTAI.  
 He works on topological approaches to complex networks and their underlying geometry, with special attention to the topology of brain structure and dynamics."
 avatar="/static/people/giovanni_petri.jpg"
 hoverAvatar="/static/people/giovanni_petri_alt.jpg"
@@ -81,12 +81,21 @@ hoverAvatar="/static/people/raj_deshpande.jpg"
 url=""
 
 [[researchers]]
+name= "Pierrick Leroy"
+tag= "pierrick_leroy"
+title= "PhD Student @ Polytechnic of Turin"
+bio= ""
+avatar="/static/people/pierrick_leroy.jpg"
+hoverAvatar="/static/people/pierrick_leroy.jpg"
+url=""
+
+[[researchers]]
 name= "Elisabetta Salvai"
 tag= "elisabetta_salvai"
 title= "Research assistant @ University of Copenhagen"
 bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
 avatar="static/people/elisabetta_salvai.jpg"
-hoverAvatar="static/people/elisabetta_salvai.jpg"
+hoverAvatar="static/people/elisabetta_salvai_alt.jpg"
 url=""
 
 [[researchers]]
