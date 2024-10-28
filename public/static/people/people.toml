@@ -8,6 +8,11 @@ avatar="/static/people/giovanni_petri.jpg"
 hoverAvatar="/static/people/giovanni_petri_alt.jpg"
 url="https://lordgrilo.github.io"
 github="http://www.github.com/lordgrilo"
+email="giovanni.petri@northeastern.edu"
+twitter="https://x.com/lordgrilo"
+scholar="https://scholar.google.com/citations?hl=en&user=jb__2PIAAAAJ"
+linkedin="https://www.linkedin.com/in/giovannipetri/"
+orcid="https://orcid.org/0000-0003-1847-5031"
 
 [[researchers]]
 name= "Marilyn Gatica"

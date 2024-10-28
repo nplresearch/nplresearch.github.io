@@ -13,7 +13,7 @@
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
   import LucideIcon from "./LucideIcon.svelte";
-  import { Skull } from 'lucide-svelte';
+  import { Layers, Github, Presentation } from 'lucide-svelte';
 
   function cropString(str, N) {
   if (str.length > N) {
@@ -86,8 +86,8 @@
 <a href={link} target="_blank" title="Download PDF">
 <div class="row_link">
     {#if link}
-        <LucideIcon name={"Skull"} size=18/>
-        <Skull />
+        <!-- <LucideIcon name={"Skull"} size=18/> -->
+        <Layers size=18/>
     {/if}
 </div>
 </a>
@@ -95,7 +95,8 @@
 <a href={github} target="_blank" title="View Code">
 <div class="row_link">
     {#if github}
-        <LucideIcon name={"code"} size=18/>
+        <!-- <LucideIcon name={"code"} size=18/> -->
+        <Github size=18/>
     {/if}
 </div>
 </a>
@@ -103,7 +104,8 @@
 <a href={slides} target="_blank" title="Check Slides">
   <div class="row_link">
       {#if slides}
-          <LucideIcon name={"presentation"} size=18/>
+          <!-- <LucideIcon name={"presentation"} size=18/> -->
+           <Presentation size=18/>
       {/if}
   </div>
   </a>
