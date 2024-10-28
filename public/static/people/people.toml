@@ -58,6 +58,10 @@ bio= "Jesseba researches neuronal dynamics of learning through the lens of netwo
 avatar="/static/people/jesseba_fernando.jpg"
 hoverAvatar="/static/people/jesseba_fernando_alt.jpg"
 url="https://jesseba.github.io/"
+github="http://www.github.com/jesseba"
+email="fernando.je@northeastern.edu"
+twitter="https://x.com/richlyn_jesseba"
+scholar="https://scholar.google.com/citations?hl=en&user=R4X-c5oAAAAJ"
 
 [[researchers]]
 name= "Davide Orsenigo"
