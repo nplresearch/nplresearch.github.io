@@ -7,6 +7,7 @@ He works on topological approaches to complex networks and their underlying geom
 avatar="/static/people/giovanni_petri.jpg"
 hoverAvatar="/static/people/giovanni_petri_alt.jpg"
 url="https://lordgrilo.github.io"
+github="http://www.github.com/lordgrilo"
 
 [[researchers]]
 name= "Marilyn Gatica"
@@ -240,4 +241,13 @@ title="MSc Student"
 bio=""
 avatar="/static/people/asia_maurich_novelli.jpg"
 hoverAvatar="/static/people/asia_maurich_novelli.jpg"
+url=""
+
+[[alumni]]
+name= "Davide Coppes"
+tag= "davide_coppes"
+title="MSc Student"
+bio=""
+avatar="/static/people/davide_coppes.jpg"
+hoverAvatar="/static/people/davide_coppes.jpg"
 url=""

@@ -50,15 +50,24 @@ onMount(() => {
     <div class="subtitle">{person.title}</div>
     <div class="title" >{person.name}</div>
     <div class="description">{person.bio}</div>
-    <!-- {#if person.url !== undefined} -->
-    <!--     <Button -->
-    <!--             icon_place="left" -->
-    <!--             icon={"home"} -->
-    <!--             text={"homepage"} -->
-    <!--             href={person.url} -->
-    <!--             reduced={true} -->
-    <!--           /> -->
-    <!-- {/if} -->
+    {#if person.url !== undefined}
+        <Button
+                icon_place="left"
+                icon={"home"}
+                text={"homepage"}
+                href={person.url}
+                reduced={true}
+              />
+    {/if}
+    {#if person.github !== undefined}
+    <Button
+            icon_place="left"
+            icon={"code"}
+            text={" github "}
+            href={person.github}
+            reduced={true}
+          />
+{/if}
 </div>
 <Papers selected_person={person.tag}/>
 

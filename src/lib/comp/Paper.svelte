@@ -12,7 +12,9 @@
   export let open = false;
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
-    import LucideIcon from "./LucideIcon.svelte";
+  import LucideIcon from "./LucideIcon.svelte";
+  import { Skull } from 'lucide-svelte';
+
   function cropString(str, N) {
   if (str.length > N) {
     return str.slice(0, N) + "...";
@@ -84,7 +86,8 @@
 <a href={link} target="_blank" title="Download PDF">
 <div class="row_link">
     {#if link}
-        <LucideIcon name={"pdf"} size=18/>
+        <LucideIcon name={"Skull"} size=18/>
+        <Skull />
     {/if}
 </div>
 </a>
