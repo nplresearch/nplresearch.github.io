@@ -27,10 +27,19 @@ url="https://www.nulondon.ac.uk/faculty/marilyn-gatica/"
 name= "Andrea Santoro"
 tag= "andrea_santoro"
 title= "Post-Doc Researcher @ CENTAI Institute"
-bio=""
+bio="Postdoctoral researcher at CENTAI. Currently, his work involves developing topological approaches to infer higher-order dependencies in multivariate time series, with applications in brain data and economics."
 avatar="/static/people/andrea_santoro.jpg"
 hoverAvatar="/static/people/andrea_santoro.jpg"
 url="https://andresantoro.github.io/"
+github="https://github.com/andresantoro"
+email="andrea.santoro@centai.eu"
+twitter="https://x.com/andreasantor0"
+scholar="https://scholar.google.co.uk/citations?user=gGSh6oEAAAAJ&hl=en"
+linkedin="https://www.linkedin.com/in/andrea-santoro-17064592/"
+orcid="https://orcid.org/0000-0001-7959-2958"
+
+
+
 
 [[researchers]]
 name= "Simone Poetto"
