@@ -112,11 +112,16 @@ url=""
 [[researchers]]
 name= "Elisabetta Salvai"
 tag= "elisabetta_salvai"
-title= "Research assistant @ University of Copenhagen"
-bio= "PhD student wannabe, researching fairness in network rankings and science conferences."
+title= "PhD @ University of Copenhagen"
+bio= "PhD student researching fairness in network rankings and gender representation in computer science and physics conferences."
 avatar="static/people/elisabetta_salvai.jpg"
 hoverAvatar="static/people/elisabetta_salvai_alt.jpg"
 url=""
+github="https://github.com/elisabettasalvai"
+email="elsa@sodas.ku.dk"
+twitter="https://x.com/elisalvai"
+linkedin="https://www.linkedin.com/in/elisabetta-salvai-069a912ba/"
+orcid="https://orcid.org/0009-0009-1218-8526"
 
 [[researchers]]
 name= "Giulia Lorenzini"
