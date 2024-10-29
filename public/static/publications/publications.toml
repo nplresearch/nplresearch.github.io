@@ -140,6 +140,7 @@ people = ['maxime_lucas', 'giovanni_petri', 'marco_nurisso']
 journal = "Chaos: An Interdisciplinary Journal of Nonlinear Science"
 link = "https://pubs.aip.org/aip/cha/article/34/5/053118/3289337"
 abstract = "Simplicial Kuramoto models have emerged as a diverse and intriguing class of models describing oscillators on simplices rather than nodes. In this paper, we present a unified framework to describe different variants of these models, categorized into three main groups: simple models, Hodge-coupled models, and order-coupled (Dirac) models. Our framework is based on topology, discrete differential geometry as well as gradient flows and frustrations, and permits a systematic analysis of their properties. We establish an equivalence between the simple simplicial Kuramoto model and the standard Kuramoto model on pairwise networks under the condition of manifoldness of the simplicial complex. Then, starting from simple models, we describe the notion of simplicial synchronization and derive bounds on the coupling strength necessary or sufficient for achieving it. For some variants, we generalize these results and provide new ones, such as the controllability of equilibrium solutions. Finally, we explore a potential application in the reconstruction of brain functional connectivity from structural connectomes and find that simple edge-based Kuramoto models perform competitively or even outperform complex extensions of node-based models."
+github = "https://github.com/arnaudon/simplicial-kuramoto"
 
 [[papers]]
 title = "The structural evolution of temporal hypergraphs through the lens of hyper-cores"
@@ -236,7 +237,7 @@ volume = "17"
 pages = "1153572"
 publisher = "Frontiers"
 abstract = "This paper examines Convolutional Neural Networks (CNNs) as in silico models of the primate visual system, highlighting structural and functional parallels. It discusses challenges in modeling visual processing pathways and proposes architectural constraints to align CNNs more closely with biological vision, extending their applicability beyond object recognition."
-projects = ['cognititve_neuroscience', 'topological_neuroscience']
+projects = ['cognitive_neuroscience', 'topological_neuroscience']
 people = ['giovanni_petri', 'davide_orsenigo']
 link = "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2023.1153572/full"
 
@@ -290,6 +291,9 @@ year = "2022"
 date = "12-09-2022"
 projects = ["higher_order"]
 link = "https://openreview.net/forum?id=UiBiLRXR0G"
+github = "https://github.com/simonepiaggesi/simplex2pred"
+
+
 
 
 [[papers]]
@@ -315,31 +319,7 @@ projects = ["higher_order"]
 link = "https://www.nature.com/articles/s41467-023-37190-9"
 github = "https://github.com/maximelucas/HOI_shape_sync_differently"
 
-[[papers]]
-title = "Simplicially driven simple contagion"
-authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
-people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
-year = "2023"
-date = "23-03-2023"
-journal = "Physical Review Research"
-projects = ["higher_order"]
-link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
-abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
 
-[[papers]]
-title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
-authors = ["Lucas, M.", "Morris, A.", "Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
-people = ["maxime_lucas"]
-year = "2023"
-date = "27-02-2023"
-journal = "Cell Reports Methods"
-projects = ["higher_order,topological_neuroscience"]
-link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
-abstract= ""
-#The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
-github = "https://gitlab.com/habermann_lab/phasik"
-
-##########
 [[papers]]
 title = "Higher-order organization of multivariate time series"
 authors = ['Santoro, A.', 'Battiston, F.', 'Petri, G.', 'Amico, E.']
@@ -351,6 +331,147 @@ projects = ["higher_order"]
 link = "https://www.nature.com/articles/s41567-022-01852-0"
 github = "https://github.com/andresantoro/RHOSTS"
 abstract = "Time series analysis has proven to be a powerful method to characterize several phenomena in biology, neuroscience and economics, and to understand some of their underlying dynamical features. Several methods have been proposed for the analysis of multivariate time series, yet most of them neglect the effect of non-pairwise interactions on the emerging dynamics. Here, we propose a framework to characterize the temporal evolution of higher-order dependencies within multivariate time series. Using network analysis and topology, we show that our framework robustly differentiates various spatiotemporal regimes of coupled chaotic maps. This includes chaotic dynamical phases and various types of synchronization. Hence, using the higher-order co-fluctuation patterns in simulated dynamical processes as a guide, we highlight and quantify signatures of higher-order patterns in data from brain functional activity, financial markets and epidemics. Overall, our approach sheds light on the higher-order organization of multivariate time series, allowing a better characterization of dynamical group dependencies inherent to real-world data."
+
+
+
+[[papers]]
+title = "Simplicially driven simple contagion"
+authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
+people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
+year = "2023"
+date = "23-03-2023"
+journal = "Physical Review Research"
+projects = ["higher_order"]
+link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
+
+
+[[papers]]
+title = "Evolutionarily conserved role of oxytocin in social fear contagion in zebrafish"
+authors = ["Akinrinade, I.", "Kareklas, K.", "Teles, M. C.", "Reis, T. K.", "Gliksberg, M.", "Petri, G.", "Levkowitz, G.", "Oliveira, R. F."]
+year = "2023"
+journal = "Science"
+volume = "379"
+issue = "6638"
+pages = "1232-1237"
+publisher = "American Association for the Advancement of Science"
+abstract = "Emotional contagion is the most ancestral form of empathy. We tested to what extent the proximate mechanisms of emotional contagion are evolutionarily conserved by assessing the role of oxytocin, known to regulate empathic behaviors in mammals, in social fear contagion in zebrafish. Using oxytocin and oxytocin receptor mutants, we show that oxytocin is both necessary and sufficient for observer zebrafish to imitate the distressed behavior of conspecific demonstrators. The brain regions associated with emotional contagion in zebrafish are homologous to those involved in the same process in rodents (e.g., striatum, lateral septum), receiving direct projections from oxytocinergic neurons located in the pre-optic area. Together, our results support an evolutionary conserved role for oxytocin as a key regulator of basic empathic behaviors across vertebrates."
+people = ['giovanni_petri']
+projects = ["cognitive_neuroscience", "topological_neuroscience"]
+link = "https://www.science.org/doi/abs/10.1126/science.abq5158"
+
+
+
+[[papers]]
+title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
+authors = ["Lucas, M.", "Morris, A.", "Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+people = ["maxime_lucas"]
+year = "2023"
+date = "27-02-2023"
+journal = "Cell Reports Methods"
+projects = ["higher_order,topological_neuroscience"]
+link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
+github = "https://gitlab.com/habermann_lab/phasik"
+
+
+
+
+[[papers]]
+title = "Toward understanding the communication in sperm whales"
+authors = ["Andreas, J.", "Begus, G.", "Bronstein, M. M.", "Diamant, R.", "Delaney, D.", "Gero, S.", "Goldwasser, S.", "Gruber, D. F.", "de Haas, S.", "Malkin, P.", "Pavlov, N.", "Payne, R.", "Petri, G.", "Rus, D.", "Sharma, P.", "Tchernov, D.", "Tønnesen, P.", "Torralba, A.", "Vogt, D.", "Wood, R. J."]
+year = "2022"
+journal = "iScience"
+volume = "25"
+issue = "6"
+publisher = "Elsevier"
+abstract = "Machine learning has been advancing dramatically over the past decade. Most strides are human-based applications due to the availability of large-scale datasets; however, opportunities are ripe to apply this technology to more deeply understand non-human communication. We detail a scientific roadmap for advancing the understanding of communication of whales that can be built further upon as a template to decipher other forms of animal and non-human communication. Sperm whales, with their highly developed neuroanatomical features, cognitive abilities, social structures, and discrete click-based encoding make for an excellent model for advanced tools that can be applied to other animals in the future. We outline the key elements required for the collection and processing of massive datasets, detecting basic communication units and language-like higher-level structures, and validating models through interactive playback experiments. The technological capabilities developed by such an undertaking hold potential for cross-applications in broader communities investigating non-human communication and behavioral research."
+people = ['giovanni_petri', 'antonio_leitao']
+projects = ['ceti']
+link = "https://www.cell.com/iscience/fulltext/S2589-0042(22)00664-2"
+
+
+
+[[papers]]
+title = "Group interactions modulate critical mass dynamics in social convention"
+authors = ["Iacopini, I.", "Petri, G.", "Baronchelli, A.", "Barrat, A."]
+year = "2022"
+journal = "Communications Physics"
+volume = "5"
+issue = "1"
+pages = "64"
+publisher = "Nature Publishing Group UK"
+abstract = "How can minorities of individuals overturn social conventions? The theory of critical mass states that when a committed minority reaches a critical size, a cascade of behavioural changes can occur, overturning apparently stable social norms. Evidence comes from theoretical and empirical studies in which minorities of very different sizes, including extremely small ones, manage to bring a system to its tipping point. Here, we explore this diversity of scenarios by introducing group interactions as a crucial element of realism into a model for social convention. We find that the critical mass necessary to trigger behaviour change can be very small if individuals have a limited propensity to change their views. Moreover, the ability of the committed minority to overturn existing norms depends in a complex way on the group size. Our findings reconcile the different sizes of critical mass found in previous investigations and unveil the critical role of groups in such processes. This further highlights the importance of the emerging field of higher-order networks, beyond pairwise interactions."
+people = ['giovanni_petri']
+projects = ['higher_order']
+link = "https://www.nature.com/articles/s42005-022-00845-y"
+github = "https://github.com/iaciac/higher-order-NG"
+
+
+
+
+[[papers]]
+title = "Sex differences in aggression are paralleled by differential activation of the brain social decision-making network in zebrafish"
+authors = ["Scaia, M. F.", "Akinrinade, I.", "Petri, G.", "Oliveira, R. F."]
+year = "2022"
+journal = "Frontiers in Behavioral Neuroscience"
+volume = "16"
+pages = "784835"
+publisher = "Frontiers Media SA"
+abstract = "Although aggression is more prevalent in males, females also express aggressive behaviors and in specific ecological contexts females can be more aggressive than males. The aim of this work is to assess sex differences in aggression and to characterize the patterns of neuronal activation of the social-decision making network (SDMN) in response to intra-sexual aggression in both male and female zebrafish. Adult fish were exposed to social interaction with a same-sex opponent and all behavioral displays, latency, and time of resolution were quantified. After conflict resolution, brains were sampled and sex differences on functional connectivity throughout the SDMN were assessed by immunofluorescence of the neuronal activation marker pS6. Results suggest that both sexes share a similar level of motivation for aggression, but female encounters show shorter conflict resolution and a preferential use of antiparallel displays instead of overt aggression, showing a reduction of putative maladaptive effects. Although there are no sex differences in the neuronal activation in any individual brain area from the SDMN, agonistic interactions increased neuronal activity in most brain areas in both sexes. Functional connectivity was assessed using bootstrapped adjacency matrices that capture the co-activation of the SDMN nodes. Male winners increased the overall excitation and showed no changes in inhibition across the SDMN, whereas female winners and both male and female losers showed a decrease in both excitation and inhibition of the SDMN in comparison to non-interacting control fish. Moreover, network centrality analysis revealed both shared hubs, as well as sex-specific hubs, between the sexes for each social condition in the SDMN. In summary, a distinct neural activation pattern associated with social experience during fights was found for each sex, suggesting a sex-specific differential activation of the social brain as a consequence of social experience. Overall, our study adds insights into sex differences in agonistic behavior and on the neuronal architecture of intrasexual aggression in zebrafish."
+projects = ['cognitive_neuroscience']
+people = ["giovanni_petri"]
+link = "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.784835/full"
+
+
+
+[[papers]]
+title = "Influential groups for seeding and sustaining nonlinear contagion in heterogeneous hypergraphs"
+authors = ["St-Onge, G.", "Iacopini, I.", "Latora, V.", "Barrat, A.", "Petri, G.", "Allard, A.", "Hébert-Dufresne, L."]
+year = "2022"
+journal = "Communications Physics"
+volume = "5"
+issue = "1"
+pages = "25"
+publisher = "Nature Publishing Group UK"
+abstract = "Contagion phenomena are often the results of multibody interactions—such as superspreading events or social reinforcement—describable as hypergraphs. We develop an approximate master equation framework to study contagions on hypergraphs with a heterogeneous structure in terms of group size (hyperedge cardinality) and of node membership (hyperdegree). By mapping multibody interactions to nonlinear infection rates, we demonstrate the influence of large groups in two ways. First, we characterize the phase transition, which can be continuous or discontinuous with a bistable regime. Our analytical expressions for the critical and tricritical points highlight the influence of the first three moments of the membership distribution. We also show that heterogeneous group sizes and nonlinear contagion promote a mesoscopic localization regime where contagion is sustained by the largest groups, thereby inhibiting bistability. Second, we formulate an optimal seeding problem for hypergraph contagion and compare two strategies: allocating seeds according to node or group properties. We find that, when the contagion is sufficiently nonlinear, groups are more effective seeds than individual hubs."
+link = "https://www.nature.com/articles/s42005-021-00788-w"
+github = "https://doi.org/10.5281/zenodo.5662446"
+people = ["giovanni_petri"]
+projects = ["higher_order"]
+
+
+
+[[papers]]
+title = "Topological Features of Electroencephalography are Robust to Re-referencing and Preprocessing"
+authors = ["Billings, J.", "Tivadar, R.", "Murray, M. M.", "Franceschiello, B.", "Petri, G."]
+year = "2022"
+journal = "Brain Topography"
+volume = "35"
+issue = "1"
+pages = "79-95"
+publisher = "Springer US"
+abstract = "Electroencephalography (EEG) is among the most widely diffused, inexpensive, and adopted neuroimaging techniques. Nonetheless, EEG requires measurements against a reference site(s), which is typically chosen by the experimenter, and specific pre-processing steps precede analyses. It is therefore valuable to obtain quantities that are minimally affected by reference and pre-processing choices. Here, we show that the topological structure of embedding spaces, constructed either from multi-channel EEG timeseries or from their temporal structure, are subject-specific and robust to re-referencing and pre-processing pipelines. By contrast, the shape of correlation spaces, that is, discrete spaces where each point represents an electrode and the distance between them that is in turn related to the correlation between the respective timeseries, was neither significantly subject-specific nor robust to changes of reference. Our results suggest that the shape of spaces describing the observed configurations of EEG signals holds information about the individual specificity of the underlying individual’s brain dynamics, and that temporal correlations constrain to a large degree the set of possible dynamics. In turn, these encode the differences between subjects’ space of resting state EEG signals. Finally, our results and proposed methodology provide tools to explore the individual topographical landscapes and how they are explored dynamically. We propose therefore to augment conventional topographic analyses with an additional—topological—level of analysis, and to consider them jointly. More generally, these results provide a roadmap for the incorporation of topological analyses within EEG pipelines."
+people = ['giovanni_petri', 'jacob_billings']
+projects = ['topological_neuroscience', 'higher_order']
+link = "https://link.springer.com/article/10.1007/s10548-021-00882-w"
+
+
+[[papers]]
+title = "Developmental effects of oxytocin neurons on social affiliation and processing of social information"
+authors = ["Nunes, A. R.", "Gliksberg, M.", "Varela, S. A. M.", "Teles, M.", "Wircer, E.", "Blechman, J.", "Petri, G.", "Levkowitz, G.", "Oliveira, R. F."]
+year = "2021"
+journal = "Journal of Neuroscience"
+volume = "41"
+issue = "42"
+pages = "8742-8760"
+publisher = "Society for Neuroscience"
+abstract = "Hormones regulate behavior either through activational effects that facilitate the acute expression of specific behaviors or through organizational effects that shape the development of the nervous system thereby altering adult behavior. Much research has implicated the neuropeptide oxytocin (OXT) in acute modulation of various aspects of social behaviors across vertebrate species, and OXT signaling is associated with the developmental social deficits observed in autism spectrum disorders (ASDs); however, little is known about the role of OXT in the neurodevelopment of the social brain. We show that perturbation of OXT neurons during early zebrafish development led to a loss of dopaminergic neurons, associated with visual processing and reward, and blunted the neuronal response to social stimuli in the adult brain. Ultimately, adult fish whose OXT neurons were ablated in early life, displayed altered functional connectivity within social decision-making brain nuclei both in naive state and in response to social stimulus and became less social. We propose that OXT neurons have an organizational role, namely, to shape forebrain neuroarchitecture during development and to acquire an affiliative response toward conspecifics."
+people = ['giovanni_petri']
+projects = ["topological_neuroscience", "cognitive_neuroscience"]
+link = "https://www.jneurosci.org/content/41/42/8742?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1"
+
+
 
 
 [[papers]]
@@ -397,7 +518,7 @@ title = "Improving Neural Predictivity in the Visual Cortex with Gated Recurrent
 authors = ["Azeglio, S.", "Poetto, S.", "Savant, L.", "Nurisso, M."]
 people = ["simone_poetto","marco_nurisso"]
 abstract= "Computational models of vision have traditionally been developed in a bottom-up fashion, by hierarchically composing a series of straightforward operations - i.e. convolution and pooling - with the aim of emulating simple and complex cells in the visual cortex, resulting in the introduction of deep convolutional neural networks (CNNs). Nevertheless, data obtained with recent neuronal recording techniques support that the nature of the computations carried out in the ventral visual stream is not completely captured by current deep CNN models. To fill the gap between the ventral visual stream and deep models, several benchmarks have been designed and organized into the Brain-Score platform, granting a way to perform multi-layer (V1, V2, V4, IT) and behavioral comparisons between the two counterparts. In our work, we aim to shift the focus on architectures that take into account lateral recurrent connections, a ubiquitous feature of the ventral visual stream, to devise adaptive receptive fields. Through recurrent connections, the input s long-range spatial dependencies can be captured in a local multi-step fashion and, as introduced with Gated Recurrent CNNs (GRCNN), the unbounded expansion of the neuron s receptive fields can be modulated through the use of gates. In order to increase the robustness of our approach and the biological fidelity of the activations, we employ specific data augmentation techniques in line with several of the scoring benchmarks. Enforcing some form of invariance, through heuristics, was found to be beneficial for better neural predictivity."
-projects=["cognititve_neuroscience"]
+projects=["cognitive_neuroscience"]
 year = '2022'
 link = "https://arxiv.org/pdf/2203.11910.pdf"
 
@@ -420,7 +541,7 @@ abstract = "The ability to learn new tasks and generalize to others is a remarka
 year = "2021"
 date = "01-01-2021"
 journal = "Nature Physics"
-projects = ["topological_neuroscience", "cognititve_neuroscience"] 
+projects = ["topological_neuroscience", "cognitive_neuroscience"] 
 link = "https://www.nature.com/articles/s41567-021-01170-x"
 github = "https://github.com/lordgrilo/Multitasking_capacity"
 

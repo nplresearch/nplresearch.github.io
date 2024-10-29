@@ -269,3 +269,12 @@ bio=""
 avatar="/static/people/davide_coppes.jpg"
 hoverAvatar="/static/people/davide_coppes.jpg"
 url=""
+
+[[alumni]]
+name= "Jacob Billings"
+tag= "jacob_billings"
+title="Postdoc @ Academy of Sciences of the Czech Republic"
+bio=""
+avatar="/static/people/jacob_billings.jpg"
+hoverAvatar="/static/people/jacob_billings.jpg"
+url=""

@@ -12,9 +12,9 @@ description="Our work in Cognitive Neuroscience focuses on unraveling the neural
 img="static/projects/cognitive.jpg"
 
 [[projects]]
-title="Higher-order Network Foundations"
+title="Higher-order Networks"
 tag="higher_order"
-description="The Higher-Order Network Foundations project delves into complex systems where interactions extend beyond simple pairwise relationships. Utilizing mathematical frameworks like hypergraphs and simplicial complexes, we model and analyze systems with multi-way interactions. This higher-order perspective captures the richness of real-world networks—social, biological, or technological—allowing for a more accurate representation and deeper understanding of their dynamics."
+description="Our work on higher-order networks delves into complex systems where interactions extend beyond simple pairwise relationships. Utilizing mathematical frameworks like hypergraphs and simplicial complexes, we model and analyze systems with multi-way interactions. This higher-order perspective captures the richness of real-world networks—social, biological, or technological—allowing for a more accurate representation and deeper understanding of their dynamics."
 img="static/projects/higher-order.jpg"
 
 [[projects]]
