@@ -47,6 +47,12 @@ description = "After a looooooong time, our new website is finally out! It is st
 date= "21-10-2024"
 link="..."
 
+[[articles]]
+title = "New NPC!"
+description = "<a href='https://andresantoro.github.io/' target='_blank'>Andrea Santoro</a> joins the lab as CETI postdoc!"
+date= "15-09-2024"
+link="..."
+
 
 [[articles]]
 title = "New PRX paper out!"
