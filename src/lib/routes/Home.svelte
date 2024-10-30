@@ -59,7 +59,7 @@
   }
   @media screen and (min-width: 1024px){
       .logo{
-          width: 400px;
+          width: 600px;
       }
   }
 </style>

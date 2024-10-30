@@ -55,10 +55,17 @@
     flex-direction: column-reverse;
   }
 
+  /* Make the parent container wider and centered on larger screens */
   @media screen and (min-width: 1024px) {
     .parent {
       display: grid;
-      grid-template-columns: minmax(150px, 30%) 1fr;
+      grid-template-columns: minmax(150px, 10%) 1fr;
+      max-width: 90%; /* Wider max-width */
+      margin: 0 auto; /* Center it */
+    }
+    .timeline {
+      max-width: 100%;
+      margin: 0 auto;
     }
   }
 
@@ -79,6 +86,15 @@
     z-index: 1;
     height: 100%;
     border-left: 1px solid var(--clr-lowlight2);
+    padding-left: 0px;
+  }
+
+  /* Adding more side margin on mobile screens */
+  @media screen and (max-width: 768px) {
+    .timeline {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 
   .page-title {
@@ -95,7 +111,7 @@
     margin-bottom: 2rem;
   }
 
-  /* Adding higher specificity and using !important */
+  /* Styling for links in timeline */
   .timeline .description a {
     color: black !important;
     font-weight: bold !important;

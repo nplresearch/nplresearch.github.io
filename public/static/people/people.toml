@@ -110,6 +110,17 @@ hoverAvatar="/static/people/pierrick_leroy.jpg"
 url=""
 
 [[researchers]]
+name= "Bernardo Pereira"
+tag= "bernardo_pereira"
+title= "PhD Student @ CENTAI + Polytechnic of Turin"
+bio=""
+avatar="/static/people/bernardo_pereira.jpg"
+hoverAvatar="/static/people/bernardo_pereira.jpg"
+url=""
+scholar = ""
+
+
+[[researchers]]
 name= "Elisabetta Salvai"
 tag= "elisabetta_salvai"
 title= "PhD @ University of Copenhagen"
