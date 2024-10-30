@@ -18,7 +18,7 @@ description="Our work on higher-order networks delves into complex systems where
 img="static/projects/higher-order.jpg"
 
 [[projects]]
-title="CETI"
+title="Project CETI"
 tag="ceti"
 description="Project CETI (Cetacean Translation Initiative) is an ambitious interdisciplinary endeavor aiming to decode the communication of sperm whales. By leveraging advanced machine learning, data analysis, and linguistic theory, we seek to interpret the complex vocalizations of these intelligent marine mammals. Understanding their communication patterns not only offers profound insights into their social structures but also holds the potential to advance our knowledge of language and cognition across species."
 img="static/projects/ceti.jpg"
