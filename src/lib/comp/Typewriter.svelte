@@ -73,36 +73,37 @@
     // ——————————————————————————————————————————————————
 
     const phrases = [
-      "Complex Systems Research",
-      "Neural Patterns Lab",
-      "Nihilistic Philosophers League",
-      "Non-Profit Lumberjacks",
-      `Nature's Playground`,
-      "Nobel Prize Laureates",
-      "Nurtured by Pure Love",
-      "Non-Parametric Learning",
-      "Non-Petri Lab",
-      "New Paradigms Lab",
-      "Neuroscience and Physics of Life",
-      "Bad Max",
-      "Nebulous Plane of Light",
-      "Noncommutative Perpetual Lock",
-      "Neuroscience and Physiscs Lab",
-      "Natural Phenomena Lab",
-      "Neo-Pythagorean Laboratory",
-      "Bonchi Approved",
-      "Neural Phase Landscape",
-      "Nutella Production Line",
-      "Napolitan Lovers",
-      "Numbingly Precise Laboratory",
-      "Nefarious Plotters Legion",
-      "Necessary Procedures Lab",
-      "Nosebleed Prevention Lotion",
-      "Nerd Power Laboratory",
-      "Nuclear Potato Launcher",
-      "Non Performing Loans",
-      "Nose Picking Llamas"
-    ];
+    "    Complex Systems Research    ",
+    "      Neural Patterns Lab       ",
+    " Nihilistic Philosophers League ",
+    "     Non-Profit Lumberjacks     ",
+    "      Nature's Playground       ",
+    "     Nobel Prize Laureates      ",
+    "     Nurtured by Pure Love      ",
+    "    Non-Parametric Learning     ",
+    "         Non-Petri Lab          ",
+    "       New Paradigms Lab        ",
+    "Neuroscience and Physics of Life",
+    "            Bad Max             ",
+    "    Nebulous Plane of Light     ",
+    " Noncommutative Perpetual Lock  ",
+    " Neuroscience and Physiscs Lab  ",
+    "     Natural Phenomena Lab      ",
+    "   Neo-Pythagorean Laboratory   ",
+    "        Bonchi Approved         ",
+    "     Neural Phase Landscape     ",
+    "    Nutella Production Line     ",
+    "        Napolitan Lovers        ",
+    "  Numbingly Precise Laboratory  ",
+    "   Nefarious Plotters Legion    ",
+    "    Necessary Procedures Lab    ",
+    "  Nosebleed Prevention Lotion   ",
+    "     Nerd Power Laboratory      ",
+    "    Nuclear Potato Launcher     ",
+    "      Non Performing Loans      ",
+    "      Nose Picking Llamas       "
+];
+
 
     //const el = document.querySelector(".text");
     const fx = new TextScramble(el);
@@ -138,6 +139,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden; 
   }
 
   .text {
