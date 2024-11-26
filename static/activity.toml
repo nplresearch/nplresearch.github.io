@@ -9,6 +9,12 @@ link="..."
 
 
 [[articles]]
+title = "New paper on Nature Communications out!"
+description = "Andrea and Gio published a paper titled <i>Higher-order connectomics of human brain function reveals local topological signatures of task decoding, individual identification, and behavior</i> in Nature Communications on the topological structure of instantaneous higher-order brain activations across tasks and individuals. The paper is available <a href='https://www.nature.com/articles/s41467-024-54472-y' target='_blank'>here</a>."
+date = "26-11-2024"
+link ="..."
+
+[[articles]]
 title = "Statistical Mechanics of Cognition"
 description = "Gio will be talking at the new workshop coming up at the end of the November. Program is available <a href='https://iop.eventsair.com/spc2024/programme' target='_blank'> here </a>."
 date= "25-11-2024"
