@@ -22,3 +22,12 @@ title="Project CETI"
 tag="ceti"
 description="Project CETI (Cetacean Translation Initiative) is an ambitious interdisciplinary endeavor aiming to decode the communication of sperm whales. By leveraging advanced machine learning, data analysis, and linguistic theory, we seek to interpret the complex vocalizations of these intelligent marine mammals. Understanding their communication patterns not only offers profound insights into their social structures but also holds the potential to advance our knowledge of language and cognition across species."
 img="static/projects/ceti.jpg"
+
+
+[[projects]]
+title="RUNES"
+tag="runes"
+description="RUNES pushes forward a new paradigm in network science, focusing on the role of higher-order interactions (HOIs) in shaping complex systems. 
+By integrating mathematical, topological, and empirical methodologies, we seek to redefine how we understand and model systems with higher-order (polyadic) interactions. 
+Applications span neuroscience, where RUNES investigates brain connectivity across species and conditions, and socio-ecological systems, exploring collective behaviors and ecological dynamics."
+img="static/projects/runes.jpg"

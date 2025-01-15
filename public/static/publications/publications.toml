@@ -41,6 +41,21 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
 
+
+[[papers]]
+title = "Understanding the high-order network plasticity mechanisms of ultrasound neuromodulation"
+authors = ["Gatica, M.", "Atkinson-Clement, C.", "Coronel-Oliveros, C.", "Alkhawashki, M.", "Mediano, P.A.M. ", 
+"Tagliazucchi, E.", "Rosas, F.E.", "Kaiser, M.", "Petri, G."]
+journal = "bioArXiv"
+year = "2025"
+link = "https://www.biorxiv.org/content/10.1101/2025.01.11.632528v1"
+github = ""
+slides = ""
+people = ["marilyn_gatica", "giovanni_petri"]
+abstract = "Transcranial ultrasound stimulation (TUS) is an emerging non-invasive neuromodulation technique, offering a potential alternative to pharmacological treatments for psychiatric and neurological disorders. While functional analysis has been instrumental in characterizing TUS effects, understanding the underlying mechanisms remains a challenge. Here, we developed a whole-brain model to represent functional changes as measured by fMRI, enabling us to investigate how TUS-induced effects propagate throughout the brain with increasing stimulus intensity. We implemented two mechanisms: one based on anatomical distance and another on broadcasting dynamics, to explore plasticity-driven changes in specific brain regions. Finally, we highlighted the role of higher-order functional interactions in localizing spatial effects of off-line TUS at two target areas—the right thalamus and inferior frontal cortex—revealing distinct patterns of functional reorganization. This work lays the foundation for mechanistic insights and predictive models of TUS, advancing its potential clinical applications."
+projects = ["topological_neuroscience", "higher-order", "runes"]
+
+
 [[papers]]
 title = "Volume-optimal persistence homological scaffolds of hemodynamic networks covary with MEG theta-alpha aperiodic dynamics"
 authors = ["Nguyen, N.", "Hou, T.", "Amico, E.", "Zheng, J.", "Huang, H.", "Kaplan, A.D.", "Petri, G.", "Goñi, J.",  "Kaufmann, R.", "Zhao, Y.", "Duong-Tran, D.", "Shen, L."]
