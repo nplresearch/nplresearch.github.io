@@ -121,20 +121,6 @@ scholar = ""
 
 
 [[researchers]]
-name= "Elisabetta Salvai"
-tag= "elisabetta_salvai"
-title= "PhD @ University of Copenhagen"
-bio= "PhD student researching fairness in network rankings and gender representation in computer science and physics conferences."
-avatar="static/people/elisabetta_salvai.jpg"
-hoverAvatar="static/people/elisabetta_salvai_alt.jpg"
-url=""
-github="https://github.com/elisabettasalvai"
-email="elsa@sodas.ku.dk"
-twitter="https://x.com/elisalvai"
-linkedin="https://www.linkedin.com/in/elisabetta-salvai-069a912ba/"
-orcid="https://orcid.org/0009-0009-1218-8526"
-
-[[researchers]]
 name= "Giulia Lorenzini"
 tag= "giulia_lorenzini"
 title= "MSc Student @ Turin University + CENTAI Institute"
@@ -151,6 +137,20 @@ bio=""
 avatar="/static/people/francesco_maria_guadagnuolo.jpg"
 hoverAvatar="/static/people/francesco_maria_guadagnuolo_new.jpg"
 url=""
+
+[[alumni]]
+name= "Elisabetta Salvai"
+tag= "elisabetta_salvai"
+title= "PhD @ University of Copenhagen"
+bio= "PhD student researching fairness in network rankings and gender representation in computer science and physics conferences."
+avatar="static/people/elisabetta_salvai.jpg"
+hoverAvatar="static/people/elisabetta_salvai_alt.jpg"
+url=""
+github="https://github.com/elisabettasalvai"
+email="elsa@sodas.ku.dk"
+twitter="https://x.com/elisalvai"
+linkedin="https://www.linkedin.com/in/elisabetta-salvai-069a912ba/"
+orcid="https://orcid.org/0009-0009-1218-8526"
 
 [[alumni]]
 name= "Maxime Lucas"
