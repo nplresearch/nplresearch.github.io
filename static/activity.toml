@@ -2,13 +2,18 @@
 
 # UPCOMING NEWS
 [[articles]]
-title = "AATRN seminar"
-description = "Gio spoke at the <a href='https://www.aatrn.net/seminar' target='_blank'>AATRN seminar series</a> on recent work bridging mechanisms and behaviours in higher-order systems. Slides are available <a href='https://www.dropbox.com/scl/fi/7qy8iiyhdmrwbfkc55b7m/aatrn.pdf?rlkey=lfdklpie04oc04kcxg65yv8vc&dl=0' target='_blank'>here</a>."
-date= "23-01-2025"
+title = "Andrea wins the MSCA fellowship!"
+description = "Andrea has been awarded a MSCA fellowship to work on temporal higher-order approaches to neuropixel datasets. Fun times ahead! More details <a href=https://x.com/lordgrilo/status/1889715865869852865 target='_blank'>here</a>"
+date= "14-02-2025"
 link="..."
 
 
 #### PAST NEWS 
+[[articles]]
+title = "AATRN seminar"
+description = "Gio spoke at the <a href='https://www.aatrn.net/seminar' target='_blank'>AATRN seminar series</a> on recent work bridging mechanisms and behaviours in higher-order systems. Slides are available <a href='https://www.dropbox.com/scl/fi/7qy8iiyhdmrwbfkc55b7m/aatrn.pdf?rlkey=lfdklpie04oc04kcxg65yv8vc&dl=0' target='_blank'>here</a>."
+date= "23-01-2025"
+link="..."
 
 [[articles]]
 title = "NetsciX 2025"
@@ -21,7 +26,6 @@ title = "New paper out on computational modeling of TMS stimulation"
 description = "In a new <a href='https://www.biorxiv.org/content/10.1101/2025.01.11.632528v1' target='_blank'>paper</a> we use human fMRI data and whole-brain computational models to investigate two key mechanisms —-distance-based propagation and diffusion-like broadcasting—- to explain the spreading of the plasticity effect of transcranial ultrasound stimulations"
 date= "12-01-2025"
 link="..."
-
 
 
 [[articles]]
