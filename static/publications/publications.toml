@@ -72,9 +72,9 @@ projects = ["topological_neuroscience"]
 [[papers]]
 title = "A taxonomy of neuroscientific strategies based on interaction orders"
 authors = [ "Neri, M.", "Brovelli, A.",  "Castro, S.",  "Fraisopi, F.", "Gatica, M.", "Herzog, R.", "Mindlin, I.", "Mediano, P.", "Petri, G.", "Bor, D.", "Rosas, F.", "Tramacere, A.", "Estarellas, M."]
-journal = "Arxiv"
-year = "2024"
-link = "https://d197for5662m48.cloudfront.net/documents/publicationstatus/221422/preprint_pdf/f49de7872f381b123c00f05ea9d824dc.pdf"
+journal = "European Journal of Neuroscience"
+year = "2025"
+link = "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.16676"
 github = ""
 slides = ""
 people = ["giovanni_petri", "matteo_neri", "marilyn_gatica"]
