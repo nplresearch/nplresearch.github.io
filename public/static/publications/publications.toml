@@ -42,6 +42,9 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 ###################
 
 
+
+
+
 [[papers]]
 title = "Understanding the high-order network plasticity mechanisms of ultrasound neuromodulation"
 authors = ["Gatica, M.", "Atkinson-Clement, C.", "Coronel-Oliveros, C.", "Alkhawashki, M.", "Mediano, P.A.M. ", 
@@ -72,9 +75,9 @@ projects = ["topological_neuroscience"]
 [[papers]]
 title = "A taxonomy of neuroscientific strategies based on interaction orders"
 authors = [ "Neri, M.", "Brovelli, A.",  "Castro, S.",  "Fraisopi, F.", "Gatica, M.", "Herzog, R.", "Mindlin, I.", "Mediano, P.", "Petri, G.", "Bor, D.", "Rosas, F.", "Tramacere, A.", "Estarellas, M."]
-journal = "Arxiv"
-year = "2024"
-link = "https://d197for5662m48.cloudfront.net/documents/publicationstatus/221422/preprint_pdf/f49de7872f381b123c00f05ea9d824dc.pdf"
+journal = "European Journal of Neuroscience"
+year = "2025"
+link = "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.16676"
 github = ""
 slides = ""
 people = ["giovanni_petri", "matteo_neri", "marilyn_gatica"]
@@ -195,9 +198,10 @@ people = ['giovanni_petri', 'thomas_robiglio', 'matteo_neri', 'maxime_lucas', 'c
 [[papers]]
 title = "Higher-order Laplacian Renormalization"
 authors = ["Nurisso, M.", "Morandini, M.", "Lucas, M.", "Vaccarino, F.", "Gili, T.", "Petri, G."]
-year = "2024"
-journal = "arXiv:2401.11298"
-link = "https://arxiv.org/abs/2401.11298"
+year = "2025"
+journal = "Nature Physics"
+link = "https://www.nature.com/articles/s41567-025-02784-1
+pdf = "https://arxiv.org/abs/2401.11298"
 github = "https://github.com/nplresearch/higher_order_LRG"
 abstract = "We propose a cross-order Laplacian renormalization group (X-LRG) scheme for arbitrary higher-order networks. The renormalization group is a pillar of the theory of scaling, scale-invariance, and universality in physics. An RG scheme based on diffusion dynamics was recently introduced for complex networks with dyadic interactions. Despite mounting evidence of the importance of polyadic interactions, we still lack a general RG scheme for higher-order networks. Our approach uses a diffusion process to group nodes or simplices, where information can flow between nodes and between simplices (higher-order interactions). This approach allows us (i) to probe higher-order structures, defining scale-invariance at various orders, and (ii) to propose a coarse-graining scheme. We demonstrate our approach on controlled synthetic higher-order systems and then use it to detect the presence of order-specific scale-invariant profiles of real-world complex systems from multiple domains."
 projects = ["higher_order"]
