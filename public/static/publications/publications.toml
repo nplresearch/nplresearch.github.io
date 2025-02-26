@@ -185,9 +185,9 @@ people = ['giovanni_petri']
 [[papers]]
 title = "Synergistic signatures of group mechanisms in higher-order systems"
 authors = ["Robiglio, T.", "Neri, M.", "Coppes, D.", "Agostinelli, C.", "Battiston, F.", "Lucas, M.", "Petri, G."]
-year = "2024"
-journal = "arXiv:2401.11588"
-link = "https://arxiv.org/abs/2401.11588"
+year = "2025"
+journal = "Nature Physics"
+link = "https://www.nature.com/articles/s41567-025-02784-1"
 abstract = "The interplay between causal mechanisms and emerging collective behaviors is a central aspect of the understanding, control, and prediction of complex networked systems. Here we study this interplay in the context of higher-order mechanisms and behaviors in two representative models: a simplicial Ising model and a simplicial social contagion model. In both systems, we find that group (higher-order) interactions show emergent synergistic (higher-order) behavior. The emergent synergy appears only at the group level and depends in a complex non-linear way on the tradeoff between the strengths of the low- and higher-order mechanisms, and is invisible to low-order behavioral observables. Finally, we present a simple method to detect higher-order mechanisms by using this signature."
 projects = ["higher_order"]
 people = ['giovanni_petri', 'thomas_robiglio', 'matteo_neri', 'maxime_lucas', 'cosimo_agostinelli', 'davide_coppes']
@@ -195,9 +195,9 @@ people = ['giovanni_petri', 'thomas_robiglio', 'matteo_neri', 'maxime_lucas', 'c
 [[papers]]
 title = "Higher-order Laplacian Renormalization"
 authors = ["Nurisso, M.", "Morandini, M.", "Lucas, M.", "Vaccarino, F.", "Gili, T.", "Petri, G."]
-year = "2024"
-journal = "arXiv:2401.11298"
-link = "https://arxiv.org/abs/2401.11298"
+year = "2025"
+journal = "Nature Physics"
+link = "https://www.nature.com/articles/s41567-025-02784-1"
 github = "https://github.com/nplresearch/higher_order_LRG"
 abstract = "We propose a cross-order Laplacian renormalization group (X-LRG) scheme for arbitrary higher-order networks. The renormalization group is a pillar of the theory of scaling, scale-invariance, and universality in physics. An RG scheme based on diffusion dynamics was recently introduced for complex networks with dyadic interactions. Despite mounting evidence of the importance of polyadic interactions, we still lack a general RG scheme for higher-order networks. Our approach uses a diffusion process to group nodes or simplices, where information can flow between nodes and between simplices (higher-order interactions). This approach allows us (i) to probe higher-order structures, defining scale-invariance at various orders, and (ii) to propose a coarse-graining scheme. We demonstrate our approach on controlled synthetic higher-order systems and then use it to detect the presence of order-specific scale-invariant profiles of real-world complex systems from multiple domains."
 projects = ["higher_order"]
