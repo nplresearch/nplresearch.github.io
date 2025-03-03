@@ -20,7 +20,7 @@ tag= "marilyn_gatica"
 title= "Post-Doc Researcher @ Network Science Institute"
 bio=""
 avatar="/static/people/marilyn_gatica.jpg"
-hoverAvatar="/static/people/marilyn_gatica.jpg"
+hoverAvatar="/static/people/marilyn_gatica_alt.jpg"
 url="https://www.nulondon.ac.uk/faculty/marilyn-gatica/"
 
 [[researchers]]
@@ -87,7 +87,7 @@ tag= "henriques_borges"
 title= "PhD Student @ Network Science Institute"
 bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
 avatar="/static/people/henrique_borges.jpg"
-hoverAvatar="/static/people/henrique_borges.jpg"
+hoverAvatar="/static/people/henrique_borges_alt.jpg"
 url="https://henrique-borges.github.io"
 scholar="https://scholar.google.com/citations?user=of9Gx24AAAAJ"
 
@@ -97,7 +97,7 @@ tag= "raj_deshpande"
 title= "PhD Student @ Network Science Institute"
 bio= ""
 avatar="/static/people/raj_deshpande.jpg"
-hoverAvatar="/static/people/raj_deshpande.jpg"
+hoverAvatar="/static/people/raj_deshpande_alt.jpg"
 url=""
 
 [[researchers]]
@@ -137,6 +137,17 @@ bio=""
 avatar="/static/people/francesco_maria_guadagnuolo.jpg"
 hoverAvatar="/static/people/francesco_maria_guadagnuolo_new.jpg"
 url=""
+
+
+[[researchers]]
+name= "Anya Wild"
+tag= "anya_wild"
+title= "BSc Student @ NU Boston"
+bio=""
+avatar="/static/people/anya_wild.jpg"
+hoverAvatar="/static/people/anya_wild.jpg"
+url=""
+
 
 [[alumni]]
 name= "Elisabetta Salvai"
