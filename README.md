@@ -3,7 +3,7 @@
 > **Warning**
 > Website is still under construction and updating data now might lead (most probably) to it being erased.
 
-This is a small guide on how to make small changes on the website without having to clone the repo and re-building the site. Th list of things that are editable without messing with javascript html and etc:
+This is a small guide on how to make small changes on the website without having to clone the repo and re-building the site. The list of things that are editable without messing with javascript html and etc:
 
 1. [Recent Activity](#recent-activity)
 2. [Publications](#publications)
@@ -11,7 +11,7 @@ This is a small guide on how to make small changes on the website without having
 
 # 1. Change branch
 
-Do not update changes in this branch as it wont reflect in the site. The first step is to change to the `gh-pages` branch.
+Do not update changes in this branch as it won't reflect in the site. The first step is to change to the `gh-pages` branch.
 
 # 2. Update toml files
 
@@ -24,9 +24,9 @@ Add a new entry by appending to the top of the file `activity.toml` the followin
 ```toml
 [[articles]]
 title = "Title of the new thing that just happened"
-description = "What really just happened"
-date= "18-01-2023"
-link=""
+description = "What really just happened. You can include HTML links using <a href='URL' target='_blank'>link text</a>"
+date = "18-01-2023"  # Format: DD-MM-YYYY
+link = "..."         # Optional external link
 ```
 
 > **Note**
