@@ -42,7 +42,38 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 ###################
 
 
+[[papers]]
+title = "Experience-driven brain reorganization in congenital sensory deprivation"
+authors = ["Orsenigo, D.", "Setti, F.", "Pagani, M.", "Petri, G.", "Luppi, A.", "Tamietto, M.", "Ricciardi, E."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.19.660510v1"
+abstract = "We show that while the brain's large-scale functional architecture is shaped by innate hierarchical gradients, sensory deprivation induces targeted, experience-driven reorganization that flexibly reconfigures cortical connectivity without disrupting the brain's core scaffold. This work demonstrates how congenital sensory deprivation leads to specific adaptations in brain networks while preserving fundamental organizational principles."
+projects = ["topological_neuroscience", "runes"]
+people = ["giovanni_petri", "davide_orsenigo"]
 
+
+[[papers]]
+title = "Bound by semanticity: universal laws governing the generalization-identification tradeoff"
+authors = ["Nurisso, M.", "Fernando, J.", "Deshpande, R.", "Perotti, A.", "Marjieh, R.", "Frankland, S.M.", "Lewis, R.L.", "Webb, T.W.", "Campbell, D.", "Vaccarino, F.", "Cohen, J.D.", "Petri, G."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.14797"
+abstract = "Intelligent systems must deploy internal representations that are simultaneously structured -- to support broad generalization -- and selective -- to preserve input identity. We expose a fundamental limit on this tradeoff. For any model whose representational similarity between inputs decays with finite semantic resolution ε, we derive closed-form expressions that pin its probability of correct generalization p_S and identification p_I to a universal Pareto front independent of input space geometry. Extending the analysis to noisy, heterogeneous spaces and to n>2 inputs predicts a sharp 1/n collapse of multi-input processing capacity and a non-monotonic optimum for p_S. A minimal ReLU network trained end-to-end reproduces these laws: during learning a resolution boundary self-organizes and empirical (p_S,p_I) trajectories closely follow theoretical curves for linearly decaying similarity."
+projects = ["cognitive_neuroscience", "higher_order", "runes"]
+people = ["giovanni_petri", "marco_nurisso", "raj_deshpande", "jesseba_fernando"]
+
+
+[[papers]]
+title = "Topological fingerprinting of brain functional networks"
+authors = ["Poetto, S.", "Merritt, H.", "Santoro, A.", "Rabuffo, G.", "Battaglia, D.", "Vaccarino, F.",  
+"Saggar, M.", "Brovelli, A.", "Petri, G."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.20.660792v1"
+abstract = "We show that topological fingerprinting, based on homological scaffolds, significantly outperforms FC-based one. We also show that these scaffolds are distributed across functional subnetworks and we link the structure of topological cycles to information synergy."
+projects = ["topological_neuroscience", "higher_order", "runes"]
+people = ["giovanni_petri", "simone_poetto", "andrea_santoro"]
 
 
 [[papers]]
