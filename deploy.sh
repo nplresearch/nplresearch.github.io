@@ -6,6 +6,9 @@ set -e
 # build
 npm run build
 
+# deploy hand 
+npm run deploy
+
 # navigate into the build output directory
 cd dist
 
