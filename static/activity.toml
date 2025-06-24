@@ -2,7 +2,78 @@
 
 # UPCOMING NEWS
 
+[[articles]]
+title = "NPL presents topological signal processing research at EUSIPCO 2025"
+description = "Andrea will present work with Marco and Gio on topological signal processing of brain data at <a href='https://eusipco2025.org/' target='_blank'>EUSIPCO 2025</a> in Palermo, Italy (September 8-12). The European Signal Processing Conference is the flagship conference of EURASIP, featuring the latest developments in signal processing research."
+date = "08-09-2025"
+link = "..."
+
+
+[[articles]]
+title = "Gio attending PIBBSS retreat on renormalization and AI"
+description = "Gio will be attending a <a href='https://pibbss.ai/' target='_blank'>PIBBSS</a> retreat on renormalization and AI from June 27-30. PIBBSS is exploring how renormalization can be developed into a rich framework for AI interpretability."
+date = "27-06-2025"
+link = "..."
+
+[[articles]]
+title = "CoBrain at CCS2025"
+description = "Marilyn and Jesseba are co-organizing <a href='https://kgatica.github.io/CCS2025-CoBrain/' target='_blank'>CoBrain</a> at <a href='https://ccs25.cssociety.org/' target='_blank'>CCS2025</a> in Siena, Italy (September 1-5, 2025)."
+date = "01-09-2025"
+link = "..."
+
+[[articles]]
+title = "NPL at OHBM 2025"
+description = "Gio and Andrea will be at <a href='https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4229' target='_blank'>OHBM 2025</a> in Brisbane, Australia. 
+Gio is organizing the <a href='https://ww6.aievolution.com/hbm2501/Events/viewEv?ev=2444' target='_blank'>HOI (Higher-Order Interactions) symposium</a> with Manish Saggar.  
+They will be presenting the HOI lens and the HOI movies papers."
+date = "24-06-2025"
+link = "..."
+
+[[articles]]
+title = "Gio attending PIBBSS retreat on renormalization and AI"
+description = "Gio will be attending a <a href='https://pibbss.ai/' target='_blank'>PIBBSS</a> retreat on renormalization and AI from June 27-30. PIBBSS is exploring how renormalization can be developed into a rich framework for AI interpretability."
+date = "27-06-2025"
+link = "..."
+
+
 #### PAST NEWS 
+
+[[articles]]
+title = "New paper out on topological fingerprinting"
+description = "We show that topological fingerprinting, based on homological scaffolds, significantly outperforms FC-based one. We also show that these scaffolds are distributed across functional subnetworks and we link the structure of topological cycles to information synergy. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.20.660792v1' target='_blank'>here</a> led by Simone and Andrea."
+date = "21-06-2025"
+link = "..."
+
+[[articles]]
+title = "Paper on the informational structure of goal-directed learning accepted on Nature Communications!"
+description = "We show how the brain encodes information gain during goal-directed learning, showing that higher-order synergistic interactions across distributed cortical networks—particularly involving prefrontal circuits—enable the integration and broadcasting of learning signals critical for adaptive decision-making. Paper <a href='https://www.biorxiv.org/content/10.1101/2024.09.23.614484v1' target='_blank'>here</a> led by <a href='https://www.int.univ-amu.fr/recherche-int/equipes/brainets' target='_blank'>BraiNet</a>."
+date = "16-06-2025"
+link = "..."
+
+[[articles]]
+title = "New paper online on the effects of congenital sensory deprivation"
+description = "We show that while the brain's large-scale functional architecture is shaped by innate hierarchical gradients, sensory deprivation induces targeted, experience-driven reorganization that flexibly reconfigures cortical connectivity without disrupting the brain's core scaffold. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.19.660510v1' target='_blank'>here</a> led by Davide."
+date = "20-06-2025"
+link = "..."
+
+[[articles]]
+title = "New paper out on the fundamental processing limits in learning systems"
+description = "We reveal a fundamental informational limit governing the tradeoff between generalization and identification, showing that finite semantic resolution imposes universal constraints on representational capacity across neural networks and brain-like systems. Paper <a href='https://arxiv.org/abs/2506.14797' target='_blank'>here</a> led by Marco with Jesseba and Raj."
+date = "15-06-2025"
+link = "..."
+
+[[articles]]
+title = "Jesseba at Santa Fe Institute workshop on Adaptive Networks"
+description = "Jesseba Fernando is participating in the <a href='https://www.santafe.edu/info/foundations-of-adaptive-networks-adaptive-temporal-network-models/about' target='_blank'>Foundations of Adaptive Networks</a> working group at the Santa Fe Institute from May 6-10, 2025. The workshop focuses on advancing theoretical foundations of adaptive temporal network models and their applications to complex systems."
+date = "06-05-2025"
+link = "..."
+
+[[articles]]
+title = "Marilyn as IAS Fellow organizes HOI-BrainMod Workshop"
+description = "Marilyn Gatica will be a visiting Fellow during spring at the <a href='https://ias.uva.nl/' target='_blank'>Institute for Advanced Study (IAS)</a> in Amsterdam  and will organize the <a href='https://ias.uva.nl/content/events/2025/05/hoi-brainmod-workshop-on-brain-modeling-and-high-order-interactions.html' target='_blank'>HOI-BrainMod Workshop</a> on Brain Modeling and High-Order Interactions on May 16, 2025."
+date = "01-04-2025"
+link = "..."
+
 [[articles]]
 title = "New paper out on higher-order renormalization in Nature Physics!"
 description = "We propose a new Laplacian perspective to renormalize higher-order systems. Paper <a href='https://www.nature.com/articles/s41567-025-02784-1' target='_blank'>here</a>."
