@@ -35,6 +35,12 @@ description = "Gio will be attending a <a href='https://pibbss.ai/' target='_bla
 date = "27-06-2025"
 link = "..."
 
+[[articles]]
+title = "New comparative study on higher-order brain connectivity metrics"
+description = "We present the first large-scale comparison of information-theoretic and topological HOI metrics using fMRI data from the Human Connectome Project. We identify a taxonomy of redundant, synergistic, and topological metrics, with topological ones bridging the two. These metrics align with brain hierarchies, track neurochemical gradients, and outperform pairwise models in fingerprinting and behavior prediction. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1' target='_blank'>here</a>, led by Andrea, Simone, Davide, and Marilyn."
+date = "24-06-2025"
+link = "..."
+
 
 #### PAST NEWS 
 

@@ -41,6 +41,17 @@ link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
 
+[[papers]]
+title = "Beyond Pairwise Interactions: Charting Higher-Order Models of Brain Function"
+authors = ["Santoro, A.", "Neri, M.", "Poetto, S.", "Orsenigo, D.", "Diano, M.", "Gatica, M.", "Petri, G."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1"
+abstract = "We present the first large-scale comparison of higher-order interaction (HOI) metrics — spanning information theory and topology — applied to resting-state and task fMRI data from 100 Human Connectome Project subjects. We identify three distinct classes of HOI metrics: redundant, synergistic, and topological, with the latter bridging the two. Despite their differences, all metrics align with the brain's unimodal-to-transmodal hierarchy and, in some cases, with receptor architecture. HOI metrics outperform classical functional connectivity in fingerprinting and are more predictive of behavior, positioning them as key tools for linking brain architecture and cognition."
+projects = ["topological_neuroscience", "higher_order", "runes"]
+github = "https://github.com/nplresearch/HOI_lenses_analysis"
+people = ["andrea_santoro",  "matteo_neri", "simone_poetto","davide_orsenigo", "marilyn_gatica", "giovanni_petri"]
+
 
 [[papers]]
 title = "Experience-driven brain reorganization in congenital sensory deprivation"
