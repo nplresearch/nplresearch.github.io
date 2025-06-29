@@ -10,15 +10,21 @@ link = "..."
 
 
 [[articles]]
+title = "CoBrain at CCS2025"
+description = "Marilyn and Jesseba are co-organizing <a href='https://kgatica.github.io/CCS2025-CoBrain/' target='_blank'>CoBrain</a> at <a href='https://ccs25.cssociety.org/' target='_blank'>CCS2025</a> in Siena, Italy (September 1-5, 2025)."
+date = "01-09-2025"
+link = "..."
+
+[[articles]]
 title = "Gio attending PIBBSS retreat on renormalization and AI"
 description = "Gio will be attending a <a href='https://pibbss.ai/' target='_blank'>PIBBSS</a> retreat on renormalization and AI from June 27-30. PIBBSS is exploring how renormalization can be developed into a rich framework for AI interpretability."
 date = "27-06-2025"
 link = "..."
 
 [[articles]]
-title = "CoBrain at CCS2025"
-description = "Marilyn and Jesseba are co-organizing <a href='https://kgatica.github.io/CCS2025-CoBrain/' target='_blank'>CoBrain</a> at <a href='https://ccs25.cssociety.org/' target='_blank'>CCS2025</a> in Siena, Italy (September 1-5, 2025)."
-date = "01-09-2025"
+title = "New comparative study on higher-order brain connectivity metrics"
+description = "We present the first large-scale comparison of information-theoretic and topological HOI metrics using fMRI data from the Human Connectome Project. We identify a taxonomy of redundant, synergistic, and topological metrics, with topological ones bridging the two. These metrics align with brain hierarchies, track neurochemical gradients, and outperform pairwise models in fingerprinting and behavior prediction. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1' target='_blank'>here</a>, led by Andrea, Simone, Davide, and Marilyn."
+date = "25-06-2025"
 link = "..."
 
 [[articles]]
@@ -29,11 +35,6 @@ They will be presenting the HOI lens and the HOI movies papers."
 date = "24-06-2025"
 link = "..."
 
-[[articles]]
-title = "Gio attending PIBBSS retreat on renormalization and AI"
-description = "Gio will be attending a <a href='https://pibbss.ai/' target='_blank'>PIBBSS</a> retreat on renormalization and AI from June 27-30. PIBBSS is exploring how renormalization can be developed into a rich framework for AI interpretability."
-date = "27-06-2025"
-link = "..."
 
 
 #### PAST NEWS 
