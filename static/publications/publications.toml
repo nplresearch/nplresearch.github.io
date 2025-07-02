@@ -40,6 +40,32 @@ tag = "inferring-cells"
 link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
+[[papers]]
+title = "Characterization of diseases in temporal comorbidity networks"
+authors = ["Gardinazzi, Y.", "Gonzaléz March, R.", "Kalahasti, S.", "Montaño Ramirez, A.", "Neri, M.", "Nguyen, C.", "Palermo, G.", "Weis, E.", "Ledebur, K.", "Dervić, E."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22136"
+abstract = "Comorbidity networks, which capture disease-disease co-occurrence usually based on electronic health records, reveal structured patterns in how diseases cluster and progress across individuals. However, how these networks evolve across different age groups and how this evolution relates to properties like disease prevalence and mortality remains understudied. To address these issues, we used publicly available comorbidity networks extracted from a comprehensive dataset of 45 million Austrian hospital stays from 1997 to 2014, covering 8.9 million patients. These networks grow and become denser with age. We identified groups of diseases that exhibit similar patterns of structural centrality throughout the lifespan, revealing three dominant age-related components with peaks in early childhood, midlife, and late life. To uncover the drivers of this structural change, we examined the relationship between prevalence and degree. This allowed us to identify conditions that were disproportionately connected to other diseases. Using betweenness centrality in combination with mortality data, we further identified high-mortality bridging diseases. Several diseases show high connectivity relative to their prevalence, such as iron deficiency anemia (D50) in children, nicotine dependence (F17), and lipoprotein metabolism disorders (E78) in adults. We also highlight structurally central diseases with high mortality that emerge at different life stages, including cancers (C group), liver cirrhosis (K74), subarachnoid hemorrhage (I60), and chronic kidney disease (N18). These findings underscore the importance of targeting age-specific, network-central conditions with high mortality for prevention and integrated care."
+people = ["matteo_neri"]
+
+[[papers]]
+title = "The relationship between episcopal genealogy and ideology in the Roman Catholic Church"
+authors = ["Baratto, M.", "Casanovas, I.", "Decostanzi, I.", "Borges, H.M.", "Martínez Alcalá, S.", "Stanzani, I.", "Antonioni, A.", "Iacopini, I.", "Re Fiorentin, M.", "Valdano, E."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22108"
+abstract = "In this study we investigate how hierarchical structures within the Roman Catholic Church shape the ideological orientation of its leadership. The full episcopal genealogy dataset comprises over 35,000 bishops, each typically consecrated by one principal consecrator and two co-consecrators, forming a dense and historically continuous directed network of episcopal lineage. Within this broader structure, we focus on a dataset of 245 living cardinals to examine whether genealogical proximity correlates with doctrinal alignment on a broad set of theological and sociopolitical issues. We identify motifs that capture recurring patterns of lineage, such as shared consecrators or co-consecrators. In parallel, we apply natural language processing techniques to extract each cardinal's publicly stated positions on ten salient topics, including LGBTQIA+ rights, women's roles in the Church, liturgy, bioethics, priestly celibacy, and migration. Our results show that cardinals linked by specific genealogical motifs, particularly those who share the same principal consecrator, are significantly more likely to exhibit ideological similarity. We find that the influence of pope John Paul II persists through the bishops he consecrated, who demonstrate systematically more conservative views than their peers. These findings underscore the role of hierarchical mentorship in shaping ideological coherence within large-scale religious institutions. Our contribution offers quantitative evidence that institutional lineages, beyond individual background factors, may have an impact on the transmission and consolidation of doctrinal positions over time."
+people = ["henrique_borges"]
+
+[[papers]]
+title = "Harder, shorter, sharper, forward: A comparison of women's and men's elite football gameplay (2020–2025)"
+authors = ["Carstens, A.", "Deshpande, R.", "Esteve, P.", "Fidelibus, N.", "Neven, S.L.", "Ottow, R.", "Lokamruth, K.R.", "Rodríguez-Sánchez, P.", "Santagata, L.", "Buldú, J.M.", "Klein, B.", "Torricelli, M."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22119"
+abstract = "Elite football is believed to have evolved in recent years, but systematic evidence for the pace and form of that change is sparse. Drawing on event-level records for 13,067 matches in ten top-tier men's and women's leagues in England, Spain, Germany, Italy, and the United States (2020–2025), we quantify match dynamics with two views: conventional performance statistics and pitch-passing networks that track ball movement among a grid of pitch (field) regions. Between 2020 and 2025, average passing volume, pass accuracy, and the percent of passes made under pressure all rose. In general, the largest year-on-year changes occurred in women's competitions. Network measures offer alternative but complementary perspectives on the changing gameplay in recent years, normalized outreach in the pitch passing networks decreased, while the average shortest path lengths increased, indicating a wider ball circulation. Together, these indicators point to a sustained intensification of collective play across contemporary professional football."
+people = ["raj_deshpande"]
 
 [[papers]]
 title = "Beyond Pairwise Interactions: Charting Higher-Order Models of Brain Function"
@@ -54,7 +80,7 @@ people = ["andrea_santoro",  "matteo_neri", "simone_poetto","davide_orsenigo", "
 
 
 [[papers]]
-title = "Experience-driven brain reorganization in congenital sensory deprivation"
+title = "Beyond Reorganization: Intrinsic cortical hierarchies constrain experience-dependent plasticity in sensory-deprived humans"
 authors = ["Orsenigo, D.", "Setti, F.", "Pagani, M.", "Petri, G.", "Luppi, A.", "Tamietto, M.", "Ricciardi, E."]
 year = "2025"
 journal = "bioRxiv"
