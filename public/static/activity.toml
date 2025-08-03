@@ -2,18 +2,29 @@
 
 # UPCOMING NEWS
 
+
+
 [[articles]]
 title = "NPL presents topological signal processing research at EUSIPCO 2025"
 description = "Andrea will present work with Marco and Gio on topological signal processing of brain data at <a href='https://eusipco2025.org/' target='_blank'>EUSIPCO 2025</a> in Palermo, Italy (September 8-12). The European Signal Processing Conference is the flagship conference of EURASIP, featuring the latest developments in signal processing research."
 date = "08-09-2025"
 link = "..."
 
-
 [[articles]]
 title = "CoBrain at CCS2025"
 description = "Marilyn and Jesseba are co-organizing <a href='https://kgatica.github.io/CCS2025-CoBrain/' target='_blank'>CoBrain</a> at <a href='https://ccs25.cssociety.org/' target='_blank'>CCS2025</a> in Siena, Italy (September 1-5, 2025)."
 date = "01-09-2025"
 link = "..."
+
+
+#### PAST NEWS 
+
+[[articles]]
+title = "Raj and Henrique at Complexity72h 2025"
+description = "Raj and Henrique joined <a href='https://www.complexity72h.com' target='_blank'>Complexity72h 2025</a>, an intensive collaborative workshop hosted in Barcelona. Their projects explored the intersection of data-driven modeling, network science, and societal systems."
+date = "23-06-2025"
+link = "..."
+
 
 [[articles]]
 title = "Gio attending PIBBSS retreat on renormalization and AI"
@@ -37,7 +48,7 @@ link = "..."
 
 
 
-#### PAST NEWS 
+
 
 [[articles]]
 title = "New paper out on topological fingerprinting"

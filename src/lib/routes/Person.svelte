@@ -2,12 +2,16 @@
     import { onMount } from "svelte";
     import { link } from "svelte-spa-router";
     import { Home, Github, ArrowLeft, Twitter, Mail, Linkedin, BookOpen, Hash, Instagram } from "lucide-svelte";
-    import Papers from "../comp/Papers.svelte";
-    import { people } from "../scripts/store.js";
-    import Button from "../comp/Button.svelte";
+import Papers from "../comp/Papers.svelte";
+import { people } from "../scripts/store.js";
+import Button from "../comp/Button.svelte";
+import Timeline from "../comp/Timeline.svelte";
+import { articles } from "../scripts/store.js";
   
-    export let params = {};
-    const person = $people.find((p) => p.tag === params.tag);
+  export let params = {};
+  const person = $people.find((p) => p.tag === params.tag);
+  // Filter news mentioning this person (if activity.toml supports 'people' field)
+  $: personNews = $articles.filter(a => a.people?.includes(person.tag));
   
     let chars = "!<>-$_@\\/=+[]&{}—=+*^?#______";
     let num_digits = 8;
@@ -104,7 +108,13 @@
     </div>
   </div>
   
-  <!-- Pass showAuthors={false} to hide authors in Papers component -->
+  <!-- News Section for this person -->
+  {#if personNews.length > 0}
+    <div class="news">
+      <Timeline articles={personNews} />
+    </div>
+  {/if}
+  <!-- Papers Section -->
   <Papers selected_person={person.tag} showAuthors={false} />
   
   <style>

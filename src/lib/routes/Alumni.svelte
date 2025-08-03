@@ -60,6 +60,18 @@ onMount(() => {
               />
     {/if}
 </div>
+<!-- News Section for this alumni member -->
+// ...existing code...
+import Timeline from "../comp/Timeline.svelte";
+import { articles } from "../scripts/store.js";
+// Filter news mentioning this alumni (if activity.toml supports 'people' field)
+$: personNews = $articles.filter(a => a.people?.includes(person.tag));
+{#if personNews.length > 0}
+  <div class="news">
+    <Timeline articles={personNews} />
+  </div>
+{/if}
+<!-- Papers Section -->
 <Papers selected_person={person.tag}/>
 
 <style>
