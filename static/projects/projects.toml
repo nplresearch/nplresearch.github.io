@@ -1,0 +1,33 @@
+[[projects]]
+title="Topological Neuroscience"
+tag="topological_neuroscience"
+description="In the field of Topological Neuroscience, we explore the complex architecture of the brain using tools from algebraic topology. By applying topological data analysis (TDA) to neural data, we uncover multi-scale patterns and structures that traditional methods might overlook. This approach provides deeper insights into brain connectivity and function, aiding in the understanding of neural processes and potential neurological disorders."
+img="static/projects/tda.jpg"
+
+
+[[projects]]
+title="Cognitive Neuroscience"
+tag="cognitive_neuroscience"
+description="Our work in Cognitive Neuroscience focuses on unraveling the neural mechanisms underlying human cognition. By integrating psychology, neuroscience, and computational modeling, we study how brain activity gives rise to perception, memory, language, and other cognitive functions. This interdisciplinary research bridges the gap between neural circuits and complex behaviors, contributing to advancements in both theoretical understanding and practical applications."
+img="static/projects/cognitive.jpg"
+
+[[projects]]
+title="Higher-order Networks"
+tag="higher_order"
+description="Our work on higher-order networks delves into complex systems where interactions extend beyond simple pairwise relationships. Utilizing mathematical frameworks like hypergraphs and simplicial complexes, we model and analyze systems with multi-way interactions. This higher-order perspective captures the richness of real-world networks—social, biological, or technological—allowing for a more accurate representation and deeper understanding of their dynamics."
+img="static/projects/higher-order.jpg"
+
+[[projects]]
+title="Project CETI"
+tag="ceti"
+description="Project CETI (Cetacean Translation Initiative) is an ambitious interdisciplinary endeavor aiming to decode the communication of sperm whales. By leveraging advanced machine learning, data analysis, and linguistic theory, we seek to interpret the complex vocalizations of these intelligent marine mammals. Understanding their communication patterns not only offers profound insights into their social structures but also holds the potential to advance our knowledge of language and cognition across species."
+img="static/projects/ceti.jpg"
+
+
+[[projects]]
+title="RUNES"
+tag="runes"
+description="RUNES pushes forward a new paradigm in network science, focusing on the role of higher-order interactions (HOIs) in shaping complex systems. 
+By integrating mathematical, topological, and empirical methodologies, we seek to redefine how we understand and model systems with higher-order (polyadic) interactions. 
+Applications span neuroscience, where RUNES investigates brain connectivity across species and conditions, and socio-ecological systems, exploring collective behaviors and ecological dynamics."
+img="static/projects/runes.jpg"

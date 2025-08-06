@@ -1,0 +1,671 @@
+####### FEATURED ########
+
+[[featured]]
+title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
+authors = ['Zhang, Y.', 'Lucas, M.', 'Battiston, F.']
+people = ["maxime_lucas"]
+abstract= ""
+#Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
+year = "2023"
+date = "23-03-2023"
+journal = "Nature Communications"
+projects = ["higher_order"]
+tag = "higher-order-collective"
+link = "https://arxiv.org/pdf/2203.03060.pdf"
+
+[[featured]]
+title = "Simplicially driven simple contagion"
+authors = ['Lucas, M.', 'Iacopini, I.', 'Robiglio, T.', 'Barrat, A.', 'Petri, G.']
+people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
+abstract= ""
+#Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
+year = "2023"
+date = "23-03-2023"
+journal = "Physical Review Research"
+projects = ["higher_order"]
+tag = "simplicially-driven"
+link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+
+[[featured]]
+title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
+authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+people = ["maxime_lucas"]
+abstract= ""
+#"The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
+year = "2023"
+date = "27-02-2023"
+journal = "Cell Reports Methods"
+projects = ["higher_order", "topological_neuroscience"]
+tag = "inferring-cells"
+link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+
+###################
+[[papers]]
+title = "Characterization of diseases in temporal comorbidity networks"
+authors = ["Gardinazzi, Y.", "Gonzaléz March, R.", "Kalahasti, S.", "Montaño Ramirez, A.", "Neri, M.", "Nguyen, C.", "Palermo, G.", "Weis, E.", "Ledebur, K.", "Dervić, E."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22136"
+abstract = "Comorbidity networks, which capture disease-disease co-occurrence usually based on electronic health records, reveal structured patterns in how diseases cluster and progress across individuals. However, how these networks evolve across different age groups and how this evolution relates to properties like disease prevalence and mortality remains understudied. To address these issues, we used publicly available comorbidity networks extracted from a comprehensive dataset of 45 million Austrian hospital stays from 1997 to 2014, covering 8.9 million patients. These networks grow and become denser with age. We identified groups of diseases that exhibit similar patterns of structural centrality throughout the lifespan, revealing three dominant age-related components with peaks in early childhood, midlife, and late life. To uncover the drivers of this structural change, we examined the relationship between prevalence and degree. This allowed us to identify conditions that were disproportionately connected to other diseases. Using betweenness centrality in combination with mortality data, we further identified high-mortality bridging diseases. Several diseases show high connectivity relative to their prevalence, such as iron deficiency anemia (D50) in children, nicotine dependence (F17), and lipoprotein metabolism disorders (E78) in adults. We also highlight structurally central diseases with high mortality that emerge at different life stages, including cancers (C group), liver cirrhosis (K74), subarachnoid hemorrhage (I60), and chronic kidney disease (N18). These findings underscore the importance of targeting age-specific, network-central conditions with high mortality for prevention and integrated care."
+people = ["matteo_neri"]
+
+[[papers]]
+title = "The relationship between episcopal genealogy and ideology in the Roman Catholic Church"
+authors = ["Baratto, M.", "Casanovas, I.", "Decostanzi, I.", "Borges, H.M.", "Martínez Alcalá, S.", "Stanzani, I.", "Antonioni, A.", "Iacopini, I.", "Re Fiorentin, M.", "Valdano, E."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22108"
+abstract = "In this study we investigate how hierarchical structures within the Roman Catholic Church shape the ideological orientation of its leadership. The full episcopal genealogy dataset comprises over 35,000 bishops, each typically consecrated by one principal consecrator and two co-consecrators, forming a dense and historically continuous directed network of episcopal lineage. Within this broader structure, we focus on a dataset of 245 living cardinals to examine whether genealogical proximity correlates with doctrinal alignment on a broad set of theological and sociopolitical issues. We identify motifs that capture recurring patterns of lineage, such as shared consecrators or co-consecrators. In parallel, we apply natural language processing techniques to extract each cardinal's publicly stated positions on ten salient topics, including LGBTQIA+ rights, women's roles in the Church, liturgy, bioethics, priestly celibacy, and migration. Our results show that cardinals linked by specific genealogical motifs, particularly those who share the same principal consecrator, are significantly more likely to exhibit ideological similarity. We find that the influence of pope John Paul II persists through the bishops he consecrated, who demonstrate systematically more conservative views than their peers. These findings underscore the role of hierarchical mentorship in shaping ideological coherence within large-scale religious institutions. Our contribution offers quantitative evidence that institutional lineages, beyond individual background factors, may have an impact on the transmission and consolidation of doctrinal positions over time."
+people = ["henrique_borges"]
+
+[[papers]]
+title = "Harder, shorter, sharper, forward: A comparison of women's and men's elite football gameplay (2020–2025)"
+authors = ["Carstens, A.", "Deshpande, R.", "Esteve, P.", "Fidelibus, N.", "Neven, S.L.", "Ottow, R.", "Lokamruth, K.R.", "Rodríguez-Sánchez, P.", "Santagata, L.", "Buldú, J.M.", "Klein, B.", "Torricelli, M."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.22119"
+abstract = "Elite football is believed to have evolved in recent years, but systematic evidence for the pace and form of that change is sparse. Drawing on event-level records for 13,067 matches in ten top-tier men's and women's leagues in England, Spain, Germany, Italy, and the United States (2020–2025), we quantify match dynamics with two views: conventional performance statistics and pitch-passing networks that track ball movement among a grid of pitch (field) regions. Between 2020 and 2025, average passing volume, pass accuracy, and the percent of passes made under pressure all rose. In general, the largest year-on-year changes occurred in women's competitions. Network measures offer alternative but complementary perspectives on the changing gameplay in recent years, normalized outreach in the pitch passing networks decreased, while the average shortest path lengths increased, indicating a wider ball circulation. Together, these indicators point to a sustained intensification of collective play across contemporary professional football."
+people = ["raj_deshpande"]
+
+[[papers]]
+title = "Beyond Pairwise Interactions: Charting Higher-Order Models of Brain Function"
+authors = ["Santoro, A.", "Neri, M.", "Poetto, S.", "Orsenigo, D.", "Diano, M.", "Gatica, M.", "Petri, G."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1"
+abstract = "We present the first large-scale comparison of higher-order interaction (HOI) metrics — spanning information theory and topology — applied to resting-state and task fMRI data from 100 Human Connectome Project subjects. We identify three distinct classes of HOI metrics: redundant, synergistic, and topological, with the latter bridging the two. Despite their differences, all metrics align with the brain's unimodal-to-transmodal hierarchy and, in some cases, with receptor architecture. HOI metrics outperform classical functional connectivity in fingerprinting and are more predictive of behavior, positioning them as key tools for linking brain architecture and cognition."
+projects = ["topological_neuroscience", "higher_order", "runes"]
+github = "https://github.com/nplresearch/HOI_lenses_analysis"
+people = ["andrea_santoro",  "matteo_neri", "simone_poetto","davide_orsenigo", "marilyn_gatica", "giovanni_petri"]
+
+
+[[papers]]
+title = "Beyond Reorganization: Intrinsic cortical hierarchies constrain experience-dependent plasticity in sensory-deprived humans"
+authors = ["Orsenigo, D.", "Setti, F.", "Pagani, M.", "Petri, G.", "Luppi, A.", "Tamietto, M.", "Ricciardi, E."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.19.660510v1"
+abstract = "We show that while the brain's large-scale functional architecture is shaped by innate hierarchical gradients, sensory deprivation induces targeted, experience-driven reorganization that flexibly reconfigures cortical connectivity without disrupting the brain's core scaffold. This work demonstrates how congenital sensory deprivation leads to specific adaptations in brain networks while preserving fundamental organizational principles."
+projects = ["topological_neuroscience", "runes"]
+people = ["giovanni_petri", "davide_orsenigo"]
+
+
+[[papers]]
+title = "Bound by semanticity: universal laws governing the generalization-identification tradeoff"
+authors = ["Nurisso, M.", "Fernando, J.", "Deshpande, R.", "Perotti, A.", "Marjieh, R.", "Frankland, S.M.", "Lewis, R.L.", "Webb, T.W.", "Campbell, D.", "Vaccarino, F.", "Cohen, J.D.", "Petri, G."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2506.14797"
+abstract = "Intelligent systems must deploy internal representations that are simultaneously structured -- to support broad generalization -- and selective -- to preserve input identity. We expose a fundamental limit on this tradeoff. For any model whose representational similarity between inputs decays with finite semantic resolution ε, we derive closed-form expressions that pin its probability of correct generalization p_S and identification p_I to a universal Pareto front independent of input space geometry. Extending the analysis to noisy, heterogeneous spaces and to n>2 inputs predicts a sharp 1/n collapse of multi-input processing capacity and a non-monotonic optimum for p_S. A minimal ReLU network trained end-to-end reproduces these laws: during learning a resolution boundary self-organizes and empirical (p_S,p_I) trajectories closely follow theoretical curves for linearly decaying similarity."
+projects = ["cognitive_neuroscience", "higher_order", "runes"]
+people = ["giovanni_petri", "marco_nurisso", "raj_deshpande", "jesseba_fernando"]
+
+
+[[papers]]
+title = "Topological fingerprinting of brain functional networks"
+authors = ["Poetto, S.", "Merritt, H.", "Santoro, A.", "Rabuffo, G.", "Battaglia, D.", "Vaccarino, F.",  
+"Saggar, M.", "Brovelli, A.", "Petri, G."]
+year = "2025"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.1101/2025.06.20.660792v1"
+abstract = "We show that topological fingerprinting, based on homological scaffolds, significantly outperforms FC-based one. We also show that these scaffolds are distributed across functional subnetworks and we link the structure of topological cycles to information synergy."
+projects = ["topological_neuroscience", "higher_order", "runes"]
+people = ["giovanni_petri", "simone_poetto", "andrea_santoro"]
+
+
+[[papers]]
+title = "Understanding the high-order network plasticity mechanisms of ultrasound neuromodulation"
+authors = ["Gatica, M.", "Atkinson-Clement, C.", "Coronel-Oliveros, C.", "Alkhawashki, M.", "Mediano, P.A.M. ", 
+"Tagliazucchi, E.", "Rosas, F.E.", "Kaiser, M.", "Petri, G."]
+journal = "bioArXiv"
+year = "2025"
+link = "https://www.biorxiv.org/content/10.1101/2025.01.11.632528v1"
+github = ""
+slides = ""
+people = ["marilyn_gatica", "giovanni_petri"]
+abstract = "Transcranial ultrasound stimulation (TUS) is an emerging non-invasive neuromodulation technique, offering a potential alternative to pharmacological treatments for psychiatric and neurological disorders. While functional analysis has been instrumental in characterizing TUS effects, understanding the underlying mechanisms remains a challenge. Here, we developed a whole-brain model to represent functional changes as measured by fMRI, enabling us to investigate how TUS-induced effects propagate throughout the brain with increasing stimulus intensity. We implemented two mechanisms: one based on anatomical distance and another on broadcasting dynamics, to explore plasticity-driven changes in specific brain regions. Finally, we highlighted the role of higher-order functional interactions in localizing spatial effects of off-line TUS at two target areas—the right thalamus and inferior frontal cortex—revealing distinct patterns of functional reorganization. This work lays the foundation for mechanistic insights and predictive models of TUS, advancing its potential clinical applications."
+projects = ["topological_neuroscience", "higher-order", "runes"]
+
+
+[[papers]]
+title = "Volume-optimal persistence homological scaffolds of hemodynamic networks covary with MEG theta-alpha aperiodic dynamics"
+authors = ["Nguyen, N.", "Hou, T.", "Amico, E.", "Zheng, J.", "Huang, H.", "Kaplan, A.D.", "Petri, G.", "Goñi, J.",  "Kaufmann, R.", "Zhao, Y.", "Duong-Tran, D.", "Shen, L."]
+journal = "International Conference on Medical Image Computing and Computer-Assisted Intervention"
+year = "2024"
+link = "https://link.springer.com/chapter/10.1007/978-3-031-72384-1_49"
+github = "https://github.com/ngcaonghi/scaffold_noise."
+slides = ""
+people = ["giovanni_petri"]
+abstract = "Higher-order properties of functional magnetic resonance imaging (fMRI) induced connectivity have been shown to unravel many exclusive topological and dynamical insights beyond pairwise interactions. Nonetheless, whether these fMRI-induced higher-order properties play a role in disentangling other neuroimaging modalities’ insights remains largely unexplored and poorly understood. In this work, by analyzing fMRI data from the Human Connectome Project Young Adult dataset using persistent homology, we discovered that the volume-optimal persistence homological scaffolds of fMRI-based functional connectomes exhibited conservative topological reconfigurations from the resting state to attentional task-positive state. Specifically, while reflecting the extent to which each cortical region contributed to functional cycles following different cognitive demands, these reconfigurations were constrained such that the spatial distribution of cavities in the connectome is relatively conserved. Most importantly, such level of contributions covaried with powers of aperiodic activities mostly within the theta-alpha (4-12 Hz) band measured by magnetoencephalography (MEG). This comprehensive result suggests that fMRI-induced hemodynamics and MEG theta-alpha aperiodic activities are governed by the same functional constraints specific to each cortical morpho-structure. Methodologically, our work paves the way toward an innovative computing paradigm in multimodal neuroimaging topological learning. The code for our analyses is provided in https://github.com/ngcaonghi/scaffold_noise."
+projects = ["topological_neuroscience"]
+
+
+[[papers]]
+title = "A taxonomy of neuroscientific strategies based on interaction orders"
+authors = [ "Neri, M.", "Brovelli, A.",  "Castro, S.",  "Fraisopi, F.", "Gatica, M.", "Herzog, R.", "Mindlin, I.", "Mediano, P.", "Petri, G.", "Bor, D.", "Rosas, F.", "Tramacere, A.", "Estarellas, M."]
+journal = "European Journal of Neuroscience"
+year = "2025"
+link = "https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.16676"
+github = ""
+slides = ""
+people = ["giovanni_petri", "matteo_neri", "marilyn_gatica"]
+abstract = "In recent decades, neuroscience has advanced with increasingly sophisticated strategies for recording and analyzing brain activity, enabling detailed investigations into the roles of functional units, such as individual neurons, brain regions, and their interactions. Recently, new strategies for the investigation of cognitive functions regard the study of higher-order interactions---that is, the interactions involving more than two brain regions or neurons. While methods focusing on individual units and their interactions at various levels offer valuable and often complementary insights, each approach comes with its own set of limitations. In this context, a conceptual map to categorize and locate diverse strategies could be crucial to orient researchers and guide future research directions. To this end, we define the spectrum of orders of interaction, namely a framework that categorizes the interactions among neurons or brain regions based on the number of elements involved in these interactions. We use a simulation of a toy model and a few case studies to demonstrate the utility and the challenges of the exploration of the spectrum. We conclude by proposing future research directions aimed at enhancing our understanding of brain function and cognition through a more nuanced methodological framework."
+projects = ["higher_order", "topological_neuroscience"]
+
+
+[[papers]]
+title = "Higher-order connectomics of human brain function reveals local topological signatures of task decoding,individual identification, and behavior"
+authors = ['Santoro, A.', 'Battiston, F.','Lucas M.', 'Petri, G.', 'Amico, E.']
+people = ["giovanni_petri", "andrea_santoro", "maxime_lucas"]
+year = "2024"
+journal = "BioRxiv"
+projects = ["higher_order","topological_neuroscience",]
+link = "https://www.biorxiv.org/content/10.1101/2023.12.04.569913v1.abstract"
+github = "https://github.com/andresantoro/Brain_HORS"
+abstract = "Traditional models of human brain activity often represent it as a network of pairwise interactions between brain regions. Going beyond this limitation, recent approaches have been proposed to infer higher-order interactions from temporal brain signals involving three or more regions. However, to this day it remains unclear whether methods based on inferred higher-order interactions outperform traditional pairwise ones for the analysis of fMRI data. To address this question, we conducted a comprehensive analysis using fMRI time series of 100 unrelated subjects from the Human Connectome Project. We show that higher-order approaches greatly enhance our ability to decode dynamically between various tasks, to improve the individual identification of unimodal and transmodal functional subsystems, and to strengthen significantly the associations between brain activity and behavior. Overall, our approach sheds new light on the higher-order organization of fMRI time series, improving the characterization of dynamic group dependencies in rest and tasks, and revealing a vast space of unexplored structures within human functional brain data, which may remain hidden when using traditional pairwise approaches."
+
+
+[[papers]]
+title = "Extracting the Multiscale Causal Backbone of Brain Dynamics"
+authors = [ "D'acunto, G.", "Bonchi, F.", "De Francisci Morales, G.", "Petri, G."]
+journal = "CLeaR"
+year = "2024"
+link = "https://proceedings.mlr.press/v236/d-textsc-char13acunto24a"
+github = "https://github.com/OfficiallyDAC/cb"
+slides = ""
+people = ["giovanni_petri"]
+abstract = "The bulk of the research effort on brain connectivity revolves around statistical associations among brain regions, which do not directly relate to the causal mechanisms governing brain dynamics. Here we propose the multiscale causal backbone (MCB) of brain dynamics shared by a set of individuals across multiple temporal scales, and devise a principled methodology to extract it. Our approach leverages recent advances in multiscale causal structure learning and optimizes the trade-off between the model fitting and its complexity. Empirical assessment on synthetic data shows the superiority of our methodology over a baseline based on canonical functional connectivity networks. When applied to resting-state fMRI data, we find sparse MCBs for both the left and right brain hemispheres. Thanks to its multiscale nature, our approach shows that at low-frequency bands, causal dynamics are driven by brain regions associated with high-level cognitive functions; at higher frequencies instead, nodes related to sensory processing play a crucial role. Finally, our analysis of individuals’ multiscale causal structures confirms the existence of a causal fingerprint of brain connectivity, thus supporting from a causal perspective the existing extensive research in brain connectivity fingerprinting."
+projects = ["higher_order", "topological_neuroscience"]
+
+[[papers]]
+projects = ["higher_order"]
+title = "Deeper but smaller: Higher-order interactions increase linear stability but shrink basins"
+authors =  ["Zhang, Y.", "Skardal, P.S.", "Battiston, F.", "Petri, G.", "Lucas, M."]
+people = ["maxime_lucas", "giovanni_petri"]
+journal = "Sciences Advances"
+year = "2024"
+link = "https://www.science.org/doi/full/10.1126/sciadv.ado8049"
+abstract = "A key challenge of nonlinear dynamics and network science is to understand how higher-order interactions influence collective dynamics. Although many studies have approached this question through linear stability analysis, less is known about how higher-order interactions shape the global organization of different states. Here, we shed light on this issue by analyzing the rich patterns supported by identical Kuramoto oscillators on hypergraphs. We show that higher-order interactions can have opposite effects on linear stability and basin stability: they stabilize twisted states (including full synchrony) by improving their linear stability, but also make them hard to find by dramatically reducing their basin size. Our results highlight the importance of understanding higher-order interactions from both local and global perspectives."
+github = "https://github.com/maximelucas/basins_and_triangles"
+
+[[papers]]
+title = "Higher-order null models as a lens for social systems"
+authors = ["Preti, G.", "Fazzone, A.", "Petri, G.", "De Francisci Morales, G."]
+year = "2024"
+journal = "Physical Review X"
+people = ["giovanni_petri"]
+link = "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031032"
+github = "https://github.com/lady-bluecopper/NuDHy"
+slides = "https://www.dropbox.com/s/2ffwad2vdy0opvc/SINM-GP.pdf?dl=0"
+volume = "14"
+issue = "3"
+pages = "031032"
+publisher = "American Physical Society"
+abstract = "Despite the widespread adoption of higher-order mathematical structures such as hypergraphs, methodological tools for their analysis lag behind those for traditional graphs. This work addresses a critical gap in this context by proposing two microcanonical random null models for directed hypergraphs: the directed hypergraph degree model (dhdm) and the directed hypergraph JOINT model (dhjm). These models preserve essential structural properties of directed hypergraphs such as node in- and out-degree sequences and hyperedge head- and tail-size sequences, or their joint tensor. We also describe two efficient Markov chain Monte Carlo algorithms, nudhy-degs and nudhy-joint, to sample random hypergraphs from these ensembles. To showcase the interdisciplinary applicability of the proposed null models, we present three distinct use cases in sociology, epidemiology, and economics. First, we reveal the oscillatory behavior of increased homophily in opposition parties in the U.S. Congress over a 40-year span, emphasizing the role of higher-order structures in quantifying political group homophily. Second, we investigate a nonlinear contagion in contact hypernetworks, demonstrating that disparities between simulations and theoretical predictions can be explained by considering higher-order joint degree distributions. Last, we examine the economic complexity of countries in the global trade network, showing that local network properties preserved by nudhy explain the main structural economic complexity indexes. This work advances the development of null models for directed hypergraphs, addressing the intricate challenges posed by their complex entity relations, and providing a versatile suite of tools for researchers across various domains."
+
+
+
+[[papers]]
+title = "Evidence of social learning across symbolic cultural barriers in sperm whales"
+authors =  ['Leitao, A.', 'Lucas, M.', 'Poetto, S.', 'Hersh, T. A.', 'Gero, S.', 'Gruber, D.', 'Bronstein, M.', 'Petri, G.']
+journal = "eLife"
+year = "2024"
+people = ["giovanni_petri", "maxime_lucas", "antonio_leitao", "simone_poetto"]
+link = "https://elifesciences.org/reviewed-preprints/96362v1"
+abstract = "We provide quantitative evidence suggesting social learning in sperm whales across sociocultural boundaries, using acoustic data from the Pacific and Atlantic Oceans. Traditionally, sperm whale populations are categorized into clans based on their vocal repertoire: the rhythmically patterned click sequences (codas) that they use. Among these codas, identity codas function as symbolic markers for each clan, accounting for 35-60% of codas they produce. We introduce a computational method to model whale speech, which encodes rhythmic microvariations within codas, capturing their vocal style. We find that vocal style-clans closely align with repertoire-clans. However, contrary to vocal repertoire, we show that sympatry increases vocal style similarity between clans for non-identity codas, i.e. most codas, suggesting social learning across cultural boundaries. More broadly, this subcoda structure model offers a framework for comparing communication systems in other species, with potential implications for deeper understanding of vocal and cultural transmission within animal societies."
+github = "https://github.com/nplresearch/social-learning-nonhuman-communications"
+slides = "https://www.dropbox.com/scl/fi/7lwmwwd6vyjgq4rma8tpk/talk-whales-berkeley.pdf?rlkey=w3sewpgupf7ns655dbencbgxt&dl=0"
+projects = ["ceti"]
+
+[[papers]]
+projects = ["higher_order"]
+title = "A unified framework for Simplicial Kuramoto models"
+authors =  ["Nurisso, M.", "Arnaudon, A.", "Lucas, M.", "Peach, R. L.", "Expert, P.", "Vaccarino, F.", "Petri, G."]
+year = "2023"
+people = ['maxime_lucas', 'giovanni_petri', 'marco_nurisso']
+journal = "Chaos: An Interdisciplinary Journal of Nonlinear Science"
+link = "https://pubs.aip.org/aip/cha/article/34/5/053118/3289337"
+abstract = "Simplicial Kuramoto models have emerged as a diverse and intriguing class of models describing oscillators on simplices rather than nodes. In this paper, we present a unified framework to describe different variants of these models, categorized into three main groups: simple models, Hodge-coupled models, and order-coupled (Dirac) models. Our framework is based on topology, discrete differential geometry as well as gradient flows and frustrations, and permits a systematic analysis of their properties. We establish an equivalence between the simple simplicial Kuramoto model and the standard Kuramoto model on pairwise networks under the condition of manifoldness of the simplicial complex. Then, starting from simple models, we describe the notion of simplicial synchronization and derive bounds on the coupling strength necessary or sufficient for achieving it. For some variants, we generalize these results and provide new ones, such as the controllability of equilibrium solutions. Finally, we explore a potential application in the reconstruction of brain functional connectivity from structural connectomes and find that simple edge-based Kuramoto models perform competitively or even outperform complex extensions of node-based models."
+github = "https://github.com/arnaudon/simplicial-kuramoto"
+
+[[papers]]
+title = "The structural evolution of temporal hypergraphs through the lens of hyper-cores"
+authors = ["Mancastroppa, M.", "Iacopini, I.", "Petri, G.", "Barrat, A."]
+year = "2024"
+journal = "EPJ Data Science"
+link = "https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-024-00490-1"
+abstract = "The richness of many complex systems stems from the interactions among their components. The higher-order nature of these interactions, involving many units at once, and their temporal dynamics constitute crucial properties that shape the behaviour of the system itself. An adequate description of these systems is offered by temporal hypergraphs, that integrate these features within the same framework. However, tools for their temporal and topological characterization are still scarce. Here we develop a series of methods specifically designed to analyse the structural properties of temporal hypergraphs at multiple scales. Leveraging the hyper-core decomposition of hypergraphs, we follow the evolution of the hyper-cores through time, characterizing the hypergraph structure and its temporal dynamics at different topological scales, and quantifying the multi-scale structural stability of the system. We also define two static hypercoreness centrality measures that provide an overall description of the nodes aggregated structural behaviour. We apply the characterization methods to several data sets, establishing connections between structural properties and specific activities within the systems. Finally, we show how the proposed method can be used as a model-validation tool for synthetic temporal hypergraphs, distinguishing the higher-order structures and dynamics generated by different models from the empirical ones, and thus identifying the essential model mechanisms to reproduce the empirical hypergraph structure and evolution. Our work opens several research directions, from the understanding of dynamic processes on temporal higher-order networks to the design of new models of time-varying hypergraphs."
+projects = ["higher_order"]
+people = ['giovanni_petri']
+
+[[papers]]
+title = "Homological landscape of human brain functional sub-circuits"
+authors = ["Duong-Tran, D.", "Kaufmann, R.", "Chen, J.", "Wang, X.", "Garai, S.", "Xu, F. H.", "Bao, J.", "Amico, E.", "Kaplan, A. D.", "Petri, G.", "Goni, J.", "Zhao, Y.", "Shen, L."]
+year = "2024"
+journal = "Mathematics"
+volume = "12"
+link = "https://www.mdpi.com/2227-7390/12/3/455"
+issue = "3"
+pages = "455"
+publisher = "MDPI"
+abstract = "This study proposes a homological formalism to quantify higher-order characteristics in human brain functional sub-circuits, revealing complementary properties and self-similarity across homological orders in brain connectivity during rest and tasks."
+projects = ["higher_order", "topological_neuroscience"]
+people = ['giovanni_petri']
+
+
+[[papers]]
+title = "Synergistic signatures of group mechanisms in higher-order systems"
+authors = ["Robiglio, T.", "Neri, M.", "Coppes, D.", "Agostinelli, C.", "Battiston, F.", "Lucas, M.", "Petri, G."]
+year = "2025"
+journal = "Nature Physics"
+link = "https://www.nature.com/articles/s41567-025-02784-1"
+abstract = "The interplay between causal mechanisms and emerging collective behaviors is a central aspect of the understanding, control, and prediction of complex networked systems. Here we study this interplay in the context of higher-order mechanisms and behaviors in two representative models: a simplicial Ising model and a simplicial social contagion model. In both systems, we find that group (higher-order) interactions show emergent synergistic (higher-order) behavior. The emergent synergy appears only at the group level and depends in a complex non-linear way on the tradeoff between the strengths of the low- and higher-order mechanisms, and is invisible to low-order behavioral observables. Finally, we present a simple method to detect higher-order mechanisms by using this signature."
+projects = ["higher_order"]
+people = ['giovanni_petri', 'thomas_robiglio', 'matteo_neri', 'maxime_lucas', 'cosimo_agostinelli', 'davide_coppes']
+
+[[papers]]
+title = "Higher-order Laplacian Renormalization"
+authors = ["Nurisso, M.", "Morandini, M.", "Lucas, M.", "Vaccarino, F.", "Gili, T.", "Petri, G."]
+year = "2025"
+journal = "Nature Physics"
+link = "https://www.nature.com/articles/s41567-025-02784-1"
+github = "https://github.com/nplresearch/higher_order_LRG"
+abstract = "We propose a cross-order Laplacian renormalization group (X-LRG) scheme for arbitrary higher-order networks. The renormalization group is a pillar of the theory of scaling, scale-invariance, and universality in physics. An RG scheme based on diffusion dynamics was recently introduced for complex networks with dyadic interactions. Despite mounting evidence of the importance of polyadic interactions, we still lack a general RG scheme for higher-order networks. Our approach uses a diffusion process to group nodes or simplices, where information can flow between nodes and between simplices (higher-order interactions). This approach allows us (i) to probe higher-order structures, defining scale-invariance at various orders, and (ii) to propose a coarse-graining scheme. We demonstrate our approach on controlled synthetic higher-order systems and then use it to detect the presence of order-specific scale-invariant profiles of real-world complex systems from multiple domains."
+projects = ["higher_order"]
+people = ['giovanni_petri', 'marta_morandini', 'maxime_lucas', 'marco_nurisso']
+
+[[papers]]
+title = "Higher-order and distributed synergistic functional interactions encode information gain in goal-directed learning"
+authors = ["Combrisson, E.", "Basanisi, R.", "Neri, M.", "Auzias, G.", "Petri, G.", "Marinazzo, D.", "Panzeri, S.", "Brovelli, A."]
+year = "2024"
+journal = "bioRxiv"
+pages = "2024.09.23.614484"
+publisher = "Cold Spring Harbor Laboratory"
+abstract = "This study combines information decomposition theory with MEG to explore cortico-cortical functional interactions in goal-directed learning. Results show that 'information gain' is encoded through synergistic and higher-order interactions in cortical circuits, particularly involving prefrontal regions, suggesting a distributed neural mechanism for rational decision-making."
+people = ['giovanni_petri', 'matteo_neri']
+projects = ["higher_order", "topological_neuroscience"]
+link = "https://www.biorxiv.org/content/10.1101/2024.09.23.614484v1.abstract"
+
+[[papers]]
+title = "On the Benefits of Heterogeneity in Cognitive Stability and Flexibility for Collaborative Task Switching"
+authors = ["Brondetta, A.", "Bizyaeva, A.", "Lucas, M.", "Petri, G.", "Musslick, S."]
+year = "2024"
+link = "https://escholarship.org/uc/item/6b47b61g"
+journal = "Proceedings of the Annual Meeting of the Cognitive Science Society"
+volume = "46"
+abstract = "This simulation study examines how diversity in cognitive stability and flexibility among individuals improves collaborative task switching. Findings show that heterogeneous groups excel in high-switch environments, especially when the most flexible agents receive switch instructions, suggesting benefits for cognitive heterogeneity in clinical and educational applications."
+people = ['giovanni_petri', 'alessandra_brondetta']
+projects = ['cognitive_neuroscience']
+
+
+
+[[papers]]
+title = "Hyper-cores promote localization and efficient seeding in higher-order processes"
+authors = ["Mancastroppa, M.", "Iacopini, I.", "Petri, G.", "Barrat, A."]
+year = "2023"
+journal = "Nature Communications"
+volume = "14"
+issue = "1"
+pages = "6223"
+publisher = "Nature Publishing Group UK"
+abstract = "This study presents the hyper-core decomposition in hypergraphs, introducing a novel centrality measure, hypercoreness. It shows that nodes with high hypercoreness play crucial roles in spreading processes and social convention dynamics, making hyper-cores valuable for analyzing higher-order interactions in complex systems."
+people = ['giovanni_petri']
+link = "https://www.nature.com/articles/s41467-023-41887-2"
+github = "https://github.com/marco-mancastroppa/hypercore-decomposition/"
+projects = ['higher_order']
+
+[[papers]]
+title = "Convolutional neural networks for vision neuroscience: significance, developments, and outstanding issues"
+authors = ["Celeghin, A.", "Borriero, A.", "Orsenigo, D.", "Diano, M.", "Méndez Guerrero, C. A.", "Perotti, A.", "Petri, G.", "Tamietto, M."]
+year = "2023"
+journal = "Frontiers in Computational Neuroscience"
+volume = "17"
+pages = "1153572"
+publisher = "Frontiers"
+abstract = "This paper examines Convolutional Neural Networks (CNNs) as in silico models of the primate visual system, highlighting structural and functional parallels. It discusses challenges in modeling visual processing pathways and proposes architectural constraints to align CNNs more closely with biological vision, extending their applicability beyond object recognition."
+projects = ['cognitive_neuroscience', 'topological_neuroscience']
+people = ['giovanni_petri', 'davide_orsenigo']
+link = "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2023.1153572/full"
+
+[[papers]]
+year = "2023"
+volume = "8"
+number = "91"
+pages = "5872"
+authors =  ["Lucas, M.", "Townsend-Teague, A.", "Neri, M.", "Poetto, S.", "Morris, A.", "Habermann, B.", "Tichit, L."]
+title = "Phasik: a Python package to identify system states in partially temporal networks"
+journal = "J. Open Source Softw."
+link = "https://doi.org/10.21105/joss.05872"
+github = "https://gitlab.com/habermann_lab/phasik"
+projects = ["higher_order", "temporal"]
+people = ["maxime_lucas", "simone_poetto"]
+abstract = "Phasik is a Python library for analyzing the temporal structure of temporal and partially temporal networks. Temporal networks are used to model complex systems that consist of entities with time-varying interactions. This library provides methods for building temporal networks (including from data), visualizing them, and analyzing their structure. In particular, Phasik focuses on the identification of temporal phases, that is, periods of time during which the system is in a given state. The library supports partially temporal networks for which information about only a subset of the edges’ temporal evolution is available. Phasik is implemented in pure Python and integrates with the rest of the Python scientific stack."
+
+[[papers]]
+title = "XGI: A Python package for higher-order interaction networks"
+authors = ['Landry, N. W.', 'Lucas, M.', 'Iacopini, I.', 'Petri, G.', 'Schwarze, A.', 'Patania, A.', 'Torres, L.']
+people = ["maxime_lucas"]
+abstract = " CompleX Group Interactions (XGI) is a library for analyzing higher-order networks. Such networks are used to model interactions of arbitrary size between entities in a complex system. This library provides methods for building hypergraphs and simplicial complexes; algorithms to analyze their structure, visualize them, and simulate dynamical processes on them; and a collection of higher-order datasets. XGI is implemented in pure Python and integrates with the rest of the Python scientific stack. XGI is designed and developed by network scientists with the needs of network scientists in mind."
+journal = "J. Open Source Softw."
+number = "85"
+pages = "5162"
+volume = "8"
+year = "2023"
+projects = ["higher_order"]
+link = "https://doi.org/10.21105/joss.05162"
+github = "https://github.com/xgi-org/xgi"
+
+
+[[papers]]
+title = "Multistability, intermittency and hybrid transitions in social contagion models on hypergraphs"
+authors = ['de Arruda, G.F.', 'Petri, G.', 'Rodriguez, P.M.', 'Moreno, Y.']
+people = ["giovanni_petri"]
+abstract = "Although ubiquitous, interactions in groups of individuals are not yet thoroughly studied. Frequently, single groups are modeled as critical-mass dynamics, which is a widespread concept used not only by academics but also by politicians and the media. However, less explored questions are how a collection of groups will behave and how their intersection might change the dynamics. Here, we formulate this process as binary-state dynamics on hypergraphs. We showed that our model has a rich behavior beyond discontinuous transitions. Notably, we have multistability and intermittency. We demonstrated that this phenomenology could be associated with community structures, where we might have multistability or intermittency by controlling the number or size of bridges between communities. Furthermore, we provided evidence that the observed transitions are hybrid. Our findings open new paths for research, ranging from physics, on the formal calculation of quantities of interest, to social sciences, where new experiments can be designed."
+year = "2023"
+date = "01-01-2023"
+journal = "Nature Communications"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41467-023-37118-3"
+
+
+[[papers]]
+title = "Effective Higher-order Link Prediction and Reconstruction from Simplicial Complex Embeddings"
+authors = ['Piaggesi, S.', 'Panisson, A.', 'Petri, G.']
+people = ["giovanni_petri"]
+abstract = "Methods that learn graph topological representations are becoming the usual choice to extract features to help solve machine learning tasks on graphs. In particular, low-dimensional encoding of graph nodes can be exploited in tasks such as link prediction and network reconstruction, where pairwise node embedding similarity is interpreted as the likelihood of an edge incidence. The presence of polyadic interactions in many real-world complex systems is leading to the emergence of representation learning techniques able to describe systems that include such polyadic relations. Despite this, their application on estimating the likelihood of tuple-wise edges is still underexplored. Here we focus on the reconstruction and prediction of simplices (higher-order links) in the form of classification tasks, where the likelihood of interacting groups is computed from the embedding features of a simplicial complex. Using similarity scores based on geometric properties of the learned metric space, we show how the resulting node-level and group-level feature embeddings are beneficial to predict unseen simplices, as well as to reconstruct the topology of the original simplicial structure, even when training data contain only records of lower-order simplices."
+year = "2022"
+date = "12-09-2022"
+projects = ["higher_order"]
+link = "https://openreview.net/forum?id=UiBiLRXR0G"
+github = "https://github.com/simonepiaggesi/simplex2pred"
+
+
+
+
+[[papers]]
+title = "Hypergraph reconstruction from network data"
+authors = ['Young, J.', 'Petri, G.', 'Peixoto, T.P.']
+people = ["giovanni_petri"]
+abstract = "Networks can describe the structure of a wide variety of complex systems by specifying which pairs of entities in the system are connected. While such pairwise representations are flexible, they are not necessarily appropriate when the fundamental interactions involve more than two entities at the same time. Pairwise representations nonetheless remain ubiquitous, because higher-order interactions are often not recorded explicitly in network data. Here, we introduce a Bayesian approach to reconstruct latent higher-order interactions from ordinary pairwise network data. Our method is based on the principle of parsimony and only includes higher-order structures when there is sufficient statistical evidence for them. We demonstrate its applicability to a wide range of datasets, both synthetic and empirical."
+year = "2021"
+journal = "Communications Physics"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s42005-021-00637-w"
+
+
+[[papers]]
+title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
+authors = ["Zhang, Y.", "Lucas, M.", "Battiston, F."]
+people = ["maxime_lucas"]
+abstract= "Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
+year = "2023"
+date = "23-03-2023"
+journal = "Nature Communications"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41467-023-37190-9"
+github = "https://github.com/maximelucas/HOI_shape_sync_differently"
+
+
+[[papers]]
+title = "Higher-order organization of multivariate time series"
+authors = ['Santoro, A.', 'Battiston, F.', 'Petri, G.', 'Amico, E.']
+people = ["giovanni_petri", "andrea_santoro"]
+year = "2023"
+date = "02-01-2023"
+journal = "Nature Physics"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41567-022-01852-0"
+github = "https://github.com/andresantoro/RHOSTS"
+abstract = "Time series analysis has proven to be a powerful method to characterize several phenomena in biology, neuroscience and economics, and to understand some of their underlying dynamical features. Several methods have been proposed for the analysis of multivariate time series, yet most of them neglect the effect of non-pairwise interactions on the emerging dynamics. Here, we propose a framework to characterize the temporal evolution of higher-order dependencies within multivariate time series. Using network analysis and topology, we show that our framework robustly differentiates various spatiotemporal regimes of coupled chaotic maps. This includes chaotic dynamical phases and various types of synchronization. Hence, using the higher-order co-fluctuation patterns in simulated dynamical processes as a guide, we highlight and quantify signatures of higher-order patterns in data from brain functional activity, financial markets and epidemics. Overall, our approach sheds light on the higher-order organization of multivariate time series, allowing a better characterization of dynamical group dependencies inherent to real-world data."
+
+
+
+[[papers]]
+title = "Simplicially driven simple contagion"
+authors = ["Lucas, M.","Iacopini, I."," Robiglio, T.","Barrat, A.","Petri, G."]
+people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
+year = "2023"
+date = "23-03-2023"
+journal = "Physical Review Research"
+projects = ["higher_order"]
+link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+abstract= "Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
+
+
+[[papers]]
+title = "Evolutionarily conserved role of oxytocin in social fear contagion in zebrafish"
+authors = ["Akinrinade, I.", "Kareklas, K.", "Teles, M. C.", "Reis, T. K.", "Gliksberg, M.", "Petri, G.", "Levkowitz, G.", "Oliveira, R. F."]
+year = "2023"
+journal = "Science"
+volume = "379"
+issue = "6638"
+pages = "1232-1237"
+publisher = "American Association for the Advancement of Science"
+abstract = "Emotional contagion is the most ancestral form of empathy. We tested to what extent the proximate mechanisms of emotional contagion are evolutionarily conserved by assessing the role of oxytocin, known to regulate empathic behaviors in mammals, in social fear contagion in zebrafish. Using oxytocin and oxytocin receptor mutants, we show that oxytocin is both necessary and sufficient for observer zebrafish to imitate the distressed behavior of conspecific demonstrators. The brain regions associated with emotional contagion in zebrafish are homologous to those involved in the same process in rodents (e.g., striatum, lateral septum), receiving direct projections from oxytocinergic neurons located in the pre-optic area. Together, our results support an evolutionary conserved role for oxytocin as a key regulator of basic empathic behaviors across vertebrates."
+people = ['giovanni_petri']
+projects = ["cognitive_neuroscience", "topological_neuroscience"]
+link = "https://www.science.org/doi/abs/10.1126/science.abq5158"
+
+
+
+[[papers]]
+title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
+authors = ["Lucas, M.", "Morris, A.", "Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
+people = ["maxime_lucas"]
+year = "2023"
+date = "27-02-2023"
+journal = "Cell Reports Methods"
+projects = ["higher_order,topological_neuroscience"]
+link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+abstract= "The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
+github = "https://gitlab.com/habermann_lab/phasik"
+
+
+
+
+[[papers]]
+title = "Toward understanding the communication in sperm whales"
+authors = ["Andreas, J.", "Begus, G.", "Bronstein, M. M.", "Diamant, R.", "Delaney, D.", "Gero, S.", "Goldwasser, S.", "Gruber, D. F.", "de Haas, S.", "Malkin, P.", "Pavlov, N.", "Payne, R.", "Petri, G.", "Rus, D.", "Sharma, P.", "Tchernov, D.", "Tønnesen, P.", "Torralba, A.", "Vogt, D.", "Wood, R. J."]
+year = "2022"
+journal = "iScience"
+volume = "25"
+issue = "6"
+publisher = "Elsevier"
+abstract = "Machine learning has been advancing dramatically over the past decade. Most strides are human-based applications due to the availability of large-scale datasets; however, opportunities are ripe to apply this technology to more deeply understand non-human communication. We detail a scientific roadmap for advancing the understanding of communication of whales that can be built further upon as a template to decipher other forms of animal and non-human communication. Sperm whales, with their highly developed neuroanatomical features, cognitive abilities, social structures, and discrete click-based encoding make for an excellent model for advanced tools that can be applied to other animals in the future. We outline the key elements required for the collection and processing of massive datasets, detecting basic communication units and language-like higher-level structures, and validating models through interactive playback experiments. The technological capabilities developed by such an undertaking hold potential for cross-applications in broader communities investigating non-human communication and behavioral research."
+people = ['giovanni_petri', 'antonio_leitao']
+projects = ['ceti']
+link = "https://www.cell.com/iscience/fulltext/S2589-0042(22)00664-2"
+
+
+
+[[papers]]
+title = "Group interactions modulate critical mass dynamics in social convention"
+authors = ["Iacopini, I.", "Petri, G.", "Baronchelli, A.", "Barrat, A."]
+year = "2022"
+journal = "Communications Physics"
+volume = "5"
+issue = "1"
+pages = "64"
+publisher = "Nature Publishing Group UK"
+abstract = "How can minorities of individuals overturn social conventions? The theory of critical mass states that when a committed minority reaches a critical size, a cascade of behavioural changes can occur, overturning apparently stable social norms. Evidence comes from theoretical and empirical studies in which minorities of very different sizes, including extremely small ones, manage to bring a system to its tipping point. Here, we explore this diversity of scenarios by introducing group interactions as a crucial element of realism into a model for social convention. We find that the critical mass necessary to trigger behaviour change can be very small if individuals have a limited propensity to change their views. Moreover, the ability of the committed minority to overturn existing norms depends in a complex way on the group size. Our findings reconcile the different sizes of critical mass found in previous investigations and unveil the critical role of groups in such processes. This further highlights the importance of the emerging field of higher-order networks, beyond pairwise interactions."
+people = ['giovanni_petri']
+projects = ['higher_order']
+link = "https://www.nature.com/articles/s42005-022-00845-y"
+github = "https://github.com/iaciac/higher-order-NG"
+
+
+
+
+[[papers]]
+title = "Sex differences in aggression are paralleled by differential activation of the brain social decision-making network in zebrafish"
+authors = ["Scaia, M. F.", "Akinrinade, I.", "Petri, G.", "Oliveira, R. F."]
+year = "2022"
+journal = "Frontiers in Behavioral Neuroscience"
+volume = "16"
+pages = "784835"
+publisher = "Frontiers Media SA"
+abstract = "Although aggression is more prevalent in males, females also express aggressive behaviors and in specific ecological contexts females can be more aggressive than males. The aim of this work is to assess sex differences in aggression and to characterize the patterns of neuronal activation of the social-decision making network (SDMN) in response to intra-sexual aggression in both male and female zebrafish. Adult fish were exposed to social interaction with a same-sex opponent and all behavioral displays, latency, and time of resolution were quantified. After conflict resolution, brains were sampled and sex differences on functional connectivity throughout the SDMN were assessed by immunofluorescence of the neuronal activation marker pS6. Results suggest that both sexes share a similar level of motivation for aggression, but female encounters show shorter conflict resolution and a preferential use of antiparallel displays instead of overt aggression, showing a reduction of putative maladaptive effects. Although there are no sex differences in the neuronal activation in any individual brain area from the SDMN, agonistic interactions increased neuronal activity in most brain areas in both sexes. Functional connectivity was assessed using bootstrapped adjacency matrices that capture the co-activation of the SDMN nodes. Male winners increased the overall excitation and showed no changes in inhibition across the SDMN, whereas female winners and both male and female losers showed a decrease in both excitation and inhibition of the SDMN in comparison to non-interacting control fish. Moreover, network centrality analysis revealed both shared hubs, as well as sex-specific hubs, between the sexes for each social condition in the SDMN. In summary, a distinct neural activation pattern associated with social experience during fights was found for each sex, suggesting a sex-specific differential activation of the social brain as a consequence of social experience. Overall, our study adds insights into sex differences in agonistic behavior and on the neuronal architecture of intrasexual aggression in zebrafish."
+projects = ['cognitive_neuroscience']
+people = ["giovanni_petri"]
+link = "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.784835/full"
+
+
+
+[[papers]]
+title = "Influential groups for seeding and sustaining nonlinear contagion in heterogeneous hypergraphs"
+authors = ["St-Onge, G.", "Iacopini, I.", "Latora, V.", "Barrat, A.", "Petri, G.", "Allard, A.", "Hébert-Dufresne, L."]
+year = "2022"
+journal = "Communications Physics"
+volume = "5"
+issue = "1"
+pages = "25"
+publisher = "Nature Publishing Group UK"
+abstract = "Contagion phenomena are often the results of multibody interactions—such as superspreading events or social reinforcement—describable as hypergraphs. We develop an approximate master equation framework to study contagions on hypergraphs with a heterogeneous structure in terms of group size (hyperedge cardinality) and of node membership (hyperdegree). By mapping multibody interactions to nonlinear infection rates, we demonstrate the influence of large groups in two ways. First, we characterize the phase transition, which can be continuous or discontinuous with a bistable regime. Our analytical expressions for the critical and tricritical points highlight the influence of the first three moments of the membership distribution. We also show that heterogeneous group sizes and nonlinear contagion promote a mesoscopic localization regime where contagion is sustained by the largest groups, thereby inhibiting bistability. Second, we formulate an optimal seeding problem for hypergraph contagion and compare two strategies: allocating seeds according to node or group properties. We find that, when the contagion is sufficiently nonlinear, groups are more effective seeds than individual hubs."
+link = "https://www.nature.com/articles/s42005-021-00788-w"
+github = "https://doi.org/10.5281/zenodo.5662446"
+people = ["giovanni_petri"]
+projects = ["higher_order"]
+
+
+
+[[papers]]
+title = "Topological Features of Electroencephalography are Robust to Re-referencing and Preprocessing"
+authors = ["Billings, J.", "Tivadar, R.", "Murray, M. M.", "Franceschiello, B.", "Petri, G."]
+year = "2022"
+journal = "Brain Topography"
+volume = "35"
+issue = "1"
+pages = "79-95"
+publisher = "Springer US"
+abstract = "Electroencephalography (EEG) is among the most widely diffused, inexpensive, and adopted neuroimaging techniques. Nonetheless, EEG requires measurements against a reference site(s), which is typically chosen by the experimenter, and specific pre-processing steps precede analyses. It is therefore valuable to obtain quantities that are minimally affected by reference and pre-processing choices. Here, we show that the topological structure of embedding spaces, constructed either from multi-channel EEG timeseries or from their temporal structure, are subject-specific and robust to re-referencing and pre-processing pipelines. By contrast, the shape of correlation spaces, that is, discrete spaces where each point represents an electrode and the distance between them that is in turn related to the correlation between the respective timeseries, was neither significantly subject-specific nor robust to changes of reference. Our results suggest that the shape of spaces describing the observed configurations of EEG signals holds information about the individual specificity of the underlying individual’s brain dynamics, and that temporal correlations constrain to a large degree the set of possible dynamics. In turn, these encode the differences between subjects’ space of resting state EEG signals. Finally, our results and proposed methodology provide tools to explore the individual topographical landscapes and how they are explored dynamically. We propose therefore to augment conventional topographic analyses with an additional—topological—level of analysis, and to consider them jointly. More generally, these results provide a roadmap for the incorporation of topological analyses within EEG pipelines."
+people = ['giovanni_petri', 'jacob_billings']
+projects = ['topological_neuroscience', 'higher_order']
+link = "https://link.springer.com/article/10.1007/s10548-021-00882-w"
+
+
+[[papers]]
+title = "Developmental effects of oxytocin neurons on social affiliation and processing of social information"
+authors = ["Nunes, A. R.", "Gliksberg, M.", "Varela, S. A. M.", "Teles, M.", "Wircer, E.", "Blechman, J.", "Petri, G.", "Levkowitz, G.", "Oliveira, R. F."]
+year = "2021"
+journal = "Journal of Neuroscience"
+volume = "41"
+issue = "42"
+pages = "8742-8760"
+publisher = "Society for Neuroscience"
+abstract = "Hormones regulate behavior either through activational effects that facilitate the acute expression of specific behaviors or through organizational effects that shape the development of the nervous system thereby altering adult behavior. Much research has implicated the neuropeptide oxytocin (OXT) in acute modulation of various aspects of social behaviors across vertebrate species, and OXT signaling is associated with the developmental social deficits observed in autism spectrum disorders (ASDs); however, little is known about the role of OXT in the neurodevelopment of the social brain. We show that perturbation of OXT neurons during early zebrafish development led to a loss of dopaminergic neurons, associated with visual processing and reward, and blunted the neuronal response to social stimuli in the adult brain. Ultimately, adult fish whose OXT neurons were ablated in early life, displayed altered functional connectivity within social decision-making brain nuclei both in naive state and in response to social stimulus and became less social. We propose that OXT neurons have an organizational role, namely, to shape forebrain neuroarchitecture during development and to acquire an affiliative response toward conspecifics."
+people = ['giovanni_petri']
+projects = ["topological_neuroscience", "cognitive_neuroscience"]
+link = "https://www.jneurosci.org/content/41/42/8742?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1"
+
+
+
+
+[[papers]]
+title = "The physics of higher-order interactions in complex systems"
+authors = ["Battiston, F.", "Amico, E.", "Barrat, A.", "Bianconi, G.", "Ferraz de Arruda, G.", "Franceschiello, B.", 
+"Iacopini, I.", "Kéfi, I", "Latora, V.", "Moreno, Y.", "Murray, M.M.", "Peixoto, T.P." , "Vaccarino, F.", "Petri, G."]
+people = ["giovanni_petri"]
+year = "2021"
+date = "04-10-2021"
+abstract = "Complex networks have become the main paradigm for modelling the dynamics of interacting systems. However, networks are intrinsically limited to describing pairwise interactions, whereas real-world systems are often characterized by higher-order interactions involving groups of three or more units. Higher-order structures, such as hypergraphs and simplicial complexes, are therefore a better tool to map the real organization of many social, biological and man-made systems. Here, we highlight recent evidence of collective behaviours induced by higher-order interactions, and we outline three key challenges for the physics of higher-order systems."
+journal = "Nature Physics"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41567-021-01371-4"
+
+
+[[papers]]
+title = "Networks beyond pairwise interactions: structure and dynamics"
+authors = ["Battiston, F.","Cencetti, G.","Iacopini, I.","Latora, V.","Lucas, M.","Patania, A." ,"Young, J.-G.","Petri, G."]
+people = ["maxime_lucas","giovanni_petri"]
+journal = "Physics Reports"
+abstract= "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as diffusion, synchronization, spreading, social dynamics and games, when extended beyond pairwise interactions. We conclude with a summary of empirical applications, and an outlook on current modeling and conceptual frontiers."
+projects = ["higher_order"]
+year = "2020"
+link = "https://arxiv.org/pdf/2006.01764.pdf"
+
+[[papers]]
+title = "Multiorder Laplacian for synchronization in higher-order networks"
+authors = ["Lucas, M.", "Cencetti, G.", "Battiston, F."]
+people = ["maxime_lucas"]
+journal = "Physical Review Research"
+volume = "2"
+number = "3"
+pages = "033410"
+link = "10.1103/PhysRevResearch.2.033410"
+year = "2020"
+projects = ["higher_order"]
+abstract = "The emergence of synchronization in systems of coupled agents is a pivotal phenomenon in physics, biology, computer science, and neuroscience. Traditionally, interaction systems have been described as networks, where links encode information only on the pairwise influences among the nodes. Yet, in many systems, interactions among the units take place in larger groups. Recent work has shown that the presence of higher-order interactions between oscillators can significantly affect the emerging dynamics. However, these early studies have mostly considered interactions up to four oscillators at time, and analytical treatments are limited to the all-to-all setting. Here, we propose a general framework that allows us to effectively study populations of oscillators where higher-order interactions of all possible orders are considered, for any complex topology described by arbitrary hypergraphs, and for general coupling functions. To this end, we introduce a multiorder Laplacian whose spectrum determines the stability of the synchronized solution. Our framework is validated on three structures of interactions of increasing complexity. First, we study a population with all-to-all interactions at all orders, for which we can derive in a full analytical manner the Lyapunov exponents of the system, and for which we investigate the effect of including attractive and repulsive interactions. Second, we apply the multiorder Laplacian framework to synchronization on a synthetic model with heterogeneous higher-order interactions. Finally, we compare the dynamics of coupled oscillators with higher-order and pairwise couplings only, for a real dataset describing the macaque brain connectome, highlighting the importance of faithfully representing the complexity of interactions in real-world systems. Taken together, our multiorder Laplacian allows us to obtain a complete analytical characterization of the stability of synchrony in arbitrary higher-order networks, paving the way toward a general treatment of dynamical processes beyond pairwise interactions."
+github = "https://github.com/maximelucas/multiorder_Laplacian"
+
+
+
+[[papers]]
+title = "Improving Neural Predictivity in the Visual Cortex with Gated Recurrent Connections"
+authors = ["Azeglio, S.", "Poetto, S.", "Savant, L.", "Nurisso, M."]
+people = ["simone_poetto","marco_nurisso"]
+abstract= "Computational models of vision have traditionally been developed in a bottom-up fashion, by hierarchically composing a series of straightforward operations - i.e. convolution and pooling - with the aim of emulating simple and complex cells in the visual cortex, resulting in the introduction of deep convolutional neural networks (CNNs). Nevertheless, data obtained with recent neuronal recording techniques support that the nature of the computations carried out in the ventral visual stream is not completely captured by current deep CNN models. To fill the gap between the ventral visual stream and deep models, several benchmarks have been designed and organized into the Brain-Score platform, granting a way to perform multi-layer (V1, V2, V4, IT) and behavioral comparisons between the two counterparts. In our work, we aim to shift the focus on architectures that take into account lateral recurrent connections, a ubiquitous feature of the ventral visual stream, to devise adaptive receptive fields. Through recurrent connections, the input s long-range spatial dependencies can be captured in a local multi-step fashion and, as introduced with Gated Recurrent CNNs (GRCNN), the unbounded expansion of the neuron s receptive fields can be modulated through the use of gates. In order to increase the robustness of our approach and the biological fidelity of the activations, we employ specific data augmentation techniques in line with several of the scoring benchmarks. Enforcing some form of invariance, through heuristics, was found to be beneficial for better neural predictivity."
+projects=["cognitive_neuroscience"]
+year = '2022'
+link = "https://arxiv.org/pdf/2203.11910.pdf"
+
+
+[[papers]]
+title = "On The Topological Expressve Power of Neural Networks"
+authors = ["Petri, G.","Leitao, A."]
+people = ["giovanni_petri","antonio_leitao"]
+abstract= "We propose a topological description of neural network expressive power. We adopt the topology of the space of decision boundaries realized by a neural architecture as a measure of its intrinsic expressive power. By sampling a large number of neural architectures with different sizes and design, we show how such measure of expressive power depends on the properties of the architectures, like depth, width and other related quantities. "
+link = "https://openreview.net/pdf?id=I44kJPuvqPD"
+year = "2020"
+projects = ["higher_order","topological_neuroscience"] 
+
+
+[[papers]]
+title = "Topological limits to the parallel processing capability of network architectures"
+authors = ["Petri, G.", "Musslick, S.", "Dey, B.", "Ozcimder, K.", "Turner, D.", "Ahmed, N.K.", "Willke, T.L.", "Cohen, J.D."]
+people = ["giovanni_petri"]
+abstract = "The ability to learn new tasks and generalize to others is a remarkable characteristic of both human brains and recent artificial intelligence systems. The ability to perform multiple tasks simultaneously is also a key characteristic of parallel architectures, as is evident in the human brain and exploited in traditional parallel architectures. Here we show that these two characteristics reflect a fundamental tradeoff between interactive parallelism, which supports learning and generalization, and independent parallelism, which supports processing efficiency through concurrent multitasking. Although the maximum number of possible parallel tasks grows linearly with network size, under realistic scenarios their expected number grows sublinearly. Hence, even modest reliance on shared representations, which support learning and generalization, constrains the number of parallel tasks. This has profound consequences for understanding the human brain’s mix of sequential and parallel capabilities, as well as for the development of artificial intelligence systems that can optimally manage the tradeoff between learning and processing efficiency."
+year = "2021"
+date = "01-01-2021"
+journal = "Nature Physics"
+projects = ["topological_neuroscience", "cognitive_neuroscience"] 
+link = "https://www.nature.com/articles/s41567-021-01170-x"
+github = "https://github.com/lordgrilo/Multitasking_capacity"
+
+
+[[papers]]
+title = "Homological scaffolds of brain functional networks"
+authors = ['Petri, G.', 'Expert, P.', 'Turkheimer, F.', 'Carhart-Harris, R.', 'Nutt, D.', 'Hellyer, P.J.', 'Vaccarino, F.']
+people = ["giovanni_petri"]
+abstract = "Networks, as efficient representations of complex systems, have appealed to scientists for a long time and now permeate many areas of science, including neuroimaging (Bullmore and Sporns 2009 Nat. Rev. Neurosci. 10, 186–198. (doi:10.1038/nrn2618)). Traditionally, the structure of complex networks has been studied through their statistical properties and metrics concerned with node and link properties, e.g. degree-distribution, node centrality and modularity. Here, we study the characteristics of functional brain networks at the mesoscopic level from a novel perspective that highlights the role of inhomogeneities in the fabric of functional connections. This can be done by focusing on the features of a set of topological objects—homological cycles—associated with the weighted functional network. We leverage the detected topological information to define the homological scaffolds, a new set of objects designed to represent compactly the homological features of the correlation network and simultaneously make their homological properties amenable to networks theoretical methods. As a proof of principle, we apply these tools to compare resting-state functional brain activity in 15 healthy volunteers after intravenous infusion of placebo and psilocybin—the main psychoactive component of magic mushrooms. The results show that the homological structure of the brain's functional patterns undergoes a dramatic change post-psilocybin, characterized by the appearance of many transient structures of low stability and of a small number of persistent ones that are not observed in the case of placebo."
+year = "2014"
+date = "01-01-2014"
+journal = "Journal of The Royal Society Interface"
+projects= ["topological_neuroscience"] 
+link = "https://royalsocietypublishing.org/doi/10.1098/rsif.2014.0873"
+
+
+[[papers]]
+title = "On the predictability of infectious disease outbreaks"
+authors = ['Scarpino, S.V.', 'Petri, G.']
+people = ["giovanni_petri"]
+abstract = "Infectious disease outbreaks recapitulate biology: they emerge from the multi-level interaction of hosts, pathogens, and environment. Therefore, outbreak forecasting requires an integrative approach to modeling. While specific components of outbreaks are predictable, it remains unclear whether fundamental limits to outbreak prediction exist. Here, adopting permutation entropy as a model independent measure of predictability, we study the predictability of a diverse collection of outbreaks and identify a fundamental entropy barrier for disease time series forecasting. However, this barrier is often beyond the time scale of single outbreaks, implying prediction is likely to succeed. We show that forecast horizons vary by disease and that both shifting model structures and social network heterogeneity are likely mechanisms for differences in predictability. Our results highlight the importance of embracing dynamic modeling approaches, suggest challenges for performing model selection across long time series, and may relate more broadly to the predictability of complex adaptive systems."
+year = "2019"
+date = "01-01-2019"
+journal = "Nature communications"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41467-019-08616-0"
+github = "https://github.com/Emergent-Epidemics/infectious_disease_predictability"
+
+
+[[papers]]
+title = "Simplicial models of social contagion"
+authors = ['Iacopini, I.', 'Petri, G.', 'Barrat, A.', 'Latora, V.']
+people = ["giovanni_petri"]
+abstract = "Complex networks have been successfully used to describe the spread of diseases in populations of interacting individuals. Conversely, pairwise interactions are often not enough to characterize social contagion processes such as opinion formation or the adoption of novelties, where complex mechanisms of influence and reinforcement are at work. Here we introduce a higher-order model of social contagion in which a social system is represented by a simplicial complex and contagion can occur through interactions in groups of different sizes. Numerical simulations of the model on both empirical and synthetic simplicial complexes highlight the emergence of novel phenomena such as a discontinuous transition induced by higher-order interactions. We show analytically that the transition is discontinuous and that a bistable region appears where healthy and endemic states co-exist. Our results help explain why critical masses are required to initiate social changes and contribute to the understanding of higher-order interactions in complex systems."
+year = "2019"
+date = "01-01-2019"
+journal = "Nature communications"
+projects = ["higher_order"]
+link = "https://www.nature.com/articles/s41467-019-10431-6"
+github = "https://github.com/iaciac/simplagion"
+
