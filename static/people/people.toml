@@ -29,7 +29,7 @@ tag= "andrea_santoro"
 title= "Post-Doc Researcher @ CENTAI Institute"
 bio="Postdoctoral researcher at CENTAI. Currently, his work involves developing topological approaches to infer higher-order dependencies in multivariate time series, with applications in brain data and economics."
 avatar="/static/people/andrea_santoro.jpg"
-hoverAvatar="/static/people/andrea_santoro.jpg"
+hoverAvatar="/static/people/andrea_santoro_alt.png"
 url="https://andresantoro.github.io/"
 github="https://github.com/andresantoro"
 email="andrea.santoro@centai.eu"
@@ -76,12 +76,12 @@ tag= "davide_orsenigo"
 title= "PhD Student @ Università degli Studi di Torino"
 bio="PhD student in Neuroscience, studying the brain through the lens of higher-order interactions and information theory."
 avatar="/static/people/davide_orsenigo.jpg"
-hoverAvatar=""
+hoverAvatar="/static/people/davide_orsenigo_alt.png"
 url=""
 
 [[researchers]]
 name= "Henrique M. Borges"
-tag= "henriques_borges"
+tag= "henrique_borges"
 title= "PhD Student @ Network Science Institute"
 bio= "Henrique is a physicist converted into a network scientist. He is currently trying to understand the origin and impact of group interactions on coordination, communication, and decision-making"
 avatar="/static/people/henrique_borges.jpg"
@@ -117,6 +117,27 @@ hoverAvatar="/static/people/bernardo_pereira.jpg"
 url=""
 scholar = ""
 
+[[researchers]]
+name= "Lorenzo Zaffina"
+tag= "lorenzo_zaffina"
+title= "Junior Researcher @ CENTAI"
+bio=""
+avatar="/static/people/lorenzo_zaffina.jpg"
+hoverAvatar="/static/people/lorenzo_zaffina_alt.jpg"
+url=""
+
+
+[[researchers]]
+name= "Xuan-Chen Liu"
+tag= "xuan_chen_liu"
+title= "PhD Student @ Network Science Institute"
+bio=""
+avatar="/static/people/xuan_chen_liu.jpg"
+hoverAvatar="/static/people/xuan_chen_liu_alt.jpg"
+url=""
+
+
+
 
 [[researchers]]
 name= "Giulia Lorenzini"
@@ -124,25 +145,17 @@ tag= "giulia_lorenzini"
 title= "MSc Student @ Turin University + CENTAI Institute"
 bio=""
 avatar="/static/people/giulia_lorenzini_new.jpg"
-hoverAvatar="/static/people/giulia_lorenzini_new.jpg"
+hoverAvatar="/static/people/giulia_lorenzini_alt.jpg"
 url=""
+
 
 [[researchers]]
 name= "Francesco Guadagnuolo"
 tag= "francesco_guadagnuolo"
 title= "MSc Student @ EPFL"
 bio=""
-avatar="/static/people/francesco_maria_guadagnuolo.jpg"
-hoverAvatar="/static/people/francesco_maria_guadagnuolo_new.jpg"
-url=""
-
-[[researchers]]
-name= "Lorenzo Zaffina"
-tag= "lorenzo_zaffina"
-title= "Junior Researcher @ CENTAI"
-bio=""
-avatar="/static/people/lorenzo_zaffina.jpg"
-hoverAvatar="/static/people/lorenzo_zaffina.jpg"
+avatar="/static/people/francesco_guadagnuolo.jpg"
+hoverAvatar="/static/people/francesco_guadagnuolo_alt.jpg"
 url=""
 
 
