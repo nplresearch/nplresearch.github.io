@@ -2,6 +2,18 @@
 
 # UPCOMING NEWS
 
+
+
+
+#### PAST NEWS 
+
+[[articles]]
+title = "Workshop on topology of human and synthetic minds"
+description = "Gio is organizing with Yasser Roudi and Federico Turkheimer a <a href='https://lordgrilo.github.io/topology-natural-synthetic-minds/' target='_blank'>workshop</a> on topology for neuroscience at the new  href='https://www.kcl.ac.uk/research/kings-institute-for-human-and-synthetic-minds' target='_blank'>King's Institute of Human and Synthetic Minds</a> on Sept 15-16."
+date = "12-09-2025"
+link = "..."
+
+
 [[articles]]
 title = "NPL presents topological signal processing research at EUSIPCO 2025"
 description = "Andrea will present work with Marco and Gio on topological signal processing of brain data at <a href='https://eusipco2025.org/' target='_blank'>EUSIPCO 2025</a> in Palermo, Italy (September 8-12). The European Signal Processing Conference is the flagship conference of EURASIP, featuring the latest developments in signal processing research."
@@ -37,7 +49,7 @@ link = "..."
 
 
 
-#### PAST NEWS 
+
 
 [[articles]]
 title = "New paper out on topological fingerprinting"
