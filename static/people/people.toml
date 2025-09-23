@@ -104,7 +104,7 @@ tag= "pierrick_leroy"
 title= "PhD Student @ Polytechnic of Turin"
 bio= ""
 avatar="/static/people/pierrick_leroy.jpg"
-hoverAvatar="/static/people/pierrick_leroy.jpg"
+hoverAvatar="/static/people/pierrick_leroy_alt.png"
 url=""
 
 [[researchers]]
@@ -113,7 +113,7 @@ tag= "bernardo_pereira"
 title= "PhD Student @ CENTAI + Polytechnic of Turin"
 bio=""
 avatar="/static/people/bernardo_pereira.jpg"
-hoverAvatar="/static/people/bernardo_pereira.jpg"
+hoverAvatar="/static/people/bernardo_pereira_alt.png"
 url=""
 scholar = ""
 
