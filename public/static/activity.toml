@@ -2,14 +2,37 @@
 
 # UPCOMING NEWS
 
+[[articles]]
+title = "Gio keynote at the Hypnosis Research Summit"
+description = "Gio will be attending the Hypnosis Research Summit in Budapest and give a keynote talk on topological descriptions of functional equivalence in mental imagery tasks in sujbects susceptible to hypnosis."
+date = "19-10-2025"
+link = "..."
 
+[[articles]]
+title = "First RUNES workshop!!"
+description = "Exploiting a nice synergy, we are organizing the first RUNES <a href='https://www.cpt.univ-mrs.fr/~barrat/workshop_beyond.html' target='_blank'>workshop</a> in Marseilles, colocated with the <a href='https://beyondtheedge.network/' target='_blank'>BeyondTheEdge</a> first school!"
+date = "06-10-2025"
+link = "..."
 
 
 #### PAST NEWS 
 
 [[articles]]
+title = "New paper on PLoS Computational Biology"
+description = "Our paper led by Marilyn on computational modeling of TUS plasticity effects is out on  PLoS Computational Biology."
+date = "30-09-2025"
+link = "..."
+
+
+[[articles]]
+title = "Science and Artificial Intelligence Summit 2025"
+description = "Gio will speak about the tradeoff between identification and generalization at the AI Huawueisummit in London."
+date = "30-09-2025"
+link = "..."
+
+[[articles]]
 title = "Workshop on topology of human and synthetic minds"
-description = "Gio is organizing with Yasser Roudi and Federico Turkheimer a <a href='https://lordgrilo.github.io/topology-natural-synthetic-minds/' target='_blank'>workshop</a> on topology for neuroscience at the new  href='https://www.kcl.ac.uk/research/kings-institute-for-human-and-synthetic-minds' target='_blank'>King's Institute of Human and Synthetic Minds</a> on Sept 15-16."
+description = "Gio is organizing with Yasser Roudi and Federico Turkheimer a <a href='https://lordgrilo.github.io/topology-natural-synthetic-minds/' target='_blank'>workshop</a> on topology for neuroscience at the new  <a href='https://www.kcl.ac.uk/research/kings-institute-for-human-and-synthetic-minds' target='_blank'>King's Institute of Human and Synthetic Minds</a> on Sept 15-16."
 date = "12-09-2025"
 link = "..."
 
