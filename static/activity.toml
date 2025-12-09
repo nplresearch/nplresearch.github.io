@@ -2,6 +2,52 @@
 
 # UPCOMING NEWS
 
+
+
+
+[[articles]]
+title = "NeuroRenorm: COSYNE 2026 workshop approved!"
+description = "Andrea, Jesseba, and Gio will organize a workshop at COSYNE2026 on the renormalization principles in neural systems. Website out soon!"
+date = "14-03-2026"
+link = "..."
+
+[[articles]]
+title = "ABIM 2026"
+description = "Andrea, Lorenzo, Davide and Gio will be presenting at <a href='https://www.unige.ch/ABIM/' target='_blank'>ABIM 2026</a>."
+date = "14-01-2026"
+link = "..."
+
+
+
+[[articles]]
+title = "Gio at CNWW2025"
+description = "Gio will be lecturing at the <a href='https://vermontcomplexsystems.org/events/cnww/' target='_blank'>Complex Networks Winter Workshop</a> in Quebec City."
+date = "14-12-2025"
+link = "..."
+
+
+#### PAST NEWS 
+
+[[articles]]
+title = "Jesseba as Accelnet fellow"
+description = "Jesseba got accepted as a Accelnet Multinet fellow and will be visiting London and Marseille to work with Alain Barrat and Andrea Brovelli in Spring 2026!"
+date = "05-12-2025"
+link = "..."
+
+
+[[articles]] 
+title = "New review on multilayer networks out" 
+description = "New review out reviewing the  state of multilayer network science <a href='https://arxiv.org/abs/2511.23371' target='_blank'>here.</a>"
+date= "28-11-2025" 
+link = "..."
+
+[[articles]] 
+title = "New work on stability of higher-order systems" 
+description = "New paper out the role of higher-order coupling in stabilizong new states <a href='https://arxiv.org/abs/2510.09387' target='_blank'>here.</a>"
+date= "28-11-2025" 
+link = "..."
+
+
 [[articles]]
 title = "Gio keynote at the Hypnosis Research Summit"
 description = "Gio will be attending the Hypnosis Research Summit in Budapest and give a keynote talk on topological descriptions of functional equivalence in mental imagery tasks in sujbects susceptible to hypnosis."
@@ -15,7 +61,6 @@ date = "06-10-2025"
 link = "..."
 
 
-#### PAST NEWS 
 
 [[articles]]
 title = "New paper on PLoS Computational Biology"

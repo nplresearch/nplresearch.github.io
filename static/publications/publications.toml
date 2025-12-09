@@ -40,6 +40,26 @@ tag = "inferring-cells"
 link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
 
 ###################
+
+
+[[papers]]
+title = "Multilayer network science: theory, methods, and applications"
+authors = ["Aleta, A.", "Teixeira, A. S.", "Ferraz de Arruda, G.", "Baronchelli, A.", "Barrat, A.", "Kertész, J.", "Díaz-Guilera, A.", "Artime, O.", "Starnini, M.", "Petri, G.", "Karsai, M.", "Patwardhan, S.", "Vespignani, A.", "Moreno, Y.", "Fortunato, S."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2511.23371"
+abstract = "Multilayer network science has emerged as a central framework for analysing interconnected and interdependent complex systems. Its relevance has grown substantially with the increasing availability of rich, heterogeneous data, which makes it possible to uncover and exploit the inherently multilayered organisation of many real-world networks. In this review, we summarise recent developments in the field. On the theoretical and methodological front, we outline core concepts and survey advances in community detection, dynamical processes, temporal networks, higher-order interactions, and machine-learning-based approaches. On the application side, we discuss progress across diverse domains, including interdependent infrastructures, spreading dynamics, computational social science, economic and financial systems, ecological and climate networks, science-of-science studies, network medicine, and network neuroscience. We conclude with a forward-looking perspective, emphasizing the need for standardized datasets and software, deeper integration of temporal and higher-order structures, and a transition toward genuinely predictive models of complex systems."
+people = ["giovanni_petri"]
+
+[[papers]]
+title = "Mixed higher-order coupling stabilizes new states"
+authors = ["Skardal, P. S.", "Battiston, F.", "Lucas, M.", "Mizuhara, M. S.", "Petri, G.", "Zhang, Y."]
+year = "2025"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2510.09387"
+abstract = "Understanding how higher-order interactions affect collective behavior is a central problem in nonlinear dynamics and complex systems. Most works have focused on a single higher-order coupling function, neglecting other viable choices. Here we study coupled oscillators with dyadic and three different types of higher-order couplings. By analyzing the stability of different twisted states on rings, we show that many states are stable only for certain combinations of higher-order couplings, and thus the full range of system dynamics cannot be observed unless all types of higher-order couplings are simultaneously considered."
+people = ["giovanni_petri"]
+
 [[papers]]
 title = "Characterization of diseases in temporal comorbidity networks"
 authors = ["Gardinazzi, Y.", "Gonzaléz March, R.", "Kalahasti, S.", "Montaño Ramirez, A.", "Neri, M.", "Nguyen, C.", "Palermo, G.", "Weis, E.", "Ledebur, K.", "Dervić, E."]
@@ -117,9 +137,9 @@ people = ["giovanni_petri", "simone_poetto", "andrea_santoro"]
 title = "Understanding the high-order network plasticity mechanisms of ultrasound neuromodulation"
 authors = ["Gatica, M.", "Atkinson-Clement, C.", "Coronel-Oliveros, C.", "Alkhawashki, M.", "Mediano, P.A.M. ", 
 "Tagliazucchi, E.", "Rosas, F.E.", "Kaiser, M.", "Petri, G."]
-journal = "bioArXiv"
+journal = "PLoS Computational Biology"
 year = "2025"
-link = "https://www.biorxiv.org/content/10.1101/2025.01.11.632528v1"
+link = "https://doi.org/10.1371/journal.pcbi.1013514"
 github = ""
 slides = ""
 people = ["marilyn_gatica", "giovanni_petri"]
