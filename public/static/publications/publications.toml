@@ -51,7 +51,7 @@ github = ""
 slides = ""
 people = ["marco_nurisso", "jesseba_fernando", "raj_deshpande", "giovanni_petri"]
 abstract = "Intelligent systems must form internal representations that support both broad generalization and precise identification. Here, we show that these two goals are fundamentally in tension with one another. We derive closed-form expressions proving that any model whose representations have a finite semantic resolution, impairing long-range similarity computations, must lie on a universal Pareto front linking its probability of correct generalization and identification. We extend this analysis to general input spaces and to parallel processing scenarios, predicting a sharp 1/n collapse in the capacity of processing multiple inputs at the same time. A minimal ReLU network reproduces these laws: a resolution boundary emerges during learning, and empirical trajectories closely match the theory for linearly decaying similarity. Finally, we show that the same limits appear in far more complex systems, including a convolutional neural network and state-of-the-art vision-language models, indicating that learned finite-resolution similarity are broad and foundational informational constraints rather than toy-model artifacts."
-projects = []
+projects = ["cognitive_neuroscience"]
 
 [[papers]]
 title = "Topology and geometry of the learning space of ReLU networks: connectivity and singularities"
@@ -63,7 +63,7 @@ github = ""
 slides = ""
 people = ["marco_nurisso", "pierrick_leroy", "giovanni_petri"]
 abstract = "Understanding the properties of the parameter space in feed-forward ReLU networks is critical for effectively analyzing and guiding training dynamics. After initialization, training under gradient flow decisively restricts the parameter space to an algebraic variety that emerges from the homogeneous nature of the ReLU activation function. In this study, we examine two key challenges associated with feed-forward ReLU networks built on general directed acyclic graph (DAG) architectures: the (dis)connectedness of the parameter space and the existence of singularities within it. We extend previous results by providing a thorough characterization of connectedness, highlighting the roles of bottleneck nodes and balance conditions associated with specific subsets of the network. Our findings clearly demonstrate that singularities are intricately connected to the topology of the underlying DAG and its induced sub-networks. We discuss the reachability of these singularities and establish a principled connection with differentiable pruning. We validate our theory with simple numerical experiments."
-projects = []
+projects = ["topological_neuroscience"]
 
 [[papers]]
 title = "Multilayer network science: theory, methods, and applications"
