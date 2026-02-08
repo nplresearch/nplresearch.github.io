@@ -2,8 +2,11 @@
 
 # UPCOMING NEWS
 
-
-
+[[articles]]
+title = "Two papers accepted at ICLR 2026!"
+description = "Marco, Jesseba, Raj, Pierrick and Gio got two papers accepted at <a href='https://iclr.cc/Conferences/2026' target='_blank'>ICLR 2026</a>: <a href='https://openreview.net/forum?id=ZF0xRAdsuY' target='_blank'>Bound by semanticity</a> and <a href='https://openreview.net/forum?id=O4Oy7NsSwG' target='_blank'>Topology and geometry of the learning space of ReLU networks</a>."
+date = "08-02-2026"
+link = "..."
 
 [[articles]]
 title = "NeuroRenorm: COSYNE 2026 workshop approved!"
