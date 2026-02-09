@@ -92,8 +92,12 @@
   /* Adding more side margin on mobile screens */
   @media screen and (max-width: 768px) {
     .timeline {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 0.75rem;
+      padding-right: 0.5rem;
+    }
+
+    .page-title {
+      font-size: 1.2rem;
     }
   }
 

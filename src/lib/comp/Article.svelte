@@ -85,4 +85,22 @@
     font-size: 0.7rem;
     color: var(--text3);
   }
+
+  @media (max-width: 768px) {
+    .card,
+    .small_card {
+      margin: 0.75rem 0.5rem;
+      max-width: 100%;
+    }
+
+    .article-title {
+      font-size: 0.9rem;
+    }
+
+    .article-title::before {
+      left: -1.2rem;
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+  }
 </style>

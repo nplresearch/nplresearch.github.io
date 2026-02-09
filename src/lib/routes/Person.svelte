@@ -238,20 +238,46 @@
             max-width: 100%;
             padding: 0 1rem;
         }
-  
+
         .face {
             width: 150px;
             height: 150px;
         }
-  
+
         .page-title {
             font-size: 1.2rem;
         }
-  
+
         .button {
-            left: 5%;
+            position: static;
         }
 
+        .top-row {
+            justify-content: space-between;
+            padding: 0 1rem;
+        }
+
+        .activity-section {
+            width: 95%;
+        }
+
+        .activity-row {
+            flex-direction: column;
+            gap: 0.15rem;
+        }
+
+        .activity-date {
+            flex: none;
+            font-size: 0.75rem;
+        }
+
+        .activity-title {
+            flex: none;
+        }
+
+        .activity-heading {
+            font-size: 1.2rem;
+        }
     }
 
     .activity-section {

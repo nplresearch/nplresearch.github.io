@@ -97,4 +97,21 @@ const project = getProjectByTag(params.tag);
     width:89%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .button {
+        position: static;
+    }
+
+    .top-row {
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .page-title {
+        font-size: 1.1rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+}
 </style>

@@ -1,9 +1,10 @@
 <script>
     import { onMount } from "svelte";
+    import { link } from "svelte-spa-router";
     import { repos } from "../scripts/store.js";
     import { fly } from "svelte/transition";
     import { quintOut } from "svelte/easing";
-    import { Github, Star, GitFork } from "lucide-svelte";
+    import { Github, Star, GitFork, ArrowLeft } from "lucide-svelte";
 
     let repoData = $repos.map(r => ({ ...r, stars: null, forks: null, language: null }));
 
@@ -45,7 +46,14 @@
     });
 </script>
 
-<div class="page-title">CODE</div>
+<div class="top-row">
+    <a href={"/"} use:link>
+        <div class="button">
+            <ArrowLeft size="30" strokeWidth="1" />
+        </div>
+    </a>
+    <div class="page-title">CODE</div>
+</div>
 
 <div class="grid">
     {#each repoData as repo, i}
@@ -53,7 +61,7 @@
             href={repo.github}
             target="_blank"
             rel="noopener noreferrer"
-            class="card"
+            class="repo-card"
             in:fly={{
                 y: 20,
                 duration: 400,
@@ -91,6 +99,28 @@
 </div>
 
 <style>
+    .top-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .button {
+        display: grid;
+        place-items: center;
+        position: absolute;
+        top: 0;
+        left: 13%;
+        cursor: pointer;
+        color: var(--clr-foreground-deep);
+    }
+
+    .button:hover {
+        color: var(--clr-mixred);
+    }
+
     .page-title {
         font-family: Helvetica;
         font-size: 1.4rem;
@@ -110,7 +140,7 @@
         max-width: 900px;
     }
 
-    .card {
+    .repo-card {
         display: flex;
         flex-direction: column;
         padding: 1.5rem;
@@ -124,7 +154,7 @@
         transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .card:hover {
+    .repo-card:hover {
         border-color: var(--clr-mixred);
     }
 
@@ -184,10 +214,28 @@
     @media (max-width: 768px) {
         .grid {
             grid-template-columns: 1fr;
+            width: 95%;
+        }
+
+        .repo-card {
+            padding: 1.25rem;
         }
 
         .page-title {
             font-size: 1.2rem;
+        }
+
+        .repo-name {
+            font-size: 0.9rem;
+        }
+
+        .button {
+            position: static;
+        }
+
+        .top-row {
+            justify-content: space-between;
+            padding: 0 1rem;
         }
     }
 </style>

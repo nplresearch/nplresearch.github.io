@@ -187,4 +187,23 @@
     .row:hover{
         background-color:rgba(0,0,0,0.1)
     }
+
+    @media (max-width: 768px) {
+        .papers {
+            width: 95%;
+        }
+        .filter {
+            width: 95%;
+        }
+        .topics-dd {
+            width: 100%;
+        }
+        .dropdown {
+            width: 100%;
+        }
+        .row {
+            flex-wrap: wrap;
+            gap: 0.15rem;
+        }
+    }
 </style>

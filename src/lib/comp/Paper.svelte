@@ -164,5 +164,25 @@
     margin-top:0.2rem;
 }
 
+    @media (max-width: 768px) {
+        .row_title {
+            flex: 100%;
+            order: 1;
+            font-size: 0.9rem;
+        }
+        .row_author {
+            flex: auto;
+            order: 2;
+            font-size: 0.75rem;
+        }
+        .row_year {
+            flex: auto;
+            order: 2;
+            font-size: 0.75rem;
+        }
+        .row_link {
+            order: 2;
+        }
+    }
 
 </style>
