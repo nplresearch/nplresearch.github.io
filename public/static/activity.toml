@@ -7,18 +7,21 @@ title = "Two papers accepted at ICLR 2026!"
 description = "Marco, Jesseba, Raj, Pierrick and Gio got two papers accepted at <a href='https://iclr.cc/Conferences/2026' target='_blank'>ICLR 2026</a>: <a href='https://openreview.net/forum?id=ZF0xRAdsuY' target='_blank'>Bound by semanticity</a> and <a href='https://openreview.net/forum?id=O4Oy7NsSwG' target='_blank'>Topology and geometry of the learning space of ReLU networks</a>."
 date = "08-02-2026"
 link = "..."
+people = ["marco_nurisso", "jesseba_fernando", "raj_deshpande", "pierrick_leroy", "giovanni_petri"]
 
 [[articles]]
 title = "NeuroRenorm: COSYNE 2026 workshop approved!"
 description = "Andrea, Jesseba, and Gio will organize a workshop at COSYNE2026 on the renormalization principles in neural systems. Website out soon!"
 date = "14-03-2026"
 link = "..."
+people = ["andrea_santoro", "jesseba_fernando", "giovanni_petri"]
 
 [[articles]]
 title = "ABIM 2026"
 description = "Andrea, Lorenzo, Davide and Gio will be presenting at <a href='https://www.unige.ch/ABIM/' target='_blank'>ABIM 2026</a>."
 date = "14-01-2026"
 link = "..."
+people = ["andrea_santoro", "lorenzo_zaffina", "davide_orsenigo", "giovanni_petri"]
 
 
 
@@ -27,6 +30,7 @@ title = "Gio at CNWW2025"
 description = "Gio will be lecturing at the <a href='https://vermontcomplexsystems.org/events/cnww/' target='_blank'>Complex Networks Winter Workshop</a> in Quebec City."
 date = "14-12-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 
 #### PAST NEWS 
@@ -36,19 +40,22 @@ title = "Jesseba as Accelnet fellow"
 description = "Jesseba got accepted as a Accelnet Multinet fellow and will be visiting London and Marseille to work with Alain Barrat and Andrea Brovelli in Spring 2026!"
 date = "05-12-2025"
 link = "..."
+people = ["jesseba_fernando"]
 
 
-[[articles]] 
-title = "New review on multilayer networks out" 
+[[articles]]
+title = "New review on multilayer networks out"
 description = "New review out reviewing the  state of multilayer network science <a href='https://arxiv.org/abs/2511.23371' target='_blank'>here.</a>"
-date= "28-11-2025" 
+date= "28-11-2025"
 link = "..."
+people = ["giovanni_petri"]
 
-[[articles]] 
-title = "New work on stability of higher-order systems" 
+[[articles]]
+title = "New work on stability of higher-order systems"
 description = "New paper out the role of higher-order coupling in stabilizong new states <a href='https://arxiv.org/abs/2510.09387' target='_blank'>here.</a>"
-date= "28-11-2025" 
+date= "28-11-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 
 [[articles]]
@@ -56,12 +63,14 @@ title = "Gio keynote at the Hypnosis Research Summit"
 description = "Gio will be attending the Hypnosis Research Summit in Budapest and give a keynote talk on topological descriptions of functional equivalence in mental imagery tasks in sujbects susceptible to hypnosis."
 date = "19-10-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 [[articles]]
 title = "First RUNES workshop!!"
 description = "Exploiting a nice synergy, we are organizing the first RUNES <a href='https://www.cpt.univ-mrs.fr/~barrat/workshop_beyond.html' target='_blank'>workshop</a> in Marseilles, colocated with the <a href='https://beyondtheedge.network/' target='_blank'>BeyondTheEdge</a> first school!"
 date = "06-10-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 
 
@@ -70,6 +79,7 @@ title = "New paper on PLoS Computational Biology"
 description = "Our paper led by Marilyn on computational modeling of TUS plasticity effects is out on  PLoS Computational Biology."
 date = "30-09-2025"
 link = "..."
+people = ["marilyn_gatica", "giovanni_petri"]
 
 
 [[articles]]
@@ -77,12 +87,14 @@ title = "Science and Artificial Intelligence Summit 2025"
 description = "Gio will speak about the tradeoff between identification and generalization at the AI Huawueisummit in London."
 date = "30-09-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 [[articles]]
 title = "Workshop on topology of human and synthetic minds"
 description = "Gio is organizing with Yasser Roudi and Federico Turkheimer a <a href='https://lordgrilo.github.io/topology-natural-synthetic-minds/' target='_blank'>workshop</a> on topology for neuroscience at the new  <a href='https://www.kcl.ac.uk/research/kings-institute-for-human-and-synthetic-minds' target='_blank'>King's Institute of Human and Synthetic Minds</a> on Sept 15-16."
 date = "12-09-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 
 [[articles]]
@@ -90,6 +102,7 @@ title = "NPL presents topological signal processing research at EUSIPCO 2025"
 description = "Andrea will present work with Marco and Gio on topological signal processing of brain data at <a href='https://eusipco2025.org/' target='_blank'>EUSIPCO 2025</a> in Palermo, Italy (September 8-12). The European Signal Processing Conference is the flagship conference of EURASIP, featuring the latest developments in signal processing research."
 date = "08-09-2025"
 link = "..."
+people = ["andrea_santoro", "marco_nurisso", "giovanni_petri"]
 
 
 [[articles]]
@@ -97,26 +110,30 @@ title = "CoBrain at CCS2025"
 description = "Marilyn and Jesseba are co-organizing <a href='https://kgatica.github.io/CCS2025-CoBrain/' target='_blank'>CoBrain</a> at <a href='https://ccs25.cssociety.org/' target='_blank'>CCS2025</a> in Siena, Italy (September 1-5, 2025)."
 date = "01-09-2025"
 link = "..."
+people = ["marilyn_gatica", "jesseba_fernando"]
 
 [[articles]]
 title = "Gio attending PIBBSS retreat on renormalization and AI"
 description = "Gio will be attending a <a href='https://pibbss.ai/' target='_blank'>PIBBSS</a> retreat on renormalization and AI from June 27-30. PIBBSS is exploring how renormalization can be developed into a rich framework for AI interpretability."
 date = "27-06-2025"
 link = "..."
+people = ["giovanni_petri"]
 
 [[articles]]
 title = "New comparative study on higher-order brain connectivity metrics"
 description = "We present the first large-scale comparison of information-theoretic and topological HOI metrics using fMRI data from the Human Connectome Project. We identify a taxonomy of redundant, synergistic, and topological metrics, with topological ones bridging the two. These metrics align with brain hierarchies, track neurochemical gradients, and outperform pairwise models in fingerprinting and behavior prediction. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1' target='_blank'>here</a>, led by Andrea, Simone, Davide, and Marilyn."
 date = "25-06-2025"
 link = "..."
+people = ["andrea_santoro", "simone_poetto", "davide_orsenigo", "marilyn_gatica", "giovanni_petri"]
 
 [[articles]]
 title = "NPL at OHBM 2025"
-description = "Gio and Andrea will be at <a href='https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4229' target='_blank'>OHBM 2025</a> in Brisbane, Australia. 
-Gio is organizing the <a href='https://ww6.aievolution.com/hbm2501/Events/viewEv?ev=2444' target='_blank'>HOI (Higher-Order Interactions) symposium</a> with Manish Saggar.  
+description = "Gio and Andrea will be at <a href='https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4229' target='_blank'>OHBM 2025</a> in Brisbane, Australia.
+Gio is organizing the <a href='https://ww6.aievolution.com/hbm2501/Events/viewEv?ev=2444' target='_blank'>HOI (Higher-Order Interactions) symposium</a> with Manish Saggar.
 They will be presenting the HOI lens and the HOI movies papers."
 date = "24-06-2025"
 link = "..."
+people = ["giovanni_petri", "andrea_santoro"]
 
 
 
@@ -127,6 +144,7 @@ title = "New paper out on topological fingerprinting"
 description = "We show that topological fingerprinting, based on homological scaffolds, significantly outperforms FC-based one. We also show that these scaffolds are distributed across functional subnetworks and we link the structure of topological cycles to information synergy. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.20.660792v1' target='_blank'>here</a> led by Simone and Andrea."
 date = "21-06-2025"
 link = "..."
+people = ["simone_poetto", "andrea_santoro", "giovanni_petri"]
 
 [[articles]]
 title = "Paper on the informational structure of goal-directed learning accepted on Nature Communications!"
@@ -139,30 +157,35 @@ title = "New paper online on the effects of congenital sensory deprivation"
 description = "We show that while the brain's large-scale functional architecture is shaped by innate hierarchical gradients, sensory deprivation induces targeted, experience-driven reorganization that flexibly reconfigures cortical connectivity without disrupting the brain's core scaffold. Paper <a href='https://www.biorxiv.org/content/10.1101/2025.06.19.660510v1' target='_blank'>here</a> led by Davide."
 date = "20-06-2025"
 link = "..."
+people = ["davide_orsenigo", "giovanni_petri"]
 
 [[articles]]
 title = "New paper out on the fundamental processing limits in learning systems"
 description = "We reveal a fundamental informational limit governing the tradeoff between generalization and identification, showing that finite semantic resolution imposes universal constraints on representational capacity across neural networks and brain-like systems. Paper <a href='https://arxiv.org/abs/2506.14797' target='_blank'>here</a> led by Marco with Jesseba and Raj."
 date = "15-06-2025"
 link = "..."
+people = ["marco_nurisso", "jesseba_fernando", "raj_deshpande", "giovanni_petri"]
 
 [[articles]]
 title = "Jesseba at Santa Fe Institute workshop on Adaptive Networks"
 description = "Jesseba Fernando is participating in the <a href='https://www.santafe.edu/info/foundations-of-adaptive-networks-adaptive-temporal-network-models/about' target='_blank'>Foundations of Adaptive Networks</a> working group at the Santa Fe Institute from May 6-10, 2025. The workshop focuses on advancing theoretical foundations of adaptive temporal network models and their applications to complex systems."
 date = "06-05-2025"
 link = "..."
+people = ["jesseba_fernando"]
 
 [[articles]]
 title = "Marilyn as IAS Fellow organizes HOI-BrainMod Workshop"
 description = "Marilyn Gatica will be a visiting Fellow during spring at the <a href='https://ias.uva.nl/' target='_blank'>Institute for Advanced Study (IAS)</a> in Amsterdam  and will organize the <a href='https://ias.uva.nl/content/events/2025/05/hoi-brainmod-workshop-on-brain-modeling-and-high-order-interactions.html' target='_blank'>HOI-BrainMod Workshop</a> on Brain Modeling and High-Order Interactions on May 16, 2025."
 date = "01-04-2025"
 link = "..."
+people = ["marilyn_gatica"]
 
 [[articles]]
 title = "New paper out on higher-order renormalization in Nature Physics!"
 description = "We propose a new Laplacian perspective to renormalize higher-order systems. Paper <a href='https://www.nature.com/articles/s41567-025-02784-1' target='_blank'>here</a>."
 date= "24-02-2025"
 link="..."
+people = ["giovanni_petri"]
 
 
 [[articles]]
@@ -170,12 +193,14 @@ title = "SYNAPSE2025"
 description = "Gio is going to <a href='https://synapseconclave.com/' target='_blank'>SYNAPSE Conclave 2025</a> to represent <a href='https://www.projectceti.org/' target='_blank'>Project CETI</a>. More details <a href='https://x.com/lordgrilo/status/1889715865869852865' target='_blank'>here.</a>"
 date= "22-02-2025"
 link="..."
+people = ["giovanni_petri"]
 
 [[articles]]
 title = "Andrea wins the MSCA fellowship!"
 description = "Andrea has been awarded a MSCA fellowship to work on temporal higher-order approaches to neuropixel datasets. Fun times ahead! More details <a href='https://x.com/lordgrilo/status/1889715865869852865' target='_blank'>here</a>"
 date= "14-02-2025"
 link="..."
+people = ["andrea_santoro"]
 
 
 [[articles]]
@@ -183,18 +208,21 @@ title = "AATRN seminar"
 description = "Gio spoke at the <a href='https://www.aatrn.net/seminar' target='_blank'>AATRN seminar series</a> on recent work bridging mechanisms and behaviours in higher-order systems. Slides are available <a href='https://www.dropbox.com/scl/fi/7qy8iiyhdmrwbfkc55b7m/aatrn.pdf?rlkey=lfdklpie04oc04kcxg65yv8vc&dl=0' target='_blank'>here</a>."
 date= "23-01-2025"
 link="..."
+people = ["giovanni_petri"]
 
 [[articles]]
 title = "NetsciX 2025"
 description = "Jesseba will present results on the information integration differences between rodents and neural network models in learning-relearning task. Gio will talk as an invited speaker at the Focus Session on Hypergraphs."
 date= "16-01-2025"
 link="..."
+people = ["jesseba_fernando", "giovanni_petri"]
 
 [[articles]]
 title = "New paper out on computational modeling of TMS stimulation"
 description = "In a new <a href='https://www.biorxiv.org/content/10.1101/2025.01.11.632528v1' target='_blank'>paper</a> we use human fMRI data and whole-brain computational models to investigate two key mechanisms —-distance-based propagation and diffusion-like broadcasting—- to explain the spreading of the plasticity effect of transcranial ultrasound stimulations"
 date= "12-01-2025"
 link="..."
+people = ["marilyn_gatica", "giovanni_petri"]
 
 
 [[articles]]
@@ -202,6 +230,7 @@ title = "NeurIPS2024"
 description = "Marco and Pierrick are going to Vancouver to present their <a href='https://arxiv.org/abs/2410.14837' target='_blank'> paper </a>."
 date= "09-12-2024"
 link="..."
+people = ["marco_nurisso", "pierrick_leroy"]
 
 [[articles]]
 title = "ERC Consolidator Grant RUNES!"

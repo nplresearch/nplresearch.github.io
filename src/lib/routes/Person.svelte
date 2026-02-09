@@ -3,12 +3,27 @@
     import { link } from "svelte-spa-router";
     import { Home, Github, ArrowLeft, Twitter, Mail, Linkedin, BookOpen, Hash, Instagram } from "lucide-svelte";
     import Papers from "../comp/Papers.svelte";
-    import { people } from "../scripts/store.js";
+    import { people, articles } from "../scripts/store.js";
     import Button from "../comp/Button.svelte";
+    import moment from "moment";
+    import { fly } from "svelte/transition";
+    import { quintOut } from "svelte/easing";
   
     export let params = {};
     const person = $people.find((p) => p.tag === params.tag);
-  
+
+    // Filter activity items relevant to this person
+    const nameParts = person.name.toLowerCase().split(/\s+/).filter(p => p.length >= 3);
+    const personArticles = $articles.filter(article => {
+        // Primary: explicit people field
+        if (article.people && article.people.includes(person.tag)) return true;
+        // Fallback: text match on title + description
+        const text = (article.title + " " + article.description).toLowerCase();
+        return nameParts.some(part => text.includes(part));
+    });
+
+    let selectedArticle = null;
+
     let chars = "!<>-$_@\\/=+[]&{}—=+*^?#______";
     let num_digits = 8;
     let number = Array(num_digits).fill("0").join("");
@@ -106,7 +121,31 @@
   
   <!-- Pass showAuthors={false} to hide authors in Papers component -->
   <Papers selected_person={person.tag} showAuthors={false} />
-  
+
+  {#if personArticles.length > 0}
+  <div class="activity-section">
+      <div class="activity-heading">ACTIVITY</div>
+      <div class="activity-list">
+          {#each personArticles as article, i}
+              <div
+                  class="activity-row"
+                  on:mousedown={() => { selectedArticle = selectedArticle === i ? null : i; }}
+              >
+                  <div class="activity-date">{moment(article.date, "DD-MM-YYYY").format("MMM YYYY")}</div>
+                  <div class="activity-title">
+                      {article.title}
+                      {#if selectedArticle === i}
+                          <div class="activity-description"
+                              in:fly={{ y: -10, duration: 500, easing: quintOut }}
+                          >{@html article.description}</div>
+                      {/if}
+                  </div>
+              </div>
+          {/each}
+      </div>
+  </div>
+  {/if}
+
   <style>
     .page-title {
         font-family: Helvetica;
@@ -212,6 +251,78 @@
         .button {
             left: 5%;
         }
+
+    }
+
+    .activity-section {
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .activity-heading {
+        font-family: Helvetica;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-align: center;
+        letter-spacing: 0.4rem;
+        text-transform: uppercase;
+        color: var(--text1);
+        margin-bottom: 2rem;
+    }
+
+    .activity-list {
+        width: 100%;
+    }
+
+    .activity-row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid var(--clr-lowlight1);
+        padding: 0.4rem;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .activity-row:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .activity-date {
+        flex: 15%;
+        font-family: "Noto Sans TC", sans-serif;
+        color: var(--text3);
+        font-weight: 300;
+        font-size: 0.85rem;
+        padding-right: 0.5rem;
+    }
+
+    .activity-title {
+        flex: 85%;
+        font-family: "Noto Sans TC", sans-serif;
+        color: var(--text3);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .activity-description {
+        font-family: "Helvetica", "Arial", sans-serif;
+        color: var(--text3);
+        font-weight: 100;
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .activity-description :global(a) {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .activity-description :global(a:hover) {
+        text-decoration: underline;
     }
   </style>
   
