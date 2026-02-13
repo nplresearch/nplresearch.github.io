@@ -24,11 +24,6 @@
 
 <div class="top-row">
   <div class="page-title">PEOPLE</div>
-  <a href={"/"} use:link>
-    <div class="button">
-      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
-    </div>
-  </a>
 </div>
 
 <!-- Active People Section -->
@@ -109,11 +104,6 @@
 
 <div class="top-row">
   <div class="page-title"></div>
-  <a href={"/"} use:link>
-    <div class="button">
-      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
-    </div>
-  </a>
 </div>
 
 <style>
@@ -235,22 +225,6 @@
     margin-bottom: 1rem;
   }
 
-  /* child element that is always on the left */
-  .button {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top: 0%;
-    left: 13%;
-    width: auto; /* width determined by the content */
-    text-align: left;
-    cursor: pointer;
-    color: var(--clr-foreground-deep);
-  }
-
-  .button:hover {
-    color: var(--clr-mixred);
-  }
 
   a {
     color: inherit;

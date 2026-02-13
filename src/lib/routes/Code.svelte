@@ -47,11 +47,6 @@
 </script>
 
 <div class="top-row">
-    <a href={"/"} use:link>
-        <div class="button">
-            <ArrowLeft size="30" strokeWidth="1" />
-        </div>
-    </a>
     <div class="page-title">CODE</div>
 </div>
 
@@ -107,19 +102,6 @@
         position: relative;
     }
 
-    .button {
-        display: grid;
-        place-items: center;
-        position: absolute;
-        top: 0;
-        left: 13%;
-        cursor: pointer;
-        color: var(--clr-foreground-deep);
-    }
-
-    .button:hover {
-        color: var(--clr-mixred);
-    }
 
     .page-title {
         font-family: Helvetica;
@@ -134,10 +116,12 @@
 
     .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
         gap: 1rem;
         width: 90%;
         max-width: 900px;
+        margin: 0 auto;
+        overflow: hidden;
     }
 
     .repo-card {
@@ -152,6 +136,8 @@
         text-decoration: none;
         color: inherit;
         transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        min-width: 0;
+        overflow: hidden;
     }
 
     .repo-card:hover {
@@ -165,6 +151,8 @@
         font-weight: 500;
         letter-spacing: 0.1rem;
         margin-bottom: 0.5rem;
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     .description {
@@ -177,6 +165,8 @@
         flex: 1;
         margin-top: 0;
         margin-bottom: 0.75rem;
+        overflow-wrap: break-word;
+        word-break: break-word;
     }
 
     .repo-meta {
@@ -214,7 +204,7 @@
     @media (max-width: 768px) {
         .grid {
             grid-template-columns: 1fr;
-            width: 95%;
+            width: 85%;
         }
 
         .repo-card {
@@ -229,13 +219,5 @@
             font-size: 0.9rem;
         }
 
-        .button {
-            position: static;
-        }
-
-        .top-row {
-            justify-content: space-between;
-            padding: 0 1rem;
-        }
     }
 </style>

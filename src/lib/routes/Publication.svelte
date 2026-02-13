@@ -15,12 +15,6 @@ const project = getPublicationByTag(params.tag);
 
 <div class="top-row">
   <div class="page-title">{publication.title}</div>
-  <a href={"/projects"} use:link>
-    <div class="button">
-      <!-- <Button icon="arrow left" icon_place="left" text="Home" /> -->
-      <LucideIcon name={"arrow left"} size="30" strokeWidth="1" />
-    </div>
-  </a>
 </div>
 <div class="splash">
     <img src="{publication.img ? publication.img : 'static/publications/placeholder.jpeg'}" alt="project figure">
@@ -51,21 +45,6 @@ const project = getPublicationByTag(params.tag);
     width: 100%;
   }
 
-  /* child element that is always on the left */
-  .button {
-    display: grid;
-    place-items: center;
-    position: absolute;
-    top: 0%;
-    left: 13%;
-    width: auto; /* width determined by the content */
-    text-align: left;
-    cursor: pointer;
-    color: var(--clr-foreground-deep);
-  }
-  .button:hover {
-    color: var(--clr-mixred);
-  }
 
   a {
     color: inherit;
@@ -97,4 +76,5 @@ const project = getPublicationByTag(params.tag);
     width:89%;
     }
 }
+
 </style>

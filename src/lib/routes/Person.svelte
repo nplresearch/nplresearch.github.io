@@ -57,11 +57,6 @@
   
   <div class="top-row">
     <div class="page-title">NPC #{number}</div>
-    <a href={"/people"} use:link>
-        <div class="button">
-            <ArrowLeft size="30" strokeWidth="1" />
-        </div>
-    </a>
   </div>
   
   <div class="splash">
@@ -187,19 +182,6 @@
         padding: 0 1rem;
     }
   
-    .button {
-        display: grid;
-        place-items: center;
-        position: absolute;
-        top: 0;
-        left: 13%;
-        cursor: pointer;
-        color: var(--clr-foreground-deep);
-    }
-  
-    .button:hover {
-        color: var(--clr-mixred);
-    }
   
     .button-container {
         display: flex;
@@ -248,14 +230,6 @@
             font-size: 1.2rem;
         }
 
-        .button {
-            position: static;
-        }
-
-        .top-row {
-            justify-content: space-between;
-            padding: 0 1rem;
-        }
 
         .activity-section {
             width: 95%;

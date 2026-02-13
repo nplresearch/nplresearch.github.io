@@ -134,12 +134,16 @@
   }
 
   #glitch {
-    height: 100%;
+    height: 2rem;
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
-    overflow: hidden; 
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 28px;
+    color: #fafafa;
+    animation: 1500ms infinite normal glitch;
   }
 
   .text {
@@ -151,17 +155,13 @@
     text-align: center;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
-    margin-bottom: 0.1rem;
-    margin-top: 0rem;
+    white-space: nowrap;
   }
 
-  #glitch {
-    font-weight: 100;
-    font-size: 28px;
-    color: #fafafa;
-  }
-
-  #glitch {
-    animation: 1500ms infinite normal glitch;
+  @media (max-width: 768px) {
+    .text {
+      font-size: 0.75rem;
+      letter-spacing: 0.2rem;
+    }
   }
 </style>

@@ -95,7 +95,9 @@
  /*  z-index: -1;*/
  /*}*/
   .center {
-    width: 99vw;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
     margin: 0 auto;
     display: grid;
     place-items: center;
