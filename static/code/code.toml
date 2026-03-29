@@ -1,0 +1,69 @@
+[[repos]]
+name = "Higher-Order Laplacian Renormalization"
+description = "Python code to perform higher-order Laplacian renormalization of higher-order networks."
+github = "https://github.com/nplresearch/higher_order_LRG"
+owner = "nplresearch"
+repo = "higher_order_LRG"
+
+[[repos]]
+name = "Modelling TUS"
+description = "Python code to reproduce the computational model of transcranial ultrasound stimulation (TUS) at different stimulation intensities."
+github = "https://github.com/nplresearch/Modelling-TUS"
+owner = "nplresearch"
+repo = "Modelling-TUS"
+
+[[repos]]
+name = "Social-Asocial Learning"
+description = "Code to reproduce the network analysis from 'Social and asocial learning in zebrafish'."
+github = "https://github.com/nplresearch/social-asocial-learning"
+owner = "nplresearch"
+repo = "social-asocial-learning"
+
+[[repos]]
+name = "ER Random Hypergraphs"
+description = "Code for Erdos-Renyi random hypergraph models."
+github = "https://github.com/nplresearch/ER-random-hypergraphs"
+owner = "nplresearch"
+repo = "ER-random-hypergraphs"
+
+[[repos]]
+name = "Holes"
+description = "A Python module for detecting, analysing and visualising persistent homological features of complex networks."
+github = "https://github.com/lordgrilo/Holes"
+owner = "lordgrilo"
+repo = "Holes"
+
+[[repos]]
+name = "Simplicial Activity Driven Model"
+description = "Python implementation for the Simplicial Activity Driven (SAD) model."
+github = "https://github.com/lordgrilo/SAD"
+owner = "lordgrilo"
+repo = "SAD"
+
+[[repos]]
+name = "Simplex2Vec"
+description = "Simplex2Vec: representation learning for simplicial complexes."
+github = "https://github.com/lordgrilo/Simplex2Vec"
+owner = "lordgrilo"
+repo = "Simplex2Vec"
+
+[[repos]]
+name = "RHOSTS"
+description = "Code for 'Higher-order structure of multivariate time series' (Nature Physics)."
+github = "https://github.com/andresantoro/RHOSTS"
+owner = "andresantoro"
+repo = "RHOSTS"
+
+[[repos]]
+name = "Brain HORS"
+description = "Code for replicating analyses of Nature Communications paper on higher-order connectomics of human brain function."
+github = "https://github.com/andresantoro/Brain_HORS"
+owner = "andresantoro"
+repo = "Brain_HORS"
+
+[[repos]]
+name = "ALCOREM"
+description = "Code for 'Algorithmic complexity of multiplex networks' (PRX)."
+github = "https://github.com/andresantoro/ALCOREM"
+owner = "andresantoro"
+repo = "ALCOREM"
