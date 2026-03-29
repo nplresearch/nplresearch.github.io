@@ -11,6 +11,7 @@
     import Project from "./lib/routes/Project.svelte";
     import Publication from "./lib/routes/Publication.svelte";
     import Code from "./lib/routes/Code.svelte";
+    import LabManual from "./lib/routes/LabManual.svelte";
     import LucideIcon from "./lib/comp/LucideIcon.svelte";
   import { fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
@@ -24,6 +25,7 @@
     "/projects": Projects,
     "/projects/:tag": Project,
     "/code": Code,
+    "/manual": LabManual,
     "*": NotFound,
   };
   let open = false;
@@ -39,6 +41,7 @@
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut,delay:30,opacity:0}} href="/people" class="ham-item" use:link>People</a>
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:60, opacity:0}} href="/publications" class="ham-item" use:link>Publications</a>
         <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:90, opacity:0}} href="/code" class="ham-item" use:link>Code</a>
+        <a on:click={()=>open=false} in:fly={{y: 20, duration: 600, easing: quintOut, delay:120, opacity:0}} href="/manual" class="ham-item" use:link>Lab Manual</a>
     </div>
     {/if}
     <div class="ham-btn" on:mousedown={()=>open=!open}>
@@ -65,6 +68,7 @@
             <a href="/people" class="nav-item" use:link>People</a>
             <a href="/publications" class="nav-item" use:link>Publications</a>
             <a href="/code" class="nav-item" use:link>Code</a>
+            <a href="/manual" class="nav-item" use:link>Lab Manual</a>
             </div>
         </div>
     </div>

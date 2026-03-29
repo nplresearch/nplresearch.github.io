@@ -10,7 +10,7 @@
 <div class="top-row">
   <div class="page-title">PUBLICATIONS</div>
 </div>
-<!-- <FeaturedPapers/> -->
+<FeaturedPapers/>
 <Papers/>
 
 <style>
