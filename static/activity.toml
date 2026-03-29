@@ -3,6 +3,36 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "Sperm whale birth paper out in Science!"
+description = "Our paper on cooperative sperm whale birth behavior is published in <a href='https://www.science.org/doi/10.1126/science.ady9280' target='_blank'>Science</a>! We document how non-kin cooperation during birth underpins sperm whale social complexity."
+date = "26-03-2026"
+link = "https://www.science.org/doi/10.1126/science.ady9280"
+people = ["maxime_lucas", "simone_poetto", "giovanni_petri"]
+
+
+[[articles]]
+title = "Companion paper on sperm whale birth out in Scientific Reports!"
+description = "Our companion paper describing the collaborative sperm whale birth event and shifts in coda vocal styles is out in <a href='https://www.nature.com/articles/s41598-025-27438-3' target='_blank'>Scientific Reports</a>!"
+date = "26-03-2026"
+link = "https://www.nature.com/articles/s41598-025-27438-3"
+people = ["antonio_leitao", "maxime_lucas", "andrea_santoro", "simone_poetto", "giovanni_petri"]
+
+[[articles]]
+title = "Marilyn moving on to Assistant Professor at NUL. "
+description = "Congrats to <a href='https://www.nulondon.ac.uk/faculty/marilyn-gatica/' target='_blank'>Marilyn</a> who is starting a position as Assistant Professor at Northeastern University London!"
+date = "22-03-2026"
+link = "..."
+people = ["marilyn_gatica"]
+
+
+[[articles]]
+title = "Room packed for NeuroRenorm workshop at COSYNE 2026!"
+description = "Great success for the <a href='https://cosyne.org' target='_blank'>NeuroRenorm</a> workshop on renormalization principles in neural systems at COSYNE 2026! Andrea, Jesseba, and Gio are organizing."
+date = "16-03-2026"
+link = "..."
+people = ["andrea_santoro", "jesseba_fernando", "giovanni_petri"]
+
+[[articles]]
 title = "Two papers accepted at ICLR 2026!"
 description = "Marco, Jesseba, Raj, Pierrick and Gio got two papers accepted at <a href='https://iclr.cc/Conferences/2026' target='_blank'>ICLR 2026</a>: <a href='https://openreview.net/forum?id=ZF0xRAdsuY' target='_blank'>Bound by semanticity</a> and <a href='https://openreview.net/forum?id=O4Oy7NsSwG' target='_blank'>Topology and geometry of the learning space of ReLU networks</a>."
 date = "08-02-2026"

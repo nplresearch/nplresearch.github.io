@@ -1,45 +1,77 @@
 ####### FEATURED ########
 
 [[featured]]
-title = "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
-authors = ['Zhang, Y.', 'Lucas, M.', 'Battiston, F.']
-people = ["maxime_lucas"]
-abstract= ""
-#Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions."
-year = "2023"
-date = "23-03-2023"
-journal = "Nature Communications"
+title = "Higher-order Laplacian Renormalization"
+authors = ["Nurisso, M.", "Morandini, M.", "Lucas, M.", "Vaccarino, F.", "Gili, T.", "Petri, G."]
+people = ['giovanni_petri', 'marta_morandini', 'maxime_lucas', 'marco_nurisso']
+abstract = "We propose a cross-order Laplacian renormalization group (X-LRG) scheme for arbitrary higher-order networks. The renormalization group is a pillar of the theory of scaling, scale-invariance, and universality in physics. An RG scheme based on diffusion dynamics was recently introduced for complex networks with dyadic interactions. Despite mounting evidence of the importance of polyadic interactions, we still lack a general RG scheme for higher-order networks. Our approach uses a diffusion process to group nodes or simplices, where information can flow between nodes and between simplices (higher-order interactions). This approach allows us (i) to probe higher-order structures, defining scale-invariance at various orders, and (ii) to propose a coarse-graining scheme. We demonstrate our approach on controlled synthetic higher-order systems and then use it to detect the presence of order-specific scale-invariant profiles of real-world complex systems from multiple domains."
+year = "2025"
+date = "24-02-2025"
+journal = "Nature Physics"
 projects = ["higher_order"]
-tag = "higher-order-collective"
-link = "https://arxiv.org/pdf/2203.03060.pdf"
+tag = "higher-order-laplacian-renorm"
+link = "https://www.nature.com/articles/s41567-025-02784-1"
+github = "https://github.com/nplresearch/higher_order_LRG"
+img = "static/publications/laplacian_renorm.png"
 
 [[featured]]
-title = "Simplicially driven simple contagion"
-authors = ['Lucas, M.', 'Iacopini, I.', 'Robiglio, T.', 'Barrat, A.', 'Petri, G.']
-people = ["maxime_lucas", "thomas_robiglio","giovanni_petri"]
-abstract= ""
-#Single contagion processes are known to display a continuous transition from an epidemic-free phase at low contagion rates to the epidemic state for rates above a critical threshold. This transition can become discontinuous when two simple contagion processes are coupled in a bi-directional symmetric way. However, in many cases, the coupling is not symmetric and the processes can be of a different nature. For example, social behaviors---such as hand-washing or mask-wearing---can affect the spread of a disease, and their adoption dynamics via social reinforcement mechanisms are better described by complex contagion models, rather than by the simple contagion paradigm, which is more appropriate for disease spreading phenomena. Motivated by this example, we consider a simplicial contagion (describing the adoption of a behavior) that uni-directionally drives a simple contagion (describing a disease propagation). We show that, above a critical driving strength, such driven simple contagion can exhibit both discontinuous transitions and bi-stability, which are instead absent in standard simple contagions. We provide a mean-field analytical description of the phase diagram of the system, and complement the results with Markov-chain simulations. Our results provide a novel route for a simple contagion process to display the phenomenology of a higher-order contagion, through a driving mechanism that may be hidden or unobservable in many practical instances."
-year = "2023"
-date = "23-03-2023"
-journal = "Physical Review Research"
-projects = ["higher_order"]
-tag = "simplicially-driven"
-link = "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.5.013201"
+title = "Bound by semanticity: universal laws governing the generalization-identification tradeoff"
+authors = ["Nurisso, M.", "Fernando, J.", "Deshpande, R.", "Perotti, A.", "Marjieh, R.", "Frankland, S. M.", "Lewis, R. L.", "Webb, T. W.", "Campbell, D.", "Vaccarino, F.", "Cohen, J. D.", "Petri, G."]
+people = ["marco_nurisso", "jesseba_fernando", "raj_deshpande", "giovanni_petri"]
+abstract = "Intelligent systems must deploy internal representations that are simultaneously structured — to support broad generalization — and selective — to preserve input identity. For any model whose representational similarity between inputs decays with finite semantic resolution, we derive closed-form expressions that pin its probability of correct generalization and identification to a universal Pareto front independent of input space geometry. A minimal ReLU network trained end-to-end reproduces these laws: during learning a resolution boundary self-organizes and empirical trajectories closely follow theoretical curves. The same limits persist in two markedly more complex settings — a convolutional neural network and state-of-the-art vision-language models — confirming that finite-resolution similarity is a fundamental emergent informational constraint."
+year = "2026"
+date = "01-01-2026"
+journal = "ICLR"
+projects = ["cognitive_neuroscience"]
+tag = "bound-by-semanticity"
+link = "https://openreview.net/forum?id=ZF0xRAdsuY"
+github = "https://github.com/nplresearch/generalization"
+img = "static/publications/semanticity.png"
 
 [[featured]]
-title = "Inferring cell cycle phases from a partially temporal network of protein interactions"
-authors = ["Lucas, M.","Morris, A."," Townsend-Teague, A.", "Tichit, L.", "Habermann, B.","Barrat, A."]
-people = ["maxime_lucas"]
-abstract= ""
-#"The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease."
-year = "2023"
-date = "27-02-2023"
-journal = "Cell Reports Methods"
-projects = ["higher_order", "topological_neuroscience"]
-tag = "inferring-cells"
-link = "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(23)00004-8.pdf"
+title = "Cooperation by non-kin during birth underpins sperm whale social complexity"
+authors = ["Maalouf, A.", "DelPreto, J.", "Lucas, M.", "Poetto, S.", "Andreas, J.", "Torralba, A.", "Gero, S.", "Petri, G.", "Rus, D.", "Gruber, D. F."]
+people = ["maxime_lucas", "simone_poetto", "giovanni_petri"]
+abstract = "We quantitatively document a sperm whale birth event, revealing collective support behaviors across kinship lines. Using high-resolution drone footage, computer vision, and multiscale network analysis, we studied the interactions within a Caribbean sperm whale unit comprising two matrilines. Our results suggest that a female family member led birth assistance and that after delivery, all individuals oriented toward and helped lift the newborn, taking turns in a coordinated, cross-kin effort. Despite historically observed foraging segregation, kinship barriers dissolved as all unit members contributed. These analyses provide evidence of birth attendance, or assistance, in a nonprimate species, a behavior long considered characteristic only of humans and their close relatives."
+year = "2026"
+date = "26-03-2026"
+journal = "Science"
+projects = ["ceti"]
+tag = "sperm-whale-birth-cooperation"
+link = "https://www.science.org/doi/10.1126/science.ady9280"
+img = "static/publications/baby-whale.jpg"
 
 ###################
+
+[[papers]]
+title = "Cooperation by non-kin during birth underpins sperm whale social complexity"
+authors = ["Maalouf, A.", "DelPreto, J.", "Lucas, M.", "Poetto, S.", "Andreas, J.", "Torralba, A.", "Gero, S.", "Petri, G.", "Rus, D.", "Gruber, D. F."]
+year = "2026"
+journal = "Science"
+link = "https://www.science.org/doi/10.1126/science.ady9280"
+abstract = "We quantitatively document a sperm whale birth event, revealing collective support behaviors across kinship lines. Using high-resolution drone footage, computer vision, and multiscale network analysis, we studied the interactions within a Caribbean sperm whale unit comprising two matrilines. Our results suggest that a female family member led birth assistance and that after delivery, all individuals oriented toward and helped lift the newborn, taking turns in a coordinated, cross-kin effort. Despite historically observed foraging segregation, kinship barriers dissolved as all unit members contributed. These analyses provide evidence of birth attendance, or assistance, in a nonprimate species, a behavior long considered characteristic only of humans and their close relatives."
+people = ["maxime_lucas", "simone_poetto", "giovanni_petri"]
+projects = ["ceti", "runes"]
+
+[[papers]]
+title = "Description of a collaborative sperm whale birth and shifts in coda vocal styles during key events"
+authors = ["Aluma, Y.", "Baron, Z.", "Barrett, R.", "Baumgartner, C.", "Beguš, G.", "Bhattacharya, S.", "Bronstein, M. M.", "Dahan, S.", "Davis, O.", "de Haas, S.", "Defoe, J.", "DelPreto, J.", "Dessi, R.", "Diamant, R.", "Gatesy, J.", "George, K.", "Gero, S.", "Gibbons, D.", "Gibbons, D.", "Gil, S.", "Goldwasser, S.", "Gruber, D. F.", "Harve, O.", "Hernandez, A.", "Ishay, M.", "Jadhav, N.", "KC, L.", "Kenny, A.", "Leitao, A.", "Lucas, M.", "Maalouf, A.", "Malkin, P.", "Mevorach, Y.", "Pagani, S.", "Paradise, O.", "Petri, G.", "Poetto, S.", "Rossi, E.", "Rus, D.", "Salino-Hugg, M.", "Santoro, A.", "Sharma, P.", "Tchernov, D.", "Torralba, A.", "Tønnesen, P.", "Vogt, D. M.", "Wood, R. J."]
+year = "2026"
+journal = "Scientific Reports"
+link = "https://www.nature.com/articles/s41598-025-27438-3"
+abstract = "Wild cetacean birth observations are extremely rare, with observations having been recorded in less than 10% of cetacean species. Here, we describe a detailed accounting of a sperm whale (Physeter macrocephalus) birth off the coast of Dominica within a well-documented social unit and consisted of sperm whales collaboratively lifting the newborn out of the water. We recorded data via multiple concurrent methods: underwater audio, aerial drone video, shipboard photography in addition to behavioral observations spanning before, during and after the whale birth. All 11 members from sperm whale “Unit A” were present and participated in the birth, which lasted 34 min from the time the flukes emerged until the completion of delivery. The sperm whale unit made extensive vocalizations, with statistically significant shifts in coda vocal style corresponding to key events, such as the beginning of the birth and interactions with short-finned pilot whales (Globicephala macrorhynchus) shortly after the birth event. An evolutionary analysis of wild cetacean births suggests that newborns being lifted out of the water dates to before the most recent common ancestor of toothed and baleen whales, >36 million years ago, and that cooperative lifting of the newborn is noted, thus far, only in members of Odontoceti (toothed whales). This study provides the most in-depth observations of a wild cetacean birth."
+people = ["antonio_leitao", "maxime_lucas", "andrea_santoro", "simone_poetto", "giovanni_petri"]
+projects = ["ceti", "runes"]
+
+[[papers]]
+title = "The Geometry of Representational Failures in Vision Language Models"
+authors = ["Savietto, D.", "Campbell, D.", "Panisson, A.", "Nurisso, M.", "Petri, G.", "Cohen, J. D.", "Perotti, A."]
+year = "2026"
+journal = "arXiv"
+link = "https://arxiv.org/abs/2602.07025"
+abstract = "We analyze the representational geometry of open-weight vision-language models to understand their failures in multi-object tasks such as hallucinating non-existent elements or failing to identify the most similar objects among distractions. By distilling concept vectors and validating them through steering interventions, we show that geometric overlap between these vectors strongly correlates with specific error patterns."
+people = ["marco_nurisso", "giovanni_petri"]
+projects = ["cognitive_neuroscience", "runes"]
 
 [[papers]]
 title = "On the state-nonstate theory of hypnosis: network and topological EEG findings"
@@ -79,7 +111,7 @@ journal = "EUSIPCO"
 link = "https://arxiv.org/abs/2512.13420"
 abstract = "We propose edge-based Laplacian operators for processing brain signals, moving beyond traditional node-centric approaches to capture higher-order topological features of brain functional data."
 people = ["andrea_santoro", "marco_nurisso", "giovanni_petri"]
-projects = ["topological_neuroscience", "higher_order"]
+projects = ["topological_neuroscience", "higher_order", "runes"]
 
 [[papers]]
 title = "Higher-order Ising model on hypergraphs"
@@ -89,7 +121,7 @@ journal = "Physical Review E"
 link = "https://arxiv.org/abs/2411.19618"
 abstract = "We introduce and study a higher-order Ising model defined on hypergraphs, extending the classical pairwise Ising model to capture multi-body interactions and analyzing the resulting phase transitions and critical behavior."
 people = ["thomas_robiglio", "giovanni_petri"]
-projects = ["higher_order"]
+projects = ["higher_order", "runes"]
 
 [[papers]]
 title = "Modeling the spread of misfolded proteins in Alzheimer's disease using higher-order simplicial complex contagion"
@@ -109,7 +141,7 @@ journal = "Journal of Physics: Complexity"
 link = "https://iopscience.iop.org/article/10.1088/2632-072X/ae3c4e"
 abstract = "Higher-order interactions are increasingly being recognised as fundamental to understanding complex systems. Rather than traditional graphs encoding only pairwise connections, hypergraphs and simplicial complexes provide mathematical frameworks for modeling these multi-way interactions. This paper surveys current research while identifying open questions in spectral theory, topology, and network dynamics, proposing future directions across machine learning, neuroscience, and social sciences applications."
 people = ["giovanni_petri"]
-projects = ["higher_order"]
+projects = ["higher_order", "runes"]
 
 [[papers]]
 title = "Minimal branching and fusion morphogenesis approaches biological multi-objective optimality"
@@ -131,7 +163,7 @@ github = "https://github.com/nplresearch/generalization"
 slides = ""
 people = ["marco_nurisso", "jesseba_fernando", "raj_deshpande", "giovanni_petri"]
 abstract = "Intelligent systems must form internal representations that support both broad generalization and precise identification. Here, we show that these two goals are fundamentally in tension with one another. We derive closed-form expressions proving that any model whose representations have a finite semantic resolution, impairing long-range similarity computations, must lie on a universal Pareto front linking its probability of correct generalization and identification. We extend this analysis to general input spaces and to parallel processing scenarios, predicting a sharp 1/n collapse in the capacity of processing multiple inputs at the same time. A minimal ReLU network reproduces these laws: a resolution boundary emerges during learning, and empirical trajectories closely match the theory for linearly decaying similarity. Finally, we show that the same limits appear in far more complex systems, including a convolutional neural network and state-of-the-art vision-language models, indicating that learned finite-resolution similarity are broad and foundational informational constraints rather than toy-model artifacts."
-projects = ["cognitive_neuroscience"]
+projects = ["cognitive_neuroscience", "runes"]
 
 [[papers]]
 title = "Topology and geometry of the learning space of ReLU networks: connectivity and singularities"
@@ -143,7 +175,7 @@ github = ""
 slides = ""
 people = ["marco_nurisso", "pierrick_leroy", "giovanni_petri"]
 abstract = "Understanding the properties of the parameter space in feed-forward ReLU networks is critical for effectively analyzing and guiding training dynamics. After initialization, training under gradient flow decisively restricts the parameter space to an algebraic variety that emerges from the homogeneous nature of the ReLU activation function. In this study, we examine two key challenges associated with feed-forward ReLU networks built on general directed acyclic graph (DAG) architectures: the (dis)connectedness of the parameter space and the existence of singularities within it. We extend previous results by providing a thorough characterization of connectedness, highlighting the roles of bottleneck nodes and balance conditions associated with specific subsets of the network. Our findings clearly demonstrate that singularities are intricately connected to the topology of the underlying DAG and its induced sub-networks. We discuss the reachability of these singularities and establish a principled connection with differentiable pruning. We validate our theory with simple numerical experiments."
-projects = ["topological_neuroscience"]
+projects = ["topological_neuroscience", "cognitive_neuroscience"]
 
 [[papers]]
 title = "Multilayer network science: theory, methods, and applications"
@@ -162,6 +194,7 @@ journal = "arXiv"
 link = "https://arxiv.org/abs/2510.09387"
 abstract = "Understanding how higher-order interactions affect collective behavior is a central problem in nonlinear dynamics and complex systems. Most works have focused on a single higher-order coupling function, neglecting other viable choices. Here we study coupled oscillators with dyadic and three different types of higher-order couplings. By analyzing the stability of different twisted states on rings, we show that many states are stable only for certain combinations of higher-order couplings, and thus the full range of system dynamics cannot be observed unless all types of higher-order couplings are simultaneously considered."
 people = ["giovanni_petri"]
+projects = ["runes", "higher_order"]
 
 [[papers]]
 title = "Characterization of diseases in temporal comorbidity networks"
