@@ -44,6 +44,18 @@ img = "static/publications/baby-whale.jpg"
 ###################
 
 [[papers]]
+title = "Harmonic morphisms and dynamical invariants in network renormalization"
+authors = ["Guadagnuolo, F. M.", "Nurisso, M.", "Galluzzi, F.", "Allard, A.", "Petri, G."]
+year = "2026"
+journal = "arXiv"
+date = "09-04-2026"
+link = "https://arxiv.org/abs/2604.08386"
+abstract = "We establish that discrete harmonic morphisms—surjective maps maintaining harmonic functions—represent the foundational condition enabling random walks on detailed networks to project onto their simplified versions through appropriate time adjustments. We introduce the harmonic degree as a measurement tool for assessing coarse-graining quality. Testing this framework across multiple renormalization approaches, we discover that Laplacian renormalization unexpectedly achieves exact harmonic morphisms in certain networks, precisely preserving random-walk transition characteristics at particular scales. This provides methods for developing and assessing multi-scale network representations."
+people = ["giovanni_petri", "marco_nurisso", "francesco_guadagnuolo"]
+projects = ["runes", "higher_order"]
+github = "https://github.com/nplresearch/harmonic_degree"
+
+[[papers]]
 title = "Cooperation by non-kin during birth underpins sperm whale social complexity"
 authors = ["Maalouf, A.", "DelPreto, J.", "Lucas, M.", "Poetto, S.", "Andreas, J.", "Torralba, A.", "Gero, S.", "Petri, G.", "Rus, D.", "Gruber, D. F."]
 year = "2026"

@@ -3,6 +3,34 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "Harmonic morphisms paper out on arXiv!"
+description = "New paper on <a href='https://arxiv.org/abs/2604.08386' target='_blank'>harmonic morphisms and dynamical invariants in network renormalization</a> is now available! We introduce harmonic degree as a tool for assessing coarse-graining quality and show how Laplacian renormalization achieves exact harmonic morphisms in certain networks."
+date = "10-04-2026"
+link = "https://arxiv.org/abs/2604.08386"
+people = ["giovanni_petri", "marco_nurisso", "francesco_guadagnuolo"]
+
+[[articles]]
+title = "Gio speaking at Biennale e Tecnologia!"
+description = "Giovanni will be speaking at <a href='https://www.biennaletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni/' target='_blank'>Biennale e Tecnologia</a> on 'Capirsi tra specie: parlare con gli animali e con gli alieni' (Understanding between species: talking with animals and aliens)."
+date = "15-04-2026"
+link = "https://naletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni"
+people = ["giovanni_petri"]
+
+[[articles]]
+title = "Future Wunderkammer virtual salon with Berggruen Institute"
+description = "Gio will be participating in the <a href='https://berggruen.org/projects/future-wunderkammer' target='_blank'>Future Wunderkammer</a> virtual salon organized by the Berggruen Institute on April 16th at 11am Pacific time. Join via <a href='https://us02web.zoom.us/w/89941830050?tk=ZHO0MxWLG12R05HIT6e2GzmqH5iIfm6hXhBtVhAtlaw.DQkAAAAU8PNpohZ4UTFvdmVFT1FCNm9yaFV5U21yNmp3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' target='_blank'>Zoom</a>."
+date = "16-04-2026"
+link = "https://berggruen.org/projects/future-wunderkammer"
+people = ["giovanni_petri"]
+
+[[articles]]
+title = "Team heading to ICLR 2026!"
+description = "Marco, Pierrick, and Gio will be heading to <a href='https://iclr.cc/Conferences/2026' target='_blank'>ICLR 2026</a> to present our work on generalization and topology in neural networks!"
+date = "24-04-2026"
+link = "https://iclr.cc/Conferences/2026"
+people = ["marco_nurisso", "pierrick_leroy", "giovanni_petri"]
+
+[[articles]]
 title = "Sperm whale birth paper out in Science!"
 description = "Our paper on cooperative sperm whale birth behavior is published in <a href='https://www.science.org/doi/10.1126/science.ady9280' target='_blank'>Science</a>! We document how non-kin cooperation during birth underpins sperm whale social complexity."
 date = "26-03-2026"

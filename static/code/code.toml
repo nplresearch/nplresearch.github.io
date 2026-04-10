@@ -1,4 +1,11 @@
 [[repos]]
+name = "Harmonic Degree"
+description = "Code for assessing network coarse-graining quality via harmonic morphisms and dynamical invariants."
+github = "https://github.com/nplresearch/harmonic_degree"
+owner = "nplresearch"
+repo = "harmonic_degree"
+
+[[repos]]
 name = "Higher-Order Laplacian Renormalization"
 description = "Python code to perform higher-order Laplacian renormalization of higher-order networks."
 github = "https://github.com/nplresearch/higher_order_LRG"
