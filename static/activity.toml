@@ -11,7 +11,7 @@ people = ["giovanni_petri", "marco_nurisso", "francesco_guadagnuolo"]
 
 [[articles]]
 title = "Gio speaking at Biennale e Tecnologia!"
-description = "Giovanni will be speaking at <a href='https://naletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni' target='_blank'>Biennale e Tecnologia</a> on 'Capirsi tra specie: parlare con gli animali e con gli alieni' (Understanding between species: talking with animals and aliens)."
+description = "Giovanni will be speaking at <a href='https://www.biennaletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni/' target='_blank'>Biennale e Tecnologia</a> on 'Capirsi tra specie: parlare con gli animali e con gli alieni' (Understanding between species: talking with animals and aliens)."
 date = "15-04-2026"
 link = "https://naletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni"
 people = ["giovanni_petri"]
