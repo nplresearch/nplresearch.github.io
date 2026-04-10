@@ -169,8 +169,10 @@ There is no ambiguity in this process. If you're on a project, you contribute. I
 
 ### Lab meetings
 
-Lab meetings are a shared space for the whole group. They are open — current members, alumni, collaborators, and visitors are all welcome. Attendance does not imply involvement in any project or authorship on any paper.
+Lab meetings are a shared space for the whole group. They are open — current members, alumni, collaborators, and visitors are all welcome. They happen weekly. Attendance does not imply involvement in any project or authorship on any paper.
 
+We rotate presenters; the format is flexible: research updates, practice talks, paper discussions, 
+troubleshooting sessions.
 When you present:
 - Come prepared. Slides or a clear written summary — not verbal improvisation.
 - Be specific. Not "I've been working on the model" but "I ran X, got Y, next step is Z."
@@ -278,11 +280,12 @@ When you join the lab:
 2. Join the lab WhatsApp group (ask any current member for the link)
 3. Get access to the shared drive / Dropbox / Overleaf
 4. Set up a GitHub account and join the lab organisation
-5. Schedule a recurring weekly or biweekly meeting with me
-6. Schedule an initial professional development conversation
-7. Make a Google Scholar page (if you don't have one)
-8. Exchange contact details with at least two labmates for emergencies
-9. Read this manual and flag anything you disagree with
+5. Get access to the shared lab calendar and add your availability
+6. Schedule a recurring weekly or biweekly meeting with me
+7. Schedule an initial professional development conversation
+8. Make a Google Scholar page (if you don't have one)
+9. Exchange contact details with at least two labmates for emergencies
+10. Read this manual and flag anything you disagree with
 
 ---
 *Gio*
