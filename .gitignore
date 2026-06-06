@@ -23,3 +23,6 @@ Makefile
 *.njsproj
 *.sln
 *.sw?
+
+# Local session state (remember skill)
+.remember/
