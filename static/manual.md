@@ -171,8 +171,8 @@ There is no ambiguity in this process. If you're on a project, you contribute. I
 
 Lab meetings are a shared space for the whole group. They are open — current members, alumni, collaborators, and visitors are all welcome. They happen weekly. Attendance does not imply involvement in any project or authorship on any paper.
 
-We rotate presenters; the format is flexible: research updates, practice talks, paper discussions, 
-troubleshooting sessions.
+We rotate presenters; the format is flexible: research updates, practice talks, paper discussions, troubleshooting sessions.
+
 When you present:
 - Come prepared. Slides or a clear written summary — not verbal improvisation.
 - Be specific. Not "I've been working on the model" but "I ran X, got Y, next step is Z."
