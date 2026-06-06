@@ -3,6 +3,20 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "NPL at NetSci 2026!"
+description = "Gio, Henrique, and Jesseba were at NetSci 2026 in Boston! Henrique gave a talk on <i>Social Influence in Large Language Models (LLMs) Groups During Cognitive Tasks</i>, and Gio spoke at the NSIA satellite on <i>The cost of sharing</i>."
+date = "01-06-2026"
+link = "..."
+people = ["giovanni_petri", "henrique_borges", "jesseba_fernando"]
+
+[[articles]]
+title = "VLM paper accepted at ICML 2026!"
+description = "Our paper <a href='https://arxiv.org/abs/2602.07025' target='_blank'>The Geometry of Representational Failures in Vision Language Models</a> is accepted at <a href='https://icml.cc/Conferences/2026' target='_blank'>ICML 2026</a>! We show that geometric overlap between distilled concept vectors predicts specific multi-object failure patterns in open-weight VLMs."
+date = "30-04-2026"
+link = "https://icml.cc/Conferences/2026"
+people = ["marco_nurisso", "giovanni_petri"]
+
+[[articles]]
 title = "Harmonic morphisms paper out on arXiv!"
 description = "New paper on <a href='https://arxiv.org/abs/2604.08386' target='_blank'>harmonic morphisms and dynamical invariants in network renormalization</a> is now available! We introduce harmonic degree as a tool for assessing coarse-graining quality and show how Laplacian renormalization achieves exact harmonic morphisms in certain networks."
 date = "10-04-2026"
@@ -11,14 +25,14 @@ people = ["giovanni_petri", "marco_nurisso", "francesco_guadagnuolo"]
 
 [[articles]]
 title = "Gio speaking at Biennale e Tecnologia!"
-description = "Giovanni will be speaking at <a href='https://naletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni' target='_blank'>Biennale e Tecnologia</a> on 'Capirsi tra specie: parlare con gli animali e con gli alieni' (Understanding between species: talking with animals and aliens)."
+description = "Giovanni will be speaking at <a href='https://www.biennaletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni/' target='_blank'>Biennale e Tecnologia</a> on 'Capirsi tra specie: parlare con gli animali e con gli alieni' (Understanding between species: talking with animals and aliens)."
 date = "15-04-2026"
 link = "https://naletecnologia.it/evento/capirsi-tra-specie-parlare-con-gli-animali-e-con-gli-alieni"
 people = ["giovanni_petri"]
 
 [[articles]]
 title = "Future Wunderkammer virtual salon with Berggruen Institute"
-description = "Gio will be participating in the <a href='https://berggruen.org/projects/future-wunderkammer' target='_blank'>Future Wunderkammer</a> virtual salon organized by the Berggruen Institute on April 16th at 11am Pacific time. Join via <a href='https://us02web.zoom.us/w/89941830050?tk=ZHO0MxWLG12R05HIT6e2GzmqH5iIfm6hXhBtVhAtlaw.DQkAAAAU8PNpohZ4UTFvdmVFT1FCNm9yaFV5U21yNmp3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' target='_blank'>Zoom</a>."
+description = "Gio will be participating in the <a href='https://berggruen.org/projects/future-wunderkammer' target='_blank'>Future Wunderkammer</a> virtual salon organized by the Berggruen Institute on April 16th at 11am Pacific time. Join via <a href='https://l.instagram.com/?u=https%3A%2F%2Fus02web.zoom.us%2Fwebinar%2Fregister%2FWN_IxiSRqASTpugrMg6x1-uGA%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnkjl1Xpkf1vxqdb7CrOb09jEjuG3NcUFFHdEXNvd6ddhfyVXaZ4TOy2VWeiY_aem_N-5ye0w-3ERn8LF2ykENpw&e=AT5SHscA4cVDAfRJjdUvUgvvWjrZh84VzPXL5RRmnxFiPqZHvv_MxbPfQYlKpg32_VcBvhWJuss7b54tpd7m5-iLyhyhpoKAXVAu9m4b54JgY29Aj3en5TQOfg' target='_blank'>Zoom</a>."
 date = "16-04-2026"
 link = "https://berggruen.org/projects/future-wunderkammer"
 people = ["giovanni_petri"]
@@ -44,6 +58,13 @@ description = "Our companion paper describing the collaborative sperm whale birt
 date = "26-03-2026"
 link = "https://www.nature.com/articles/s41598-025-27438-3"
 people = ["antonio_leitao", "maxime_lucas", "andrea_santoro", "simone_poetto", "giovanni_petri"]
+
+[[articles]]
+title = "Marco defends his PhD and heads to Princeton!"
+description = "Huge congratulations to Marco Nurisso, who successfully defended his PhD viva at the Politecnico di Torino on March 25th! Marco will be joining the NAM program at Princeton."
+date = "25-03-2026"
+link = "..."
+people = ["marco_nurisso"]
 
 [[articles]]
 title = "Marilyn moving on to Assistant Professor at NUL. "
