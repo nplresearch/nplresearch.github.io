@@ -3,6 +3,20 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "NPL at NetSci 2026!"
+description = "Gio, Henrique, and Jesseba were at NetSci 2026 in Boston! Henrique gave a talk on <i>Social Influence in Large Language Models (LLMs) Groups During Cognitive Tasks</i>, and Gio spoke at the NSIA satellite on <i>The cost of sharing</i>."
+date = "01-06-2026"
+link = "..."
+people = ["giovanni_petri", "henrique_borges", "jesseba_fernando"]
+
+[[articles]]
+title = "VLM paper accepted at ICML 2026!"
+description = "Our paper <a href='https://arxiv.org/abs/2602.07025' target='_blank'>The Geometry of Representational Failures in Vision Language Models</a> is accepted at <a href='https://icml.cc/Conferences/2026' target='_blank'>ICML 2026</a>! We show that geometric overlap between distilled concept vectors predicts specific multi-object failure patterns in open-weight VLMs."
+date = "30-04-2026"
+link = "https://icml.cc/Conferences/2026"
+people = ["marco_nurisso", "giovanni_petri"]
+
+[[articles]]
 title = "Harmonic morphisms paper out on arXiv!"
 description = "New paper on <a href='https://arxiv.org/abs/2604.08386' target='_blank'>harmonic morphisms and dynamical invariants in network renormalization</a> is now available! We introduce harmonic degree as a tool for assessing coarse-graining quality and show how Laplacian renormalization achieves exact harmonic morphisms in certain networks."
 date = "10-04-2026"
@@ -44,6 +58,13 @@ description = "Our companion paper describing the collaborative sperm whale birt
 date = "26-03-2026"
 link = "https://www.nature.com/articles/s41598-025-27438-3"
 people = ["antonio_leitao", "maxime_lucas", "andrea_santoro", "simone_poetto", "giovanni_petri"]
+
+[[articles]]
+title = "Marco defends his PhD and heads to Princeton!"
+description = "Huge congratulations to Marco Nurisso, who successfully defended his PhD viva at the Politecnico di Torino on March 25th! Marco will be joining the NAM program at Princeton."
+date = "25-03-2026"
+link = "..."
+people = ["marco_nurisso"]
 
 [[articles]]
 title = "Marilyn moving on to Assistant Professor at NUL. "
