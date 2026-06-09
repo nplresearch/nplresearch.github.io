@@ -3,11 +3,39 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "NPL at OHBM 2026!"
+description = "Gio, Andrea, and Davide are heading to <a href='https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4114' target='_blank'>OHBM 2026</a> in Bordeaux (June 14–18)! Andrea is giving a talk and Davide is presenting a poster."
+date = "14-06-2026"
+link = "https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4114"
+people = ["giovanni_petri", "andrea_santoro", "davide_orsenigo"]
+
+[[articles]]
+title = "Gio keynote at Universeh General Meeting!"
+description = "Giovanni is giving a keynote on <i>The Cost of Sharing</i> at the <a href='https://web.uniroma2.it/en/contenuto/programme' target='_blank'>Universeh General Meeting</a> at the University of Rome Tor Vergata (June 10–12)."
+date = "10-06-2026"
+link = "https://web.uniroma2.it/en/contenuto/programme"
+people = ["giovanni_petri"]
+
+[[articles]]
+title = "Jesseba co-organizing Neuromonster 2026!"
+description = "Jesseba is a co-organizer of <a href='https://neuromonster.org/' target='_blank'>Neuromonster</a>, the 7th International Conference on the Mathematics of Neuroscience and AI, happening at Villa Wolkonsky in Rome (June 9–12)."
+date = "09-06-2026"
+link = "https://neuromonster.org/"
+people = ["jesseba_fernando"]
+
+[[articles]]
 title = "NPL at NetSci 2026!"
 description = "Gio, Henrique, and Jesseba were at NetSci 2026 in Boston! Henrique gave a talk on <i>Social Influence in Large Language Models (LLMs) Groups During Cognitive Tasks</i>, and Gio spoke at the NSIA satellite on <i>The cost of sharing</i>."
 date = "01-06-2026"
 link = "..."
 people = ["giovanni_petri", "henrique_borges", "jesseba_fernando"]
+
+[[articles]]
+title = "Henrique and Francesco at the British NetSci Symposium!"
+description = "Henrique and Francesco presented their work at the <a href='https://www.netsci.uk/program-3rd-symposium.html' target='_blank'>3rd British Network Science Society Symposium</a> at King's College London! Henrique spoke on <i>Social Influence in Large Language Models (LLMs) Groups During Cognitive Tasks</i> and Francesco presented <i>Harmonic Morphisms and Dynamical Invariants in Network Renormalization</i>."
+date = "14-05-2026"
+link = "https://www.netsci.uk/program-3rd-symposium.html"
+people = ["henrique_borges", "francesco_guadagnuolo"]
 
 [[articles]]
 title = "VLM paper accepted at ICML 2026!"
