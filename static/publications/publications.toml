@@ -44,6 +44,16 @@ img = "static/publications/baby-whale.jpg"
 ###################
 
 [[papers]]
+title = "Sperm whale foraging combines persistent search with flexible prey-capture tactics"
+authors = ["Zaffina, L.", "Monti, C.", "Poetto, S.", "Lucas, M.", "Machado Borges, H. J.", "Deshpande, R.", "Tonnesen, P.", "Gruber, D.", "Gero, S.", "Santoro, A.", "Petri, G."]
+year = "2026"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.64898/2026.07.29.741536v1"
+abstract = "Predators searching patchy environments must coordinate movements across scales, yet this behavioural hierarchy is not yet technically possible to observe in the deep ocean. Here we show that sperm-whale foraging is organized across two nested levels: directionally persistent search paths and flexible prey-capture tactics. We combine acoustic recordings with reconstructed three-dimensional trajectories from 34 sensor-tag deployments on 20 individual whales in both the eastern Caribbean and the mid-Atlantic. Complete foraging paths exhibit heavy-tailed step lengths and superdiffusive displacement, consistent with Levy-like search. Within these paths, echolocation buzzes resolve into two recurrent acoustic-kinematic tactics, and every sampled whale used both, switching between them within dives. Together, these results reveal a foraging hierarchy in which flexible capture actions unfold within persistent, deliberate large-scale search."
+people = ["lorenzo_zaffina", "simone_poetto", "maxime_lucas", "henrique_borges", "raj_deshpande", "andrea_santoro", "giovanni_petri"]
+projects = ["ceti", "runes"]
+
+[[papers]]
 title = "Harmonic morphisms and dynamical invariants in network renormalization"
 authors = ["Guadagnuolo, F. M.", "Nurisso, M.", "Galluzzi, F.", "Allard, A.", "Petri, G."]
 year = "2026"
@@ -81,8 +91,9 @@ authors = ["Savietto, D.", "Campbell, D.", "Panisson, A.", "Nurisso, M.", "Petri
 year = "2026"
 journal = "ICML"
 link = "https://arxiv.org/abs/2602.07025"
+github = "https://github.com/danS4V/VLM_geometry/"
 abstract = "We analyze the representational geometry of open-weight vision-language models to understand their failures in multi-object tasks such as hallucinating non-existent elements or failing to identify the most similar objects among distractions. By distilling concept vectors and validating them through steering interventions, we show that geometric overlap between these vectors strongly correlates with specific error patterns."
-people = ["marco_nurisso", "giovanni_petri"]
+people = ["daniele_savietto", "marco_nurisso", "giovanni_petri"]
 projects = ["cognitive_neuroscience", "runes"]
 
 [[papers]]
@@ -236,11 +247,11 @@ abstract = "Elite football is believed to have evolved in recent years, but syst
 people = ["raj_deshpande"]
 
 [[papers]]
-title = "Beyond Pairwise Interactions: Charting Higher-Order Models of Brain Function"
+title = "Charting Higher-Order Models of Brain Function Beyond Pairwise Interactions"
 authors = ["Santoro, A.", "Neri, M.", "Poetto, S.", "Orsenigo, D.", "Diano, M.", "Gatica, M.", "Petri, G."]
-year = "2025"
-journal = "bioRxiv"
-link = "https://www.biorxiv.org/content/10.1101/2025.06.24.661306v1"
+year = "2026"
+journal = "Nature Communications"
+link = "https://doi.org/10.1038/s41467-026-75959-w"
 abstract = "We present the first large-scale comparison of higher-order interaction (HOI) metrics — spanning information theory and topology — applied to resting-state and task fMRI data from 100 Human Connectome Project subjects. We identify three distinct classes of HOI metrics: redundant, synergistic, and topological, with the latter bridging the two. Despite their differences, all metrics align with the brain's unimodal-to-transmodal hierarchy and, in some cases, with receptor architecture. HOI metrics outperform classical functional connectivity in fingerprinting and are more predictive of behavior, positioning them as key tools for linking brain architecture and cognition."
 projects = ["topological_neuroscience", "higher_order", "runes"]
 github = "https://github.com/nplresearch/HOI_lenses_analysis"
