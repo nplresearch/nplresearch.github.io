@@ -150,6 +150,24 @@ avatar="/static/people/francesco_guadagnuolo.jpg"
 hoverAvatar="/static/people/francesco_guadagnuolo_alt.jpg"
 url=""
 
+[[researchers]]
+name= "Daniele Savietto"
+tag= "daniele_savietto"
+title= "Incoming PhD Student @ Network Science Institute"
+bio=""
+avatar=""
+hoverAvatar=""
+url=""
+
+[[researchers]]
+name= "Matt Stevenson"
+tag= "matt_stevenson"
+title= "Incoming PhD Student @ Network Science Institute"
+bio=""
+avatar=""
+hoverAvatar=""
+url=""
+
 
 [[alumni]]
 name= "Marilyn Gatica"
