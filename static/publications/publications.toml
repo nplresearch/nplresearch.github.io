@@ -44,6 +44,16 @@ img = "static/publications/baby-whale.jpg"
 ###################
 
 [[papers]]
+title = "Preserved brain hierarchy supports residual vision without awareness after visual cortex damage"
+authors = ["Orsenigo, D.", "Luppi, A. I.", "Diano, M.", "Ciorli, T.", "Borriero, A.", "Willis, H. E.", "Petri, G.", "Bridge, H.", "Tamietto, M."]
+year = "2026"
+journal = "bioRxiv"
+link = "https://www.biorxiv.org/content/10.64898/2026.08.26.747212v1"
+abstract = "Damage to the primary visual cortex causes loss of conscious vision, yet some patients retain the ability to respond to stimuli despite reporting no visual experience. Why similar lesions produce such different behavioral phenotypes remains unclear. While research to date has focused primarily on spared pathways that bypass V1, here we asked whether these divergent outcomes are also linked to the brain's intrinsic functional architecture. In the largest resting-state fMRI cohort of patients with unilateral V1 damage reported to date, we quantified information sharing between regions across cortical and subcortical parcels in blindsight-positive and blindsight-negative patients, as well as in age-matched healthy controls. Despite comparable lesions, the two patient groups displayed distinct hierarchical patterns on the cortex: B+ patients preserved a sensory-to-association organization as in healthy controls, whereas B- patients exhibited a marked flattening of this hierarchy. The effect was driven by abnormally low shared-information coupling within unimodal cortices and scaled continuously with single-subject behavioral blind-field detection performance. A thalamic region consistent with the pulvinar, linking the contralesional visual cortex and the frontal eye field, discriminated B+ from B- patients. These findings highlight the system-level consequences of V1 damage supporting blindsight, suggesting that the unimodal-transmodal axis might track not only global states of consciousness, but also whether sensory information can guide behavior without awareness."
+people = ["davide_orsenigo", "giovanni_petri"]
+projects = ["cognitive_neuroscience", "topological_neuroscience"]
+
+[[papers]]
 title = "Sperm whale foraging combines persistent search with flexible prey-capture tactics"
 authors = ["Zaffina, L.", "Monti, C.", "Poetto, S.", "Lucas, M.", "Machado Borges, H. J.", "Deshpande, R.", "Tonnesen, P.", "Gruber, D.", "Gero, S.", "Santoro, A.", "Petri, G."]
 year = "2026"

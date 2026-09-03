@@ -3,6 +3,20 @@
 # UPCOMING NEWS
 
 [[articles]]
+title = "New blindsight preprint out!"
+description = "Davide's new preprint <a href='https://www.biorxiv.org/content/10.64898/2026.08.26.747212v1' target='_blank'>Preserved brain hierarchy supports residual vision without awareness after visual cortex damage</a> is out on bioRxiv! In the largest resting-state fMRI cohort of patients with unilateral V1 damage reported to date, we show that blindsight-positive patients preserve the sensory-to-association cortical hierarchy, while blindsight-negative patients show a marked flattening of it driven by abnormally low shared-information coupling within unimodal cortices."
+date = "02-09-2026"
+link = "https://www.biorxiv.org/content/10.64898/2026.08.26.747212v1"
+people = ["davide_orsenigo", "giovanni_petri"]
+
+[[articles]]
+title = "We are hiring: Postdoc in Topological Machine Learning and Generative AI!"
+description = "We are looking for a <a href='https://www.jobs.ac.uk/job/DSS062/postdoctoral-research-associate-in-topological-machine-learning-and-generative-ai' target='_blank'>Postdoctoral Research Associate in Topological Machine Learning and Generative AI</a> to lead our contribution to <i>TOPO-LLM</i>, bringing persistent homology and higher-order network methods to bear on large language models for innovation intelligence. Ten months, EUR 64,000, based at the Dublin Innovation Institute - Northeastern University. Applications close at 12pm on 9 September 2026."
+date = "02-09-2026"
+link = "https://www.jobs.ac.uk/job/DSS062/postdoctoral-research-associate-in-topological-machine-learning-and-generative-ai"
+people = ["giovanni_petri"]
+
+[[articles]]
 title = "New sperm whale foraging preprint out!"
 description = "Our new preprint <a href='https://www.biorxiv.org/content/10.64898/2026.07.29.741536v1' target='_blank'>Sperm whale foraging combines persistent search with flexible prey-capture tactics</a> is out on bioRxiv! Using 34 sensor-tag deployments, we show that sperm-whale foraging is organized across two nested levels: persistent, Levy-like search paths and two distinct, flexibly switched prey-capture tactics."
 date = "04-08-2026"
