@@ -43,7 +43,7 @@ url="https://simonepoetto.github.io"
 [[researchers]]
 name= "Marco Nurisso"
 tag= "marco_nurisso"
-title= "PhD @ Polytechnic University of Turin. Incoming @ Princeton (NAM program)"
+title= "Fellow @ Princeton NAM Program"
 bio="PhD student in Pure and Applied Mathematics interested in applied topology and its intersections with artificial intelligence and complex systems."
 avatar="/static/people/marco_nurisso.jpg"
 hoverAvatar="/static/people/marco_nurisso_alt.jpg"
@@ -110,16 +110,6 @@ url=""
 scholar = ""
 
 [[researchers]]
-name= "Lorenzo Zaffina"
-tag= "lorenzo_zaffina"
-title= "Researcher @ ISP AI Center. PhD Student @ Sapienza University"
-bio="Lorenzo applies higher-order and topological methods to fMRI data to study how the brain organises emotion."
-avatar="/static/people/lorenzo_zaffina.jpg"
-hoverAvatar="/static/people/lorenzo_zaffina_alt.jpg"
-url=""
-
-
-[[researchers]]
 name= "Xuan-Chen Liu"
 tag= "xuan_chen_liu"
 title= "PhD Student @ Network Science Institute"
@@ -153,19 +143,19 @@ url=""
 [[researchers]]
 name= "Daniele Savietto"
 tag= "daniele_savietto"
-title= "Incoming PhD Student @ Network Science Institute"
+title= "PhD Student @ Network Science Institute"
 bio=""
-avatar="/static/people/daniele_savietto.jpg"
-hoverAvatar="/static/people/daniele_savietto_alt.jpg"
+avatar=""
+hoverAvatar=""
 url=""
 
 [[researchers]]
 name= "Matt Stevenson"
 tag= "matt_stevenson"
-title= "Incoming PhD Student @ Network Science Institute"
+title= "PhD Student @ Network Science Institute"
 bio=""
-avatar=""
-hoverAvatar=""
+avatar="/static/people/matt_stevenson.jpg"
+hoverAvatar="/static/people/matt_stevenson_alt.png"
 url=""
 
 
@@ -206,11 +196,20 @@ orcid="https://orcid.org/0009-0009-1218-8526"
 [[alumni]]
 name= "Maxime Lucas"
 tag= "maxime_lucas"
-title= "Post-Doc Researcher"
+title= "Assistant Professor @ University of Namur"
 bio="Maxime researches complex systems and their application to the life sciences. Physicist, Belgian, likes a good (or bad) pun."
 avatar="/static/people/maxime_lucas.jpg"
 hoverAvatar="/static/people/maxime_lucas_alt.jpg"
 url="https://maximelucas.github.io"
+
+[[alumni]]
+name= "Lorenzo Zaffina"
+tag= "lorenzo_zaffina"
+title= "Alumnus"
+bio="Lorenzo applies higher-order and topological methods to fMRI data to study how the brain organises emotion."
+avatar="/static/people/lorenzo_zaffina.jpg"
+hoverAvatar="/static/people/lorenzo_zaffina_alt.jpg"
+url=""
 
 [[alumni]]
 name= "Leonardo Federici"

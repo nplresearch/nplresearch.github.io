@@ -24,10 +24,10 @@ link = "https://www.biorxiv.org/content/10.64898/2026.07.29.741536v1"
 people = ["lorenzo_zaffina", "simone_poetto", "maxime_lucas", "henrique_borges", "raj_deshpande", "andrea_santoro", "giovanni_petri"]
 
 [[articles]]
-title = "Two new NPL members incoming!"
-description = "Daniele Savietto and Matt Stevenson will be joining the lab as PhD students starting Fall 2026!"
-date = "01-08-2026"
-link = "..."
+title = "Welcome Daniele and Matt!"
+description = "Daniele Savietto and Matt Stevenson have joined NPL as PhD students at the Network Science Institute. Welcome to the lab!"
+date = "03-10-2026"
+link = ""
 people = ["daniele_savietto", "matt_stevenson"]
 
 [[articles]]
@@ -84,7 +84,7 @@ title = "VLM paper accepted at ICML 2026!"
 description = "Our paper <a href='https://arxiv.org/abs/2602.07025' target='_blank'>The Geometry of Representational Failures in Vision Language Models</a> is accepted at <a href='https://icml.cc/Conferences/2026' target='_blank'>ICML 2026</a>! We show that geometric overlap between distilled concept vectors predicts specific multi-object failure patterns in open-weight VLMs."
 date = "30-04-2026"
 link = "https://icml.cc/Conferences/2026"
-people = ["marco_nurisso", "giovanni_petri"]
+people = ["daniele_savietto", "marco_nurisso", "giovanni_petri"]
 
 [[articles]]
 title = "Harmonic morphisms paper out on arXiv!"
